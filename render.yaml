@@ -1,0 +1,31 @@
+# One-click Render deploy (free): a Dockerized Next.js web service.
+# In Render: New > Blueprint > point at this repo, then fill the sync:false envs.
+#
+# DB: bring your own durable Postgres (Neon free tier recommended — Render's own
+# free Postgres is deleted after ~30 days). Paste its connection string into
+# DATABASE_URL in the Render dashboard (include ?sslmode=require).
+#
+# We build from ./Dockerfile (NOT `next start`, which is incompatible with
+# Next's `output: standalone`). The image bundles data/words.json, so no DB
+# seeding step is needed — the words table falls back to the file, and the
+# progress / stories / writing tables auto-create on first use.
+services:
+  - type: web
+    name: spanish-trainer
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: APP_USERNAME
+        sync: false # set in the Render dashboard
+      - key: APP_PASSWORD
+        sync: false # set in the Render dashboard
+      - key: AUTH_SECRET
+        generateValue: true # Render generates a strong random secret
+      - key: GEMINI_API_KEY
+        sync: false # your Gemini key (powers Writing/Reading/Listening + TTS)
+      - key: DATABASE_URL
+        sync: false # your Neon Postgres connection string (?sslmode=require)
+      # Next standalone server binds to $HOSTNAME; force 0.0.0.0 so Render can reach it.
+      - key: HOSTNAME
+        value: 0.0.0.0

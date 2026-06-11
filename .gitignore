@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# app data fallback + env
+.data/
+.env.local
+
+# data build intermediates / audit dumps (regenerable)
+data/_chunks/
+data/_sentences/
+data/conjugations.txt
+data/conjugations.json

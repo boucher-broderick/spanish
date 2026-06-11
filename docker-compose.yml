@@ -1,0 +1,36 @@
+# Run the app + Postgres together:  docker compose up --build
+# Then open http://localhost:3100 and log in with APP_USERNAME / APP_PASSWORD.
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped # survive Docker Desktop restarts (otherwise it stays down)
+    environment:
+      POSTGRES_USER: spanish
+      POSTGRES_PASSWORD: spanish
+      POSTGRES_DB: spanish
+    ports:
+      # Host 5433 (5432 is taken by another local Postgres) → container 5432.
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U spanish"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  app:
+    build: .
+    ports:
+      - "3100:3100"
+    environment:
+      APP_USERNAME: ${APP_USERNAME:-brody}
+      APP_PASSWORD: ${APP_PASSWORD:-hola}
+      AUTH_SECRET: ${AUTH_SECRET:-change-me-to-a-long-random-string}
+      DATABASE_URL: postgres://spanish:spanish@db:5432/spanish
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:
