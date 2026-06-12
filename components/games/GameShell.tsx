@@ -58,23 +58,29 @@ export function useTypedGame(gen: () => Question, genKey: string | number = 0) {
   genRef.current = gen;
   const firstRun = useRef(true);
 
-  const next = useCallback(() => {
+  // Fresh question + cleared state. Does NOT move focus, so editing the game's
+  // settings inputs won't yank the cursor down to the answer field.
+  const regen = useCallback(() => {
     setQ(genRef.current());
     setValue("");
     setPhase("input");
-    inputRef.current?.focus();
   }, []);
 
+  const next = useCallback(() => {
+    regen();
+    inputRef.current?.focus();
+  }, [regen]);
+
   // Regenerate when settings change (skip the initial render — useState already
-  // produced the first question).
+  // produced the first question). Focus stays where the user put it.
   useEffect(() => {
     if (firstRun.current) {
       firstRun.current = false;
       inputRef.current?.focus();
       return;
     }
-    next();
-  }, [genKey, next]);
+    regen();
+  }, [genKey, regen]);
 
   const correct = q.accepted.some((a) => matchesStrict(value, a));
   const accentMiss = !correct && q.accepted.some((a) => accentOnlyMiss(value, a));

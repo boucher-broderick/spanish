@@ -1,11 +1,11 @@
 "use client";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import { Word } from "@/lib/domain";
 import { conjugate } from "@/lib/conjugation/engine";
 import { PERSONS, SHOWN_PERSON_INDICES, TENSES, Tense } from "@/lib/conjugation/types";
 import { matchesLoose } from "@/lib/text";
 import { Button } from "../ui";
-import { Phase, PromptHeader } from "./shared";
+import { Phase } from "./shared";
 
 // Verb Conjugation: fill every shown person across the selected tenses. One attempt
 // per card — counts correct only if EVERY cell is right (accent-tolerant matching).
@@ -21,13 +21,19 @@ export function Conjugation({
   const table = useMemo(() => conjugate(word.lemma), [word.lemma]);
   const [values, setValues] = useState<Record<string, string>>({});
   const [phase, setPhase] = useState<Phase>("input");
-  const firstRef = useRef<HTMLInputElement>(null);
 
   const tenseDefs = TENSES.filter((t) => tenses.includes(t.id));
 
+  // Flat, ordered list of every cell for Enter-to-next navigation. Column-major:
+  // go down all persons of a tense, then on to the next tense.
+  const rows = SHOWN_PERSON_INDICES.length;
+  const navIndex = (tIdx: number, rowIdx: number) => tIdx * rows + rowIdx;
+  const cellCount = tenseDefs.length * rows;
+  const inputs = useRef<(HTMLInputElement | null)[]>([]);
+
   // Parent remounts via key per word, so state resets naturally — just focus.
   useEffect(() => {
-    firstRef.current?.focus();
+    inputs.current[0]?.focus();
   }, []);
 
   const key = (t: Tense, p: number) => `${t}:${p}`;
@@ -44,54 +50,72 @@ export function Conjugation({
   }
 
   return (
-    <div className="space-y-4">
-      <PromptHeader eyebrow="Verb Conjugation">
-        <span className="font-semibold">{word.lemma}</span>
-        <span className="ml-2 text-base text-slate-500">— {word.english}</span>
-      </PromptHeader>
+    <div className="space-y-3">
+      <div className="flex items-baseline gap-2">
+        <span className="text-lg font-semibold text-slate-900">{word.lemma}</span>
+        <span className="text-base text-slate-500">— {word.english}</span>
+      </div>
 
-      <div className="space-y-2">
+      <div
+        className="grid items-center gap-x-2 gap-y-1.5 rounded-lg border border-slate-200 bg-white px-3 py-2.5"
+        style={{ gridTemplateColumns: `minmax(2.75rem,auto) repeat(${tenseDefs.length}, minmax(0,1fr))` }}
+      >
+        {/* Header row: tense names once, instead of repeating per cell. */}
+        <div />
+        {tenseDefs.map((t) => (
+          <span key={t.id} className="px-0.5 text-[11px] font-medium uppercase tracking-wide text-slate-400">
+            {t.short}
+          </span>
+        ))}
+
         {SHOWN_PERSON_INDICES.map((p, rowIdx) => (
-          <div key={p} className="rounded-xl border border-slate-200 bg-white p-3">
-            <div className="mb-2 text-sm font-semibold text-slate-500">{PERSONS[p].label}</div>
-            <div className="flex flex-wrap gap-2">
-              {tenseDefs.map((t) => {
-                const ok = cellCorrect(t.id, p);
-                return (
-                  <label key={t.id} className="flex-1 min-w-36">
-                    <span className="mb-1 block text-[11px] font-medium uppercase tracking-wide text-slate-400">
-                      {t.short}
-                    </span>
-                    <input
-                      ref={rowIdx === 0 && t.id === tenseDefs[0].id ? firstRef : undefined}
-                      type="text"
-                      autoComplete="off"
-                      autoCapitalize="off"
-                      autoCorrect="off"
-                      spellCheck={false}
-                      readOnly={phase === "feedback"}
-                      value={values[key(t.id, p)] ?? ""}
-                      onChange={(e) => setValues((v) => ({ ...v, [key(t.id, p)]: e.target.value }))}
-                      onKeyDown={(e) => {
-                        if (e.key === "Enter" && phase === "input") submit();
-                      }}
-                      className={
-                        "w-full rounded-lg border px-3 py-2 text-base outline-none focus:ring-2 " +
-                        (phase === "feedback"
-                          ? ok
-                            ? "border-emerald-300 bg-emerald-50 text-emerald-800"
-                            : "border-rose-300 bg-rose-50 text-rose-800"
-                          : "border-slate-300 focus:border-indigo-500 focus:ring-indigo-200")
+          <Fragment key={p}>
+            <span className="pr-1 text-sm font-semibold text-slate-500">{PERSONS[p].label}</span>
+            {tenseDefs.map((t, tIdx) => {
+              const ok = cellCorrect(t.id, p);
+              const idx = navIndex(tIdx, rowIdx);
+              return (
+                <div key={t.id}>
+                  <input
+                    ref={(el) => {
+                      inputs.current[idx] = el;
+                    }}
+                    type="text"
+                    autoComplete="off"
+                    autoCapitalize="off"
+                    autoCorrect="off"
+                    spellCheck={false}
+                    readOnly={phase === "feedback"}
+                    value={values[key(t.id, p)] ?? ""}
+                    onChange={(e) => setValues((v) => ({ ...v, [key(t.id, p)]: e.target.value }))}
+                    onKeyDown={(e) => {
+                      if (e.key !== "Enter") return;
+                      e.preventDefault();
+                      // After grading, one more Enter goes to the next verb.
+                      if (phase === "feedback") {
+                        onResult(allCorrect);
+                        return;
                       }
-                    />
-                    {phase === "feedback" && !ok && (
-                      <span className="mt-1 block text-xs font-medium text-slate-600">{table[t.id][p]}</span>
-                    )}
-                  </label>
-                );
-              })}
-            </div>
-          </div>
+                      // Move down the cells; the last one checks the card.
+                      if (idx < cellCount - 1) inputs.current[idx + 1]?.focus();
+                      else submit();
+                    }}
+                    className={
+                      "w-full rounded-md border px-2.5 py-1.5 text-base outline-none focus:ring-2 " +
+                      (phase === "feedback"
+                        ? ok
+                          ? "border-emerald-300 bg-emerald-50 text-emerald-800"
+                          : "border-rose-300 bg-rose-50 text-rose-800"
+                        : "border-slate-300 focus:border-indigo-500 focus:ring-indigo-200")
+                    }
+                  />
+                  {phase === "feedback" && !ok && (
+                    <span className="mt-0.5 block text-xs font-medium text-slate-600">{table[t.id][p]}</span>
+                  )}
+                </div>
+              );
+            })}
+          </Fragment>
         ))}
       </div>
 
@@ -100,10 +124,10 @@ export function Conjugation({
           Check card
         </Button>
       ) : (
-        <div className="space-y-3">
+        <div className="space-y-2">
           <div
             className={
-              "rounded-xl px-4 py-3 text-sm font-semibold " +
+              "rounded-lg px-3 py-2 text-sm font-semibold " +
               (allCorrect ? "bg-emerald-50 text-emerald-800" : "bg-rose-50 text-rose-800")
             }
           >
