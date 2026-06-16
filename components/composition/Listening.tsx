@@ -8,7 +8,15 @@ import { Quiz } from "./Quiz";
 
 type Mode = "quiz" | "transcribe";
 
-export function Listening({ onExit, initialStory }: { onExit: () => void; initialStory?: StoryRow | null }) {
+export function Listening({
+  onExit,
+  initialStory,
+  onPassed,
+}: {
+  onExit: () => void;
+  initialStory?: StoryRow | null;
+  onPassed?: () => void;
+}) {
   const [stories, setStories] = useState<StoryRow[]>([]);
   const [loading, setLoading] = useState(!initialStory);
   const [story, setStory] = useState<StoryRow | null>(initialStory ?? null);
@@ -32,7 +40,7 @@ export function Listening({ onExit, initialStory }: { onExit: () => void; initia
       </button>
 
       {story ? (
-        <ListenWorkspace story={story} />
+        <ListenWorkspace story={story} onPassed={onPassed} />
       ) : (
         <div className="space-y-3">
           <h1 className="text-xl font-bold text-slate-900">🎧 Listening</h1>
@@ -67,7 +75,7 @@ export function Listening({ onExit, initialStory }: { onExit: () => void; initia
   );
 }
 
-function ListenWorkspace({ story }: { story: StoryRow }) {
+function ListenWorkspace({ story, onPassed }: { story: StoryRow; onPassed?: () => void }) {
   const [mode, setMode] = useState<Mode>("quiz");
   const [showTranscript, setShowTranscript] = useState(false);
 
@@ -110,7 +118,7 @@ function ListenWorkspace({ story }: { story: StoryRow }) {
       )}
 
       {mode === "quiz" ? (
-        <Quiz storyId={story.id} quiz={story.quiz} level={story.level} />
+        <Quiz storyId={story.id} quiz={story.quiz} level={story.level} onPassed={onPassed} />
       ) : (
         <Transcribe story={story} />
       )}

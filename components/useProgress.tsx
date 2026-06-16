@@ -1,7 +1,14 @@
 "use client";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { emptyState, ExerciseId, ProgressState, Settings } from "@/lib/domain";
+import { emptyState, ExerciseId, LessonPillar, ProgressState, Settings } from "@/lib/domain";
 import { demoteWord, recordAttempt, resetExercise, resetWord } from "@/lib/progress";
+import {
+  bumpDailyPillar,
+  bumpLessonPillar,
+  recordDailyWord,
+  syncLessonCompletion,
+} from "@/lib/lesson-progress";
+import { localToday as todayStr } from "@/lib/course";
 
 // Loads progress from the server, applies optimistic local updates, and
 // debounces saves back to /api/state.
@@ -72,7 +79,47 @@ export function useProgress() {
   const doResetWord = useCallback((wordId: string) => mutate((s) => resetWord(s, wordId)), [mutate]);
   const demote = useCallback((wordId: string) => mutate((s) => demoteWord(s, wordId)), [mutate]);
 
-  return { state, loading, saving, record, demote, updateSettings, doResetExercise, doResetWord };
+  // ---- course mode ----
+  // Count a passing composition attempt toward a lesson's gate (writing/reading/listening).
+  const bumpLesson = useCallback(
+    (lessonId: string, pillar: LessonPillar) => mutate((s) => bumpLessonPillar(s, lessonId, pillar, todayStr())),
+    [mutate]
+  );
+  // Record a vocab attempt during a lesson, then stamp completion if the gate just cleared.
+  const recordInLesson = useCallback(
+    (wordId: string, ex: ExerciseId, correct: boolean, lessonId: string) =>
+      mutate((s) => syncLessonCompletion(recordAttempt(s, wordId, ex, correct), lessonId, todayStr())),
+    [mutate]
+  );
+  // Record a vocab attempt during daily review; a correct answer marks the word's clean pass.
+  const recordInDaily = useCallback(
+    (wordId: string, ex: ExerciseId, correct: boolean) =>
+      mutate((s) => {
+        const today = todayStr();
+        const next = recordAttempt(s, wordId, ex, correct);
+        return correct ? recordDailyWord(next, today, wordId) : next;
+      }),
+    [mutate]
+  );
+  const bumpDaily = useCallback(
+    (pillar: LessonPillar) => mutate((s) => bumpDailyPillar(s, todayStr(), pillar)),
+    [mutate]
+  );
+
+  return {
+    state,
+    loading,
+    saving,
+    record,
+    demote,
+    updateSettings,
+    doResetExercise,
+    doResetWord,
+    bumpLesson,
+    recordInLesson,
+    recordInDaily,
+    bumpDaily,
+  };
 }
 
 export type ProgressApi = ReturnType<typeof useProgress>;

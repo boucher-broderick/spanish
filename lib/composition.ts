@@ -2,6 +2,7 @@
 // client + server) and the Gemini prompt builders (used server-side only).
 // Framework-free and side-effect-free so it is safe to import from either side.
 import { TENSES, Tense } from "./conjugation/types";
+import type { ChatMessage, ItemResult, Lesson, PracticeItem, PracticeKind, PracticeSpec, ResolvedWord } from "./course";
 
 // ---- CEFR levels ----
 export const LEVELS = [
@@ -217,3 +218,161 @@ Reply with ONLY this JSON:
 {"results":[{"index":<n>,"correct":<bool>,"feedback":"<short English note, mention the right idea if wrong>"}]}
 One entry per question, using the exact index shown.`;
 }
+
+// ================= COURSE MODE =================
+// Builders for the guided course: lesson explanations, the practice-spec generator
+// tools (fill-blank / fill-blank+reason / writing prompt / correction), the chat
+// teacher, and the batched free-form practice grader. All return prompt strings used
+// with generateText / generateJson, matching the JSON conventions above.
+
+// The course targets a learner bridging A1 into A2.
+const COURSE_LEVEL_PHRASE =
+  "a learner bridging A1 into A2: they know the present tense and core high-frequency vocabulary, " +
+  "and are now solidifying tricky concepts. Keep language simple and clear, explain in English, and " +
+  "give Spanish examples with English glosses";
+
+function wordListBlock(words: ResolvedWord[]): string {
+  if (!words.length) return "(no specific vocabulary)";
+  return words.map((w) => `- ${w.spanish}${w.english ? ` (${w.english})` : ""}`).join("\n");
+}
+
+function lessonFocus(lesson: Lesson): string {
+  return lesson.kind === "grammar" && lesson.grammarTopic
+    ? `Grammar focus: ${lesson.grammarTopic}.`
+    : `This is a vocabulary chapter titled "${lesson.title}".`;
+}
+
+// ---- lesson explanation (prose, rendered by StoryBody) ----
+export function buildLessonExplanationPrompt(p: { lesson: Lesson; words: ResolvedWord[] }): string {
+  const { lesson, words } = p;
+  return `You are a friendly, clear Spanish teacher writing a textbook-style lesson for ${COURSE_LEVEL_PHRASE}.
+
+Lesson title: "${lesson.title}".
+${lessonFocus(lesson)}
+
+The lesson's target vocabulary:
+${wordListBlock(words)}
+
+Write the explanation in English with Spanish examples. Structure it as a few short sections separated by BLANK LINES (no markdown headings symbols needed, but a short bold-free title line per section is fine). Cover:
+${
+    lesson.kind === "grammar"
+      ? `1) what the concept is and when to use it, with a simple rule of thumb;
+2) 3-5 example sentences in Spanish, each followed by its English translation in parentheses;
+3) the most common mistakes learners make;
+4) how the target vocabulary above fits into this concept.`
+      : `1) a short intro to the theme;
+2) each target word with a natural example sentence in Spanish and its English translation;
+3) any gender/usage notes worth knowing.`
+  }
+
+Keep it focused and encouraging — about 250-400 words. Separate paragraphs with a blank line. Output PLAIN TEXT only (no JSON, no code fences).`;
+}
+
+// ---- practice generator tools ----
+// Shared description of the spec JSON the renderer understands. Each tool appends
+// its own item-type guidance, then asks for this exact shape.
+const PRACTICE_SCHEMA_DOC = `Reply with ONLY this JSON shape:
+{"title":"<short title>","instructions":"<one short English line>","items":[ ITEM, ITEM, ... ]}
+Each ITEM is an object. Common fields: "id" (unique like "i1"), "type", "prompt" (the question/sentence shown to the learner), "answer" (the canonical correct answer), "grade" ("exact"|"anyOf"|"gemini"), "explanation" (why the answer is right, English). Optional: "prompt_en", "options" (array), "acceptable" (array of other accepted answers), "accentSensitive" (bool).`;
+
+export function buildPracticePrompt(p: {
+  lesson: Lesson;
+  words: ResolvedWord[];
+  kind: PracticeKind;
+  count: number;
+  spice: string;
+}): string {
+  const { lesson, words, kind, count, spice } = p;
+  const header = `You design Spanish practice for ${COURSE_LEVEL_PHRASE}.
+Lesson: "${lesson.title}". ${lessonFocus(lesson)}
+Use this target vocabulary where natural:
+${wordListBlock(words)}
+Variety seed (make the items feel fresh, don't reuse stock examples): "${spice}".`;
+
+  let task: string;
+  if (kind === "fillBlank") {
+    task = `Create ${count} fill-in-the-blank items. Each sentence is in Spanish with exactly one blank written as "___". The learner types the missing word.
+For each item: "type":"fillBlank", "grade":"anyOf", put the correct word in "answer" and any equally-correct variants in "acceptable", set "accentSensitive":false. The "prompt" is the Spanish sentence with the "___". Add a short "explanation".`;
+  } else if (kind === "fillBlankReason") {
+    task = `Create ${count} fill-in-the-blank items where the learner ALSO justifies their choice (ideal for contrasts like ser/estar or por/para).
+For each item: "type":"fillBlankReason", "grade":"anyOf", "answer" = the correct word (+ "acceptable" variants), "accentSensitive":false, the "prompt" is the Spanish sentence with "___". ALSO include "reasonPrompt" (a short question like "Why ser and not estar here?") and "reasonAnswer" (the model justification in English). Add a short "explanation".`;
+  } else if (kind === "correction") {
+    task = `Create ${count} error-correction items. Each "prompt" is a Spanish sentence containing exactly ONE planted error (wrong verb choice, agreement, conjugation, or word). The learner rewrites the WHOLE sentence correctly.
+For each item: "type":"correction", "grade":"anyOf", "answer" = the fully corrected sentence (+ "acceptable" for valid alternative corrections), "accentSensitive":false. The "explanation" names the error and the fix.`;
+  } else {
+    // writingPrompt -> a single open task graded by Gemini
+    task = `Create exactly ONE open writing task tied to this lesson. The learner writes 3-5 Spanish sentences.
+Return a single item: "type":"shortAnswer", "grade":"gemini", "prompt" = the task written in Spanish (with an English gloss in "prompt_en"), "answer" = a brief model response in Spanish, "explanation" = what a good answer should demonstrate.`;
+  }
+
+  return `${header}\n\n${task}\n\n${PRACTICE_SCHEMA_DOC}`;
+}
+
+// ---- chat teacher ----
+export interface ChatReply {
+  reply: string; // the teacher's answer, in clear English with Spanish examples
+  suggestPractice?: { kind: PracticeKind; count?: number };
+}
+
+export function buildChatTurnPrompt(p: {
+  lesson: Lesson;
+  explanation: string | null;
+  history: ChatMessage[];
+  userMessage: string;
+}): string {
+  const { lesson, explanation, history, userMessage } = p;
+  const transcript = history
+    .slice(-8)
+    .map((m) => `${m.role === "user" ? "Student" : "Teacher"}: ${m.content}`)
+    .join("\n");
+  return `You are a patient Spanish teacher helping a student with the lesson "${lesson.title}". ${lessonFocus(lesson)}
+You are teaching ${COURSE_LEVEL_PHRASE}.
+
+${explanation ? `The student has read this lesson explanation:\n"""${explanation.slice(0, 2000)}"""\n` : ""}${
+    transcript ? `Conversation so far:\n${transcript}\n` : ""
+  }
+The student now says: "${userMessage}"
+
+Answer helpfully and concisely in English, using Spanish examples with glosses where useful. If the student would clearly benefit from doing a drill now, set "suggestPractice" with a "kind" of "fillBlank", "fillBlankReason", "writingPrompt", or "correction" (otherwise omit it).
+
+Reply with ONLY this JSON:
+{"reply":"<your answer in English>","suggestPractice":{"kind":"<one of the four>","count":8}}
+Omit "suggestPractice" entirely if a drill isn't warranted.`;
+}
+
+// ---- batched free-form practice grader ----
+export interface GradeRequestItem {
+  id: string;
+  type: string;
+  prompt: string;
+  answer: string; // canonical answer
+  response: string; // learner's answer
+  reasonPrompt?: string;
+  reasonAnswer?: string;
+  reasonResponse?: string;
+}
+
+export function buildPracticeGradePrompt(p: { items: GradeRequestItem[] }): string {
+  const items = p.items
+    .map((it, i) => {
+      const base = `${i}. id=${it.id} [${it.type}]\n   Task: ${it.prompt}\n   Model answer: ${it.answer}\n   Learner answer: ${it.response || "(blank)"}`;
+      const reason =
+        it.reasonPrompt != null
+          ? `\n   Reason asked: ${it.reasonPrompt}\n   Model reason: ${it.reasonAnswer ?? ""}\n   Learner reason: ${it.reasonResponse || "(blank)"}`
+          : "";
+      return base + reason;
+    })
+    .join("\n");
+  return `You grade a Spanish learner's practice answers. Be fair: an answer is correct if it conveys the right meaning with acceptable grammar, even if worded differently from the model answer. Blank or off-topic answers are incorrect.
+
+Items:
+${items}
+
+For each item return whether the main answer is correct, and (only when a "Reason asked" was given) whether the learner's reason is correct.
+
+Reply with ONLY this JSON:
+{"results":[{"itemId":"<id>","correct":<bool>,"reasonCorrect":<bool or omit>,"feedback":"<short English note, mention the right idea if wrong>"}]}
+One entry per item, using the exact id shown.`;
+}
+
+export type { ItemResult, PracticeItem, PracticeSpec };

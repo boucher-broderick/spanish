@@ -132,6 +132,29 @@ export interface WordProgress {
   review: boolean;
   stats: Partial<Record<ExerciseId, Stat>>;
 }
+
+// ---- course mode progress (added in version 2) ----
+export type LessonPillar = "writing" | "reading" | "listening";
+
+// Per-lesson gate counters. The vocab portion of the gate is computed live from
+// `words` via exercisePassed, so it isn't stored here. `completedAt` (ISO date)
+// is set when all four pillars clear and drives the daily-review window.
+export interface LessonProgress {
+  writingDone: number;
+  readingDone: number;
+  listeningDone: number;
+  completedAt?: string;
+}
+
+// Today's daily-review checklist. `date` is the calendar day (YYYY-MM-DD); when
+// "today" differs the review is treated as empty and rebuilt for the new day.
+export interface DailyReview {
+  date: string;
+  wordsDone: string[]; // ids given a clean pass today
+  writingDone: boolean;
+  readingDone: boolean;
+  listeningDone: boolean;
+}
 export interface Settings {
   tenses: Tense[];
   wordBankCount: number;
@@ -144,6 +167,8 @@ export interface ProgressState {
   version: number;
   settings: Settings;
   words: Record<string, WordProgress>;
+  lessons?: Record<string, LessonProgress>; // optional -> back-compatible with v1 saves
+  daily?: DailyReview;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -156,5 +181,5 @@ export const DEFAULT_SETTINGS: Settings = {
 };
 
 export function emptyState(): ProgressState {
-  return { version: 1, settings: { ...DEFAULT_SETTINGS }, words: {} };
+  return { version: 2, settings: { ...DEFAULT_SETTINGS }, words: {}, lessons: {} };
 }

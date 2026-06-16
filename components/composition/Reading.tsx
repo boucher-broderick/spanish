@@ -12,12 +12,16 @@ export function Reading({
   onExit,
   initialStory,
   onCreated,
+  onPassed,
+  initialCriteria,
 }: {
   onExit: () => void;
   initialStory?: StoryRow | null;
   onCreated?: (story: StoryRow) => void;
+  onPassed?: () => void;
+  initialCriteria?: Partial<Criteria>;
 }) {
-  const [crit, setCrit] = useState<Criteria>(DEFAULT_CRITERIA);
+  const [crit, setCrit] = useState<Criteria>({ ...DEFAULT_CRITERIA, ...initialCriteria });
   const [story, setStory] = useState<StoryRow | null>(initialStory ?? null);
   const [generating, setGenerating] = useState(false);
   const [error, setError] = useState("");
@@ -63,7 +67,7 @@ export function Reading({
           </header>
           <StoryBody body={story.body} />
           <hr className="border-slate-200" />
-          <Quiz storyId={story.id} quiz={story.quiz} level={story.level} />
+          <Quiz storyId={story.id} quiz={story.quiz} level={story.level} onPassed={onPassed} />
         </article>
       ) : (
         <div className="space-y-3">

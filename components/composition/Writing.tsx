@@ -1,13 +1,22 @@
 "use client";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { WritingGrade, WritingPromptRow } from "@/lib/composition";
+import { COMPOSITION_PASS_SCORE } from "@/lib/course";
 import { Button, Card, Pill, cx } from "../ui";
 import { Criteria, CriteriaControls, DEFAULT_CRITERIA, levelLabel, tenseLabel } from "./controls";
 
-export function Writing({ onExit }: { onExit: () => void }) {
+export function Writing({
+  onExit,
+  onPassed,
+  initialCriteria,
+}: {
+  onExit: () => void;
+  onPassed?: () => void;
+  initialCriteria?: Partial<Criteria>;
+}) {
   const [prompts, setPrompts] = useState<WritingPromptRow[]>([]);
   const [loading, setLoading] = useState(true);
-  const [crit, setCrit] = useState<Criteria>(DEFAULT_CRITERIA);
+  const [crit, setCrit] = useState<Criteria>({ ...DEFAULT_CRITERIA, ...initialCriteria });
   const [activeId, setActiveId] = useState<string | null>(null);
   const [generating, setGenerating] = useState(false);
   const [error, setError] = useState("");
@@ -59,7 +68,7 @@ export function Writing({ onExit }: { onExit: () => void }) {
       </button>
 
       {active ? (
-        <PromptWorkspace prompt={active} onSaved={onAttemptSaved} />
+        <PromptWorkspace prompt={active} onSaved={onAttemptSaved} onPassed={onPassed} />
       ) : (
         <div className="space-y-6">
           <section className="space-y-3">
@@ -113,9 +122,11 @@ export function Writing({ onExit }: { onExit: () => void }) {
 function PromptWorkspace({
   prompt,
   onSaved,
+  onPassed,
 }: {
   prompt: WritingPromptRow;
   onSaved: (promptId: string, attempt: WritingPromptRow["attempts"][number]) => void;
+  onPassed?: () => void;
 }) {
   // tab: an attempt index, or "new"
   const [tab, setTab] = useState<number | "new">(prompt.attempts.length ? prompt.attempts.length - 1 : "new");
@@ -123,6 +134,7 @@ function PromptWorkspace({
   const [draft, setDraft] = useState("");
   const [grading, setGrading] = useState(false);
   const [error, setError] = useState("");
+  const passedRef = useRef(false);
 
   async function grade() {
     if (!draft.trim()) return;
@@ -137,6 +149,11 @@ function PromptWorkspace({
       const d = await res.json();
       if (!res.ok) throw new Error(d.error ?? "Failed to grade");
       onSaved(prompt.id, d.attempt);
+      const score = d.attempt?.grade?.score ?? 0;
+      if (!passedRef.current && score >= COMPOSITION_PASS_SCORE) {
+        passedRef.current = true;
+        onPassed?.();
+      }
       setDraft("");
       setTab(prompt.attempts.length); // the newly appended attempt
     } catch (e) {

@@ -1,16 +1,29 @@
 "use client";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { AnswerGrade, QuizQuestion } from "@/lib/composition";
+import { QUIZ_PASS_FRACTION } from "@/lib/course";
 import { Button, Card, Pill } from "../ui";
 
 // Open-ended comprehension quiz shared by Reading and Listening. Answers can be
-// self-checked against the model answer or graded by Gemini.
-export function Quiz({ storyId, quiz, level }: { storyId: string; quiz: QuizQuestion[]; level: string }) {
+// self-checked against the model answer or graded by Gemini. `onPassed` (used by
+// the course gate) fires at most once, when a graded attempt clears the pass bar.
+export function Quiz({
+  storyId,
+  quiz,
+  level,
+  onPassed,
+}: {
+  storyId: string;
+  quiz: QuizQuestion[];
+  level: string;
+  onPassed?: () => void;
+}) {
   const [answers, setAnswers] = useState<string[]>(() => quiz.map(() => ""));
   const [revealed, setRevealed] = useState<Set<number>>(new Set());
   const [results, setResults] = useState<AnswerGrade[] | null>(null);
   const [grading, setGrading] = useState(false);
   const [error, setError] = useState("");
+  const passedRef = useRef(false);
 
   if (quiz.length === 0) return <p className="text-sm text-slate-400">No quiz questions for this story.</p>;
 
@@ -29,7 +42,13 @@ export function Quiz({ storyId, quiz, level }: { storyId: string; quiz: QuizQues
       });
       const d = await res.json();
       if (!res.ok) throw new Error(d.error ?? "Failed to grade");
-      setResults(d.results ?? []);
+      const graded = (d.results ?? []) as AnswerGrade[];
+      setResults(graded);
+      const correct = graded.filter((r) => r.correct).length;
+      if (!passedRef.current && quiz.length > 0 && correct / quiz.length >= QUIZ_PASS_FRACTION) {
+        passedRef.current = true;
+        onPassed?.();
+      }
     } catch (e) {
       setError(String((e as Error).message));
     } finally {

@@ -15,11 +15,14 @@ import { Writing } from "@/components/composition/Writing";
 import { Reading } from "@/components/composition/Reading";
 import { Listening } from "@/components/composition/Listening";
 import { StoriesTable } from "@/components/composition/StoriesTable";
+import { CourseHome } from "@/components/course/CourseHome";
+import { LessonView } from "@/components/course/LessonView";
+import { DailyReview } from "@/components/course/DailyReview";
 import { StoryRow } from "@/lib/composition";
 import { Button, Card } from "@/components/ui";
 
 type GameId = "numbers" | "time" | "calendar";
-type Screen = "home" | "group" | "play" | "game" | "writing" | "reading" | "listening" | "stories";
+type Screen = "home" | "group" | "play" | "game" | "writing" | "reading" | "listening" | "stories" | "course" | "lesson" | "daily";
 type Mode = "learn" | "review";
 
 const PRACTICE_META: { id: Exclude<Screen, "home" | "group" | "play" | "game">; label: string; emoji: string; blurb: string }[] = [
@@ -62,6 +65,7 @@ function Home() {
   const [game, setGame] = useState<GameId>("numbers");
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [openStory, setOpenStory] = useState<StoryRow | null>(null);
+  const [lessonId, setLessonId] = useState<string | null>(null);
 
   // # of words in review, per group.
   const reviewByGroup = useMemo(() => {
@@ -140,6 +144,23 @@ function Home() {
       />
     );
 
+  // ---- COURSE ----
+  if (screen === "course")
+    return (
+      <CourseHome
+        api={api}
+        onExit={() => setScreen("home")}
+        onOpenLesson={(id) => {
+          setLessonId(id);
+          setScreen("lesson");
+        }}
+        onOpenDaily={() => setScreen("daily")}
+      />
+    );
+  if (screen === "lesson" && lessonId)
+    return <LessonView lessonId={lessonId} api={api} onExit={() => setScreen("course")} />;
+  if (screen === "daily") return <DailyReview api={api} onExit={() => setScreen("course")} />;
+
   return (
     <div className="mx-auto w-full max-w-2xl flex-1 px-4 py-5">
       <div className="mb-5 flex items-center justify-between">
@@ -166,6 +187,21 @@ function Home() {
 
       {screen === "home" && (
         <div className="space-y-6">
+          <section>
+            <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-400">Learn</h2>
+            <button onClick={() => setScreen("course")} className="w-full">
+              <Card className="flex items-center gap-4 p-4 text-left hover:border-indigo-300">
+                <span className="text-3xl">📚</span>
+                <span className="flex-1">
+                  <span className="block font-semibold text-slate-900">Course</span>
+                  <span className="block text-sm text-slate-500">
+                    Guided A1→A2 lessons with an AI teacher, practice & daily review.
+                  </span>
+                </span>
+              </Card>
+            </button>
+          </section>
+
           <section>
             <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-400">Word practice</h2>
             <div className="grid grid-cols-1 gap-3">

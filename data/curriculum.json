@@ -1,0 +1,556 @@
+{
+  "version": 1,
+  "level": "A1–A2",
+  "units": [
+    {
+      "id": "u1",
+      "order": 1,
+      "title": "Foundations refresh",
+      "blurb": "Lock in gender, articles, and the present tense before we build.",
+      "lessonIds": ["u1-gender-articles", "u1-present-regular", "u1-house-objects"]
+    },
+    {
+      "id": "u2",
+      "order": 2,
+      "title": "Ser vs Estar",
+      "blurb": "The two 'to be' verbs — the single biggest A2 hurdle.",
+      "lessonIds": ["u2-ser", "u2-estar", "u2-ser-vs-estar", "u2-adjectives"]
+    },
+    {
+      "id": "u3",
+      "order": 3,
+      "title": "Daily life",
+      "blurb": "Talk about your routine with reflexive and stem-changing verbs.",
+      "lessonIds": ["u3-reflexive", "u3-stem-changing", "u3-routine"]
+    },
+    {
+      "id": "u4",
+      "order": 4,
+      "title": "Tener & Hacer",
+      "blurb": "Two workhorse verbs and the everyday expressions they power.",
+      "lessonIds": ["u4-tener", "u4-hacer", "u4-food"]
+    },
+    {
+      "id": "u5",
+      "order": 5,
+      "title": "Por vs Para & place",
+      "blurb": "Another classic contrast, plus saying where things are.",
+      "lessonIds": ["u5-por-para", "u5-prepositions", "u5-city"]
+    },
+    {
+      "id": "u6",
+      "order": 6,
+      "title": "Likes & knowing",
+      "blurb": "Gustar-type verbs and the two ways to 'know'.",
+      "lessonIds": ["u6-gustar", "u6-saber-conocer", "u6-hobbies"]
+    },
+    {
+      "id": "u7",
+      "order": 7,
+      "title": "The past — preterite",
+      "blurb": "Completed past actions, regular and irregular.",
+      "lessonIds": ["u7-preterite-regular", "u7-preterite-irregular", "u7-travel"]
+    },
+    {
+      "id": "u8",
+      "order": 8,
+      "title": "The past — imperfect",
+      "blurb": "Descriptions and habits in the past, and when to use which.",
+      "lessonIds": ["u8-imperfect", "u8-pret-vs-imp", "u8-childhood-family"]
+    },
+    {
+      "id": "u9",
+      "order": 9,
+      "title": "Future & plans",
+      "blurb": "Talk about what you're going to do.",
+      "lessonIds": ["u9-future", "u9-work"]
+    },
+    {
+      "id": "u10",
+      "order": 10,
+      "title": "Commands & advice",
+      "blurb": "Tell someone what to do — stepping into A2.",
+      "lessonIds": ["u10-commands", "u10-health-body"]
+    }
+  ],
+  "lessons": {
+    "u1-gender-articles": {
+      "id": "u1-gender-articles",
+      "unitId": "u1",
+      "order": 1,
+      "kind": "grammar",
+      "title": "Gender & articles",
+      "grammarTopic": "noun gender and the definite/indefinite articles (el/la/los/las, un/una/unos/unas)",
+      "summary": "Why every noun is masculine or feminine, and which 'the'/'a' to use.",
+      "words": [
+        { "wordId": "noun-casa" },
+        { "wordId": "noun-mesa" },
+        { "spanish": "el libro", "english": "book", "lemma": "libro", "pos": "noun" },
+        { "spanish": "la silla", "english": "chair", "lemma": "silla", "pos": "noun" },
+        { "spanish": "el problema", "english": "problem", "lemma": "problema", "pos": "noun" },
+        { "spanish": "la mano", "english": "hand", "lemma": "mano", "pos": "noun" }
+      ]
+    },
+    "u1-present-regular": {
+      "id": "u1-present-regular",
+      "unitId": "u1",
+      "order": 2,
+      "kind": "grammar",
+      "title": "Present tense — regular verbs",
+      "grammarTopic": "the present tense of regular -ar, -er and -ir verbs",
+      "summary": "The endings that power hablar, comer and vivir.",
+      "words": [
+        { "wordId": "verb-comer" },
+        { "wordId": "verb-vivir" },
+        { "wordId": "verb-hablar" },
+        { "wordId": "verb-trabajar" },
+        { "wordId": "verb-estudiar" },
+        { "wordId": "verb-escuchar" }
+      ]
+    },
+    "u1-house-objects": {
+      "id": "u1-house-objects",
+      "unitId": "u1",
+      "order": 3,
+      "kind": "vocab",
+      "title": "House & everyday objects",
+      "summary": "Rooms and the things in them — pure vocabulary.",
+      "words": [
+        { "wordId": "noun-casa" },
+        { "spanish": "la cocina", "english": "kitchen", "lemma": "cocina", "pos": "noun" },
+        { "spanish": "el dormitorio", "english": "bedroom", "lemma": "dormitorio", "pos": "noun" },
+        { "spanish": "el baño", "english": "bathroom", "lemma": "baño", "pos": "noun" },
+        { "spanish": "la ventana", "english": "window", "lemma": "ventana", "pos": "noun" },
+        { "spanish": "la puerta", "english": "door", "lemma": "puerta", "pos": "noun" },
+        { "spanish": "la cama", "english": "bed", "lemma": "cama", "pos": "noun" },
+        { "spanish": "la llave", "english": "key", "lemma": "llave", "pos": "noun" }
+      ]
+    },
+    "u2-ser": {
+      "id": "u2-ser",
+      "unitId": "u2",
+      "order": 1,
+      "kind": "grammar",
+      "title": "Ser — identity & permanence",
+      "grammarTopic": "the verb ser: identity, origin, profession, time and inherent characteristics",
+      "summary": "Who/what something fundamentally is.",
+      "words": [
+        { "wordId": "verb-ser" },
+        { "spanish": "el estudiante", "english": "student", "lemma": "estudiante", "pos": "noun" },
+        { "spanish": "el médico", "english": "doctor", "lemma": "médico", "pos": "noun" },
+        { "spanish": "alto", "english": "tall", "lemma": "alto", "pos": "adjective" },
+        { "spanish": "inteligente", "english": "intelligent", "lemma": "inteligente", "pos": "adjective" }
+      ]
+    },
+    "u2-estar": {
+      "id": "u2-estar",
+      "unitId": "u2",
+      "order": 2,
+      "kind": "grammar",
+      "title": "Estar — location & condition",
+      "grammarTopic": "the verb estar: location, temporary states, emotions and ongoing actions",
+      "summary": "Where something is and how it feels right now.",
+      "words": [
+        { "wordId": "verb-estar" },
+        { "spanish": "cansado", "english": "tired", "lemma": "cansado", "pos": "adjective" },
+        { "spanish": "contento", "english": "happy/content", "lemma": "contento", "pos": "adjective" },
+        { "spanish": "enfermo", "english": "sick", "lemma": "enfermo", "pos": "adjective" },
+        { "spanish": "ocupado", "english": "busy", "lemma": "ocupado", "pos": "adjective" }
+      ]
+    },
+    "u2-ser-vs-estar": {
+      "id": "u2-ser-vs-estar",
+      "unitId": "u2",
+      "order": 3,
+      "kind": "grammar",
+      "title": "Ser vs Estar",
+      "grammarTopic": "choosing between ser and estar, including adjectives that change meaning (ser aburrido vs estar aburrido, ser listo vs estar listo)",
+      "summary": "Put the two verbs head-to-head — the contrast that matters.",
+      "words": [
+        { "wordId": "verb-ser" },
+        { "wordId": "verb-estar" },
+        { "spanish": "aburrido", "english": "boring / bored", "lemma": "aburrido", "pos": "adjective" },
+        { "spanish": "listo", "english": "clever / ready", "lemma": "listo", "pos": "adjective" }
+      ]
+    },
+    "u2-adjectives": {
+      "id": "u2-adjectives",
+      "unitId": "u2",
+      "order": 4,
+      "kind": "vocab",
+      "title": "Adjectives: personality & description",
+      "summary": "Words to describe people — feeds both ser and estar.",
+      "words": [
+        { "spanish": "amable", "english": "kind", "lemma": "amable", "pos": "adjective" },
+        { "spanish": "simpático", "english": "nice/friendly", "lemma": "simpático", "pos": "adjective" },
+        { "spanish": "antipático", "english": "unfriendly", "lemma": "antipático", "pos": "adjective" },
+        { "spanish": "guapo", "english": "good-looking", "lemma": "guapo", "pos": "adjective" },
+        { "spanish": "trabajador", "english": "hard-working", "lemma": "trabajador", "pos": "adjective" },
+        { "spanish": "perezoso", "english": "lazy", "lemma": "perezoso", "pos": "adjective" },
+        { "spanish": "joven", "english": "young", "lemma": "joven", "pos": "adjective" },
+        { "spanish": "fuerte", "english": "strong", "lemma": "fuerte", "pos": "adjective" }
+      ]
+    },
+    "u3-reflexive": {
+      "id": "u3-reflexive",
+      "unitId": "u3",
+      "order": 1,
+      "kind": "grammar",
+      "title": "Reflexive verbs",
+      "grammarTopic": "reflexive verbs and pronouns for daily routine (levantarse, ducharse, despertarse, vestirse, acostarse) — me/te/se placement",
+      "summary": "Actions you do to yourself — your morning routine.",
+      "words": [
+        { "wordId": "verb-levantar" },
+        { "wordId": "verb-despertar" },
+        { "wordId": "verb-vestir" },
+        { "wordId": "verb-sentir" }
+      ]
+    },
+    "u3-stem-changing": {
+      "id": "u3-stem-changing",
+      "unitId": "u3",
+      "order": 2,
+      "kind": "grammar",
+      "title": "Stem-changing verbs",
+      "grammarTopic": "present-tense stem changes e→ie, o→ue and e→i (the 'boot' pattern)",
+      "summary": "Why pensar becomes pienso but pensamos doesn't.",
+      "words": [
+        { "wordId": "verb-pensar" },
+        { "wordId": "verb-poder" },
+        { "wordId": "verb-querer" },
+        { "wordId": "verb-dormir" },
+        { "wordId": "verb-pedir" },
+        { "wordId": "verb-jugar" }
+      ]
+    },
+    "u3-routine": {
+      "id": "u3-routine",
+      "unitId": "u3",
+      "order": 3,
+      "kind": "vocab",
+      "title": "Daily routine & time of day",
+      "summary": "Words for structuring your day.",
+      "words": [
+        { "spanish": "la mañana", "english": "morning", "lemma": "mañana", "pos": "noun" },
+        { "spanish": "la tarde", "english": "afternoon", "lemma": "tarde", "pos": "noun" },
+        { "spanish": "la noche", "english": "night", "lemma": "noche", "pos": "noun" },
+        { "spanish": "el desayuno", "english": "breakfast", "lemma": "desayuno", "pos": "noun" },
+        { "spanish": "la cena", "english": "dinner", "lemma": "cena", "pos": "noun" },
+        { "spanish": "el despertador", "english": "alarm clock", "lemma": "despertador", "pos": "noun" },
+        { "spanish": "temprano", "english": "early", "lemma": "temprano", "pos": "adverb" }
+      ]
+    },
+    "u4-tener": {
+      "id": "u4-tener",
+      "unitId": "u4",
+      "order": 1,
+      "kind": "grammar",
+      "title": "Tener & its expressions",
+      "grammarTopic": "the verb tener and idiomatic expressions (tener hambre/sed/prisa/miedo/años, tener que + infinitive)",
+      "summary": "Where Spanish uses 'have' but English uses 'be'.",
+      "words": [
+        { "wordId": "verb-tener" },
+        { "spanish": "el hambre", "english": "hunger", "lemma": "hambre", "pos": "noun" },
+        { "spanish": "la sed", "english": "thirst", "lemma": "sed", "pos": "noun" },
+        { "spanish": "la prisa", "english": "hurry", "lemma": "prisa", "pos": "noun" },
+        { "spanish": "el miedo", "english": "fear", "lemma": "miedo", "pos": "noun" }
+      ]
+    },
+    "u4-hacer": {
+      "id": "u4-hacer",
+      "unitId": "u4",
+      "order": 2,
+      "kind": "grammar",
+      "title": "Hacer & the weather",
+      "grammarTopic": "the verb hacer, weather expressions (hace sol/frío/calor/viento) and hacer vs tener for sensations",
+      "summary": "'Make/do' — plus how Spanish talks about weather.",
+      "words": [
+        { "wordId": "verb-hacer" },
+        { "spanish": "el sol", "english": "sun", "lemma": "sol", "pos": "noun" },
+        { "spanish": "la lluvia", "english": "rain", "lemma": "lluvia", "pos": "noun" },
+        { "spanish": "el viento", "english": "wind", "lemma": "viento", "pos": "noun" },
+        { "spanish": "el frío", "english": "cold", "lemma": "frío", "pos": "noun" },
+        { "spanish": "el calor", "english": "heat", "lemma": "calor", "pos": "noun" }
+      ]
+    },
+    "u4-food": {
+      "id": "u4-food",
+      "unitId": "u4",
+      "order": 3,
+      "kind": "vocab",
+      "title": "Food & drink",
+      "summary": "Order a meal and talk about what you eat.",
+      "words": [
+        { "wordId": "noun-agua" },
+        { "spanish": "el pan", "english": "bread", "lemma": "pan", "pos": "noun" },
+        { "spanish": "la carne", "english": "meat", "lemma": "carne", "pos": "noun" },
+        { "spanish": "el pescado", "english": "fish", "lemma": "pescado", "pos": "noun" },
+        { "spanish": "la fruta", "english": "fruit", "lemma": "fruta", "pos": "noun" },
+        { "spanish": "la verdura", "english": "vegetable", "lemma": "verdura", "pos": "noun" },
+        { "spanish": "el café", "english": "coffee", "lemma": "café", "pos": "noun" }
+      ]
+    },
+    "u5-por-para": {
+      "id": "u5-por-para",
+      "unitId": "u5",
+      "order": 1,
+      "kind": "grammar",
+      "title": "Por vs Para",
+      "grammarTopic": "choosing between por and para (cause vs purpose, duration vs deadline, exchange vs destination)",
+      "summary": "Two little words, endless confusion — sorted out.",
+      "words": [
+        { "wordId": "verb-trabajar" },
+        { "wordId": "verb-viajar" },
+        { "spanish": "el regalo", "english": "gift", "lemma": "regalo", "pos": "noun" },
+        { "spanish": "el motivo", "english": "reason/motive", "lemma": "motivo", "pos": "noun" }
+      ]
+    },
+    "u5-prepositions": {
+      "id": "u5-prepositions",
+      "unitId": "u5",
+      "order": 2,
+      "kind": "grammar",
+      "title": "Prepositions of place",
+      "grammarTopic": "prepositions and phrases of location (encima de, debajo de, dentro de, cerca de, lejos de, entre, delante de, detrás de)",
+      "summary": "Say exactly where something is.",
+      "words": [
+        { "spanish": "encima", "english": "on top", "lemma": "encima", "pos": "adverb" },
+        { "spanish": "debajo", "english": "underneath", "lemma": "debajo", "pos": "adverb" },
+        { "spanish": "dentro", "english": "inside", "lemma": "dentro", "pos": "adverb" },
+        { "spanish": "cerca", "english": "near", "lemma": "cerca", "pos": "adverb" },
+        { "spanish": "lejos", "english": "far", "lemma": "lejos", "pos": "adverb" },
+        { "spanish": "entre", "english": "between", "lemma": "entre", "pos": "preposition" }
+      ]
+    },
+    "u5-city": {
+      "id": "u5-city",
+      "unitId": "u5",
+      "order": 3,
+      "kind": "vocab",
+      "title": "City, places & directions",
+      "summary": "Get around town.",
+      "words": [
+        { "wordId": "noun-ciudad" },
+        { "wordId": "noun-calle" },
+        { "spanish": "la tienda", "english": "shop", "lemma": "tienda", "pos": "noun" },
+        { "spanish": "el banco", "english": "bank", "lemma": "banco", "pos": "noun" },
+        { "spanish": "el mercado", "english": "market", "lemma": "mercado", "pos": "noun" },
+        { "spanish": "la plaza", "english": "square", "lemma": "plaza", "pos": "noun" },
+        { "spanish": "la estación", "english": "station", "lemma": "estación", "pos": "noun" }
+      ]
+    },
+    "u6-gustar": {
+      "id": "u6-gustar",
+      "unitId": "u6",
+      "order": 1,
+      "kind": "grammar",
+      "title": "Gustar & similar verbs",
+      "grammarTopic": "gustar-type verbs (gustar, encantar, interesar) with indirect object pronouns (me/te/le gusta vs gustan)",
+      "summary": "Why you say 'me gusta' — it literally means 'it pleases me'.",
+      "words": [
+        { "wordId": "verb-gustar" },
+        { "wordId": "verb-interesar" },
+        { "spanish": "la música", "english": "music", "lemma": "música", "pos": "noun" },
+        { "spanish": "el deporte", "english": "sport", "lemma": "deporte", "pos": "noun" },
+        { "spanish": "la película", "english": "movie", "lemma": "película", "pos": "noun" }
+      ]
+    },
+    "u6-saber-conocer": {
+      "id": "u6-saber-conocer",
+      "unitId": "u6",
+      "order": 2,
+      "kind": "grammar",
+      "title": "Saber vs Conocer",
+      "grammarTopic": "saber (facts/skills) vs conocer (familiarity with people/places)",
+      "summary": "Two verbs for 'to know' — facts vs familiarity.",
+      "words": [
+        { "wordId": "verb-saber" },
+        { "wordId": "verb-conocer" },
+        { "spanish": "la verdad", "english": "truth", "lemma": "verdad", "pos": "noun" },
+        { "spanish": "la respuesta", "english": "answer", "lemma": "respuesta", "pos": "noun" }
+      ]
+    },
+    "u6-hobbies": {
+      "id": "u6-hobbies",
+      "unitId": "u6",
+      "order": 3,
+      "kind": "vocab",
+      "title": "Hobbies & free time",
+      "summary": "Talk about what you do for fun.",
+      "words": [
+        { "wordId": "noun-viaje" },
+        { "spanish": "el pasatiempo", "english": "hobby", "lemma": "pasatiempo", "pos": "noun" },
+        { "spanish": "el juego", "english": "game", "lemma": "juego", "pos": "noun" },
+        { "spanish": "la lectura", "english": "reading", "lemma": "lectura", "pos": "noun" },
+        { "spanish": "la pintura", "english": "painting", "lemma": "pintura", "pos": "noun" },
+        { "spanish": "el baile", "english": "dance", "lemma": "baile", "pos": "noun" }
+      ]
+    },
+    "u7-preterite-regular": {
+      "id": "u7-preterite-regular",
+      "unitId": "u7",
+      "order": 1,
+      "kind": "grammar",
+      "title": "Preterite — regular verbs",
+      "grammarTopic": "the regular preterite for completed past actions, with time markers (ayer, anoche, la semana pasada)",
+      "summary": "Say what happened and finished.",
+      "words": [
+        { "wordId": "verb-hablar" },
+        { "wordId": "verb-comer" },
+        { "wordId": "verb-vivir" },
+        { "wordId": "verb-comprar" },
+        { "wordId": "verb-estudiar" }
+      ]
+    },
+    "u7-preterite-irregular": {
+      "id": "u7-preterite-irregular",
+      "unitId": "u7",
+      "order": 2,
+      "kind": "grammar",
+      "title": "Preterite — irregular verbs",
+      "grammarTopic": "common irregular preterites (ir/ser, hacer, tener, estar, decir) and the strong-stem pattern",
+      "summary": "The high-frequency verbs that break the rules.",
+      "words": [
+        { "wordId": "verb-ir" },
+        { "wordId": "verb-ser" },
+        { "wordId": "verb-hacer" },
+        { "wordId": "verb-tener" },
+        { "wordId": "verb-estar" },
+        { "wordId": "verb-decir" }
+      ]
+    },
+    "u7-travel": {
+      "id": "u7-travel",
+      "unitId": "u7",
+      "order": 3,
+      "kind": "vocab",
+      "title": "Travel & vacation",
+      "summary": "Words for trips and getting around.",
+      "words": [
+        { "wordId": "noun-viaje" },
+        { "spanish": "el avión", "english": "airplane", "lemma": "avión", "pos": "noun" },
+        { "spanish": "el tren", "english": "train", "lemma": "tren", "pos": "noun" },
+        { "spanish": "la maleta", "english": "suitcase", "lemma": "maleta", "pos": "noun" },
+        { "spanish": "el billete", "english": "ticket", "lemma": "billete", "pos": "noun" },
+        { "spanish": "la playa", "english": "beach", "lemma": "playa", "pos": "noun" },
+        { "spanish": "el mapa", "english": "map", "lemma": "mapa", "pos": "noun" }
+      ]
+    },
+    "u8-imperfect": {
+      "id": "u8-imperfect",
+      "unitId": "u8",
+      "order": 1,
+      "kind": "grammar",
+      "title": "The imperfect",
+      "grammarTopic": "the imperfect tense for descriptions, habits and ongoing past states (including irregular ser/ir/ver)",
+      "summary": "How things used to be.",
+      "words": [
+        { "wordId": "verb-ser" },
+        { "wordId": "verb-ir" },
+        { "wordId": "verb-ver" },
+        { "wordId": "verb-hablar" },
+        { "wordId": "verb-comer" }
+      ]
+    },
+    "u8-pret-vs-imp": {
+      "id": "u8-pret-vs-imp",
+      "unitId": "u8",
+      "order": 2,
+      "kind": "grammar",
+      "title": "Preterite vs Imperfect",
+      "grammarTopic": "choosing preterite (completed events) vs imperfect (background, habits, descriptions) in the same narrative",
+      "summary": "The decision that makes past-tense Spanish click.",
+      "words": [
+        { "wordId": "verb-hacer" },
+        { "wordId": "verb-empezar" },
+        { "wordId": "verb-dormir" },
+        { "wordId": "verb-llegar" }
+      ]
+    },
+    "u8-childhood-family": {
+      "id": "u8-childhood-family",
+      "unitId": "u8",
+      "order": 3,
+      "kind": "vocab",
+      "title": "Childhood & family",
+      "summary": "People and relationships — perfect for the imperfect.",
+      "words": [
+        { "wordId": "noun-familia" },
+        { "wordId": "noun-padre" },
+        { "wordId": "noun-madre" },
+        { "wordId": "noun-hijo" },
+        { "spanish": "el abuelo", "english": "grandfather", "lemma": "abuelo", "pos": "noun" },
+        { "spanish": "el hermano", "english": "brother", "lemma": "hermano", "pos": "noun" },
+        { "spanish": "el niño", "english": "child", "lemma": "niño", "pos": "noun" }
+      ]
+    },
+    "u9-future": {
+      "id": "u9-future",
+      "unitId": "u9",
+      "order": 1,
+      "kind": "grammar",
+      "title": "Future & plans",
+      "grammarTopic": "expressing the future with ir a + infinitive and the simple future tense",
+      "summary": "Say what you're going to do.",
+      "words": [
+        { "wordId": "verb-ir" },
+        { "wordId": "verb-salir" },
+        { "wordId": "verb-venir" },
+        { "wordId": "verb-volver" },
+        { "wordId": "verb-llegar" }
+      ]
+    },
+    "u9-work": {
+      "id": "u9-work",
+      "unitId": "u9",
+      "order": 2,
+      "kind": "vocab",
+      "title": "Work & professions",
+      "summary": "Talk about jobs and the workplace.",
+      "words": [
+        { "wordId": "noun-trabajo" },
+        { "spanish": "la oficina", "english": "office", "lemma": "oficina", "pos": "noun" },
+        { "spanish": "el jefe", "english": "boss", "lemma": "jefe", "pos": "noun" },
+        { "spanish": "la reunión", "english": "meeting", "lemma": "reunión", "pos": "noun" },
+        { "spanish": "la empresa", "english": "company", "lemma": "empresa", "pos": "noun" },
+        { "spanish": "el profesor", "english": "teacher", "lemma": "profesor", "pos": "noun" },
+        { "spanish": "el ingeniero", "english": "engineer", "lemma": "ingeniero", "pos": "noun" }
+      ]
+    },
+    "u10-commands": {
+      "id": "u10-commands",
+      "unitId": "u10",
+      "order": 1,
+      "kind": "grammar",
+      "title": "Informal commands",
+      "grammarTopic": "affirmative informal (tú) commands, including common irregulars (haz, pon, di, ven, sal, ten)",
+      "summary": "Tell a friend what to do.",
+      "words": [
+        { "wordId": "verb-hablar" },
+        { "wordId": "verb-comer" },
+        { "wordId": "verb-poner" },
+        { "wordId": "verb-hacer" },
+        { "wordId": "verb-decir" },
+        { "wordId": "verb-venir" }
+      ]
+    },
+    "u10-health-body": {
+      "id": "u10-health-body",
+      "unitId": "u10",
+      "order": 2,
+      "kind": "vocab",
+      "title": "Health & the body",
+      "summary": "Parts of the body and talking about how you feel.",
+      "words": [
+        { "wordId": "noun-cuerpo" },
+        { "wordId": "noun-cabeza" },
+        { "wordId": "noun-mano" },
+        { "wordId": "noun-ojo" },
+        { "spanish": "la pierna", "english": "leg", "lemma": "pierna", "pos": "noun" },
+        { "spanish": "el brazo", "english": "arm", "lemma": "brazo", "pos": "noun" },
+        { "spanish": "el pie", "english": "foot", "lemma": "pie", "pos": "noun" },
+        { "spanish": "el estómago", "english": "stomach", "lemma": "estómago", "pos": "noun" }
+      ]
+    }
+  }
+}
