@@ -10,26 +10,32 @@ import {
   dailyWordPool,
   lessonGate,
   recordDailyWord,
+  recordLessonPractice,
 } from "./lesson-progress";
 
 const TODAY = "2026-06-15";
-const LESSON = "u2-ser-vs-estar";
+const LESSON = "u2-ser-vs-estar"; // grammar lesson (needs practice)
+const VOCAB_LESSON = "u2-adjectives"; // vocab chapter (no practice requirement)
+const LESSON_WORD_COUNT = resolveLessonWords(getLesson(LESSON)!).length;
 
 // Mark every word of a lesson as mastered in its gate exercise.
 function masterWords(state: ProgressState, lessonId: string): ProgressState {
   const lesson = getLesson(lessonId)!;
   const words = { ...state.words };
   for (const w of resolveLessonWords(lesson)) {
-    words[w.id] = { review: false, stats: { [gateExerciseForPos(w.pos)]: { attempts: 10, correct: 10 } } };
+    words[w.id] = {
+      review: true,
+      stats: { [gateExerciseForPos(w.pos)]: { attempts: 3, correct: 3, streak: 3 } },
+    };
   }
   return { ...state, words };
 }
 
-// Bump all three composition pillars to their target.
+// Bump all three composition pillars past their target.
 function maxPillars(state: ProgressState, lessonId: string): ProgressState {
   let s = state;
   for (const pillar of ["writing", "reading", "listening"] as const) {
-    for (let i = 0; i < 10; i++) s = bumpLessonPillar(s, lessonId, pillar, TODAY);
+    for (let i = 0; i < 3; i++) s = bumpLessonPillar(s, lessonId, pillar, TODAY);
   }
   return s;
 }
@@ -39,25 +45,35 @@ describe("lesson gate", () => {
     const g = lessonGate(emptyState(), getLesson(LESSON)!);
     expect(g.passed).toBe(false);
     expect(g.writing.done).toBe(0);
-    expect(g.vocab.total).toBe(4);
+    expect(g.writing.target).toBe(1);
+    expect(g.vocab.total).toBe(LESSON_WORD_COUNT);
+    expect(g.practice).toEqual({ done: 0, target: 2 }); // grammar lesson
   });
 
-  it("passes only when all four pillars clear, and stamps completedAt", () => {
+  it("a grammar lesson needs the 5x practice drills on top of pillars + vocab", () => {
     let s = emptyState();
-    s = maxPillars(s, LESSON); // pillars done, vocab not
+    s = maxPillars(s, LESSON);
+    s = masterWords(s, LESSON);
+    // pillars + vocab done, but practice not yet → still locked
     expect(lessonGate(s, getLesson(LESSON)!).passed).toBe(false);
-    s = masterWords(s, LESSON); // now vocab too — but completion is stamped on a bump
+    for (let i = 0; i < 2; i++) s = recordLessonPractice(s, LESSON, TODAY);
     expect(lessonGate(s, getLesson(LESSON)!).passed).toBe(true);
-    expect(s.lessons?.[LESSON]?.completedAt).toBeUndefined();
-    // a further bump (capped) triggers the completedAt stamp
-    s = bumpLessonPillar(s, LESSON, "writing", TODAY);
-    expect(s.lessons?.[LESSON]?.completedAt).toBe(TODAY);
+    expect(s.lessons?.[LESSON]?.completedAt).toBe(TODAY); // stamped on the final practice
+  });
+
+  it("a vocab chapter ignores the practice requirement", () => {
+    let s = emptyState();
+    const g0 = lessonGate(s, getLesson(VOCAB_LESSON)!);
+    expect(g0.practice).toBeUndefined();
+    s = maxPillars(s, VOCAB_LESSON);
+    s = masterWords(s, VOCAB_LESSON);
+    expect(lessonGate(s, getLesson(VOCAB_LESSON)!).passed).toBe(true);
   });
 
   it("caps pillar counters at the target", () => {
     let s = emptyState();
     for (let i = 0; i < 25; i++) s = bumpLessonPillar(s, LESSON, "reading", TODAY);
-    expect(s.lessons?.[LESSON]?.readingDone).toBe(10);
+    expect(s.lessons?.[LESSON]?.readingDone).toBe(1);
   });
 });
 
@@ -73,11 +89,11 @@ describe("daily review", () => {
     let s = emptyState();
     s = { ...s, lessons: { [LESSON]: { writingDone: 10, readingDone: 10, listeningDone: 10, completedAt: "2026-06-14" } } };
     const pool = dailyWordPool(s);
-    expect(pool.length).toBe(4);
+    expect(pool.length).toBe(LESSON_WORD_COUNT);
     expect(canAdvance(s, TODAY)).toBe(false);
 
     for (const id of pool) s = recordDailyWord(s, TODAY, id);
-    expect(dailyStatus(s, TODAY).wordsDone).toBe(4);
+    expect(dailyStatus(s, TODAY).wordsDone).toBe(LESSON_WORD_COUNT);
     expect(canAdvance(s, TODAY)).toBe(false); // composition still pending
 
     s = bumpDailyPillar(s, TODAY, "writing");
@@ -92,7 +108,7 @@ describe("daily review", () => {
     s = { ...s, lessons: { [LESSON]: { writingDone: 10, readingDone: 10, listeningDone: 10, completedAt: "2026-06-14" } } };
     for (const id of dailyWordPool(s)) s = recordDailyWord(s, TODAY, id);
     s = bumpDailyPillar(s, TODAY, "writing");
-    expect(dailyStatus(s, TODAY).wordsDone).toBe(4);
+    expect(dailyStatus(s, TODAY).wordsDone).toBe(LESSON_WORD_COUNT);
     // a new day: yesterday's progress no longer counts
     const tomorrow = "2026-06-16";
     expect(dailyStatus(s, tomorrow).wordsDone).toBe(0);

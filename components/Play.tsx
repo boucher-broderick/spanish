@@ -1,6 +1,6 @@
 "use client";
 import { useCallback, useState } from "react";
-import { ExerciseId, Mode, ProgressState, Settings, Word } from "@/lib/domain";
+import { ExerciseId, MIN_STREAK, Mode, ProgressState, Settings, Word } from "@/lib/domain";
 import { exercisePassed, isReview } from "@/lib/progress";
 import { sentenceFor } from "@/lib/words";
 import { Button, Card, Pill } from "./ui";
@@ -24,6 +24,7 @@ export function Play({
   record,
   demote,
   onExit,
+  onOverride,
   title,
 }: {
   mode: Mode;
@@ -35,6 +36,7 @@ export function Play({
   record: (wordId: string, ex: ExerciseId, correct: boolean) => void;
   demote: (wordId: string) => void;
   onExit: () => void;
+  onOverride?: () => void; // when set, shows an "Override" header action (mark mastered)
   title: string;
 }) {
   // Play is mounted fresh for each session (mode/exercise are fixed for its lifetime),
@@ -91,7 +93,7 @@ export function Play({
   // ---- empty pool ----
   if (round.length === 0) {
     return (
-      <Shell title={title} onExit={onExit}>
+      <Shell title={title} onExit={onExit} onOverride={onOverride}>
         <Card className="p-6 text-center text-slate-600">
           <p className="text-lg font-semibold text-slate-800">Nothing to practice here</p>
           <p className="mt-2 text-sm">
@@ -177,7 +179,7 @@ export function Play({
   // ---- typed single-word exercises ----
   if (finished) {
     return (
-      <Shell title={title} onExit={onExit}>
+      <Shell title={title} onExit={onExit} onOverride={onOverride}>
         <RoundSummary
           results={results}
           exercise={exercise}
@@ -195,6 +197,7 @@ export function Play({
     <Shell
       title={title}
       onExit={onExit}
+      onOverride={onOverride}
       right={<Counter idx={idx} total={round.length} mode={mode} score={results} />}
     >
       <Card className="p-4 sm:p-6">
@@ -217,11 +220,13 @@ export function Play({
 function Shell({
   title,
   onExit,
+  onOverride,
   right,
   children,
 }: {
   title: string;
   onExit: () => void;
+  onOverride?: () => void;
   right?: React.ReactNode;
   children: React.ReactNode;
 }) {
@@ -232,7 +237,18 @@ function Shell({
           ← Exit
         </button>
         <div className="truncate text-sm font-semibold text-slate-700">{title}</div>
-        <div className="min-w-16 text-right">{right}</div>
+        <div className="flex min-w-16 items-center justify-end gap-2">
+          {onOverride && (
+            <button
+              onClick={onOverride}
+              title="Mark these words mastered without practicing"
+              className="text-xs font-medium text-indigo-600 hover:text-indigo-800"
+            >
+              Override
+            </button>
+          )}
+          {right}
+        </div>
       </header>
       <main className="mx-auto w-full max-w-2xl flex-1 px-3 py-4">{children}</main>
     </div>
@@ -303,7 +319,7 @@ function RoundSummary({
                 </span>
                 <span className="flex gap-1.5">
                   {review && <Pill tone="green">review ✓</Pill>}
-                  {!review && passed && <Pill tone="indigo">10/80 ✓</Pill>}
+                  {!review && passed && <Pill tone="indigo">{MIN_STREAK} in a row ✓</Pill>}
                 </span>
               </div>
             );

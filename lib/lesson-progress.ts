@@ -10,13 +10,15 @@ import {
   COMPOSITION_PASS_SCORE,
   DAILY_WINDOW,
   LESSON_LISTENING_TARGET,
+  LESSON_PRACTICE_TARGET,
   LESSON_READING_TARGET,
   LESSON_WRITING_TARGET,
   type Lesson,
   type LessonGateSummary,
+  type ResolvedWord,
 } from "./course";
 import { getLesson, lessonPlayPool, orderedLessons, resolveLessonWords, gateExerciseForPos } from "./curriculum";
-import { exercisePassed } from "./progress";
+import { exercisePassed, isReview } from "./progress";
 
 export { COMPOSITION_PASS_SCORE };
 
@@ -50,24 +52,32 @@ export function lessonVocabProgress(
   const words = resolveLessonWords(lesson);
   let done = 0;
   for (const w of words) {
-    if (exercisePassed(state, w.id, gateExerciseForPos(w.pos))) done++;
+    // Sticky: a word stays mastered once it hits the streak (review flag) even if a
+    // later answer breaks the live streak.
+    if (isReview(state, w.id) || exercisePassed(state, w.id, gateExerciseForPos(w.pos))) done++;
   }
   return { done, total: words.length };
 }
 
-// Single source of truth for the lesson gate UI + completion check.
+// Single source of truth for the lesson gate UI + completion check. Grammar
+// lessons add a 5x generated-practice requirement; vocab chapters skip it.
 export function lessonGate(state: ProgressState, lesson: Lesson): LessonGateSummary {
   const lp = getLessonProgress(state, lesson.id);
   const vocab = lessonVocabProgress(state, lesson);
   const writing = { done: lp.writingDone, target: LESSON_WRITING_TARGET };
   const reading = { done: lp.readingDone, target: LESSON_READING_TARGET };
   const listening = { done: lp.listeningDone, target: LESSON_LISTENING_TARGET };
+  const practice =
+    lesson.kind === "grammar"
+      ? { done: lp.practiceDone ?? 0, target: LESSON_PRACTICE_TARGET }
+      : undefined;
   const passed =
     writing.done >= writing.target &&
     reading.done >= reading.target &&
     listening.done >= listening.target &&
-    vocab.done >= vocab.total;
-  return { writing, reading, listening, vocab, passed };
+    vocab.done >= vocab.total &&
+    (!practice || practice.done >= practice.target);
+  return { writing, reading, listening, vocab, practice, passed };
 }
 
 // Immutably bump a pillar counter (capped at its target). Marks completedAt the
@@ -93,6 +103,18 @@ export function bumpLessonPillar(
   return out;
 }
 
+// Count one completed generated-practice drill toward the grammar-lesson gate
+// (capped at the target), stamping completedAt if it was the last thing to clear.
+export function recordLessonPractice(state: ProgressState, lessonId: string, today: string): ProgressState {
+  const prev = getLessonProgress(state, lessonId);
+  const next: LessonProgress = {
+    ...prev,
+    practiceDone: Math.min((prev.practiceDone ?? 0) + 1, LESSON_PRACTICE_TARGET),
+  };
+  const out: ProgressState = { ...state, lessons: { ...(state.lessons ?? {}), [lessonId]: next } };
+  return syncLessonCompletion(out, lessonId, today);
+}
+
 // True once every gate condition holds (used to flip completedAt when the vocab
 // portion is the last thing to clear — call after recording vocab attempts too).
 export function syncLessonCompletion(
@@ -111,6 +133,54 @@ export function syncLessonCompletion(
 
 export function isLessonComplete(state: ProgressState, lessonId: string): boolean {
   return !!state.lessons?.[lessonId]?.completedAt;
+}
+
+// ---------------- engaged-course-word pools (for "other practice") ----------------
+
+// A lesson is "engaged" once the user has touched it: completed, any gate counter
+// moved, or any of its words attempted. Drives what "other practice" reviews.
+export function isLessonEngaged(state: ProgressState, lesson: Lesson): boolean {
+  const lp = state.lessons?.[lesson.id];
+  if (lp && (lp.completedAt || lp.writingDone || lp.readingDone || lp.listeningDone || (lp.practiceDone ?? 0))) {
+    return true;
+  }
+  return resolveLessonWords(lesson).some((w) => {
+    const wp = state.words[w.id];
+    return wp ? Object.values(wp.stats).some((s) => (s?.attempts ?? 0) > 0) : false;
+  });
+}
+
+// All words from engaged lessons (deduped) — the course vocabulary the user has met.
+export function engagedCourseWords(state: ProgressState): ResolvedWord[] {
+  const seen = new Set<string>();
+  const out: ResolvedWord[] = [];
+  for (const lesson of orderedLessons()) {
+    if (!isLessonEngaged(state, lesson)) continue;
+    for (const w of resolveLessonWords(lesson)) {
+      if (!seen.has(w.id)) {
+        seen.add(w.id);
+        out.push(w);
+      }
+    }
+  }
+  return out;
+}
+
+// Playable words from engaged lessons for a given exercise — the "other practice"
+// spelling/conjugation review pool.
+export function courseReviewPool(state: ProgressState, exercise: "conjugation" | "spelling") {
+  const seen = new Set<string>();
+  const out = [];
+  for (const lesson of orderedLessons()) {
+    if (!isLessonEngaged(state, lesson)) continue;
+    for (const w of lessonPlayPool(lesson, exercise)) {
+      if (!seen.has(w.id)) {
+        seen.add(w.id);
+        out.push(w);
+      }
+    }
+  }
+  return out;
 }
 
 // ---------------- daily review ----------------

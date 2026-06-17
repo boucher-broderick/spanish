@@ -11,14 +11,20 @@ export async function POST(req: Request) {
   if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   if (!geminiConfigured()) return NextResponse.json({ error: "GEMINI_API_KEY not configured" }, { status: 503 });
 
-  const body = (await req.json().catch(() => ({}))) as { level?: Level; tense?: CompTense; topic?: string };
+  const body = (await req.json().catch(() => ({}))) as {
+    level?: Level;
+    tense?: CompTense;
+    topic?: string;
+    words?: string[];
+  };
   const level = body.level ?? DEFAULT_LEVEL;
   const tense = body.tense ?? DEFAULT_TENSE;
   const topic = body.topic?.trim() || undefined;
+  const include = Array.isArray(body.words) && body.words.length ? body.words : undefined;
 
   try {
     const result = await generateJson<WritingPromptResult>(
-      buildWritingPromptPrompt({ level, tense, topic, spice: randomSpice() })
+      buildWritingPromptPrompt({ level, tense, topic, spice: randomSpice(), include })
     );
     const row = await createWritingPrompt(user, {
       level,

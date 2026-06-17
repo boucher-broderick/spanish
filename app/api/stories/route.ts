@@ -33,15 +33,18 @@ export async function POST(req: Request) {
     tense?: CompTense;
     topic?: string;
     length?: StoryLengthId;
+    words?: string[];
+    lessonId?: string;
   };
   const level = body.level ?? DEFAULT_LEVEL;
   const tense = body.tense ?? DEFAULT_TENSE;
   const length = body.length ?? DEFAULT_LENGTH;
   const topic = body.topic?.trim() || undefined;
+  const include = Array.isArray(body.words) && body.words.length ? body.words : undefined;
 
   try {
     const result = await generateJson<StoryResult>(
-      buildStoryPrompt({ level, tense, topic, words: lengthWords(length), spice: randomSpice() }),
+      buildStoryPrompt({ level, tense, topic, words: lengthWords(length), spice: randomSpice(), include }),
       { timeoutMs: 120_000 }
     );
     const story = await createStory(user, {
@@ -52,6 +55,7 @@ export async function POST(req: Request) {
       length,
       body: result.body,
       quiz: Array.isArray(result.questions) ? result.questions : [],
+      lessonId: body.lessonId ?? null,
     });
     return NextResponse.json({ story });
   } catch (err) {

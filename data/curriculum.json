@@ -7,7 +7,7 @@
       "order": 1,
       "title": "Foundations refresh",
       "blurb": "Lock in gender, articles, and the present tense before we build.",
-      "lessonIds": ["u1-gender-articles", "u1-present-regular", "u1-house-objects"]
+      "lessonIds": ["u1-present-regular", "u1-house-objects"]
     },
     {
       "id": "u2",
@@ -74,23 +74,6 @@
     }
   ],
   "lessons": {
-    "u1-gender-articles": {
-      "id": "u1-gender-articles",
-      "unitId": "u1",
-      "order": 1,
-      "kind": "grammar",
-      "title": "Gender & articles",
-      "grammarTopic": "noun gender and the definite/indefinite articles (el/la/los/las, un/una/unos/unas)",
-      "summary": "Why every noun is masculine or feminine, and which 'the'/'a' to use.",
-      "words": [
-        { "wordId": "noun-casa" },
-        { "wordId": "noun-mesa" },
-        { "spanish": "el libro", "english": "book", "lemma": "libro", "pos": "noun" },
-        { "spanish": "la silla", "english": "chair", "lemma": "silla", "pos": "noun" },
-        { "spanish": "el problema", "english": "problem", "lemma": "problema", "pos": "noun" },
-        { "spanish": "la mano", "english": "hand", "lemma": "mano", "pos": "noun" }
-      ]
-    },
     "u1-present-regular": {
       "id": "u1-present-regular",
       "unitId": "u1",
@@ -100,12 +83,24 @@
       "grammarTopic": "the present tense of regular -ar, -er and -ir verbs",
       "summary": "The endings that power hablar, comer and vivir.",
       "words": [
+        { "wordId": "verb-hablar" },
         { "wordId": "verb-comer" },
         { "wordId": "verb-vivir" },
-        { "wordId": "verb-hablar" },
         { "wordId": "verb-trabajar" },
         { "wordId": "verb-estudiar" },
-        { "wordId": "verb-escuchar" }
+        { "wordId": "verb-escuchar" },
+        { "wordId": "verb-aprender" },
+        { "wordId": "verb-escribir" },
+        { "wordId": "verb-correr" },
+        { "wordId": "verb-leer" },
+        { "wordId": "verb-comprar" },
+        { "wordId": "verb-mirar" },
+        { "wordId": "verb-tomar" },
+        { "wordId": "verb-necesitar" },
+        { "wordId": "verb-usar" },
+        { "wordId": "verb-buscar" },
+        { "wordId": "verb-llevar" },
+        { "wordId": "verb-entrar" }
       ]
     },
     "u1-house-objects": {
@@ -117,13 +112,27 @@
       "summary": "Rooms and the things in them — pure vocabulary.",
       "words": [
         { "wordId": "noun-casa" },
+        { "wordId": "noun-mesa" },
+        { "wordId": "noun-puerta" },
+        { "wordId": "noun-suelo" },
         { "spanish": "la cocina", "english": "kitchen", "lemma": "cocina", "pos": "noun" },
         { "spanish": "el dormitorio", "english": "bedroom", "lemma": "dormitorio", "pos": "noun" },
         { "spanish": "el baño", "english": "bathroom", "lemma": "baño", "pos": "noun" },
         { "spanish": "la ventana", "english": "window", "lemma": "ventana", "pos": "noun" },
-        { "spanish": "la puerta", "english": "door", "lemma": "puerta", "pos": "noun" },
         { "spanish": "la cama", "english": "bed", "lemma": "cama", "pos": "noun" },
-        { "spanish": "la llave", "english": "key", "lemma": "llave", "pos": "noun" }
+        { "spanish": "la llave", "english": "key", "lemma": "llave", "pos": "noun" },
+        { "spanish": "la silla", "english": "chair", "lemma": "silla", "pos": "noun" },
+        { "spanish": "el sofá", "english": "sofa", "lemma": "sofá", "pos": "noun" },
+        { "spanish": "el espejo", "english": "mirror", "lemma": "espejo", "pos": "noun" },
+        { "spanish": "la lámpara", "english": "lamp", "lemma": "lámpara", "pos": "noun" },
+        { "spanish": "el plato", "english": "plate", "lemma": "plato", "pos": "noun" },
+        { "spanish": "el vaso", "english": "glass", "lemma": "vaso", "pos": "noun" },
+        { "spanish": "la nevera", "english": "fridge", "lemma": "nevera", "pos": "noun" },
+        { "spanish": "la pared", "english": "wall", "lemma": "pared", "pos": "noun" },
+        { "spanish": "el techo", "english": "ceiling", "lemma": "techo", "pos": "noun" },
+        { "spanish": "el jardín", "english": "garden", "lemma": "jardín", "pos": "noun" },
+        { "spanish": "el armario", "english": "wardrobe", "lemma": "armario", "pos": "noun" },
+        { "spanish": "la toalla", "english": "towel", "lemma": "toalla", "pos": "noun" }
       ]
     },
     "u2-ser": {
@@ -136,10 +145,25 @@
       "summary": "Who/what something fundamentally is.",
       "words": [
         { "wordId": "verb-ser" },
-        { "spanish": "el estudiante", "english": "student", "lemma": "estudiante", "pos": "noun" },
-        { "spanish": "el médico", "english": "doctor", "lemma": "médico", "pos": "noun" },
-        { "spanish": "alto", "english": "tall", "lemma": "alto", "pos": "adjective" },
-        { "spanish": "inteligente", "english": "intelligent", "lemma": "inteligente", "pos": "adjective" }
+        { "wordId": "noun-estudiante" },
+        { "wordId": "noun-medico" },
+        { "wordId": "noun-profesor" },
+        { "wordId": "noun-director" },
+        { "wordId": "noun-actor" },
+        { "wordId": "noun-jefe" },
+        { "wordId": "noun-artista" },
+        { "wordId": "adjective-alto" },
+        { "wordId": "adjective-joven" },
+        { "wordId": "adjective-grande" },
+        { "wordId": "adjective-pequeno" },
+        { "wordId": "adjective-famoso" },
+        { "wordId": "adjective-importante" },
+        { "wordId": "adjective-espanol" },
+        { "spanish": "el ingeniero", "english": "engineer", "lemma": "ingeniero", "pos": "noun" },
+        { "spanish": "el abogado", "english": "lawyer", "lemma": "abogado", "pos": "noun" },
+        { "spanish": "inteligente", "english": "intelligent", "lemma": "inteligente", "pos": "adjective" },
+        { "spanish": "amable", "english": "kind", "lemma": "amable", "pos": "adjective" },
+        { "spanish": "trabajador", "english": "hard-working", "lemma": "trabajador", "pos": "adjective" }
       ]
     },
     "u2-estar": {
@@ -152,10 +176,25 @@
       "summary": "Where something is and how it feels right now.",
       "words": [
         { "wordId": "verb-estar" },
+        { "wordId": "adjective-feliz" },
+        { "wordId": "adjective-tranquilo" },
+        { "wordId": "adjective-lleno" },
+        { "wordId": "adjective-abierto" },
+        { "wordId": "adverb-aqui" },
+        { "wordId": "adverb-alli" },
+        { "wordId": "adverb-cerca" },
+        { "wordId": "adverb-lejos" },
+        { "wordId": "adverb-dentro" },
+        { "wordId": "adverb-fuera" },
         { "spanish": "cansado", "english": "tired", "lemma": "cansado", "pos": "adjective" },
         { "spanish": "contento", "english": "happy/content", "lemma": "contento", "pos": "adjective" },
         { "spanish": "enfermo", "english": "sick", "lemma": "enfermo", "pos": "adjective" },
-        { "spanish": "ocupado", "english": "busy", "lemma": "ocupado", "pos": "adjective" }
+        { "spanish": "ocupado", "english": "busy", "lemma": "ocupado", "pos": "adjective" },
+        { "spanish": "triste", "english": "sad", "lemma": "triste", "pos": "adjective" },
+        { "spanish": "nervioso", "english": "nervous", "lemma": "nervioso", "pos": "adjective" },
+        { "spanish": "preocupado", "english": "worried", "lemma": "preocupado", "pos": "adjective" },
+        { "spanish": "roto", "english": "broken", "lemma": "roto", "pos": "adjective" },
+        { "spanish": "sucio", "english": "dirty", "lemma": "sucio", "pos": "adjective" }
       ]
     },
     "u2-ser-vs-estar": {
@@ -169,8 +208,18 @@
       "words": [
         { "wordId": "verb-ser" },
         { "wordId": "verb-estar" },
-        { "spanish": "aburrido", "english": "boring / bored", "lemma": "aburrido", "pos": "adjective" },
-        { "spanish": "listo", "english": "clever / ready", "lemma": "listo", "pos": "adjective" }
+        { "wordId": "adjective-rico" },
+        { "wordId": "adjective-vivo" },
+        { "wordId": "adjective-seguro" },
+        { "wordId": "adjective-bueno" },
+        { "wordId": "adjective-malo" },
+        { "wordId": "adjective-grande" },
+        { "spanish": "listo", "english": "ready / clever", "lemma": "listo", "pos": "adjective" },
+        { "spanish": "aburrido", "english": "bored / boring", "lemma": "aburrido", "pos": "adjective" },
+        { "spanish": "orgulloso", "english": "proud", "lemma": "orgulloso", "pos": "adjective" },
+        { "spanish": "callado", "english": "quiet", "lemma": "callado", "pos": "adjective" },
+        { "spanish": "guapo", "english": "good-looking", "lemma": "guapo", "pos": "adjective" },
+        { "spanish": "cansado", "english": "tired", "lemma": "cansado", "pos": "adjective" }
       ]
     },
     "u2-adjectives": {
@@ -181,14 +230,28 @@
       "title": "Adjectives: personality & description",
       "summary": "Words to describe people — feeds both ser and estar.",
       "words": [
+        { "wordId": "adjective-bueno" },
+        { "wordId": "adjective-malo" },
+        { "wordId": "adjective-feliz" },
+        { "wordId": "adjective-fuerte" },
+        { "wordId": "adjective-debil" },
+        { "wordId": "adjective-joven" },
+        { "wordId": "adjective-viejo" },
+        { "wordId": "adjective-alto" },
+        { "wordId": "adjective-bajo" },
+        { "wordId": "adjective-grande" },
+        { "wordId": "adjective-pequeno" },
+        { "wordId": "adjective-serio" },
         { "spanish": "amable", "english": "kind", "lemma": "amable", "pos": "adjective" },
         { "spanish": "simpático", "english": "nice/friendly", "lemma": "simpático", "pos": "adjective" },
         { "spanish": "antipático", "english": "unfriendly", "lemma": "antipático", "pos": "adjective" },
         { "spanish": "guapo", "english": "good-looking", "lemma": "guapo", "pos": "adjective" },
+        { "spanish": "feo", "english": "ugly", "lemma": "feo", "pos": "adjective" },
         { "spanish": "trabajador", "english": "hard-working", "lemma": "trabajador", "pos": "adjective" },
         { "spanish": "perezoso", "english": "lazy", "lemma": "perezoso", "pos": "adjective" },
-        { "spanish": "joven", "english": "young", "lemma": "joven", "pos": "adjective" },
-        { "spanish": "fuerte", "english": "strong", "lemma": "fuerte", "pos": "adjective" }
+        { "spanish": "valiente", "english": "brave", "lemma": "valiente", "pos": "adjective" },
+        { "spanish": "tímido", "english": "shy", "lemma": "tímido", "pos": "adjective" },
+        { "spanish": "generoso", "english": "generous", "lemma": "generoso", "pos": "adjective" }
       ]
     },
     "u3-reflexive": {
@@ -203,7 +266,18 @@
         { "wordId": "verb-levantar" },
         { "wordId": "verb-despertar" },
         { "wordId": "verb-vestir" },
-        { "wordId": "verb-sentir" }
+        { "wordId": "verb-sentar" },
+        { "wordId": "verb-llamar" },
+        { "wordId": "verb-quedar" },
+        { "wordId": "verb-mover" },
+        { "wordId": "verb-preocupar" },
+        { "wordId": "verb-acercar" },
+        { "wordId": "verb-sentir" },
+        { "wordId": "verb-poner" },
+        { "wordId": "verb-dormir" },
+        { "wordId": "verb-reir" },
+        { "wordId": "verb-caer" },
+        { "wordId": "verb-ir" }
       ]
     },
     "u3-stem-changing": {
@@ -220,7 +294,18 @@
         { "wordId": "verb-querer" },
         { "wordId": "verb-dormir" },
         { "wordId": "verb-pedir" },
-        { "wordId": "verb-jugar" }
+        { "wordId": "verb-jugar" },
+        { "wordId": "verb-volver" },
+        { "wordId": "verb-entender" },
+        { "wordId": "verb-empezar" },
+        { "wordId": "verb-contar" },
+        { "wordId": "verb-encontrar" },
+        { "wordId": "verb-perder" },
+        { "wordId": "verb-recordar" },
+        { "wordId": "verb-servir" },
+        { "wordId": "verb-preferir" },
+        { "wordId": "verb-costar" },
+        { "wordId": "verb-morir" }
       ]
     },
     "u3-routine": {
@@ -231,13 +316,28 @@
       "title": "Daily routine & time of day",
       "summary": "Words for structuring your day.",
       "words": [
-        { "spanish": "la mañana", "english": "morning", "lemma": "mañana", "pos": "noun" },
-        { "spanish": "la tarde", "english": "afternoon", "lemma": "tarde", "pos": "noun" },
-        { "spanish": "la noche", "english": "night", "lemma": "noche", "pos": "noun" },
+        { "wordId": "noun-manana" },
+        { "wordId": "noun-tarde" },
+        { "wordId": "noun-noche" },
+        { "wordId": "noun-dia" },
+        { "wordId": "noun-hora" },
+        { "wordId": "noun-semana" },
+        { "wordId": "adverb-temprano" },
+        { "wordId": "adverb-pronto" },
+        { "wordId": "adverb-siempre" },
+        { "wordId": "adverb-nunca" },
+        { "wordId": "adverb-ahora" },
+        { "wordId": "adverb-luego" },
+        { "wordId": "adverb-despues" },
+        { "wordId": "adverb-hoy" },
+        { "wordId": "adverb-ayer" },
+        { "wordId": "adverb-normalmente" },
         { "spanish": "el desayuno", "english": "breakfast", "lemma": "desayuno", "pos": "noun" },
+        { "spanish": "el almuerzo", "english": "lunch", "lemma": "almuerzo", "pos": "noun" },
         { "spanish": "la cena", "english": "dinner", "lemma": "cena", "pos": "noun" },
         { "spanish": "el despertador", "english": "alarm clock", "lemma": "despertador", "pos": "noun" },
-        { "spanish": "temprano", "english": "early", "lemma": "temprano", "pos": "adverb" }
+        { "spanish": "la ducha", "english": "shower", "lemma": "ducha", "pos": "noun" },
+        { "spanish": "el horario", "english": "schedule", "lemma": "horario", "pos": "noun" }
       ]
     },
     "u4-tener": {
@@ -250,10 +350,21 @@
       "summary": "Where Spanish uses 'have' but English uses 'be'.",
       "words": [
         { "wordId": "verb-tener" },
+        { "wordId": "verb-deber" },
+        { "wordId": "verb-necesitar" },
+        { "wordId": "noun-miedo" },
+        { "wordId": "noun-sueno" },
+        { "wordId": "noun-razon" },
+        { "wordId": "noun-anos" },
+        { "wordId": "noun-edad" },
         { "spanish": "el hambre", "english": "hunger", "lemma": "hambre", "pos": "noun" },
         { "spanish": "la sed", "english": "thirst", "lemma": "sed", "pos": "noun" },
         { "spanish": "la prisa", "english": "hurry", "lemma": "prisa", "pos": "noun" },
-        { "spanish": "el miedo", "english": "fear", "lemma": "miedo", "pos": "noun" }
+        { "spanish": "la suerte", "english": "luck", "lemma": "suerte", "pos": "noun" },
+        { "spanish": "el frío", "english": "cold", "lemma": "frío", "pos": "noun" },
+        { "spanish": "el calor", "english": "heat", "lemma": "calor", "pos": "noun" },
+        { "spanish": "el dolor", "english": "pain", "lemma": "dolor", "pos": "noun" },
+        { "spanish": "la culpa", "english": "blame/fault", "lemma": "culpa", "pos": "noun" }
       ]
     },
     "u4-hacer": {
@@ -266,11 +377,21 @@
       "summary": "'Make/do' — plus how Spanish talks about weather.",
       "words": [
         { "wordId": "verb-hacer" },
-        { "spanish": "el sol", "english": "sun", "lemma": "sol", "pos": "noun" },
+        { "wordId": "noun-sol" },
+        { "wordId": "noun-tiempo" },
+        { "wordId": "noun-aire" },
+        { "wordId": "noun-mar" },
+        { "wordId": "noun-tierra" },
+        { "spanish": "el frío", "english": "cold", "lemma": "frío", "pos": "noun" },
+        { "spanish": "el calor", "english": "heat", "lemma": "calor", "pos": "noun" },
         { "spanish": "la lluvia", "english": "rain", "lemma": "lluvia", "pos": "noun" },
         { "spanish": "el viento", "english": "wind", "lemma": "viento", "pos": "noun" },
-        { "spanish": "el frío", "english": "cold", "lemma": "frío", "pos": "noun" },
-        { "spanish": "el calor", "english": "heat", "lemma": "calor", "pos": "noun" }
+        { "spanish": "la nieve", "english": "snow", "lemma": "nieve", "pos": "noun" },
+        { "spanish": "la niebla", "english": "fog", "lemma": "niebla", "pos": "noun" },
+        { "spanish": "la tormenta", "english": "storm", "lemma": "tormenta", "pos": "noun" },
+        { "spanish": "el cielo", "english": "sky", "lemma": "cielo", "pos": "noun" },
+        { "spanish": "la nube", "english": "cloud", "lemma": "nube", "pos": "noun" },
+        { "spanish": "el grado", "english": "degree", "lemma": "grado", "pos": "noun" }
       ]
     },
     "u4-food": {
@@ -287,7 +408,23 @@
         { "spanish": "el pescado", "english": "fish", "lemma": "pescado", "pos": "noun" },
         { "spanish": "la fruta", "english": "fruit", "lemma": "fruta", "pos": "noun" },
         { "spanish": "la verdura", "english": "vegetable", "lemma": "verdura", "pos": "noun" },
-        { "spanish": "el café", "english": "coffee", "lemma": "café", "pos": "noun" }
+        { "spanish": "el café", "english": "coffee", "lemma": "café", "pos": "noun" },
+        { "spanish": "la leche", "english": "milk", "lemma": "leche", "pos": "noun" },
+        { "spanish": "el huevo", "english": "egg", "lemma": "huevo", "pos": "noun" },
+        { "spanish": "el queso", "english": "cheese", "lemma": "queso", "pos": "noun" },
+        { "spanish": "el arroz", "english": "rice", "lemma": "arroz", "pos": "noun" },
+        { "spanish": "el pollo", "english": "chicken", "lemma": "pollo", "pos": "noun" },
+        { "spanish": "la sopa", "english": "soup", "lemma": "sopa", "pos": "noun" },
+        { "spanish": "la ensalada", "english": "salad", "lemma": "ensalada", "pos": "noun" },
+        { "spanish": "el postre", "english": "dessert", "lemma": "postre", "pos": "noun" },
+        { "spanish": "el azúcar", "english": "sugar", "lemma": "azúcar", "pos": "noun" },
+        { "spanish": "la sal", "english": "salt", "lemma": "sal", "pos": "noun" },
+        { "spanish": "la manzana", "english": "apple", "lemma": "manzana", "pos": "noun" },
+        { "spanish": "el plátano", "english": "banana", "lemma": "plátano", "pos": "noun" },
+        { "spanish": "el tomate", "english": "tomato", "lemma": "tomate", "pos": "noun" },
+        { "spanish": "la cebolla", "english": "onion", "lemma": "cebolla", "pos": "noun" },
+        { "spanish": "el vino", "english": "wine", "lemma": "vino", "pos": "noun" },
+        { "spanish": "la cerveza", "english": "beer", "lemma": "cerveza", "pos": "noun" }
       ]
     },
     "u5-por-para": {
@@ -301,8 +438,20 @@
       "words": [
         { "wordId": "verb-trabajar" },
         { "wordId": "verb-viajar" },
+        { "wordId": "verb-pagar" },
+        { "wordId": "verb-comprar" },
+        { "wordId": "verb-pasar" },
+        { "wordId": "noun-razon" },
+        { "wordId": "noun-camino" },
+        { "wordId": "noun-viaje" },
+        { "wordId": "noun-precio" },
+        { "wordId": "noun-dinero" },
         { "spanish": "el regalo", "english": "gift", "lemma": "regalo", "pos": "noun" },
-        { "spanish": "el motivo", "english": "reason/motive", "lemma": "motivo", "pos": "noun" }
+        { "spanish": "el motivo", "english": "reason/motive", "lemma": "motivo", "pos": "noun" },
+        { "spanish": "el destino", "english": "destination", "lemma": "destino", "pos": "noun" },
+        { "spanish": "el favor", "english": "favor", "lemma": "favor", "pos": "noun" },
+        { "spanish": "la meta", "english": "goal", "lemma": "meta", "pos": "noun" },
+        { "spanish": "el plazo", "english": "deadline", "lemma": "plazo", "pos": "noun" }
       ]
     },
     "u5-prepositions": {
@@ -314,12 +463,24 @@
       "grammarTopic": "prepositions and phrases of location (encima de, debajo de, dentro de, cerca de, lejos de, entre, delante de, detrás de)",
       "summary": "Say exactly where something is.",
       "words": [
-        { "spanish": "encima", "english": "on top", "lemma": "encima", "pos": "adverb" },
-        { "spanish": "debajo", "english": "underneath", "lemma": "debajo", "pos": "adverb" },
-        { "spanish": "dentro", "english": "inside", "lemma": "dentro", "pos": "adverb" },
-        { "spanish": "cerca", "english": "near", "lemma": "cerca", "pos": "adverb" },
-        { "spanish": "lejos", "english": "far", "lemma": "lejos", "pos": "adverb" },
-        { "spanish": "entre", "english": "between", "lemma": "entre", "pos": "preposition" }
+        { "wordId": "adverb-encima" },
+        { "wordId": "adverb-debajo" },
+        { "wordId": "adverb-dentro" },
+        { "wordId": "adverb-fuera" },
+        { "wordId": "adverb-cerca" },
+        { "wordId": "adverb-lejos" },
+        { "wordId": "adverb-arriba" },
+        { "wordId": "adverb-abajo" },
+        { "wordId": "adverb-delante" },
+        { "wordId": "adverb-detras" },
+        { "wordId": "adverb-alrededor" },
+        { "wordId": "adverb-aqui" },
+        { "wordId": "adverb-alli" },
+        { "spanish": "entre", "english": "between", "lemma": "entre", "pos": "preposition" },
+        { "spanish": "enfrente", "english": "across from", "lemma": "enfrente", "pos": "adverb" },
+        { "spanish": "al lado", "english": "beside", "lemma": "al lado", "pos": "adverb" },
+        { "spanish": "sobre", "english": "on/over", "lemma": "sobre", "pos": "preposition" },
+        { "spanish": "junto a", "english": "next to", "lemma": "junto a", "pos": "preposition" }
       ]
     },
     "u5-city": {
@@ -332,11 +493,28 @@
       "words": [
         { "wordId": "noun-ciudad" },
         { "wordId": "noun-calle" },
+        { "wordId": "noun-mercado" },
+        { "wordId": "noun-banco" },
+        { "wordId": "noun-centro" },
+        { "wordId": "noun-hospital" },
+        { "wordId": "noun-escuela" },
+        { "wordId": "noun-universidad" },
+        { "wordId": "noun-teatro" },
+        { "wordId": "noun-cine" },
+        { "wordId": "noun-metro" },
         { "spanish": "la tienda", "english": "shop", "lemma": "tienda", "pos": "noun" },
-        { "spanish": "el banco", "english": "bank", "lemma": "banco", "pos": "noun" },
-        { "spanish": "el mercado", "english": "market", "lemma": "mercado", "pos": "noun" },
         { "spanish": "la plaza", "english": "square", "lemma": "plaza", "pos": "noun" },
-        { "spanish": "la estación", "english": "station", "lemma": "estación", "pos": "noun" }
+        { "spanish": "la estación", "english": "station", "lemma": "estación", "pos": "noun" },
+        { "spanish": "el parque", "english": "park", "lemma": "parque", "pos": "noun" },
+        { "spanish": "el museo", "english": "museum", "lemma": "museo", "pos": "noun" },
+        { "spanish": "la iglesia", "english": "church", "lemma": "iglesia", "pos": "noun" },
+        { "spanish": "el restaurante", "english": "restaurant", "lemma": "restaurante", "pos": "noun" },
+        { "spanish": "el hotel", "english": "hotel", "lemma": "hotel", "pos": "noun" },
+        { "spanish": "la farmacia", "english": "pharmacy", "lemma": "farmacia", "pos": "noun" },
+        { "spanish": "el aeropuerto", "english": "airport", "lemma": "aeropuerto", "pos": "noun" },
+        { "spanish": "la esquina", "english": "corner", "lemma": "esquina", "pos": "noun" },
+        { "spanish": "el barrio", "english": "neighborhood", "lemma": "barrio", "pos": "noun" },
+        { "spanish": "el edificio", "english": "building", "lemma": "edificio", "pos": "noun" }
       ]
     },
     "u6-gustar": {
@@ -350,9 +528,19 @@
       "words": [
         { "wordId": "verb-gustar" },
         { "wordId": "verb-interesar" },
-        { "spanish": "la música", "english": "music", "lemma": "música", "pos": "noun" },
+        { "wordId": "verb-importar" },
+        { "wordId": "verb-faltar" },
+        { "wordId": "verb-quedar" },
+        { "wordId": "noun-musica" },
+        { "wordId": "noun-juego" },
+        { "wordId": "noun-pelicula" },
+        { "wordId": "noun-arte" },
+        { "spanish": "encantar", "english": "to love (delight)", "lemma": "encantar", "pos": "verb" },
+        { "spanish": "molestar", "english": "to bother", "lemma": "molestar", "pos": "verb" },
         { "spanish": "el deporte", "english": "sport", "lemma": "deporte", "pos": "noun" },
-        { "spanish": "la película", "english": "movie", "lemma": "película", "pos": "noun" }
+        { "spanish": "el baile", "english": "dancing", "lemma": "baile", "pos": "noun" },
+        { "spanish": "la fiesta", "english": "party", "lemma": "fiesta", "pos": "noun" },
+        { "spanish": "el concierto", "english": "concert", "lemma": "concierto", "pos": "noun" }
       ]
     },
     "u6-saber-conocer": {
@@ -366,8 +554,18 @@
       "words": [
         { "wordId": "verb-saber" },
         { "wordId": "verb-conocer" },
-        { "spanish": "la verdad", "english": "truth", "lemma": "verdad", "pos": "noun" },
-        { "spanish": "la respuesta", "english": "answer", "lemma": "respuesta", "pos": "noun" }
+        { "wordId": "verb-aprender" },
+        { "wordId": "verb-entender" },
+        { "wordId": "verb-recordar" },
+        { "wordId": "verb-olvidar" },
+        { "wordId": "verb-reconocer" },
+        { "wordId": "noun-verdad" },
+        { "wordId": "noun-respuesta" },
+        { "wordId": "noun-nombre" },
+        { "wordId": "noun-idea" },
+        { "spanish": "la habilidad", "english": "skill", "lemma": "habilidad", "pos": "noun" },
+        { "spanish": "el secreto", "english": "secret", "lemma": "secreto", "pos": "noun" },
+        { "spanish": "el idioma", "english": "language", "lemma": "idioma", "pos": "noun" }
       ]
     },
     "u6-hobbies": {
@@ -379,11 +577,23 @@
       "summary": "Talk about what you do for fun.",
       "words": [
         { "wordId": "noun-viaje" },
+        { "wordId": "noun-musica" },
+        { "wordId": "noun-juego" },
+        { "wordId": "noun-pelicula" },
         { "spanish": "el pasatiempo", "english": "hobby", "lemma": "pasatiempo", "pos": "noun" },
-        { "spanish": "el juego", "english": "game", "lemma": "juego", "pos": "noun" },
         { "spanish": "la lectura", "english": "reading", "lemma": "lectura", "pos": "noun" },
         { "spanish": "la pintura", "english": "painting", "lemma": "pintura", "pos": "noun" },
-        { "spanish": "el baile", "english": "dance", "lemma": "baile", "pos": "noun" }
+        { "spanish": "el baile", "english": "dance", "lemma": "baile", "pos": "noun" },
+        { "spanish": "el deporte", "english": "sport", "lemma": "deporte", "pos": "noun" },
+        { "spanish": "la natación", "english": "swimming", "lemma": "natación", "pos": "noun" },
+        { "spanish": "el ajedrez", "english": "chess", "lemma": "ajedrez", "pos": "noun" },
+        { "spanish": "la guitarra", "english": "guitar", "lemma": "guitarra", "pos": "noun" },
+        { "spanish": "la cámara", "english": "camera", "lemma": "cámara", "pos": "noun" },
+        { "spanish": "el jardín", "english": "garden", "lemma": "jardín", "pos": "noun" },
+        { "spanish": "nadar", "english": "to swim", "lemma": "nadar", "pos": "verb" },
+        { "spanish": "cocinar", "english": "to cook", "lemma": "cocinar", "pos": "verb" },
+        { "spanish": "pintar", "english": "to paint", "lemma": "pintar", "pos": "verb" },
+        { "spanish": "bailar", "english": "to dance", "lemma": "bailar", "pos": "verb" }
       ]
     },
     "u7-preterite-regular": {
@@ -399,7 +609,20 @@
         { "wordId": "verb-comer" },
         { "wordId": "verb-vivir" },
         { "wordId": "verb-comprar" },
-        { "wordId": "verb-estudiar" }
+        { "wordId": "verb-estudiar" },
+        { "wordId": "verb-trabajar" },
+        { "wordId": "verb-viajar" },
+        { "wordId": "verb-visitar" },
+        { "wordId": "verb-llegar" },
+        { "wordId": "verb-pasar" },
+        { "wordId": "verb-comenzar" },
+        { "wordId": "verb-terminar" },
+        { "wordId": "verb-ganar" },
+        { "wordId": "verb-perder" },
+        { "wordId": "verb-escribir" },
+        { "wordId": "verb-recibir" },
+        { "wordId": "verb-salir" },
+        { "wordId": "verb-entrar" }
       ]
     },
     "u7-preterite-irregular": {
@@ -416,7 +639,15 @@
         { "wordId": "verb-hacer" },
         { "wordId": "verb-tener" },
         { "wordId": "verb-estar" },
-        { "wordId": "verb-decir" }
+        { "wordId": "verb-decir" },
+        { "wordId": "verb-poder" },
+        { "wordId": "verb-poner" },
+        { "wordId": "verb-venir" },
+        { "wordId": "verb-querer" },
+        { "wordId": "verb-dar" },
+        { "wordId": "verb-ver" },
+        { "wordId": "verb-saber" },
+        { "wordId": "verb-traer" }
       ]
     },
     "u7-travel": {
@@ -428,12 +659,25 @@
       "summary": "Words for trips and getting around.",
       "words": [
         { "wordId": "noun-viaje" },
+        { "wordId": "noun-mar" },
+        { "wordId": "noun-pais" },
+        { "wordId": "noun-camino" },
         { "spanish": "el avión", "english": "airplane", "lemma": "avión", "pos": "noun" },
         { "spanish": "el tren", "english": "train", "lemma": "tren", "pos": "noun" },
         { "spanish": "la maleta", "english": "suitcase", "lemma": "maleta", "pos": "noun" },
         { "spanish": "el billete", "english": "ticket", "lemma": "billete", "pos": "noun" },
+        { "spanish": "el mapa", "english": "map", "lemma": "mapa", "pos": "noun" },
+        { "spanish": "el hotel", "english": "hotel", "lemma": "hotel", "pos": "noun" },
         { "spanish": "la playa", "english": "beach", "lemma": "playa", "pos": "noun" },
-        { "spanish": "el mapa", "english": "map", "lemma": "mapa", "pos": "noun" }
+        { "spanish": "el aeropuerto", "english": "airport", "lemma": "aeropuerto", "pos": "noun" },
+        { "spanish": "el pasaporte", "english": "passport", "lemma": "pasaporte", "pos": "noun" },
+        { "spanish": "la frontera", "english": "border", "lemma": "frontera", "pos": "noun" },
+        { "spanish": "el equipaje", "english": "luggage", "lemma": "equipaje", "pos": "noun" },
+        { "spanish": "la reserva", "english": "reservation", "lemma": "reserva", "pos": "noun" },
+        { "spanish": "el vuelo", "english": "flight", "lemma": "vuelo", "pos": "noun" },
+        { "spanish": "el destino", "english": "destination", "lemma": "destino", "pos": "noun" },
+        { "spanish": "el turista", "english": "tourist", "lemma": "turista", "pos": "noun" },
+        { "spanish": "el recuerdo", "english": "souvenir/memory", "lemma": "recuerdo", "pos": "noun" }
       ]
     },
     "u8-imperfect": {
@@ -449,7 +693,17 @@
         { "wordId": "verb-ir" },
         { "wordId": "verb-ver" },
         { "wordId": "verb-hablar" },
-        { "wordId": "verb-comer" }
+        { "wordId": "verb-comer" },
+        { "wordId": "verb-vivir" },
+        { "wordId": "verb-jugar" },
+        { "wordId": "verb-tener" },
+        { "wordId": "verb-hacer" },
+        { "wordId": "verb-estar" },
+        { "wordId": "verb-gustar" },
+        { "wordId": "verb-soler" },
+        { "wordId": "verb-pensar" },
+        { "wordId": "verb-querer" },
+        { "wordId": "verb-sentir" }
       ]
     },
     "u8-pret-vs-imp": {
@@ -464,7 +718,17 @@
         { "wordId": "verb-hacer" },
         { "wordId": "verb-empezar" },
         { "wordId": "verb-dormir" },
-        { "wordId": "verb-llegar" }
+        { "wordId": "verb-llegar" },
+        { "wordId": "verb-ver" },
+        { "wordId": "verb-conocer" },
+        { "wordId": "verb-saber" },
+        { "wordId": "verb-querer" },
+        { "wordId": "verb-poder" },
+        { "wordId": "verb-tener" },
+        { "wordId": "verb-estar" },
+        { "wordId": "verb-pasar" },
+        { "wordId": "verb-vivir" },
+        { "wordId": "verb-sentir" }
       ]
     },
     "u8-childhood-family": {
@@ -479,9 +743,22 @@
         { "wordId": "noun-padre" },
         { "wordId": "noun-madre" },
         { "wordId": "noun-hijo" },
+        { "wordId": "noun-hermano" },
+        { "wordId": "noun-amigo" },
+        { "wordId": "noun-nino" },
+        { "wordId": "noun-mujer" },
+        { "wordId": "noun-hombre" },
         { "spanish": "el abuelo", "english": "grandfather", "lemma": "abuelo", "pos": "noun" },
-        { "spanish": "el hermano", "english": "brother", "lemma": "hermano", "pos": "noun" },
-        { "spanish": "el niño", "english": "child", "lemma": "niño", "pos": "noun" }
+        { "spanish": "la abuela", "english": "grandmother", "lemma": "abuela", "pos": "noun" },
+        { "spanish": "la hermana", "english": "sister", "lemma": "hermana", "pos": "noun" },
+        { "spanish": "la hija", "english": "daughter", "lemma": "hija", "pos": "noun" },
+        { "spanish": "el primo", "english": "cousin", "lemma": "primo", "pos": "noun" },
+        { "spanish": "el tío", "english": "uncle", "lemma": "tío", "pos": "noun" },
+        { "spanish": "la tía", "english": "aunt", "lemma": "tía", "pos": "noun" },
+        { "spanish": "el sobrino", "english": "nephew", "lemma": "sobrino", "pos": "noun" },
+        { "spanish": "el bebé", "english": "baby", "lemma": "bebé", "pos": "noun" },
+        { "spanish": "el esposo", "english": "husband", "lemma": "esposo", "pos": "noun" },
+        { "spanish": "la esposa", "english": "wife", "lemma": "esposa", "pos": "noun" }
       ]
     },
     "u9-future": {
@@ -490,14 +767,23 @@
       "order": 1,
       "kind": "grammar",
       "title": "Future & plans",
-      "grammarTopic": "expressing the future with ir a + infinitive and the simple future tense",
+      "grammarTopic": "expressing the future with ir a + infinitive and the simple future tense (incl. irregular stems)",
       "summary": "Say what you're going to do.",
       "words": [
         { "wordId": "verb-ir" },
         { "wordId": "verb-salir" },
         { "wordId": "verb-venir" },
         { "wordId": "verb-volver" },
-        { "wordId": "verb-llegar" }
+        { "wordId": "verb-llegar" },
+        { "wordId": "verb-viajar" },
+        { "wordId": "verb-hacer" },
+        { "wordId": "verb-tener" },
+        { "wordId": "verb-poder" },
+        { "wordId": "verb-querer" },
+        { "wordId": "verb-poner" },
+        { "wordId": "verb-saber" },
+        { "wordId": "verb-decir" },
+        { "wordId": "verb-ver" }
       ]
     },
     "u9-work": {
@@ -509,12 +795,25 @@
       "summary": "Talk about jobs and the workplace.",
       "words": [
         { "wordId": "noun-trabajo" },
+        { "wordId": "noun-empresa" },
+        { "wordId": "noun-jefe" },
+        { "wordId": "noun-reunion" },
+        { "wordId": "noun-profesor" },
+        { "wordId": "noun-medico" },
+        { "wordId": "noun-director" },
+        { "wordId": "noun-negocio" },
+        { "wordId": "noun-cargo" },
+        { "wordId": "noun-carrera" },
         { "spanish": "la oficina", "english": "office", "lemma": "oficina", "pos": "noun" },
-        { "spanish": "el jefe", "english": "boss", "lemma": "jefe", "pos": "noun" },
-        { "spanish": "la reunión", "english": "meeting", "lemma": "reunión", "pos": "noun" },
-        { "spanish": "la empresa", "english": "company", "lemma": "empresa", "pos": "noun" },
-        { "spanish": "el profesor", "english": "teacher", "lemma": "profesor", "pos": "noun" },
-        { "spanish": "el ingeniero", "english": "engineer", "lemma": "ingeniero", "pos": "noun" }
+        { "spanish": "el sueldo", "english": "salary", "lemma": "sueldo", "pos": "noun" },
+        { "spanish": "el contrato", "english": "contract", "lemma": "contrato", "pos": "noun" },
+        { "spanish": "la entrevista", "english": "interview", "lemma": "entrevista", "pos": "noun" },
+        { "spanish": "el empleo", "english": "employment", "lemma": "empleo", "pos": "noun" },
+        { "spanish": "el cliente", "english": "client", "lemma": "cliente", "pos": "noun" },
+        { "spanish": "la fábrica", "english": "factory", "lemma": "fábrica", "pos": "noun" },
+        { "spanish": "el ingeniero", "english": "engineer", "lemma": "ingeniero", "pos": "noun" },
+        { "spanish": "el abogado", "english": "lawyer", "lemma": "abogado", "pos": "noun" },
+        { "spanish": "el horario", "english": "schedule", "lemma": "horario", "pos": "noun" }
       ]
     },
     "u10-commands": {
@@ -523,15 +822,25 @@
       "order": 1,
       "kind": "grammar",
       "title": "Informal commands",
-      "grammarTopic": "affirmative informal (tú) commands, including common irregulars (haz, pon, di, ven, sal, ten)",
+      "grammarTopic": "affirmative informal (tú) commands, including common irregulars (haz, pon, di, ven, sal, ten, sé, ve)",
       "summary": "Tell a friend what to do.",
       "words": [
         { "wordId": "verb-hablar" },
         { "wordId": "verb-comer" },
+        { "wordId": "verb-escuchar" },
+        { "wordId": "verb-mirar" },
         { "wordId": "verb-poner" },
         { "wordId": "verb-hacer" },
         { "wordId": "verb-decir" },
-        { "wordId": "verb-venir" }
+        { "wordId": "verb-venir" },
+        { "wordId": "verb-salir" },
+        { "wordId": "verb-tener" },
+        { "wordId": "verb-ir" },
+        { "wordId": "verb-ser" },
+        { "wordId": "verb-dar" },
+        { "wordId": "verb-seguir" },
+        { "wordId": "verb-tomar" },
+        { "wordId": "verb-esperar" }
       ]
     },
     "u10-health-body": {
@@ -546,10 +855,24 @@
         { "wordId": "noun-cabeza" },
         { "wordId": "noun-mano" },
         { "wordId": "noun-ojo" },
+        { "wordId": "noun-cara" },
+        { "wordId": "noun-boca" },
+        { "wordId": "noun-pie" },
+        { "wordId": "noun-salud" },
+        { "wordId": "noun-enfermedad" },
+        { "wordId": "noun-hospital" },
+        { "wordId": "noun-medico" },
+        { "wordId": "noun-paciente" },
         { "spanish": "la pierna", "english": "leg", "lemma": "pierna", "pos": "noun" },
         { "spanish": "el brazo", "english": "arm", "lemma": "brazo", "pos": "noun" },
-        { "spanish": "el pie", "english": "foot", "lemma": "pie", "pos": "noun" },
-        { "spanish": "el estómago", "english": "stomach", "lemma": "estómago", "pos": "noun" }
+        { "spanish": "el estómago", "english": "stomach", "lemma": "estómago", "pos": "noun" },
+        { "spanish": "la espalda", "english": "back", "lemma": "espalda", "pos": "noun" },
+        { "spanish": "el corazón", "english": "heart", "lemma": "corazón", "pos": "noun" },
+        { "spanish": "la nariz", "english": "nose", "lemma": "nariz", "pos": "noun" },
+        { "spanish": "el diente", "english": "tooth", "lemma": "diente", "pos": "noun" },
+        { "spanish": "el cuello", "english": "neck", "lemma": "cuello", "pos": "noun" },
+        { "spanish": "la rodilla", "english": "knee", "lemma": "rodilla", "pos": "noun" },
+        { "spanish": "la garganta", "english": "throat", "lemma": "garganta", "pos": "noun" }
       ]
     }
   }

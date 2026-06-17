@@ -1,9 +1,9 @@
 "use client";
 import { useCallback, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { EXERCISES, ExerciseId, Group, GROUP_GAMES, Word, groupForCategory } from "@/lib/domain";
-import { groupCount, wordsByGroup, WORDS } from "@/lib/words";
-import { reviewPool, selectLearnRound, shuffle } from "@/lib/progress";
+import { EXERCISES, ExerciseId, Word } from "@/lib/domain";
+import { shuffle } from "@/lib/progress";
+import { courseReviewPool, engagedCourseWords } from "@/lib/lesson-progress";
 import { useProgress } from "@/components/useProgress";
 import { WordsGate } from "@/components/WordsGate";
 import { Play } from "@/components/Play";
@@ -22,10 +22,10 @@ import { StoryRow } from "@/lib/composition";
 import { Button, Card } from "@/components/ui";
 
 type GameId = "numbers" | "time" | "calendar";
-type Screen = "home" | "group" | "play" | "game" | "writing" | "reading" | "listening" | "stories" | "course" | "lesson" | "daily";
-type Mode = "learn" | "review";
+type Screen = "home" | "other" | "play" | "game" | "writing" | "reading" | "listening" | "stories" | "course" | "lesson" | "daily";
+type ReviewExercise = "spelling" | "conjugation";
 
-const PRACTICE_META: { id: Exclude<Screen, "home" | "group" | "play" | "game">; label: string; emoji: string; blurb: string }[] = [
+const PRACTICE_META: { id: "writing" | "reading" | "listening" | "stories"; label: string; emoji: string; blurb: string }[] = [
   { id: "writing", label: "Writing", emoji: "✍️", blurb: "Get a prompt, write, get it graded & fixed." },
   { id: "reading", label: "Reading", emoji: "📖", blurb: "Generated stories + open-ended quizzes." },
   { id: "listening", label: "Listening", emoji: "🎧", blurb: "Hear a story; quiz or transcribe it." },
@@ -34,11 +34,6 @@ const PRACTICE_META: { id: Exclude<Screen, "home" | "group" | "play" | "game">; 
 
 const exLabel = (id: ExerciseId) => EXERCISES.find((e) => e.id === id)?.label ?? id;
 
-const GROUP_META: { id: Group; emoji: string }[] = [
-  { id: "Nouns", emoji: "📦" },
-  { id: "Verbs", emoji: "🏃" },
-  { id: "Other", emoji: "✨" },
-];
 const GAME_META: { id: GameId; label: string; emoji: string; blurb: string }[] = [
   { id: "numbers", label: "Numbers", emoji: "🔢", blurb: "Spell numbers in Spanish." },
   { id: "time", label: "Time", emoji: "🕐", blurb: "Tell the time in Spanish." },
@@ -59,27 +54,21 @@ function Home() {
   const { state } = api;
 
   const [screen, setScreen] = useState<Screen>("home");
-  const [group, setGroup] = useState<Group>("Nouns");
-  const [exercise, setExercise] = useState<ExerciseId>("spelling");
-  const [mode, setMode] = useState<Mode>("learn");
+  const [reviewExercise, setReviewExercise] = useState<ReviewExercise>("spelling");
   const [game, setGame] = useState<GameId>("numbers");
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [openStory, setOpenStory] = useState<StoryRow | null>(null);
   const [lessonId, setLessonId] = useState<string | null>(null);
 
-  // # of words in review, per group.
-  const reviewByGroup = useMemo(() => {
-    const m: Record<Group, number> = { Nouns: 0, Verbs: 0, Other: 0 };
-    for (const w of WORDS) if (state.words[w.id]?.review) m[groupForCategory(w.category)]++;
-    return m;
-  }, [state.words]);
+  // Spanish words from lessons the user has engaged — the word-bank woven into
+  // other-practice writing/reading for extra exposure.
+  const engagedWords = useMemo(() => engagedCourseWords(state).map((w) => w.spanish), [state]);
 
-  const buildRound = useCallback((): Word[] => {
+  // Other-practice review round: the course words met so far, in the chosen exercise.
+  const buildReviewRound = useCallback((): Word[] => {
     const seed = Math.floor(Math.random() * 1e9);
-    const pool = wordsByGroup(group);
-    if (mode === "review") return shuffle(reviewPool(state, pool), seed);
-    return shuffle(selectLearnRound(state, pool, exercise), seed);
-  }, [group, exercise, mode, state]);
+    return shuffle(courseReviewPool(state, reviewExercise), seed);
+  }, [state, reviewExercise]);
 
   async function logout() {
     await fetch("/api/logout", { method: "POST" });
@@ -87,35 +76,28 @@ function Home() {
     router.refresh();
   }
 
-  function startWord(g: Group, ex: ExerciseId, m: Mode) {
-    setGroup(g);
-    setExercise(ex);
-    setMode(m);
-    setScreen("play");
-  }
-
-  // ---- WORD PLAY ----
+  // ---- COURSE-WORD REVIEW (other practice) ----
   if (screen === "play") {
     return (
       <Play
-        key={`${group}-${exercise}-${mode}`}
-        mode={mode}
-        exercise={exercise}
+        key={reviewExercise}
+        mode="learn"
+        exercise={reviewExercise}
         settings={state.settings}
-        tracking={mode === "learn"}
+        tracking
         state={state}
-        buildRound={buildRound}
+        buildRound={buildReviewRound}
         record={api.record}
         demote={api.demote}
-        onExit={() => setScreen("group")}
-        title={`${exLabel(exercise)} · ${mode} · ${group}`}
+        onExit={() => setScreen("other")}
+        title={`${exLabel(reviewExercise)} · course review`}
       />
     );
   }
 
   // ---- GAMES ----
   if (screen === "game") {
-    const onExit = () => setScreen("home");
+    const onExit = () => setScreen("other");
     if (game === "numbers")
       return <NumbersGame settings={state.settings} updateSettings={api.updateSettings} onExit={onExit} />;
     if (game === "time")
@@ -124,19 +106,28 @@ function Home() {
   }
 
   // ---- PRACTICE (writing / reading / listening / stories) ----
-  const exitToHome = () => {
+  // Returning from a composition screen goes back to Other practice. Writing/Reading
+  // get the engaged course words as a soft word-bank for extra exposure.
+  const exitToOther = () => {
     setOpenStory(null);
-    setScreen("home");
+    setScreen("other");
   };
-  if (screen === "writing") return <Writing onExit={exitToHome} />;
+  if (screen === "writing") return <Writing onExit={exitToOther} includeWords={engagedWords} />;
   if (screen === "reading")
-    return <Reading key={openStory?.id ?? "new"} onExit={exitToHome} initialStory={openStory} />;
+    return (
+      <Reading
+        key={openStory?.id ?? "new"}
+        onExit={exitToOther}
+        initialStory={openStory}
+        includeWords={engagedWords}
+      />
+    );
   if (screen === "listening")
-    return <Listening key={openStory?.id ?? "pick"} onExit={exitToHome} initialStory={openStory} />;
+    return <Listening key={openStory?.id ?? "pick"} onExit={exitToOther} initialStory={openStory} />;
   if (screen === "stories")
     return (
       <StoriesTable
-        onExit={exitToHome}
+        onExit={exitToOther}
         onOpen={(story, section) => {
           setOpenStory(story);
           setScreen(section);
@@ -176,7 +167,7 @@ function Home() {
         </div>
       </div>
 
-      {screen === "group" && (
+      {screen === "other" && (
         <button
           onClick={() => setScreen("home")}
           className="mb-3 text-sm font-medium text-slate-500 hover:text-slate-800"
@@ -186,45 +177,69 @@ function Home() {
       )}
 
       {screen === "home" && (
+        <div className="space-y-3">
+          <button onClick={() => setScreen("course")} className="w-full">
+            <Card className="flex items-center gap-4 p-5 text-left hover:border-indigo-300">
+              <span className="text-4xl">📚</span>
+              <span className="flex-1">
+                <span className="block text-lg font-semibold text-slate-900">Course</span>
+                <span className="block text-sm text-slate-500">
+                  Guided A1→A2 lessons with an AI teacher, practice & daily review.
+                </span>
+              </span>
+            </Card>
+          </button>
+          <button onClick={() => setScreen("other")} className="w-full">
+            <Card className="flex items-center gap-4 p-5 text-left hover:border-indigo-300">
+              <span className="text-4xl">🎯</span>
+              <span className="flex-1">
+                <span className="block text-lg font-semibold text-slate-900">Other practice</span>
+                <span className="block text-sm text-slate-500">
+                  Review your course words, play games, and free writing/reading/listening.
+                </span>
+              </span>
+            </Card>
+          </button>
+        </div>
+      )}
+
+      {screen === "other" && (
         <div className="space-y-6">
           <section>
-            <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-400">Learn</h2>
-            <button onClick={() => setScreen("course")} className="w-full">
-              <Card className="flex items-center gap-4 p-4 text-left hover:border-indigo-300">
-                <span className="text-3xl">📚</span>
-                <span className="flex-1">
-                  <span className="block font-semibold text-slate-900">Course</span>
-                  <span className="block text-sm text-slate-500">
-                    Guided A1→A2 lessons with an AI teacher, practice & daily review.
-                  </span>
-                </span>
-              </Card>
-            </button>
-          </section>
-
-          <section>
-            <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-400">Word practice</h2>
+            <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-400">Review your words</h2>
+            <p className="mb-2 text-sm text-slate-500">
+              {engagedWords.length > 0
+                ? "Stay in touch with the words you've met in the course."
+                : "Start a lesson in the Course to unlock word review here."}
+            </p>
             <div className="grid grid-cols-1 gap-3">
-              {GROUP_META.map(({ id, emoji }) => (
-                <button
-                  key={id}
-                  onClick={() => {
-                    setGroup(id);
-                    setScreen("group");
-                  }}
-                  className="w-full"
-                >
-                  <Card className="flex items-center gap-4 p-4 text-left hover:border-indigo-300">
-                    <span className="text-3xl">{emoji}</span>
-                    <span className="flex-1">
-                      <span className="block font-semibold text-slate-900">{id}</span>
-                      <span className="block text-sm text-slate-500">
-                        {groupCount(id)} words · {reviewByGroup[id]} in review
+              {([
+                { ex: "spelling" as ReviewExercise, emoji: "✍️", label: "Spelling review", blurb: "Type your learned nouns, adjectives & more." },
+                { ex: "conjugation" as ReviewExercise, emoji: "🔤", label: "Conjugation review", blurb: "Conjugate the verbs you've learned." },
+              ]).map((r) => {
+                const n = courseReviewPool(state, r.ex).length;
+                return (
+                  <button
+                    key={r.ex}
+                    disabled={n === 0}
+                    onClick={() => {
+                      setReviewExercise(r.ex);
+                      setScreen("play");
+                    }}
+                    className="w-full disabled:opacity-50"
+                  >
+                    <Card className="flex items-center gap-4 p-4 text-left hover:border-indigo-300">
+                      <span className="text-3xl">{r.emoji}</span>
+                      <span className="flex-1">
+                        <span className="block font-semibold text-slate-900">{r.label}</span>
+                        <span className="block text-sm text-slate-500">
+                          {n > 0 ? `${n} words · ${r.blurb}` : "No words yet"}
+                        </span>
                       </span>
-                    </span>
-                  </Card>
-                </button>
-              ))}
+                    </Card>
+                  </button>
+                );
+              })}
             </div>
           </section>
 
@@ -275,42 +290,6 @@ function Home() {
               ))}
             </div>
           </section>
-        </div>
-      )}
-
-      {screen === "group" && (
-        <div>
-          <h2 className="mb-1 text-lg font-semibold text-slate-800">{group}</h2>
-          <p className="mb-3 text-sm text-slate-500">
-            {reviewByGroup[group]} words in review · pick a game
-          </p>
-          <div className="space-y-2">
-            {GROUP_GAMES[group].map((ex) => {
-              const reviewN = reviewByGroup[group];
-              return (
-                <Card key={ex} className="p-4">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <span className="block font-semibold text-slate-900">{exLabel(ex)}</span>
-                      {ex === "flashcards" && (
-                        <span className="block text-sm text-slate-500">Just learn — no scoring.</span>
-                      )}
-                    </div>
-                    <div className="flex gap-2">
-                      <Button onClick={() => startWord(group, ex, "learn")}>Learn</Button>
-                      <Button
-                        variant="secondary"
-                        disabled={reviewN === 0}
-                        onClick={() => startWord(group, ex, "review")}
-                      >
-                        Review {reviewN > 0 ? `(${reviewN})` : ""}
-                      </Button>
-                    </div>
-                  </div>
-                </Card>
-              );
-            })}
-          </div>
         </div>
       )}
 

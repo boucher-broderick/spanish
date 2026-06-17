@@ -6,9 +6,9 @@ import { promises as fs } from "node:fs";
 import { randomUUID } from "node:crypto";
 import path from "node:path";
 import { getPool, USE_DB } from "./store";
-import type { ChatMessage, ChatRole, ExplanationRow, PracticeSpec } from "./course";
+import type { ChatMessage, ChatRole, ExplanationRow, PracticeSpec, VocabExample, VocabPack } from "./course";
 
-export type { ChatMessage, ExplanationRow };
+export type { ChatMessage, ExplanationRow, VocabPack };
 
 const DATA_DIR = path.join(process.cwd(), ".data");
 
@@ -45,6 +45,14 @@ async function ensureSchema(): Promise<void> {
           created_at timestamptz NOT NULL DEFAULT now()
         );
         CREATE INDEX IF NOT EXISTS practice_specs_scope ON practice_specs (user_id, lesson_id, created_at DESC);
+
+        CREATE TABLE IF NOT EXISTS lesson_vocab (
+          user_id text NOT NULL,
+          lesson_id text NOT NULL,
+          data jsonb NOT NULL,
+          created_at timestamptz NOT NULL DEFAULT now(),
+          PRIMARY KEY (user_id, lesson_id)
+        );
       `);
     })();
   }
@@ -56,8 +64,9 @@ interface CourseFile {
   explanations: Record<string, ExplanationRow>;
   chats: Record<string, ChatMessage[]>;
   specs: Record<string, PracticeSpec>; // latest spec per lesson
+  vocab: Record<string, VocabPack>; // example-sentence pack per lesson
 }
-const EMPTY_FILE: CourseFile = { explanations: {}, chats: {}, specs: {} };
+const EMPTY_FILE: CourseFile = { explanations: {}, chats: {}, specs: {}, vocab: {} };
 
 function courseFile(user: string): string {
   return path.join(DATA_DIR, `course-${user.replace(/[^a-z0-9_-]/gi, "_")}.json`);
@@ -193,4 +202,40 @@ export async function getLatestSpec(user: string, lessonId: string): Promise<Pra
   }
   const f = await readFile(user);
   return f.specs[lessonId] ?? null;
+}
+
+// ================= VOCAB PACK (example sentences) =================
+export async function getVocabPack(user: string, lessonId: string): Promise<VocabPack | null> {
+  if (USE_DB) {
+    await ensureSchema();
+    const pool = await getPool();
+    const res = await pool.query(
+      `SELECT data, created_at FROM lesson_vocab WHERE user_id = $1 AND lesson_id = $2`,
+      [user, lessonId]
+    );
+    const r = res.rows[0];
+    return r
+      ? { lessonId, items: (r.data as VocabExample[]) ?? [], createdAt: new Date(r.created_at).toISOString() }
+      : null;
+  }
+  const f = await readFile(user);
+  return f.vocab[lessonId] ?? null;
+}
+
+export async function saveVocabPack(user: string, lessonId: string, items: VocabExample[]): Promise<VocabPack> {
+  const pack: VocabPack = { lessonId, items, createdAt: new Date().toISOString() };
+  if (USE_DB) {
+    await ensureSchema();
+    const pool = await getPool();
+    await pool.query(
+      `INSERT INTO lesson_vocab (user_id, lesson_id, data, created_at) VALUES ($1,$2,$3, now())
+       ON CONFLICT (user_id, lesson_id) DO UPDATE SET data = EXCLUDED.data, created_at = now()`,
+      [user, lessonId, JSON.stringify(items)]
+    );
+    return pack;
+  }
+  const f = await readFile(user);
+  f.vocab[lessonId] = pack;
+  await writeFile(user, f);
+  return pack;
 }

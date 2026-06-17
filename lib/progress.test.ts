@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { emptyState, ProgressState, Word } from "./domain";
+import { emptyState, MIN_STREAK, ProgressState, Word } from "./domain";
 import {
   demoteWord,
   exercisePassed,
@@ -33,28 +33,34 @@ function many(state: ProgressState, id: string, ex: Parameters<typeof recordAtte
   return s;
 }
 
-describe("the 10 / 80% single-game rule", () => {
-  it("needs >=10 attempts AND >=80% for the game to pass", () => {
-    let s = many(emptyState(), "w", "spelling", 9, 9); // 100% but only 9 attempts
+describe("the MIN_STREAK-in-a-row single-game rule", () => {
+  it("passes only after MIN_STREAK correct in a row", () => {
+    let s = many(emptyState(), "w", "spelling", MIN_STREAK - 1, MIN_STREAK - 1); // 2 in a row
     expect(exercisePassed(s, "w", "spelling")).toBe(false);
-    s = many(emptyState(), "w", "spelling", 10, 7); // 70%
-    expect(exercisePassed(s, "w", "spelling")).toBe(false);
-    s = many(emptyState(), "w", "spelling", 10, 8); // 80%
+    s = recordAttempt(s, "w", "spelling", true); // the MIN_STREAK-th in a row
     expect(exercisePassed(s, "w", "spelling")).toBe(true);
   });
 
-  it("graduates to review after passing the single main game", () => {
-    let s = emptyState();
-    s = many(s, "w", "spelling", 9, 9);
+  it("a wrong answer resets the streak", () => {
+    let s = many(emptyState(), "w", "spelling", MIN_STREAK - 1, MIN_STREAK - 1); // 2 in a row
+    s = recordAttempt(s, "w", "spelling", false); // miss resets
+    s = many(s, "w", "spelling", MIN_STREAK - 1, MIN_STREAK - 1); // only 2 in a row again
+    expect(exercisePassed(s, "w", "spelling")).toBe(false);
+    s = recordAttempt(s, "w", "spelling", true); // now MIN_STREAK in a row
+    expect(exercisePassed(s, "w", "spelling")).toBe(true);
+  });
+
+  it("graduates to review on the MIN_STREAK-th in a row", () => {
+    let s = many(emptyState(), "w", "spelling", MIN_STREAK - 1, MIN_STREAK - 1);
     expect(isUnderstood(s, "w")).toBe(false);
     expect(isReview(s, "w")).toBe(false);
-    s = recordAttempt(s, "w", "spelling", true); // 10th attempt, 100%
+    s = recordAttempt(s, "w", "spelling", true); // crosses the bar
     expect(isUnderstood(s, "w")).toBe(true);
     expect(isReview(s, "w")).toBe(true); // recordAttempt auto-flags
   });
 
   it("graduates a verb via conjugation too", () => {
-    const s = many(emptyState(), "v", "conjugation", 10, 9);
+    const s = many(emptyState(), "v", "conjugation", MIN_STREAK, MIN_STREAK);
     expect(isReview(s, "v")).toBe(true);
   });
 });
@@ -78,13 +84,13 @@ describe("selection", () => {
     expect(round.map((w) => w.id)).toEqual(["b", "c"]);
   });
   it("excludes review words", () => {
-    const s = many(emptyState(), "b", "spelling", 10, 9); // b -> review
+    const s = many(emptyState(), "b", "spelling", 10, 10); // b -> mastered/review
     const round = selectLearnRound(s, pool, "spelling");
     expect(round.map((w) => w.id)).toEqual(["a", "c"]);
   });
   it("serves least-practised first within the set", () => {
     let s = emptyState();
-    s = many(s, "a", "spelling", 4, 4); // a has the most attempts
+    s = many(s, "a", "spelling", 2, 2); // a practised but not yet mastered (needs MIN_CORRECT)
     const round = selectLearnRound(s, pool, "spelling");
     expect(round[round.length - 1].id).toBe("a");
   });
@@ -92,7 +98,7 @@ describe("selection", () => {
 
 describe("resetExercise", () => {
   it("clears stats and drops the word back out of review", () => {
-    let s = many(emptyState(), "w", "spelling", 10, 9);
+    let s = many(emptyState(), "w", "spelling", 10, 10);
     expect(isReview(s, "w")).toBe(true);
     s = resetExercise(s, "spelling", "w");
     expect(exercisePassed(s, "w", "spelling")).toBe(false);

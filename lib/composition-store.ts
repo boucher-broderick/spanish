@@ -34,9 +34,11 @@ async function ensureSchema(): Promise<void> {
           body text NOT NULL,
           quiz jsonb NOT NULL DEFAULT '[]',
           audio bytea,
-          audio_mime text
+          audio_mime text,
+          lesson_id text
         );
         CREATE INDEX IF NOT EXISTS stories_user_created ON stories (user_id, created_at DESC);
+        ALTER TABLE stories ADD COLUMN IF NOT EXISTS lesson_id text;
 
         CREATE TABLE IF NOT EXISTS writing_prompts (
           id text PRIMARY KEY,
@@ -93,24 +95,34 @@ function audioFile(id: string): string {
 // ================= STORIES =================
 export async function createStory(
   user: string,
-  s: { title: string; topic: string | null; level: string; tense: string; length: string; body: string; quiz: QuizQuestion[] }
+  s: {
+    title: string;
+    topic: string | null;
+    level: string;
+    tense: string;
+    length: string;
+    body: string;
+    quiz: QuizQuestion[];
+    lessonId?: string | null;
+  }
 ): Promise<StoryRow> {
   const id = randomUUID();
   const createdAt = new Date().toISOString();
+  const lessonId = s.lessonId ?? null;
   if (USE_DB) {
     await ensureSchema();
     const pool = await getPool();
     await pool.query(
-      `INSERT INTO stories (id, user_id, title, topic, level, tense, length, body, quiz)
-       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9)`,
-      [id, user, s.title, s.topic, s.level, s.tense, s.length, s.body, JSON.stringify(s.quiz)]
+      `INSERT INTO stories (id, user_id, title, topic, level, tense, length, body, quiz, lesson_id)
+       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10)`,
+      [id, user, s.title, s.topic, s.level, s.tense, s.length, s.body, JSON.stringify(s.quiz), lessonId]
     );
   } else {
     const all = await readJsonFile<StoryRow[]>(storiesFile(user), []);
-    all.unshift({ id, createdAt, hasAudio: false, ...s });
+    all.unshift({ id, createdAt, hasAudio: false, ...s, lessonId });
     await writeJsonFile(storiesFile(user), all);
   }
-  return { id, createdAt, hasAudio: false, ...s };
+  return { id, createdAt, hasAudio: false, ...s, lessonId };
 }
 
 export async function listStories(user: string): Promise<StoryRow[]> {
@@ -118,7 +130,7 @@ export async function listStories(user: string): Promise<StoryRow[]> {
     await ensureSchema();
     const pool = await getPool();
     const res = await pool.query(
-      `SELECT id, created_at, title, topic, level, tense, length, body, quiz,
+      `SELECT id, created_at, title, topic, level, tense, length, body, quiz, lesson_id,
               (audio IS NOT NULL) AS has_audio
        FROM stories WHERE user_id = $1 ORDER BY created_at DESC`,
       [user]
@@ -206,6 +218,7 @@ function rowToStory(r: Record<string, unknown>): StoryRow {
     body: r.body as string,
     quiz: (r.quiz as QuizQuestion[]) ?? [],
     hasAudio: !!r.has_audio,
+    lessonId: (r.lesson_id as string) ?? null,
   };
 }
 

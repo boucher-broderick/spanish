@@ -100,8 +100,11 @@ export const GROUP_GAMES: Record<Group, ExerciseId[]> = {
 };
 
 // ---- mastery thresholds ----
-// A word graduates to review at >=10 attempts AND >=80% in its group's main game.
-export const MIN_ATTEMPTS = 10;
+// A word is mastered once it's been answered correctly MIN_STREAK times IN A ROW
+// in its group's main game (a wrong answer resets the streak).
+export const MIN_STREAK = 3;
+// Legacy thresholds (kept for reference / any external callers).
+export const MIN_ATTEMPTS = 5;
 export const MIN_ACCURACY = 0.8;
 export const ROUND_SIZE = 10; // words shown per round
 export const SET_SIZE = 20; // active Learn set: top-N unmastered by rank
@@ -127,6 +130,7 @@ export interface Word {
 export interface Stat {
   attempts: number;
   correct: number;
+  streak?: number; // consecutive correct answers (resets on a miss)
 }
 export interface WordProgress {
   review: boolean;
@@ -143,6 +147,7 @@ export interface LessonProgress {
   writingDone: number;
   readingDone: number;
   listeningDone: number;
+  practiceDone?: number; // completed generated drills (gates grammar lessons)
   completedAt?: string;
 }
 

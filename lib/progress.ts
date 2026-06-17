@@ -2,8 +2,7 @@
 import {
   COUNTING_EXERCISES,
   ExerciseId,
-  MIN_ACCURACY,
-  MIN_ATTEMPTS,
+  MIN_STREAK,
   ProgressState,
   ROUND_SIZE,
   SET_SIZE,
@@ -23,17 +22,16 @@ export function emptyWordProgress(): WordProgress {
 }
 
 export function getStat(state: ProgressState, wordId: string, ex: ExerciseId): Stat {
-  return state.words[wordId]?.stats[ex] ?? { attempts: 0, correct: 0 };
+  return state.words[wordId]?.stats[ex] ?? { attempts: 0, correct: 0, streak: 0 };
 }
 
 export function accuracy(stat: Stat): number {
   return stat.attempts > 0 ? stat.correct / stat.attempts : 0;
 }
 
-// Has this word satisfied the per-exercise bar (>=10 attempts AND >=80%)?
+// Has this word been answered correctly MIN_STREAK times IN A ROW in this exercise?
 export function exercisePassed(state: ProgressState, wordId: string, ex: ExerciseId): boolean {
-  const s = getStat(state, wordId, ex);
-  return s.attempts >= MIN_ATTEMPTS && accuracy(s) >= MIN_ACCURACY;
+  return (getStat(state, wordId, ex).streak ?? 0) >= MIN_STREAK;
 }
 
 // Mastered = passed the bar (>=10 attempts AND >=80%) in the group's main game.
@@ -54,10 +52,11 @@ export function recordAttempt(
   correct: boolean
 ): ProgressState {
   const prev = state.words[wordId] ?? emptyWordProgress();
-  const prevStat = prev.stats[ex] ?? { attempts: 0, correct: 0 };
+  const prevStat = prev.stats[ex] ?? { attempts: 0, correct: 0, streak: 0 };
   const stat: Stat = {
     attempts: prevStat.attempts + 1,
     correct: prevStat.correct + (correct ? 1 : 0),
+    streak: correct ? (prevStat.streak ?? 0) + 1 : 0,
   };
   const nextWord: WordProgress = { ...prev, stats: { ...prev.stats, [ex]: stat } };
   const next: ProgressState = { ...state, words: { ...state.words, [wordId]: nextWord } };
@@ -66,6 +65,20 @@ export function recordAttempt(
     next.words[wordId] = { ...nextWord, review: true };
   }
   return next;
+}
+
+// Manual override: mark a word as mastered in an exercise without grinding the
+// reps (sets correct to the bar and flags review). Used by the lesson override button.
+export function overrideExercise(state: ProgressState, wordId: string, ex: ExerciseId): ProgressState {
+  const prev = state.words[wordId] ?? emptyWordProgress();
+  const prevStat = prev.stats[ex] ?? { attempts: 0, correct: 0, streak: 0 };
+  const stat: Stat = {
+    attempts: Math.max(prevStat.attempts, MIN_STREAK),
+    correct: Math.max(prevStat.correct, MIN_STREAK),
+    streak: Math.max(prevStat.streak ?? 0, MIN_STREAK),
+  };
+  const nextWord: WordProgress = { ...prev, stats: { ...prev.stats, [ex]: stat }, review: true };
+  return { ...state, words: { ...state.words, [wordId]: nextWord } };
 }
 
 // Reset tracking for a given exercise (one word, or all words when wordId omitted).

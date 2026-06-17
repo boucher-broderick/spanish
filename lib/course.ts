@@ -59,9 +59,11 @@ export interface ResolvedWord {
 
 // ---------------- gate targets ----------------
 
-export const LESSON_WRITING_TARGET = 10;
-export const LESSON_READING_TARGET = 10;
-export const LESSON_LISTENING_TARGET = 10;
+export const LESSON_WRITING_TARGET = 1;
+export const LESSON_READING_TARGET = 1;
+export const LESSON_LISTENING_TARGET = 1;
+// Generated practice drills required to pass a GRAMMAR lesson (vocab chapters skip this).
+export const LESSON_PRACTICE_TARGET = 2;
 // The composition "pass" bar: writing score (0-100) and the fraction of quiz
 // questions that must be correct for a reading/listening attempt to count.
 export const COMPOSITION_PASS_SCORE = 80;
@@ -151,12 +153,27 @@ export interface ChatMessage {
   createdAt: string;
 }
 
+// One example sentence per lesson word (Gemini-generated, cached). Keyed by the
+// same id as ResolvedWord so the UI can merge it with the word list.
+export interface VocabExample {
+  id: string;
+  example: string; // a natural Spanish sentence using the word
+  example_en: string; // English gloss
+}
+export interface VocabPack {
+  lessonId: string;
+  items: VocabExample[];
+  createdAt: string;
+}
+
 // Per-lesson gate summary returned by GET /api/course (computed via lessonGate).
+// `practice` is present only for grammar lessons.
 export interface LessonGateSummary {
   writing: { done: number; target: number };
   reading: { done: number; target: number };
   listening: { done: number; target: number };
   vocab: { done: number; total: number };
+  practice?: { done: number; target: number };
   passed: boolean;
 }
 

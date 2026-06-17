@@ -65,11 +65,19 @@ export interface WritingPromptResult {
 
 // `spice` is a caller-supplied random seed/keyword to force high variance across
 // generations even with the same level/tense.
+// `include` is an optional word-bank: Spanish words the prompt should nudge the
+// learner to use (course words, for spaced exposure). Soft, not exclusive.
+function wordBankLine(include?: string[]): string {
+  if (!include?.length) return "";
+  return `\nWhere natural, gently steer the learner toward reusing these words they're studying (don't force all of them): ${include.slice(0, 40).join(", ")}.`;
+}
+
 export function buildWritingPromptPrompt(p: {
   level: Level;
   tense: CompTense;
   topic?: string;
   spice: string;
+  include?: string[];
 }): string {
   const topicLine = p.topic?.trim()
     ? `The topic MUST be about: "${p.topic.trim()}".`
@@ -77,7 +85,7 @@ export function buildWritingPromptPrompt(p: {
   return `You design Spanish writing prompts for a learner.
 Learner level: ${levelPhrase(p.level)}.
 They will write using ${tensePhrase(p.tense)}.
-${topicLine}
+${topicLine}${wordBankLine(p.include)}
 
 Produce ONE engaging writing prompt (2-4 sentences) that naturally pushes the learner to use that tense, calibrated to their level. The prompt itself is written in Spanish at or slightly below their level.
 
@@ -141,6 +149,7 @@ export function buildStoryPrompt(p: {
   topic?: string;
   words: number;
   spice: string;
+  include?: string[];
 }): string {
   const topicLine = p.topic?.trim()
     ? `The story MUST be about: "${p.topic.trim()}".`
@@ -148,7 +157,7 @@ export function buildStoryPrompt(p: {
   return `You write engaging Spanish short stories for a learner to read.
 Learner level: ${levelPhrase(p.level)}.
 Write the story using ${tensePhrase(p.tense)}.
-${topicLine}
+${topicLine}${wordBankLine(p.include)}
 Target length: about ${p.words} words. Use paragraphs (separate them with blank lines). Make it genuinely interesting with a beginning, middle, and end.
 
 Then write 4-6 OPEN-ENDED comprehension questions in Spanish (not yes/no, not multiple choice) that require understanding the story, plus a concise model answer for each.
@@ -176,6 +185,7 @@ export interface StoryRow {
   body: string;
   quiz: QuizQuestion[];
   hasAudio: boolean;
+  lessonId?: string | null; // course lesson this story belongs to (null = free practice)
 }
 export interface WritingAttemptRow {
   id: string;
@@ -240,6 +250,20 @@ function lessonFocus(lesson: Lesson): string {
   return lesson.kind === "grammar" && lesson.grammarTopic
     ? `Grammar focus: ${lesson.grammarTopic}.`
     : `This is a vocabulary chapter titled "${lesson.title}".`;
+}
+
+// ---- lesson vocab pack (one example sentence per word) ----
+export function buildLessonVocabPrompt(p: { lesson: Lesson; words: ResolvedWord[] }): string {
+  const list = p.words.map((w) => `- id "${w.id}": ${w.spanish} (${w.english})`).join("\n");
+  return `You write example sentences for a Spanish vocabulary list, for ${COURSE_LEVEL_PHRASE}.
+For EACH word below, write ONE short, natural Spanish sentence that uses the word clearly (so the meaning is obvious from context), plus an English translation. Keep sentences simple and at the learner's level.
+
+Words:
+${list}
+
+Reply with ONLY this JSON:
+{"items":[{"id":"<the exact id>","example":"<Spanish sentence using the word>","example_en":"<English translation>"}]}
+One entry per word, using the exact id shown.`;
 }
 
 // ---- lesson explanation (prose, rendered by StoryBody) ----

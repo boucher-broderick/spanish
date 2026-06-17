@@ -9,10 +9,12 @@ export function Writing({
   onExit,
   onPassed,
   initialCriteria,
+  includeWords,
 }: {
   onExit: () => void;
   onPassed?: () => void;
   initialCriteria?: Partial<Criteria>;
+  includeWords?: string[];
 }) {
   const [prompts, setPrompts] = useState<WritingPromptRow[]>([]);
   const [loading, setLoading] = useState(true);
@@ -38,7 +40,7 @@ export function Writing({
       const res = await fetch("/api/writing/prompt", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ level: crit.level, tense: crit.tense, topic: crit.topic || undefined }),
+        body: JSON.stringify({ level: crit.level, tense: crit.tense, topic: crit.topic || undefined, words: includeWords }),
       });
       const d = await res.json();
       if (!res.ok) throw new Error(d.error ?? "Failed to generate prompt");
@@ -68,7 +70,7 @@ export function Writing({
       </button>
 
       {active ? (
-        <PromptWorkspace prompt={active} onSaved={onAttemptSaved} onPassed={onPassed} />
+        <PromptWorkspace prompt={active} onSaved={onAttemptSaved} onPassed={onPassed} wordBank={includeWords} />
       ) : (
         <div className="space-y-6">
           <section className="space-y-3">
@@ -123,10 +125,12 @@ function PromptWorkspace({
   prompt,
   onSaved,
   onPassed,
+  wordBank,
 }: {
   prompt: WritingPromptRow;
   onSaved: (promptId: string, attempt: WritingPromptRow["attempts"][number]) => void;
   onPassed?: () => void;
+  wordBank?: string[];
 }) {
   // tab: an attempt index, or "new"
   const [tab, setTab] = useState<number | "new">(prompt.attempts.length ? prompt.attempts.length - 1 : "new");
@@ -181,6 +185,19 @@ function PromptWorkspace({
           </button>
         )}
       </Card>
+
+      {wordBank && wordBank.length > 0 && (
+        <Card className="p-3">
+          <div className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-slate-400">Word bank — try to use these</div>
+          <div className="flex flex-wrap gap-1.5">
+            {wordBank.map((w) => (
+              <span key={w} className="rounded-full bg-indigo-50 px-2.5 py-0.5 text-sm text-indigo-700">
+                {w}
+              </span>
+            ))}
+          </div>
+        </Card>
+      )}
 
       {/* variation tabs */}
       <div className="flex flex-wrap gap-1.5">

@@ -34,9 +34,11 @@ interface Response {
 export function PracticeRunner({
   lessonId,
   request,
+  onComplete,
 }: {
   lessonId: string;
   request?: { kind: PracticeKind; nonce: number } | null;
+  onComplete?: () => void;
 }) {
   const [spec, setSpec] = useState<PracticeSpec | null>(null);
   const [kind, setKind] = useState<PracticeKind>("fillBlank");
@@ -98,6 +100,7 @@ export function PracticeRunner({
         key={spec.title + spec.items.length}
         spec={spec}
         onNewDrill={() => setSpec(null)}
+        onComplete={onComplete}
       />
     );
   }
@@ -118,7 +121,15 @@ export function PracticeRunner({
 }
 
 // ---- the renderer: one item at a time, local + batched-Gemini grading ----
-export function PracticeRenderer({ spec, onNewDrill }: { spec: PracticeSpec; onNewDrill: () => void }) {
+export function PracticeRenderer({
+  spec,
+  onNewDrill,
+  onComplete,
+}: {
+  spec: PracticeSpec;
+  onNewDrill: () => void;
+  onComplete?: () => void;
+}) {
   const items = spec.items;
   const [idx, setIdx] = useState(0);
   const [phase, setPhase] = useState<Phase>("input");
@@ -184,6 +195,7 @@ export function PracticeRenderer({ spec, onNewDrill }: { spec: PracticeSpec; onN
       }
     }
     setResults(merged);
+    onComplete?.(); // a finished drill counts toward the lesson's practice gate
   }
 
   function next() {
@@ -197,6 +209,20 @@ export function PracticeRenderer({ spec, onNewDrill }: { spec: PracticeSpec; onN
     setValue("");
     setReason("");
   }
+
+  // After grading an item, Enter advances to the next one (matches the games).
+  useEffect(() => {
+    if (phase !== "feedback") return;
+    const h = (e: KeyboardEvent) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        next();
+      }
+    };
+    window.addEventListener("keydown", h);
+    return () => window.removeEventListener("keydown", h);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase, idx]);
 
   if (!item) return null;
 

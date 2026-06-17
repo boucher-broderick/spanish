@@ -1,11 +1,12 @@
 "use client";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { emptyState, ExerciseId, LessonPillar, ProgressState, Settings } from "@/lib/domain";
-import { demoteWord, recordAttempt, resetExercise, resetWord } from "@/lib/progress";
+import { demoteWord, overrideExercise, recordAttempt, resetExercise, resetWord } from "@/lib/progress";
 import {
   bumpDailyPillar,
   bumpLessonPillar,
   recordDailyWord,
+  recordLessonPractice,
   syncLessonCompletion,
 } from "@/lib/lesson-progress";
 import { localToday as todayStr } from "@/lib/course";
@@ -105,6 +106,21 @@ export function useProgress() {
     (pillar: LessonPillar) => mutate((s) => bumpDailyPillar(s, todayStr(), pillar)),
     [mutate]
   );
+  // Count a completed generated-practice drill toward a grammar lesson's gate.
+  const recordPractice = useCallback(
+    (lessonId: string) => mutate((s) => recordLessonPractice(s, lessonId, todayStr())),
+    [mutate]
+  );
+  // Manually mark a set of words mastered in an exercise (lesson override button).
+  const overrideMastery = useCallback(
+    (wordIds: string[], ex: ExerciseId, lessonId?: string) =>
+      mutate((s) => {
+        let n = s;
+        for (const id of wordIds) n = overrideExercise(n, id, ex);
+        return lessonId ? syncLessonCompletion(n, lessonId, todayStr()) : n;
+      }),
+    [mutate]
+  );
 
   return {
     state,
@@ -119,6 +135,8 @@ export function useProgress() {
     recordInLesson,
     recordInDaily,
     bumpDaily,
+    recordPractice,
+    overrideMastery,
   };
 }
 
