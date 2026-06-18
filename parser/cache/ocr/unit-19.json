@@ -1,0 +1,482 @@
+{
+  "unit": 19,
+  "pages": [
+    {
+      "pdfPage": 239,
+      "exercises": [
+        {
+          "id": "19-1",
+          "type": "fill",
+          "instruction": "¿Cuál es el pronombre apropiado? Escribe el pronombre de sujeto que corresponde al sujeto de las oraciones siguientes.",
+          "blanks": [
+            { "item": 1, "cy": 0.365 },
+            { "item": 2, "cy": 0.399 },
+            { "item": 3, "cy": 0.431 },
+            { "item": 4, "cy": 0.465 },
+            { "item": 5, "cy": 0.498 },
+            { "item": 6, "cy": 0.532 },
+            { "item": 7, "cy": 0.564 },
+            { "item": 8, "cy": 0.598 }
+          ]
+        },
+        {
+          "id": "19-2",
+          "type": "fill",
+          "instruction": "¡Con énfasis! Escribe el pronombre para indicar énfasis. The conjugated verb will tell you what person to choose.",
+          "blanks": [
+            { "item": 1, "cy": 0.728 },
+            { "item": 2, "cy": 0.762 },
+            { "item": 3, "cy": 0.811 },
+            { "item": 4, "cy": 0.844 },
+            { "item": 5, "cy": 0.878 },
+            { "item": 6, "cy": 0.911 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 240,
+      "exercises": [
+        {
+          "id": "19-3",
+          "type": "personal",
+          "instruction": "¿Tú o usted? Imagina que escribes una carta a estas personas. Marca una X detrás de la forma apropiada del pronombre de sujeto que debes usar.",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.284 },
+            { "item": 5, "cy": 0.318 },
+            { "item": 6, "cy": 0.351 },
+            { "item": 7, "cy": 0.384 },
+            { "item": 8, "cy": 0.417 },
+            { "item": 9, "cy": 0.451 },
+            { "item": 10, "cy": 0.484 }
+          ]
+        },
+        {
+          "id": "19-4",
+          "type": "translate",
+          "instruction": "En español. Usa los pronombres de sujeto solamente si son necesarios.",
+          "blanks": [
+            { "item": 1, "cy": 0.614 },
+            { "item": 2, "cy": 0.648 },
+            { "item": 3, "cy": 0.681 },
+            { "item": 4, "cy": 0.714 },
+            { "item": 5, "cy": 0.747 },
+            { "item": 6, "cy": 0.781 },
+            { "item": 7, "cy": 0.814 },
+            { "item": 8, "cy": 0.847 },
+            { "item": 9, "cy": 0.88 },
+            { "item": 10, "cy": 0.914 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 242,
+      "exercises": [
+        {
+          "id": "19-5",
+          "type": "fill",
+          "instruction": "Práctica. Escribe la forma apropiada del pronombre.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.169 },
+            { "item": 9, "cy": 0.201 },
+            { "item": 10, "cy": 0.235 },
+            { "item": 11, "cy": 0.268 },
+            { "item": 12, "cy": 0.302 },
+            { "item": 13, "cy": 0.334 },
+            { "item": 14, "cy": 0.368 }
+          ]
+        },
+        {
+          "id": "19-6",
+          "type": "translate",
+          "instruction": "En español. Usa una de las preposiciones siguientes en cada frase.",
+          "blanks": [
+            { "item": 1, "cy": 0.54 },
+            { "item": 2, "cy": 0.573 },
+            { "item": 3, "cy": 0.606 },
+            { "item": 4, "cy": 0.64 },
+            { "item": 5, "cy": 0.673 },
+            { "item": 6, "cy": 0.706 },
+            { "item": 7, "cy": 0.739 },
+            { "item": 8, "cy": 0.773 },
+            { "item": 9, "cy": 0.806 },
+            { "item": 10, "cy": 0.839 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 243,
+      "exercises": [
+        {
+          "id": "19-7",
+          "type": "fill",
+          "instruction": "En el partido de béisbol. Contesta las preguntas. Sustituye los complementos directos con los pronombres correspondientes.",
+          "blanks": [
+            { "item": 1, "cy": 0.82 },
+            { "item": 2, "cy": 0.854 },
+            { "item": 3, "cy": 0.887 },
+            { "item": 4, "cy": 0.92 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 244,
+      "exercises": [
+        {
+          "id": "19-7",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 5, "cy": 0.083 },
+            { "item": 6, "cy": 0.116 },
+            { "item": 7, "cy": 0.149 },
+            { "item": 8, "cy": 0.182 }
+          ]
+        },
+        {
+          "id": "19-8",
+          "type": "personal",
+          "instruction": "Te toca a ti. Preguntas personales. Sustituye el complemento directo con el pronombre apropiado.",
+          "blanks": [
+            { "item": 1, "cy": 0.313 },
+            { "item": 2, "cy": 0.346 },
+            { "item": 3, "cy": 0.379 },
+            { "item": 4, "cy": 0.412 },
+            { "item": 5, "cy": 0.445 },
+            { "item": 6, "cy": 0.479 },
+            { "item": 7, "cy": 0.512 },
+            { "item": 8, "cy": 0.545 }
+          ]
+        },
+        {
+          "id": "19-9",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.676 },
+            { "item": 2, "cy": 0.709 },
+            { "item": 3, "cy": 0.742 },
+            { "item": 4, "cy": 0.775 },
+            { "item": 5, "cy": 0.809 },
+            { "item": 6, "cy": 0.842 },
+            { "item": 7, "cy": 0.875 },
+            { "item": 8, "cy": 0.908 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 245,
+      "exercises": [
+        {
+          "id": "19-10",
+          "type": "fill",
+          "instruction": "En la cocina. Los pronombres y los mandatos. Sustituye el objeto directo con el pronombre correspondiente. Remember to attach the direct object pronoun to the affirmative command.",
+          "blanks": [
+            { "item": 1, "cy": 0.424 },
+            { "item": 2, "cy": 0.457 },
+            { "item": 3, "cy": 0.491 },
+            { "item": 4, "cy": 0.524 },
+            { "item": 5, "cy": 0.557 },
+            { "item": 6, "cy": 0.59 },
+            { "item": 7, "cy": 0.624 }
+          ]
+        },
+        {
+          "id": "19-11",
+          "type": "translate",
+          "instruction": "¡Órdenes son órdenes! En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.754 },
+            { "item": 2, "cy": 0.787 },
+            { "item": 3, "cy": 0.82 },
+            { "item": 4, "cy": 0.854 },
+            { "item": 5, "cy": 0.887 },
+            { "item": 6, "cy": 0.92 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 246,
+      "exercises": [
+        {
+          "id": "19-12",
+          "type": "fill",
+          "instruction": "Los infinitivos y los pronombres: las dos posibilidades. Sustituye los pronombres. Escribe las dos opciones, el pronombre antes del verbo y unido (attached) al infinitivo.",
+          "blanks": [
+            { "item": 1, "cy": 0.347 },
+            { "item": 2, "cy": 0.381 },
+            { "item": 3, "cy": 0.414 },
+            { "item": 4, "cy": 0.447 },
+            { "item": 5, "cy": 0.48 },
+            { "item": 6, "cy": 0.514 },
+            { "item": 7, "cy": 0.547 },
+            { "item": 8, "cy": 0.58 }
+          ]
+        },
+        {
+          "id": "19-13",
+          "type": "fill",
+          "instruction": "¿Qué están haciendo ahora? El complemento directo. Escribe la forma apropiada del pronombre del complemento directo en cursiva. Únelo (Attach it) al gerundio -ando, -iendo.",
+          "blanks": [
+            { "item": 1, "cy": 0.727 },
+            { "item": 2, "cy": 0.76 },
+            { "item": 3, "cy": 0.794 },
+            { "item": 4, "cy": 0.827 },
+            { "item": 5, "cy": 0.859 },
+            { "item": 6, "cy": 0.893 },
+            { "item": 7, "cy": 0.926 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 247,
+      "exercises": [
+        {
+          "id": "19-14",
+          "type": "translate",
+          "instruction": "En español. Write both possible constructions for gerundio + direct object pronouns.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 248,
+      "exercises": [
+        {
+          "id": "19-15",
+          "type": "fill",
+          "instruction": "Los complementos indirectos. Escribe el pronombre para sustituir las palabras entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.355 },
+            { "item": 2, "cy": 0.388 },
+            { "item": 3, "cy": 0.422 },
+            { "item": 4, "cy": 0.455 },
+            { "item": 5, "cy": 0.488 },
+            { "item": 6, "cy": 0.521 },
+            { "item": 7, "cy": 0.555 },
+            { "item": 8, "cy": 0.588 }
+          ]
+        },
+        {
+          "id": "19-16",
+          "type": "translate",
+          "instruction": "Escribe en español. Después, subraya el pronombre de complemento indirecto.",
+          "blanks": [
+            { "item": 1, "cy": 0.718 },
+            { "item": 2, "cy": 0.751 },
+            { "item": 3, "cy": 0.785 },
+            { "item": 4, "cy": 0.818 },
+            { "item": 5, "cy": 0.851 },
+            { "item": 6, "cy": 0.884 },
+            { "item": 7, "cy": 0.917 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 249,
+      "exercises": [
+        {
+          "id": "19-17",
+          "type": "fill",
+          "instruction": "Los mandatos y los pronombres. Usa el pronombre de complemento indirecto que corresponde a las palabras entre paréntesis. Escribe la oración de nuevo y une (attach) el pronombre al mandato si es afirmativo.",
+          "blanks": [
+            { "item": 1, "cy": 0.584 },
+            { "item": 2, "cy": 0.617 },
+            { "item": 3, "cy": 0.65 },
+            { "item": 4, "cy": 0.683 },
+            { "item": 5, "cy": 0.717 },
+            { "item": 6, "cy": 0.75 },
+            { "item": 7, "cy": 0.783 },
+            { "item": 8, "cy": 0.816 },
+            { "item": 9, "cy": 0.85 },
+            { "item": 10, "cy": 0.883 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 250,
+      "exercises": [
+        {
+          "id": "19-18",
+          "type": "fill",
+          "instruction": "Los infinitivos: las posibilidades. Sustituye el objeto indirecto entre paréntesis con el pronombre de complemento indirecto. Write both options: the pronoun attached to the infinitive and the pronoun preceding the conjugated verb.",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.284 },
+            { "item": 5, "cy": 0.318 },
+            { "item": 6, "cy": 0.351 },
+            { "item": 7, "cy": 0.384 },
+            { "item": 8, "cy": 0.417 }
+          ]
+        },
+        {
+          "id": "19-19",
+          "type": "fill",
+          "instruction": "¿Qué hacen? Sustituye el objeto indirecto entre paréntesis con el pronombre de complemento indirecto. Escribe la forma apropiada del pronombre y únelo (attach it) al gerundio (-ando, -iendo).",
+          "blanks": [
+            { "item": 1, "cy": 0.564 },
+            { "item": 2, "cy": 0.598 },
+            { "item": 3, "cy": 0.631 },
+            { "item": 4, "cy": 0.664 },
+            { "item": 5, "cy": 0.697 },
+            { "item": 6, "cy": 0.731 },
+            { "item": 7, "cy": 0.764 },
+            { "item": 8, "cy": 0.797 },
+            { "item": 9, "cy": 0.83 },
+            { "item": 10, "cy": 0.864 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 251,
+      "exercises": [
+        {
+          "id": "19-20",
+          "type": "translate",
+          "instruction": "Los intercambios. En español. Place the pronouns before the conjugated verb.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 252,
+      "exercises": [
+        {
+          "id": "19-21",
+          "type": "fill",
+          "instruction": "Están muy ocupados. Práctica. Sustituye los objetos de complemento directo e indirecto y escribe una frase con los pronombres en el orden correspondiente.",
+          "blanks": [
+            { "item": 1, "cy": 0.218 },
+            { "item": 2, "cy": 0.251 },
+            { "item": 3, "cy": 0.284 },
+            { "item": 4, "cy": 0.318 },
+            { "item": 5, "cy": 0.351 },
+            { "item": 6, "cy": 0.384 },
+            { "item": 7, "cy": 0.417 },
+            { "item": 8, "cy": 0.451 },
+            { "item": 9, "cy": 0.484 },
+            { "item": 10, "cy": 0.517 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 253,
+      "exercises": [
+        {
+          "id": "19-22",
+          "type": "translate",
+          "instruction": "En español. Si hay dos opciones para colocar (place) los pronombres en una oración, escribe las dos posibilidades.",
+          "blanks": [
+            { "item": 1, "cy": 0.246 },
+            { "item": 2, "cy": 0.279 },
+            { "item": 3, "cy": 0.313 },
+            { "item": 4, "cy": 0.346 },
+            { "item": 5, "cy": 0.412 },
+            { "item": 6, "cy": 0.445 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 254,
+      "exercises": [
+        {
+          "id": "19-23",
+          "type": "fill",
+          "instruction": "¿Qué les gusta? Usa la forma del verbo gustar y el complemento indirecto apropiados. Escribe la oración completa.",
+          "blanks": [
+            { "item": 1, "cy": 0.263 },
+            { "item": 2, "cy": 0.296 },
+            { "item": 3, "cy": 0.33 },
+            { "item": 4, "cy": 0.362 },
+            { "item": 5, "cy": 0.396 },
+            { "item": 6, "cy": 0.429 },
+            { "item": 7, "cy": 0.463 },
+            { "item": 8, "cy": 0.496 }
+          ]
+        },
+        {
+          "id": "19-24",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.626 },
+            { "item": 2, "cy": 0.659 },
+            { "item": 3, "cy": 0.693 },
+            { "item": 4, "cy": 0.725 },
+            { "item": 5, "cy": 0.759 },
+            { "item": 6, "cy": 0.792 },
+            { "item": 7, "cy": 0.825 },
+            { "item": 8, "cy": 0.859 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 255,
+      "exercises": [
+        {
+          "id": "19-25",
+          "type": "personal",
+          "instruction": "Preguntas personales.",
+          "blanks": [
+            { "item": 1, "cy": 0.296 },
+            { "item": 2, "cy": 0.33 },
+            { "item": 3, "cy": 0.362 },
+            { "item": 4, "cy": 0.396 },
+            { "item": 5, "cy": 0.429 },
+            { "item": 6, "cy": 0.463 },
+            { "item": 7, "cy": 0.496 },
+            { "item": 8, "cy": 0.529 },
+            { "item": 9, "cy": 0.562 },
+            { "item": 10, "cy": 0.595 }
+          ]
+        },
+        {
+          "id": "19-26",
+          "type": "translate",
+          "instruction": "Sobre gustos hay mucho escrito. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.806 }
+          ]
+        }
+      ]
+    }
+  ]
+}

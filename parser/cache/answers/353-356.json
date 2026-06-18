@@ -1,0 +1,380 @@
+{
+  "1-1": {
+    "1": ["vive"],
+    "2": ["trabaja"],
+    "3": ["estudia"],
+    "4": ["planean"],
+    "5": ["subo"],
+    "6": ["saco"],
+    "7": ["conversas"],
+    "8": ["necesita"]
+  },
+  "1-2": {
+    "1": ["Yo preparo la cena."],
+    "2": ["Los niños suben la escalera."],
+    "3": ["Mis gatos beben leche."],
+    "4": ["El cliente suma la cuenta."],
+    "5": ["La mamá de Carli habla al reportero."],
+    "6": ["La actriz teme a los críticos."],
+    "7": ["Tus amigos comen fajitas."]
+  },
+  "1-4": {
+    "1": ["Hoy Martha y Linus celebran su aniversario."],
+    "2": ["Los parientes llegan a tiempo."],
+    "3": ["Varios amigos conversan en la sala."],
+    "4": ["En el patio, los chicos escuchan música latina."],
+    "5": ["El olor a enchiladas circula por toda la casa."],
+    "6": ["Los niños beben limonada."]
+  },
+  "1-6": {
+    "1": ["V"],
+    "2": ["F"],
+    "3": ["V"],
+    "4": ["F"],
+    "5": ["V"]
+  },
+  "1-7": {
+    "1": ["Hace... que estudio."],
+    "2": ["Uso la computadora desde hace..."],
+    "3": ["Hace... años que los Estados Unidos son una nación independiente."],
+    "4": ["Usamos la Internet desde hace... años."],
+    "5": ["Escucho música clásica desde hace...", "No escucho música clásica."]
+  },
+  "1-9": {
+    "1": ["F"],
+    "2": ["F"],
+    "3": ["V"],
+    "4": ["V"],
+    "5": ["V"]
+  },
+  "1-10": {
+    "1": ["doy"],
+    "2": ["ponen"],
+    "3": ["ven"],
+    "4": ["cabemos"],
+    "5": ["traigo"],
+    "6": ["caigo"],
+    "7": ["haces"],
+    "8": ["salgo"]
+  },
+  "1-11": {
+    "1": ["Propongo un descanso."],
+    "2": ["Supones lo peor."],
+    "3": ["Reponen el dinero."],
+    "4": ["Yo deshago el trabajo."],
+    "5": ["Ella compone una canción."],
+    "6": ["Las chicas distraen al conductor."]
+  },
+  "1-12": {
+    "1": ["b"],
+    "2": ["a"],
+    "3": ["h"],
+    "4": ["c"],
+    "5": ["f"],
+    "6": ["g"],
+    "7": ["e"],
+    "8": ["d"]
+  },
+  "1-13": {
+    "1": ["conduzco"],
+    "2": ["salen"],
+    "3": ["conozco"],
+    "4": ["ofrece"],
+    "5": ["merezco"],
+    "6": ["obedecen"],
+    "7": ["perteneces"],
+    "8": ["conoce"]
+  },
+  "1-14": {
+    "1": ["Merezco un aumento de sueldo."],
+    "2": ["¿Salgo ahora?"],
+    "3": ["Agradezco tu amistad."],
+    "4": ["No pertenezco a este grupo."],
+    "5": ["Traduzco las instrucciones."],
+    "6": ["Rara vez impongo mis ideas."],
+    "7": ["Permanezco callado/a."]
+  },
+  "1-15": {
+    "1": ["Hay una persona."],
+    "2": ["Hay diez programas."],
+    "3": ["Voy ahora."],
+    "4": ["No oigo música."],
+    "5": ["¿Ve Ud. el autobús?"],
+    "6": ["Digo la verdad."],
+    "7": ["Tienen tiempo."],
+    "8": ["Detienen el coche."]
+  },
+  "1-16": {
+    "1": ["estamos"],
+    "2": ["es... dice"],
+    "3": ["Hay"],
+    "4": ["oye"],
+    "5": ["vienen"],
+    "6": ["viene"],
+    "7": ["están"],
+    "8": ["van"]
+  },
+  "1-17": {
+    "1": ["exijo"],
+    "2": ["escojo"],
+    "3": ["extingo"],
+    "4": ["recojo"],
+    "5": ["venzo"],
+    "6": ["protejo"],
+    "7": ["convenzo"],
+    "8": ["finjo"]
+  },
+  "1-18": {
+    "1": ["Todos los días, salgo de casa a las siete. Conduzco mi coche hasta la oficina y allí trabajo duro. Cuando vuelvo a casa hago los quehaceres domésticos. ¡Gracias a Dios por los aparatos electrodomésticos! Convenzo a mis hijos y mi esposo y todos compartimos el trabajo. Mi esposo pasa la aspiradora. Yo pongo la ropa en la lavadora y después mi hija Mati la seca en la secadora y pone la ropa en los armarios. Yo asigno los quehaceres domésticos. Entonces propongo un plan para la cena. Mi hijo Rob viene a la cocina y escucha mis instrucciones. El horno microondas es el aparato preferido de Rob y él prepara comidas rápidas. Después, Rob y Mati ponen los platos en la fregadora de platos. ¡Ahora, yo merezco un descanso y veo mis programas favoritos de la televisión!"]
+  },
+  "1-22": {
+    "1": ["¿Tienes hambre?"],
+    "2": ["Tenemos sed."],
+    "3": ["Lori hace una visita a su primo."],
+    "4": ["Mario le da un abrazo a su amigo."],
+    "5": ["Tienen prisa."],
+    "6": ["Tienes razón esta vez."],
+    "7": ["No tengo miedo."],
+    "8": ["¿Tiene usted frío?"]
+  },
+  "1-23": {
+    "1": ["e"],
+    "2": ["b"],
+    "3": ["h"],
+    "4": ["a"],
+    "5": ["d"],
+    "6": ["f"],
+    "7": ["c"],
+    "8": ["g"]
+  },
+  "2-1": {
+    "1": ["prefiero"],
+    "2": ["recomienda"],
+    "3": ["enciende"],
+    "4": ["entienden"],
+    "5": ["gobierna"],
+    "6": ["piensa"],
+    "7": ["cierra"]
+  },
+  "2-2": {
+    "1": ["gobierna"],
+    "2": ["defiende"],
+    "3": ["comienza"],
+    "4": ["hiela"],
+    "5": ["entiende"],
+    "6": ["nos sentamos"]
+  },
+  "2-3": {
+    "1": ["podemos"],
+    "2": ["cuesta"],
+    "3": ["encuentra"],
+    "4": ["suelo"],
+    "5": ["almuerzo"],
+    "6": ["juego"],
+    "7": ["llueve"],
+    "8": ["recordamos"]
+  },
+  "2-4": {
+    "1": ["Truena."],
+    "2": ["Recuerdo."],
+    "3": ["Cuesta diez dólares."],
+    "4": ["Ella envuelve el regalo."],
+    "5": ["Silvia cuenta los billetes."],
+    "6": ["Jugamos ahora."],
+    "7": ["Muestras las fotos."],
+    "8": ["Huelen las flores."]
+  },
+  "2-5": {
+    "1": ["prefiere"],
+    "2": ["miente"],
+    "3": ["presienten"],
+    "4": ["advierten"],
+    "5": ["mientes"],
+    "6": ["siento"],
+    "7": ["convierten"],
+    "8": ["refiere"]
+  },
+  "2-6": {
+    "1": ["El agua hierve."],
+    "2": ["Martha no miente."],
+    "3": ["Se siente bien."],
+    "4": ["Se divierten."],
+    "5": ["Usted miente."],
+    "6": ["Preferimos jugar ajedrez."]
+  },
+  "2-7": {
+    "1": ["Mides la tela."],
+    "2": ["Siempre sigo las reglas."],
+    "3": ["Ríe."],
+    "4": ["El/La asistente de vuelo repite las instrucciones."],
+    "5": ["Gloria se despide."],
+    "6": ["El/La gerente despide a los empleados incompetentes."],
+    "7": ["¿Quién sirve la cena?"]
+  },
+  "2-8": {
+    "1": ["b"],
+    "2": ["d"],
+    "3": ["e"],
+    "4": ["a"],
+    "5": ["c"],
+    "6": ["f"]
+  },
+  "2-9": {
+    "1": ["F"],
+    "2": ["V"],
+    "3": ["V"],
+    "4": ["V"],
+    "5": ["F"],
+    "6": ["F"]
+  },
+  "2-11": {
+    "1": ["V"],
+    "2": ["F"],
+    "3": ["V"],
+    "4": ["V"],
+    "5": ["V"],
+    "6": ["V"]
+  },
+  "2-12": {
+    "1": ["entiende"],
+    "2": ["quieres"],
+    "3": ["nos resfriamos"],
+    "4": ["continúa"],
+    "5": ["Enviamos"],
+    "6": ["concluye"]
+  },
+  "2-13": {
+    "1": ["En \"Casa Marcelo\" saludo a los clientes. Les muestro el menú. Siempre sugiero el plato del día. Mientras trabajo sueño mucho. ¿Mi sueño? Este es mi sueño: soy una estrella de cine. ¿Por qué no? Mido 5 pies y diez pulgadas y soy guapo. Confieso que soy un poco tímido. Me muerdo las uñas cuando tengo una audición. Pero quiero ser una estrella de cine famosa. En mis sueños, mi agente encuentra el papel perfecto en una película de acción. En una de las escenas yo encuentro muchas pistas y persigo a tres hombres. Ellos espían para el enemigo y yo peleo duro para impedir sus crímenes. Los tres hombres mueren en una emboscada dentro de un túnel. En los cines los espectadores tiemblan en sus asientos y gritan. El teléfono suena... Me despierto de mi sueño. Un cliente quiere venir aquí esta noche a las ocho y pide una mesa cerca de una ventana. ¡Todos quieren una mesa cerca de una ventana! Regreso a mi sueño. Prefiero regresar a mi sueño y ser un espía."]
+  },
+  "3-1": {
+    "1": ["F"],
+    "2": ["F"],
+    "3": ["V"],
+    "4": ["V"],
+    "5": ["F"],
+    "6": ["V"]
+  },
+  "3-2": {
+    "1": ["Éste es Manuel Ortiz."],
+    "2": ["Es de Puerto Rico."],
+    "3": ["Ésta es su asistente, Leticia."],
+    "4": ["Ella es ecuatoriana."],
+    "5": ["Ellos son nuestros amigos."],
+    "6": ["Manuel es un atleta excelente."]
+  },
+  "3-3": {
+    "1": ["d"],
+    "2": ["e"],
+    "3": ["g"],
+    "4": ["f"],
+    "5": ["a"],
+    "6": ["b"],
+    "7": ["c"]
+  },
+  "3-4": {
+    "1": ["está"],
+    "2": ["son"],
+    "3": ["estamos... estamos"],
+    "4": ["estás"],
+    "5": ["es"],
+    "6": ["está"]
+  },
+  "3-5": {
+    "1": ["location"],
+    "2": ["telling time"],
+    "3": ["present progressive form; temporary condition"],
+    "4": ["temporary condition"],
+    "5": ["time an event takes place"],
+    "6": ["location"]
+  },
+  "3-6": {
+    "1": ["Los hijos de Arturo creen que él es el candidato ideal para ser el gobernador de su estado. Arturo es amable y muy firme en sus decisiones. Él y su familia son de Estados Unidos y sus ancestros son de Europa. Es muy honrado pero es brutalmente franco. Por eso no es muy popular en algunas ciudades. Sus hijos no son como Arturo. Son un poco hipócritas y son voluntarios en la oficina de la campaña de su padre. Están muy contentos porque creen que su padre es el futuro gobernador del estado. Se están preparando para celebrar la inauguración del mandato de su padre. Ese evento no es hasta el año que viene. Para ser tan educados, son muy ingenuos. Es importante que comprendan la realidad. Tienen que estar preparados para la derrota."]
+  },
+  "3-7": {
+    "1": ["está"],
+    "2": ["está"],
+    "3": ["estar"],
+    "4": ["Están"],
+    "5": ["están"],
+    "6": ["Es"]
+  },
+  "3-8": {
+    "1": ["¡Estamos listos/as!"],
+    "2": ["Las cucarachas están muertas."],
+    "3": ["Esta novela es muy aburrida."],
+    "4": ["Jules es de Israel y su esposa es americana."],
+    "5": ["Mis ojos son verdes."],
+    "6": ["Hoy es el nueve de marzo."]
+  },
+  "3-9": {
+    "1": ["c"],
+    "2": ["b"],
+    "3": ["f"],
+    "4": ["d"],
+    "5": ["a"],
+    "6": ["e"]
+  },
+  "3-10": {
+    "1": ["Estamos a 25 de abril."],
+    "2": ["Está a punto de terminar."],
+    "3": ["Estamos por la paz."],
+    "4": ["¿Estás tú de acuerdo conmigo?"],
+    "5": ["Están de vacaciones."],
+    "6": ["El jefe está de vuelta."]
+  },
+  "4-1": {
+    "1": ["abrieron"],
+    "2": ["Perdiste"],
+    "3": ["corrió"],
+    "4": ["olvidaste"],
+    "5": ["recibimos"],
+    "6": ["terminaron"],
+    "7": ["envió"],
+    "8": ["Compró"]
+  },
+  "4-2": {
+    "1": ["Anteanoche Ana regresó a casa."],
+    "2": ["Esta mañana, Pilar envió tres mensajes electrónicos al banco."],
+    "3": ["Roberto viajó a San Antonio el mes pasado."],
+    "4": ["Hace diez años me mudé a este edificio."],
+    "5": ["El detective Rojas y su asistente resolvieron el caso la semana pasada."],
+    "6": ["Esta mañana a las ocho el doctor visitó a su nuevo paciente."]
+  },
+  "4-4": {
+    "1": ["2"],
+    "2": ["4"],
+    "3": ["5"],
+    "4": ["1"],
+    "5": ["3"]
+  },
+  "4-5": {
+    "1": ["vimos el juego por televisión."],
+    "2": ["comimos comida mexicana, tomamos un refresco y lavamos los platos."],
+    "3": ["visitamos a mi tía Matilde."],
+    "4": ["llegamos a las tres y charlamos con mi tía."],
+    "5": ["nos dimos cuenta de que el perro de Matilde es feísimo."]
+  },
+  "4-7": {
+    "1": ["Busqué"],
+    "2": ["Llegué"],
+    "3": ["lancé"],
+    "4": ["Jugué"],
+    "5": ["almorcé"],
+    "6": ["saqué"],
+    "7": ["Organicé"],
+    "8": ["Toqué"],
+    "9": ["Gocé"]
+  },
+  "4-8": {
+    "1": ["Pagué"],
+    "2": ["Empecé"],
+    "3": ["Busqué"],
+    "4": ["Toqué"],
+    "5": ["Jugué"],
+    "6": ["Coloqué"],
+    "7": ["Almorcé"],
+    "8": ["Practiqué"],
+    "9": ["Expliqué"],
+    "10": ["Abracé"]
+  }
+}

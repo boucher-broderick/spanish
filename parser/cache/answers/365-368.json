@@ -1,0 +1,325 @@
+{
+  "11-4": {
+    "1": ["El tiempo habrá mejorado mañana."],
+    "2": ["El mecánico habrá arreglado el auto."],
+    "3": ["Yo habré llenado el tanque de gasolina."],
+    "4": ["¿Habrás recogido las ropas en la lavandería?"],
+    "5": ["Habré comprado las frutas en el mercado."],
+    "6": ["Habremos pagado las cuentas del mes."]
+  },
+  "11-7": {
+    "1": ["Hoy habré recibido quince mensajes de desconocidos: tres ofertas de tarjetas de crédito, dos anuncios de una píldora milagrosa que cura todos los padecimientos, seis proposiciones deshonestas, dos chistes y dos cartas que debo reenviar a otros usuarios. ¿Quién habrá mandado tantos mensajes electrónicos? ¿Cuántas personas habrán recibido esta información? ¿Quién habrá averiguado las direcciones de tanta gente? El espacio cibernético habrá creado posibilidades infinitas de comunicación a gran velocidad, pero no ha previsto el gran número de mensajes ridículos y sospechosos que recibimos todos los días. Este mensaje dice que si envío esta carta a diez personas, en tres días habré recibido una sorpresa muy agradable. ¡Y estas personas habrán devuelto el mismo mensaje diez veces más! Pero si no envío la carta, en una semana habré visto un cambio desfavorable en mi vida. ¿Qué habré descubierto en tres días? Voy a conducir con cuidado... por si acaso."]
+  },
+  "11-8": {
+    "1": ["habría tomado"],
+    "2": ["Habrías llevado"],
+    "3": ["se habrían puesto"],
+    "4": ["habríamos sacado"],
+    "5": ["habrían caminado"],
+    "6": ["habrían comprado"]
+  },
+  "11-9": {
+    "1": ["habría roto"],
+    "2": ["habría cubierto"],
+    "3": ["habrían vuelto"],
+    "4": ["habríamos oído"],
+    "5": ["habría puesto"],
+    "6": ["se habrían caído"]
+  },
+  "11-11": {
+    "1": ["Nosotros habríamos leído todo el periódico."],
+    "2": ["Yo habría buscado el crucigrama."],
+    "3": ["Lisa habría pedido la sección de deportes."],
+    "4": ["Los chicos habrían peleado por las comiquitas."],
+    "5": ["Fernando habría revisado los anuncios clasificados."],
+    "6": ["Mi madre habría cortado los cupones."]
+  },
+  "11-12": {
+    "1": ["habríamos terminado"],
+    "2": ["habría salido"],
+    "3": ["se habría casado"],
+    "4": ["habría ido"],
+    "5": ["habría cancelado"],
+    "6": ["habría visto"]
+  },
+  "11-14": {
+    "1": ["Te habría dado el dinero."],
+    "2": ["Ella habría descansado todo el día."],
+    "3": ["¿Habrían ido al juego de béisbol?"],
+    "4": ["Habrían comido los chocolates pero yo no los dejé."],
+    "5": ["Yo habría dormido bien pero me llamaste a las dos de la mañana."],
+    "6": ["Habría lavado la ropa pero la lavadora se rompió."]
+  },
+  "12-1": {
+    "1": ["El auto fue arreglado por Carlos."],
+    "2": ["Los exámenes fueron anulados por la profesora."],
+    "3": ["La cena fue preparada por los cocineros."],
+    "4": ["Las pólizas de seguro fueron vendidas por el agente."],
+    "5": ["Los empleados fueron despedidos por el jefe."]
+  },
+  "12-2": {
+    "1": ["La comida será preparada por Helena y Paco."],
+    "2": ["Los refrescos serán donados por Carla."],
+    "3": ["Los cigarros y cigarrillos no serán permitidos."],
+    "4": ["Los regalos serán distribuidos."],
+    "5": ["Todos mis amigos serán invitados."],
+    "6": ["El Año Nuevo será celebrado con música."],
+    "7": ["La policía no será avisada por mis vecinos."]
+  },
+  "12-3": {
+    "1": ["V"],
+    "2": ["V"],
+    "3": ["F"],
+    "4": ["F"],
+    "5": ["F"],
+    "6": ["F"],
+    "7": ["F"],
+    "8": ["V"],
+    "9": ["V"]
+  },
+  "12-4": {
+    "1": ["Una noticia de última hora. Un coche con un viajero peculiar fue descubierto en la Avenida Simón Bolívar. Un león fue visto en el asiento trasero del auto. Las autoridades fueron avisadas inmediatamente. El conductor fue detenido por la policía. El auto era conducido por una dama misteriosa cuya identidad aun es desconocida. La dama y el león fueron finalmente identificados como miembros del Circo Moderno. Cuando fue interrogada, la extravagante dama presentó a su león, Bebé. La misteriosa dama ofreció mucha información a la prensa. Fue revelado que Bebé lleva una correa con diamantes. El incidente ha sido considerado como un truco publicitario."]
+  },
+  "12-5": {
+    "1": ["f"],
+    "2": ["b"],
+    "3": ["a"],
+    "4": ["e"],
+    "5": ["d"],
+    "6": ["c"]
+  },
+  "12-7": {
+    "1": ["se prepara"],
+    "2": ["se sirven"],
+    "3": ["se pelan"],
+    "4": ["se añade"],
+    "5": ["se evitan"],
+    "6": ["se cortan"]
+  },
+  "12-8": {
+    "1": ["F"],
+    "2": ["V"],
+    "3": ["V"],
+    "4": ["F"],
+    "5": ["V"],
+    "6": ["F"]
+  },
+  "12-9": {
+    "1": ["Se venden carros usados aquí."],
+    "2": ["Se dice que el crimen no paga."],
+    "3": ["No se aceptarán tarjetas de crédito."],
+    "4": ["Aquí se hablan inglés y español."],
+    "5": ["El museo se inaugurará mañana."]
+  },
+  "12-10": {
+    "1": ["\"Uno se informa, se prepara y busca tesoros perdidos en el fondo del mar. Se sabe que en las aguas del Mar Caribe se descubren muchos tesoros enterrados. El buque español Santa Margarita fue descubierto por unos buzos que buscaban tesoros. ¡Más de dos millones de dólares en oro y joyas se recuperaron de ese barco! ¡Y del buque Atocha casi cincuenta toneladas de plata y miles de esmeraldas del tamaño de una nuez! Pero te tienes que preparar. Te compras el mejor equipo de buceo, te buscas un lugar ideal para tu aventura y te vas a buscar tu tesoro\". Esas palabras fueron dichas por un experto cazador de tesoros. Te crees esas palabras, te compras tu equipo con tu tarjeta de crédito, te vas a buscar tesoros, te olvidas de la realidad, te pasas la vida debajo del océano y te arruinas antes de encontrar tu tesoro hundido en el fondo del mar."]
+  },
+  "13-1": {
+    "1": ["deje"],
+    "2": ["recojan"],
+    "3": ["abandone"],
+    "4": ["ayude"],
+    "5": ["escojas"],
+    "6": ["repita"]
+  },
+  "13-2": {
+    "1": ["exija"],
+    "2": ["llega"],
+    "3": ["compre"],
+    "4": ["acabe"],
+    "5": ["celebra"],
+    "6": ["reciba"]
+  },
+  "13-3": {
+    "1": ["Quiero que practiques este baile."],
+    "2": ["Marcos desea que almorcemos en este restaurante."],
+    "3": ["Prefieren que expliquemos nuestro plan."],
+    "4": ["Queremos que usted busque la respuesta."],
+    "5": ["La cajera duda que ustedes paguen en efectivo."],
+    "6": ["El público prefiere que Lamas toque la guitarra."],
+    "7": ["Marta y yo dudamos que él saque el dinero."]
+  },
+  "13-4": {
+    "1": ["No quiero que usted pierda este partido de tenis."],
+    "2": ["Dudan que ustedes entiendan las reglas.", "Dudan que ustedes comprendan las reglas."],
+    "3": ["Desean que nieve."],
+    "4": ["Preferimos que tú confieses la verdad."],
+    "5": ["¿Quién duda que empiecen ahora?"],
+    "6": ["Mi madre quiere que friegue los platos."],
+    "7": ["¿Quiere que yo recomiende un restaurante?"]
+  },
+  "13-6": {
+    "1": ["sirvan"],
+    "2": ["demuestren"],
+    "3": ["mientan"],
+    "4": ["defiendan"],
+    "5": ["gobiernen"]
+  },
+  "13-7": {
+    "1": ["envíes"],
+    "2": ["continúan"],
+    "3": ["sustituyan"],
+    "4": ["destruyen"],
+    "5": ["concluya"],
+    "6": ["desvía"]
+  },
+  "13-8": {
+    "1": ["Pedro quiere que ellos traigan los nuevos CDs."],
+    "2": ["Mi madre prefiere que tu hagas la lista."],
+    "3": ["Quieren que usted vea los resultados."],
+    "4": ["Ella prefiere que ustedes salgan inmediatamente."],
+    "5": ["Dudo que la película valga la pena."],
+    "6": ["Sheila espera que su maleta quepa en el auto."]
+  },
+  "13-9": {
+    "1": ["el secretario traiga los papeles.", "la secretaria traiga los papeles."],
+    "2": ["el asistente salga.", "la asistente salga."],
+    "3": ["el contador(a) vea los documentos.", "la contador(a) vea los documentos."],
+    "4": ["el presidente sepa sus deseos de ganar más dinero.", "la presidente sepa sus deseos de ganar más dinero."],
+    "5": ["sus empleados sean corteses."]
+  },
+  "13-10": {
+    "1": ["d"],
+    "2": ["e"],
+    "3": ["c"],
+    "4": ["a"],
+    "5": ["f"],
+    "6": ["b"]
+  },
+  "13-11": {
+    "1": ["busque"],
+    "2": ["lleguen"],
+    "3": ["mida"],
+    "4": ["acabemos"],
+    "5": ["firme"]
+  },
+  "13-13": {
+    "1": ["Dudamos que los chicos lleguen antes de las ocho."],
+    "2": ["Me dice que abra la ventana ahora."],
+    "3": ["¿Quién desea contar un cuento?"],
+    "4": ["Quiero que ustedes comprendan mi punto de vista."],
+    "5": ["El inspector ve que la carretera necesita arreglos."],
+    "6": ["Ella sugiere que trabajemos en su proyecto."]
+  },
+  "13-14": {
+    "3": ["no dependent clause introduced by que"],
+    "5": ["ve, the verb in the main clause, does not communicate doubt or uncertainty"]
+  },
+  "13-15": {
+    "1": ["Creo que mi nueva compañera de cuarto no es muy amable. Quiero que sepa que estoy enojada. Prefiero que discutamos este asunto pronto. Ella no quiere que me sienta cómoda en nuestro apartamento. Nuestro contrato prohíbe que tengamos animales en el apartamento pero ella quiere quedarse con su loro, Tonto. Bueno, la verdad es que Tonto se despierta a las 5:30 todas las mañanas y yo prefiero dormir tarde los fines de semana. Voy a pedirle que busque otro apartamento."]
+  },
+  "13-17": {
+    "1": ["estés"],
+    "2": ["sepas"],
+    "3": ["vengan"],
+    "4": ["recomiendes"],
+    "5": ["conoces"],
+    "6": ["puedan"],
+    "7": ["lleguen"],
+    "8": ["recojan"],
+    "9": ["subas"]
+  },
+  "13-18": {
+    "1": ["La empresa Telemast anuncia hoy la llegada de su nuevo gerente general. Bob espera que el nuevo gerente sea un hombre simpático y flexible. Más vale que el nuevo jefe entienda que Bob llega tarde a la oficina de vez en cuando. Bob desea crear una buena primera impresión y hoy llega a tiempo. Ojalá el nuevo gerente entienda que los empleados necesitan más tiempo para almorzar. Es importante que permita que sus empleados hagan llamadas personales desde la oficina. Ojalá que el nuevo jefe sea muy paciente y no sea muy exigente. Sin embargo, es muy probable que Bob reciba una gran sorpresa. La persona que ahora ocupa el cargo de gerente acaba de llegar a Telemast. Es la señora Almagro. Es muy conocida entre sus amigos como la \"Dama de hierro\"."]
+  },
+  "13-19": {
+    "1": ["haya seguido"],
+    "2": ["haya tenido"],
+    "3": ["haya despegado"],
+    "4": ["hayan perdido"],
+    "5": ["haya aceptado"],
+    "6": ["haya roto"],
+    "7": ["hayan permitido"],
+    "8": ["hayan terminado"],
+    "9": ["hayas entregado"]
+  },
+  "13-20": {
+    "1": ["Sentimos que Ana haya llegado."],
+    "2": ["Espero que hayan entregado el paquete."],
+    "3": ["Será necesario que tú hayas leído los libros antes de la reunión."],
+    "4": ["Su esposo espera que ella haya devuelto el sombrero nuevo a la tienda."],
+    "5": ["Los viajeros se alegran de que el avión haya salido a tiempo."],
+    "6": ["El agente exigirá que el director haya pagado a los actores."]
+  },
+  "13-22": {
+    "1": ["haya subido"],
+    "2": ["haya reducido"],
+    "3": ["hayan disminuido"],
+    "4": ["hayan vendido"],
+    "5": ["haya rebajado"],
+    "6": ["haya sido"]
+  },
+  "14-1": {
+    "1": ["acabe"],
+    "2": ["ayude"],
+    "3": ["tengas"],
+    "4": ["cierre"],
+    "5": ["vean"],
+    "6": ["termine"],
+    "7": ["necesite"]
+  },
+  "14-2": {
+    "1": ["para que"],
+    "2": ["antes (de) que"],
+    "3": ["sin que"],
+    "4": ["en caso de que"],
+    "5": ["a menos que"],
+    "6": ["para que"],
+    "7": ["en caso de que"]
+  },
+  "14-3": {
+    "1": ["La señora López prepara las enchiladas para que probemos la comida mexicana."],
+    "2": ["Ella invita a su madre sin que el señor López lo sepa."],
+    "3": ["No pone sal en la mesa a menos que los invitados le pidan el salero."],
+    "4": ["Lee trae el azúcar sobre la mesa en caso de que quieran ponerlo en el café."],
+    "5": ["Bertha toca su nuevo CD para que ellos disfruten la música."],
+    "6": ["El señor López espera que los invitados se vayan antes de que empiece el partido de fútbol."],
+    "7": ["Los invitados quieren ver el partido con el señor López a menos que el se niegue."]
+  },
+  "14-4": {
+    "1": ["g"],
+    "2": ["i"],
+    "3": ["h"],
+    "4": ["d"],
+    "5": ["a"],
+    "6": ["e"],
+    "7": ["c"],
+    "8": ["f"],
+    "9": ["b"]
+  },
+  "14-5": {
+    "1": ["quieras"],
+    "2": ["dure"],
+    "3": ["comprendas"],
+    "4": ["salga"],
+    "5": ["traiga"],
+    "6": ["venga"]
+  },
+  "14-6": {
+    "1": ["Leeré el mensaje tan pronto como pueda."],
+    "2": ["Trae la revista para que leas el artículo."],
+    "3": ["Acabaremos el informe de modo que Uds. encuentren la información.", "Acabaremos el informe para que Uds. encuentren la información."],
+    "4": ["Cada vez que el teléfono suene, Marsha contestará."],
+    "5": ["Uds. trabajarán aunque estén cansados."],
+    "6": ["La recepcionista llamará a los clientes después de que termine la reunión."]
+  },
+  "14-8": {
+    "1": ["tenemos"],
+    "2": ["llegue"],
+    "3": ["tengan"],
+    "4": ["gasta"],
+    "5": ["tiene"],
+    "6": ["duermo"],
+    "7": ["pueda"],
+    "8": ["es"],
+    "9": ["sale"],
+    "10": ["es"]
+  },
+  "14-9": {
+    "1": ["habitual action"],
+    "3": ["uncertainty; the action may occur in the future"],
+    "5": ["habitual action"],
+    "7": ["the action will occur after the action in the main clause"],
+    "8": ["habitual action"]
+  }
+}

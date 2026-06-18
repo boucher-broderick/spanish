@@ -1,0 +1,431 @@
+{
+  "unit": 10,
+  "title": "Compound Tenses: The Present Perfect and the Past Perfect",
+  "sections": [
+    {
+      "title": "The Present Perfect",
+      "page": 104,
+      "verbs": [
+        { "es": "haber", "en": "to have (auxiliary)" },
+        { "es": "terminar", "en": "to finish", "src": "example" },
+        { "es": "salir", "en": "to leave, go out", "src": "example" },
+        { "es": "pintar", "en": "to paint", "src": "example" },
+        { "es": "perder", "en": "to lose", "src": "example" },
+        { "es": "recibir", "en": "to receive", "src": "example" },
+        { "es": "caminar", "en": "to walk", "src": "example" },
+        { "es": "acabar", "en": "to finish", "src": "example" },
+        { "es": "comer", "en": "to eat", "src": "example" },
+        { "es": "llegar", "en": "to arrive", "src": "example" },
+        { "es": "despertarse", "en": "to wake up", "src": "example" },
+        { "es": "tomar", "en": "to take, drink", "src": "example" },
+        { "es": "cepillarse", "en": "to brush (oneself)", "src": "example" },
+        { "es": "trabajar", "en": "to work", "src": "example" },
+        { "es": "pagar", "en": "to pay", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el retrato", "en": "portrait", "gender": "m", "src": "example" },
+        { "es": "el reloj", "en": "watch, clock", "gender": "m", "src": "example" },
+        { "es": "el oro", "en": "gold", "gender": "m", "src": "example" },
+        { "es": "la noticia", "en": "news item", "gender": "f", "src": "example" },
+        { "es": "el ejercicio", "en": "exercise", "gender": "m", "src": "example" },
+        { "es": "el baño", "en": "bath", "gender": "m", "src": "example" },
+        { "es": "el diente", "en": "tooth", "gender": "m", "src": "example" },
+        { "es": "la casa", "en": "house", "gender": "f", "src": "example" },
+        { "es": "el café", "en": "coffee", "gender": "m", "src": "example" },
+        { "es": "la cuenta", "en": "bill", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "magnífico, magnífica", "en": "magnificent", "src": "example" },
+        { "es": "bueno, buena", "en": "good", "src": "example" },
+        { "es": "activo, activa", "en": "active", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "ya", "en": "already", "src": "example" },
+        { "es": "hoy", "en": "today", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Past Participles Ending in -ído and Irregular Past Participles",
+      "page": 106,
+      "verbs": [
+        { "es": "atraer", "en": "to attract" },
+        { "es": "caer", "en": "to fall" },
+        { "es": "creer", "en": "to believe" },
+        { "es": "leer", "en": "to read" },
+        { "es": "oír", "en": "to hear" },
+        { "es": "reír", "en": "to laugh" },
+        { "es": "sonreír", "en": "to smile" },
+        { "es": "traer", "en": "to bring" },
+        { "es": "abrir", "en": "to open" },
+        { "es": "cubrir", "en": "to cover" },
+        { "es": "decir", "en": "to tell" },
+        { "es": "disolver", "en": "to dissolve" },
+        { "es": "escribir", "en": "to write" },
+        { "es": "hacer", "en": "to make" },
+        { "es": "imprimir", "en": "to print" },
+        { "es": "morir", "en": "to die" },
+        { "es": "poner", "en": "to put" },
+        { "es": "resolver", "en": "to resolve" },
+        { "es": "romper", "en": "to break" },
+        { "es": "ver", "en": "to see" },
+        { "es": "volver", "en": "to return" },
+        { "es": "componer", "en": "to mend, to compose" },
+        { "es": "describir", "en": "to describe" },
+        { "es": "descubrir", "en": "to find, discover" },
+        { "es": "deshacer", "en": "to undo, break" },
+        { "es": "devolver", "en": "to return (something)" },
+        { "es": "disponer", "en": "to dispose" },
+        { "es": "freír", "en": "to fry" },
+        { "es": "imponer", "en": "to impose" },
+        { "es": "oponerse", "en": "to oppose" },
+        { "es": "predecir", "en": "to predict" },
+        { "es": "proponer", "en": "to propose" },
+        { "es": "reponerse", "en": "to get better, recover" },
+        { "es": "revolver", "en": "to stir" },
+        { "es": "suponer", "en": "to suppose" },
+        { "es": "recomendar", "en": "to recommend", "src": "example" },
+        { "es": "llevarse", "en": "to take away", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la invitación", "en": "invitation", "gender": "f", "src": "example" },
+        { "es": "la fiesta", "en": "party", "gender": "f", "src": "example" },
+        { "es": "el camarero", "en": "waiter", "gender": "m", "src": "example" },
+        { "es": "la copa", "en": "glass (of wine)", "gender": "f", "src": "example" },
+        { "es": "el vino", "en": "wine", "gender": "m", "src": "example" },
+        { "es": "la canción", "en": "song", "gender": "f", "src": "example" },
+        { "es": "el público", "en": "audience", "gender": "m", "src": "example" },
+        { "es": "el chiste", "en": "joke", "gender": "m", "src": "example" },
+        { "es": "la chica", "en": "girl", "gender": "f", "src": "example" },
+        { "es": "el fotógrafo", "en": "photographer", "gender": "m", "src": "example" },
+        { "es": "el salón", "en": "living room, hall", "gender": "m", "src": "example" },
+        { "es": "la mentira", "en": "lie", "gender": "f", "src": "example" },
+        { "es": "el azúcar", "en": "sugar", "gender": "m", "src": "example" },
+        { "es": "el zapato", "en": "shoe", "gender": "m", "src": "example" },
+        { "es": "la mesa", "en": "table", "gender": "f", "src": "example" },
+        { "es": "la carta", "en": "letter", "gender": "f", "src": "example" },
+        { "es": "la recomendación", "en": "recommendation", "gender": "f", "src": "example" },
+        { "es": "la ventana", "en": "window", "gender": "f", "src": "example" },
+        { "es": "el problema", "en": "problem", "gender": "m", "src": "example" },
+        { "es": "la tarea", "en": "homework, task", "gender": "f", "src": "example" },
+        { "es": "el ratón", "en": "mouse", "gender": "m", "src": "example" },
+        { "es": "el cuarto", "en": "room", "gender": "m", "src": "example" },
+        { "es": "la experiencia", "en": "experience", "gender": "f", "src": "example" },
+        { "es": "la escena", "en": "scene", "gender": "f", "src": "example" },
+        { "es": "el vecino", "en": "neighbor", "gender": "m", "src": "example" },
+        { "es": "el exterminador", "en": "exterminator", "gender": "m", "src": "example" },
+        { "es": "el examen", "en": "examination", "gender": "m", "src": "example" },
+        { "es": "la consulta", "en": "doctor's office, consultation", "gender": "f", "src": "example" },
+        { "es": "el doctor", "en": "doctor", "gender": "m", "src": "example" },
+        { "es": "la enfermera", "en": "nurse", "gender": "f", "src": "example" },
+        { "es": "la revista", "en": "magazine", "gender": "f", "src": "example" },
+        { "es": "la sala de espera", "en": "waiting room", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "pobre", "en": "poor", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "antes", "en": "before", "src": "example" },
+        { "es": "encima de", "en": "on top of", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "When Is the Present Perfect Tense Used in Spanish?",
+      "page": 109,
+      "verbs": [
+        { "es": "vivir", "en": "to live", "src": "example" },
+        { "es": "esperar", "en": "to wait for", "src": "example" },
+        { "es": "responder", "en": "to answer", "src": "example" },
+        { "es": "gustar", "en": "to be pleasing, to like", "src": "example" },
+        { "es": "hablar", "en": "to speak, talk", "src": "example" },
+        { "es": "pedir", "en": "to ask for, order", "src": "example" },
+        { "es": "decidir", "en": "to decide", "src": "example" },
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "irse", "en": "to leave, go away", "src": "example" },
+        { "es": "ganar", "en": "to win", "src": "example" },
+        { "es": "viajar", "en": "to travel", "src": "example" },
+        { "es": "probar", "en": "to taste, try", "src": "example" },
+        { "es": "llamar", "en": "to call", "src": "example" },
+        { "es": "ver", "en": "to see", "src": "example" },
+        { "es": "leer", "en": "to read", "src": "example" },
+        { "es": "participar", "en": "to participate", "src": "example" },
+        { "es": "crear", "en": "to create", "src": "example" },
+        { "es": "consistir", "en": "to consist", "src": "example" },
+        { "es": "existir", "en": "to exist", "src": "example" },
+        { "es": "alargar", "en": "to prolong", "src": "example" },
+        { "es": "sobrevivir", "en": "to survive", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la recepción", "en": "reception area", "gender": "f", "src": "example" },
+        { "es": "el correo", "en": "mail", "gender": "m", "src": "example" },
+        { "es": "el chocolate", "en": "chocolate", "gender": "m", "src": "example" },
+        { "es": "la pregunta", "en": "question", "gender": "f", "src": "example" },
+        { "es": "el año", "en": "year", "gender": "m", "src": "example" },
+        { "es": "la película", "en": "movie, film", "gender": "f", "src": "example" },
+        { "es": "el aumento de sueldo", "en": "salary raise", "gender": "m", "src": "example" },
+        { "es": "el capítulo", "en": "chapter", "gender": "m", "src": "example" },
+        { "es": "el deporte", "en": "sport", "gender": "m", "src": "example" },
+        { "es": "el humor", "en": "mood, humor", "gender": "m", "src": "example" },
+        { "es": "el teléfono", "en": "telephone", "gender": "m", "src": "example" },
+        { "es": "el asunto", "en": "matter, subject", "gender": "m", "src": "example" },
+        { "es": "la chuleta", "en": "chop, cutlet", "gender": "f", "src": "example" },
+        { "es": "las papas fritas", "en": "french fries", "gender": "f", "src": "example" },
+        { "es": "la cerveza", "en": "beer", "gender": "f", "src": "example" },
+        { "es": "el equipo", "en": "team", "gender": "m", "src": "example" },
+        { "es": "el hermano", "en": "brother", "gender": "m", "src": "example" },
+        { "es": "la sección", "en": "section", "gender": "f", "src": "example" },
+        { "es": "el espárrago", "en": "asparagus", "gender": "m", "src": "example" },
+        { "es": "la entrada", "en": "ticket", "gender": "f", "src": "example" },
+        { "es": "los juegos olímpicos", "en": "Olympic games", "gender": "m", "src": "example" },
+        { "es": "el béisbol", "en": "baseball", "gender": "m", "src": "example" },
+        { "es": "el mundo", "en": "world", "gender": "m", "src": "example" },
+        { "es": "el automóvil", "en": "automobile", "gender": "m", "src": "example" },
+        { "es": "el premio", "en": "prize, award", "gender": "m", "src": "example" },
+        { "es": "la música", "en": "music", "gender": "f", "src": "example" },
+        { "es": "el arte", "en": "art", "gender": "m", "src": "example" },
+        { "es": "la fotografía", "en": "photography", "gender": "f", "src": "example" },
+        { "es": "la ciencia", "en": "science", "gender": "f", "src": "example" },
+        { "es": "la vida", "en": "life", "gender": "f", "src": "example" },
+        { "es": "el hombre", "en": "man", "gender": "m", "src": "example" },
+        { "es": "el insecto", "en": "insect", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "popular", "en": "popular", "src": "example" },
+        { "es": "económico, económica", "en": "economical, affordable", "src": "example" },
+        { "es": "prestigioso, prestigiosa", "en": "prestigious", "src": "example" },
+        { "es": "médico, médica", "en": "medical", "src": "example" },
+        { "es": "tinto", "en": "red (wine)", "src": "example" },
+        { "es": "caro, cara", "en": "expensive", "src": "example" },
+        { "es": "frío, fría", "en": "cold", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "últimamente", "en": "lately", "src": "example" },
+        { "es": "rápidamente", "en": "quickly", "src": "example" },
+        { "es": "nunca", "en": "never", "src": "example" },
+        { "es": "desde hace", "en": "for, since", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "acabar de + infinitive", "en": "to have just (done something)" }
+      ]
+    },
+    {
+      "title": "The Past Perfect or Pluperfect",
+      "page": 110,
+      "verbs": [
+        { "es": "bailar", "en": "to dance", "src": "example" },
+        { "es": "ser", "en": "to be", "src": "example" },
+        { "es": "ir", "en": "to go", "src": "example" },
+        { "es": "mudarse", "en": "to move (house)" },
+        { "es": "fracturar", "en": "to fracture" },
+        { "es": "arreglar", "en": "to repair" },
+        { "es": "querer", "en": "to want", "src": "example" },
+        { "es": "aprender", "en": "to learn", "src": "example" },
+        { "es": "usar", "en": "to use", "src": "example" },
+        { "es": "cambiar", "en": "to change", "src": "example" },
+        { "es": "invitar", "en": "to invite", "src": "example" },
+        { "es": "venir", "en": "to come", "src": "example" },
+        { "es": "ayudar", "en": "to help", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el dedo", "en": "finger", "gender": "m" },
+        { "es": "la uña", "en": "(finger)nail", "gender": "f" },
+        { "es": "el regalo", "en": "gift", "gender": "m" },
+        { "es": "el martillo", "en": "hammer", "gender": "m" },
+        { "es": "la gotera", "en": "leak", "gender": "f" },
+        { "es": "el bombillo", "en": "light bulb", "gender": "m" },
+        { "es": "la herramienta", "en": "tool", "gender": "f" },
+        { "es": "la pared", "en": "wall", "gender": "f" },
+        { "es": "el hogar", "en": "home", "gender": "m", "src": "example" },
+        { "es": "el techo", "en": "roof, ceiling", "gender": "m", "src": "example" },
+        { "es": "la comida", "en": "food", "gender": "f", "src": "example" },
+        { "es": "la familia", "en": "family", "gender": "f", "src": "example" },
+        { "es": "el amigo", "en": "friend", "gender": "m", "src": "example" },
+        { "es": "la reparación", "en": "repair", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "nuevo, nueva", "en": "new", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "siempre", "en": "always", "src": "example" },
+        { "es": "finalmente", "en": "finally", "src": "example" },
+        { "es": "muchas veces", "en": "many times", "src": "example" },
+        { "es": "también", "en": "also, too", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "es verdad", "en": "it is true" }
+      ]
+    },
+    {
+      "title": "When Is the Past Perfect Used in Spanish?",
+      "page": 111,
+      "verbs": [
+        { "es": "comenzar", "en": "to begin", "src": "example" },
+        { "es": "salir", "en": "to leave", "src": "example" },
+        { "es": "entrar", "en": "to enter", "src": "example" },
+        { "es": "empezar", "en": "to begin, start", "src": "example" },
+        { "es": "devolver", "en": "to return (something)", "src": "example" },
+        { "es": "vivir", "en": "to live", "src": "example" },
+        { "es": "sacar", "en": "to take (photos)", "src": "example" },
+        { "es": "escuchar", "en": "to listen to", "src": "example" },
+        { "es": "leer", "en": "to read", "src": "example" },
+        { "es": "cepillarse", "en": "to brush (oneself)", "src": "example" },
+        { "es": "contestar", "en": "to answer, reply", "src": "example" },
+        { "es": "desayunar", "en": "to eat breakfast", "src": "example" },
+        { "es": "hablar", "en": "to talk", "src": "example" },
+        { "es": "llegar", "en": "to arrive", "src": "example" },
+        { "es": "amar", "en": "to love", "src": "example" },
+        { "es": "inventar", "en": "to invent", "src": "example" },
+        { "es": "crear", "en": "to create", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la fiesta", "en": "party", "gender": "f", "src": "example" },
+        { "es": "la actriz", "en": "actress", "gender": "f", "src": "example" },
+        { "es": "el teatro", "en": "theater", "gender": "m", "src": "example" },
+        { "es": "el libro", "en": "book", "gender": "m", "src": "example" },
+        { "es": "la biblioteca", "en": "library", "gender": "f", "src": "example" },
+        { "es": "la foto", "en": "photo", "gender": "f", "src": "example" },
+        { "es": "el periódico", "en": "newspaper", "gender": "m", "src": "example" },
+        { "es": "el pelo", "en": "hair", "gender": "m", "src": "example" },
+        { "es": "la correspondencia electrónica", "en": "email", "gender": "f", "src": "example" },
+        { "es": "el teléfono", "en": "telephone", "gender": "m", "src": "example" },
+        { "es": "la noticia", "en": "news item", "gender": "f", "src": "example" },
+        { "es": "el explorador", "en": "explorer", "gender": "m", "src": "example" },
+        { "es": "la cámara fotográfica", "en": "camera", "gender": "f", "src": "example" },
+        { "es": "el cine", "en": "cinema, movies", "gender": "m", "src": "example" },
+        { "es": "el artista", "en": "artist", "gender": "m", "src": "example" },
+        { "es": "los dibujos animados", "en": "cartoons", "gender": "m", "src": "example" },
+        { "es": "la televisión", "en": "television", "gender": "f", "src": "example" },
+        { "es": "la dama", "en": "lady", "gender": "f", "src": "example" },
+        { "es": "el vuelo espacial", "en": "space flight", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "cuando", "en": "when", "src": "example" },
+        { "es": "ya", "en": "already", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Other Compound Tense Forms: The Preterit Perfect",
+      "page": 113,
+      "verbs": [
+        { "es": "pagar", "en": "to pay", "src": "example" },
+        { "es": "vender", "en": "to sell", "src": "example" },
+        { "es": "salir", "en": "to leave", "src": "example" },
+        { "es": "terminar", "en": "to finish", "src": "example" },
+        { "es": "planear", "en": "to plan", "src": "example" },
+        { "es": "ver", "en": "to see", "src": "example" },
+        { "es": "pasar", "en": "to pass, spend (time)", "src": "example" },
+        { "es": "observar", "en": "to observe", "src": "example" },
+        { "es": "atraer", "en": "to attract", "src": "example" },
+        { "es": "guardar", "en": "to keep", "src": "example" },
+        { "es": "visitar", "en": "to visit", "src": "example" },
+        { "es": "decidir", "en": "to decide", "src": "example" },
+        { "es": "enfrentar", "en": "to face" },
+        { "es": "hacerse", "en": "to become" },
+        { "es": "convertirse", "en": "to become" },
+        { "es": "sentarse", "en": "to sit down", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el despacho", "en": "office", "gender": "m", "src": "example" },
+        { "es": "la película", "en": "movie, film", "gender": "f", "src": "example" },
+        { "es": "el amigo", "en": "friend", "gender": "m", "src": "example" },
+        { "es": "la escuela", "en": "school", "gender": "f", "src": "example" },
+        { "es": "el salón de baile", "en": "ballroom", "gender": "m", "src": "example" },
+        { "es": "los lentes", "en": "(eye)glasses", "gender": "m" },
+        { "es": "la belleza", "en": "beauty", "gender": "f" },
+        { "es": "la esquina", "en": "corner", "gender": "f" },
+        { "es": "el rincón", "en": "corner", "gender": "m" },
+        { "es": "el crítico", "en": "critic", "gender": "m" },
+        { "es": "la cirugía plástica", "en": "plastic surgery", "gender": "f" },
+        { "es": "el partido de fútbol americano", "en": "football game", "gender": "m", "src": "example" },
+        { "es": "el rival", "en": "rival", "gender": "m", "src": "example" },
+        { "es": "el pelo", "en": "hair", "gender": "m", "src": "example" },
+        { "es": "la figura", "en": "figure", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "atlético, atlética", "en": "athletic" },
+        { "es": "calvo, calva", "en": "bald" },
+        { "es": "hermoso, hermosa", "en": "good-looking" },
+        { "es": "joven", "en": "young", "src": "example" },
+        { "es": "rubio, rubia", "en": "blond", "src": "example" },
+        { "es": "pesado, pesada", "en": "heavy", "src": "example" },
+        { "es": "largo, larga", "en": "long", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "en cuanto", "en": "as soon as" },
+        { "es": "cuando", "en": "when" },
+        { "es": "después de que", "en": "after" },
+        { "es": "tan pronto como", "en": "as soon as" }
+      ],
+      "expressions": [
+        { "es": "¡Así es la vida!", "en": "That is life!", "src": "example" }
+      ]
+    },
+    {
+      "title": "When Is the Preterit Perfect Tense Used in Spanish?",
+      "page": 113,
+      "verbs": [
+        { "es": "empezar", "en": "to start, begin", "src": "example" },
+        { "es": "sentarse", "en": "to sit down", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la película", "en": "movie, film", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "en cuanto", "en": "as soon as", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Haber + a Participle: The Spanish Equivalent of the Perfect Infinitive",
+      "page": 114,
+      "verbs": [
+        { "es": "votar", "en": "to vote", "src": "example" },
+        { "es": "llegar", "en": "to arrive", "src": "example" },
+        { "es": "comer", "en": "to eat", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la elección", "en": "election", "gender": "f", "src": "example" },
+        { "es": "el dolor de estómago", "en": "stomachache", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "tarde", "en": "late", "src": "example" },
+        { "es": "tanto", "en": "so much", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "When Is the Infinitive of Haber + a Participle Used in Spanish?",
+      "page": 114,
+      "verbs": [
+        { "es": "cruzar", "en": "to cross", "src": "example" },
+        { "es": "ganar", "en": "to win", "src": "example" },
+        { "es": "recibir", "en": "to receive", "src": "example" },
+        { "es": "dormir", "en": "to sleep", "src": "example" },
+        { "es": "trabajar", "en": "to work", "src": "example" },
+        { "es": "estudiar", "en": "to study", "src": "example" },
+        { "es": "hacer", "en": "to do, make", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la calle", "en": "street", "gender": "f", "src": "example" },
+        { "es": "la lotería", "en": "lottery", "gender": "f", "src": "example" },
+        { "es": "la avenida", "en": "avenue", "gender": "f", "src": "example" },
+        { "es": "el regalo", "en": "gift", "gender": "m", "src": "example" },
+        { "es": "la siesta", "en": "nap", "gender": "f", "src": "example" },
+        { "es": "la semana", "en": "week", "gender": "f", "src": "example" },
+        { "es": "el cine", "en": "cinema, movies", "gender": "m", "src": "example" },
+        { "es": "el ejercicio", "en": "exercise", "gender": "m", "src": "example" },
+        { "es": "el libro", "en": "book", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "sin", "en": "without", "src": "example" }
+      ],
+      "expressions": []
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "unit": 5,
+  "pages": [
+    {
+      "pdfPage": 62,
+      "exercises": [
+        {
+          "id": "5-1",
+          "type": "fill",
+          "instruction": "Vacaciones. ¿Qué hacían Ignacio y sus amigos durante las vacaciones en Cancún?",
+          "blanks": [
+            { "item": 1, "cy": 0.328 },
+            { "item": 2, "cy": 0.394 },
+            { "item": 3, "cy": 0.476 },
+            { "item": 4, "cy": 0.509 },
+            { "item": 5, "cy": 0.543 },
+            { "item": 6, "cy": 0.576 },
+            { "item": 7, "cy": 0.609 },
+            { "item": 8, "cy": 0.659 }
+          ]
+        },
+        {
+          "id": "5-2",
+          "type": "fill",
+          "instruction": "¿Qué hacía Carlos? Usa el verbo más apropiado para cada frase. Escribe la forma correspondiente del imperfecto.",
+          "blanks": [
+            { "item": 1, "cy": 0.831 },
+            { "item": 2, "cy": 0.865 },
+            { "item": 3, "cy": 0.898 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 63,
+      "exercises": [
+        {
+          "id": "5-2",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 4, "cy": 0.083 },
+            { "item": 5, "cy": 0.116 },
+            { "item": 6, "cy": 0.149 },
+            { "item": 7, "cy": 0.182 },
+            { "item": 8, "cy": 0.215 },
+            { "item": 9, "cy": 0.249 },
+            { "item": 10, "cy": 0.282 }
+          ]
+        },
+        {
+          "id": "5-3",
+          "type": "fill",
+          "instruction": "El grupo musical favorito de Felicia. Lee las oraciones y decide. Usa la forma apropiada del imperfecto de ir, ver o ser, de acuerdo al mensaje de la frase.",
+          "blanks": [
+            { "item": 1, "cy": 0.67 },
+            { "item": 2, "cy": 0.704 },
+            { "item": 3, "cy": 0.737 },
+            { "item": 4, "cy": 0.77 },
+            { "item": 5, "cy": 0.803 },
+            { "item": 6, "cy": 0.837 },
+            { "item": 7, "cy": 0.87 },
+            { "item": 8, "cy": 0.903 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 64,
+      "exercises": [
+        {
+          "id": "5-4",
+          "type": "fill",
+          "instruction": "Práctica. Escribe la forma apropiada del imperfecto.",
+          "blanks": [
+            { "item": 1, "cy": 0.56 },
+            { "item": 2, "cy": 0.626 },
+            { "item": 3, "cy": 0.659 },
+            { "item": 4, "cy": 0.693 },
+            { "item": 5, "cy": 0.725 },
+            { "item": 6, "cy": 0.759 },
+            { "item": 7, "cy": 0.792 },
+            { "item": 8, "cy": 0.825 },
+            { "item": 9, "cy": 0.859 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 65,
+      "exercises": [
+        {
+          "id": "5-5",
+          "type": "translate",
+          "instruction": "¿Qué hacían? En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.685 },
+            { "item": 2, "cy": 0.718 },
+            { "item": 3, "cy": 0.751 },
+            { "item": 4, "cy": 0.785 },
+            { "item": 5, "cy": 0.818 },
+            { "item": 6, "cy": 0.851 },
+            { "item": 7, "cy": 0.884 },
+            { "item": 8, "cy": 0.917 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 66,
+      "exercises": [
+        {
+          "id": "5-6",
+          "type": "translate",
+          "instruction": "En español. Usa el imperfecto.",
+          "blanks": [
+            { "item": 1, "cy": 0.491 },
+            { "item": 2, "cy": 0.524 },
+            { "item": 3, "cy": 0.557 },
+            { "item": 4, "cy": 0.59 },
+            { "item": 5, "cy": 0.624 },
+            { "item": 6, "cy": 0.657 },
+            { "item": 7, "cy": 0.69 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 67,
+      "exercises": [
+        {
+          "id": "5-7",
+          "type": "translate",
+          "instruction": "Cuando Lucinda vivía en Nueva York. Traduce las experiencias de Lucinda. Note that many of the statements express a customary or repeated action during the time she spent in the city.",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.284 },
+            { "item": 5, "cy": 0.318 },
+            { "item": 6, "cy": 0.351 },
+            { "item": 7, "cy": 0.384 },
+            { "item": 8, "cy": 0.417 },
+            { "item": 9, "cy": 0.451 }
+          ]
+        },
+        {
+          "id": "5-8",
+          "type": "free",
+          "instruction": "¿Por qué usamos el imperfecto? Go back to your answers to the previous exercise (ejercicio 5-7). For each statement, write down any key Spanish expression that signals a customary or repeated action. If no expression of time appears in a given statement, leave a blank.",
+          "blanks": [
+            { "item": 1, "cy": 0.614 },
+            { "item": 2, "cy": 0.648 },
+            { "item": 3, "cy": 0.681 },
+            { "item": 4, "cy": 0.714 },
+            { "item": 5, "cy": 0.747 },
+            { "item": 6, "cy": 0.781 },
+            { "item": 7, "cy": 0.814 },
+            { "item": 8, "cy": 0.847 },
+            { "item": 9, "cy": 0.88 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 68,
+      "exercises": [
+        {
+          "id": "5-9",
+          "type": "fill",
+          "instruction": "Completa las frases con la forma apropiada de uno de los verbos. Usa el imperfecto.",
+          "blanks": [
+            { "item": 1, "cy": 0.507 },
+            { "item": 2, "cy": 0.54 },
+            { "item": 3, "cy": 0.573 },
+            { "item": 4, "cy": 0.606 },
+            { "item": 5, "cy": 0.64 },
+            { "item": 6, "cy": 0.673 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 69,
+      "exercises": [
+        {
+          "id": "5-10",
+          "type": "fill",
+          "instruction": "Ahora tú. Escribe la forma apropiada del imperfecto.",
+          "blanks": [
+            { "item": 1, "cy": 0.289 },
+            { "item": 2, "cy": 0.322 },
+            { "item": 3, "cy": 0.355 },
+            { "item": 4, "cy": 0.388 },
+            { "item": 5, "cy": 0.422 },
+            { "item": 6, "cy": 0.455 },
+            { "item": 7, "cy": 0.488 }
+          ]
+        },
+        {
+          "id": "5-11",
+          "type": "fill",
+          "instruction": "¿Qué pasó mientras Luis…? Escribe la forma apropiada del imperfecto del verbo que corresponde a cada oración.",
+          "blanks": [
+            { "item": 1, "cy": 0.661 },
+            { "item": 2, "cy": 0.693 },
+            { "item": 3, "cy": 0.727 },
+            { "item": 4, "cy": 0.76 },
+            { "item": 5, "cy": 0.794 },
+            { "item": 6, "cy": 0.827 },
+            { "item": 7, "cy": 0.859 },
+            { "item": 8, "cy": 0.893 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 70,
+      "exercises": [
+        {
+          "id": "5-12",
+          "type": "personal",
+          "instruction": "Preguntas personales.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 }
+          ]
+        },
+        {
+          "id": "5-13",
+          "type": "translate",
+          "instruction": "Frank viaja a España. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.578 }
+          ]
+        }
+      ]
+    }
+  ]
+}

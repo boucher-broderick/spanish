@@ -1,0 +1,229 @@
+{
+  "unit": 10,
+  "pages": [
+    {
+      "pdfPage": 117,
+      "exercises": [
+        {
+          "id": "10-1",
+          "type": "fill",
+          "instruction": "Práctica. Usa la forma apropiada del pretérito perfecto del verbo entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.59 },
+            { "item": 2, "cy": 0.624 },
+            { "item": 3, "cy": 0.657 },
+            { "item": 4, "cy": 0.69 },
+            { "item": 5, "cy": 0.723 }
+          ]
+        },
+        {
+          "id": "10-2",
+          "type": "truefalse",
+          "instruction": "Tu lista. ¿Has estado muy activo(a) hoy? Indica sí o no.",
+          "blanks": [
+            { "item": 1, "cy": 0.854 },
+            { "item": 2, "cy": 0.887 },
+            { "item": 3, "cy": 0.92 },
+            { "item": 4, "cy": 0.854 },
+            { "item": 5, "cy": 0.887 },
+            { "item": 6, "cy": 0.92 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 118,
+      "exercises": [
+        {
+          "id": "10-3",
+          "type": "translate",
+          "instruction": "En español. En la consulta del doctor.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 }
+          ]
+        },
+        {
+          "id": "10-4",
+          "type": "fill",
+          "instruction": "En la fiesta, ¿qué ha pasado? Choose a past participle from the list above to complete each of the following sentences. Use the appropriate form of the auxiliary verb in the present perfect.",
+          "blanks": [
+            { "item": 1, "cy": 0.717 },
+            { "item": 2, "cy": 0.75 },
+            { "item": 3, "cy": 0.783 },
+            { "item": 4, "cy": 0.816 },
+            { "item": 5, "cy": 0.85 },
+            { "item": 6, "cy": 0.883 },
+            { "item": 7, "cy": 0.916 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 119,
+      "exercises": [
+        {
+          "id": "10-5",
+          "type": "fill",
+          "instruction": "Otra vez, la palabra apropiada. Usa uno de los participios irregulares de la lista anterior y completa la frase con la forma apropiada del pretérito perfecto.",
+          "blanks": [
+            { "item": 1, "cy": 0.355 },
+            { "item": 2, "cy": 0.388 },
+            { "item": 3, "cy": 0.422 },
+            { "item": 4, "cy": 0.455 },
+            { "item": 5, "cy": 0.488 },
+            { "item": 6, "cy": 0.521 },
+            { "item": 7, "cy": 0.555 }
+          ]
+        },
+        {
+          "id": "10-6",
+          "type": "translate",
+          "instruction": "¿Qué ha pasado? En español. Usa el pretérito perfecto.",
+          "blanks": [
+            { "item": 1, "cy": 0.893 },
+            { "item": 2, "cy": 0.926 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 120,
+      "exercises": [
+        {
+          "id": "10-6",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 3, "cy": 0.083 },
+            { "item": 4, "cy": 0.116 },
+            { "item": 5, "cy": 0.149 }
+          ]
+        },
+        {
+          "id": "10-7",
+          "type": "personal",
+          "instruction": "Contesta en español. Usa el perfecto en tus respuestas.",
+          "blanks": [
+            { "item": 1, "cy": 0.279 },
+            { "item": 2, "cy": 0.313 },
+            { "item": 3, "cy": 0.346 },
+            { "item": 4, "cy": 0.379 },
+            { "item": 5, "cy": 0.412 },
+            { "item": 6, "cy": 0.445 },
+            { "item": 7, "cy": 0.479 }
+          ]
+        },
+        {
+          "id": "10-8",
+          "type": "matching",
+          "instruction": "¿Cuál es la pregunta? Indica la letra de la pregunta apropiada para cada respuesta.",
+          "blanks": [
+            { "item": 1, "cy": 0.609 },
+            { "item": 2, "cy": 0.642 },
+            { "item": 3, "cy": 0.676 },
+            { "item": 4, "cy": 0.709 },
+            { "item": 5, "cy": 0.742 },
+            { "item": 6, "cy": 0.775 },
+            { "item": 7, "cy": 0.809 },
+            { "item": 8, "cy": 0.842 },
+            { "item": 9, "cy": 0.875 },
+            { "item": 10, "cy": 0.908 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 121,
+      "exercises": [
+        {
+          "id": "10-9",
+          "type": "truefalse",
+          "instruction": "¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.711 },
+            { "item": 2, "cy": 0.745 },
+            { "item": 3, "cy": 0.778 },
+            { "item": 4, "cy": 0.811 },
+            { "item": 5, "cy": 0.844 },
+            { "item": 6, "cy": 0.878 },
+            { "item": 7, "cy": 0.911 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 123,
+      "exercises": [
+        {
+          "id": "10-11",
+          "type": "fill",
+          "instruction": "Práctica. Usa el pluscuamperfecto del verbo entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 }
+          ]
+        },
+        {
+          "id": "10-12",
+          "type": "personal",
+          "instruction": "Preguntas personales. Antes de salir ayer de casa, ¿qué habías hecho? Escribe sí o no.",
+          "blanks": [
+            { "item": 1, "cy": 0.464 },
+            { "item": 2, "cy": 0.497 },
+            { "item": 3, "cy": 0.53 },
+            { "item": 4, "cy": 0.563 },
+            { "item": 5, "cy": 0.597 },
+            { "item": 6, "cy": 0.629 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 124,
+      "exercises": [
+        {
+          "id": "10-13",
+          "type": "truefalse",
+          "instruction": "Un poco de historia. Escribe si es verdadero (V) o falso (F).",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.318 },
+            { "item": 5, "cy": 0.35 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 126,
+      "exercises": [
+        {
+          "id": "10-17",
+          "type": "free",
+          "instruction": "Te toca a ti. Completa la frase de una manera lógica. You may choose any ending you consider appropriate.",
+          "blanks": [
+            { "item": 1, "cy": 0.65 },
+            { "item": 2, "cy": 0.683 },
+            { "item": 3, "cy": 0.717 },
+            { "item": 4, "cy": 0.75 },
+            { "item": 5, "cy": 0.783 },
+            { "item": 6, "cy": 0.816 },
+            { "item": 7, "cy": 0.85 },
+            { "item": 8, "cy": 0.883 }
+          ]
+        }
+      ]
+    }
+  ]
+}

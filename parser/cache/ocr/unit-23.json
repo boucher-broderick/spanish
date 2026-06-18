@@ -1,0 +1,384 @@
+{
+  "unit": 23,
+  "pages": [
+    {
+      "pdfPage": 289,
+      "exercises": [
+        {
+          "id": "23-1",
+          "type": "fill",
+          "instruction": "Práctica. Escribe la preposición apropiada.",
+          "blanks": [
+            { "item": 1, "cy": 0.601 },
+            { "item": 2, "cy": 0.634 },
+            { "item": 3, "cy": 0.667 },
+            { "item": 4, "cy": 0.7 },
+            { "item": 5, "cy": 0.733 },
+            { "item": 6, "cy": 0.766 },
+            { "item": 7, "cy": 0.8 },
+            { "item": 8, "cy": 0.833 },
+            { "item": 9, "cy": 0.866 },
+            { "item": 10, "cy": 0.899 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 290,
+      "exercises": [
+        {
+          "id": "23-2",
+          "type": "truefalse",
+          "instruction": "¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 }
+          ]
+        },
+        {
+          "id": "23-3",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.498 },
+            { "item": 2, "cy": 0.532 },
+            { "item": 3, "cy": 0.564 },
+            { "item": 4, "cy": 0.598 },
+            { "item": 5, "cy": 0.631 },
+            { "item": 6, "cy": 0.664 },
+            { "item": 7, "cy": 0.697 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 291,
+      "exercises": [
+        {
+          "id": "23-4",
+          "type": "fill",
+          "instruction": "Completa cada oración. Escoge la frase que indica la relación apropiada.",
+          "blanks": [
+            { "item": 1, "cy": 0.402 },
+            { "item": 2, "cy": 0.435 },
+            { "item": 3, "cy": 0.468 },
+            { "item": 4, "cy": 0.502 },
+            { "item": 5, "cy": 0.535 },
+            { "item": 6, "cy": 0.569 },
+            { "item": 7, "cy": 0.601 }
+          ]
+        },
+        {
+          "id": "23-5",
+          "type": "personal",
+          "instruction": "Preguntas personales.",
+          "blanks": [
+            { "item": 1, "cy": 0.731 },
+            { "item": 2, "cy": 0.764 },
+            { "item": 3, "cy": 0.797 },
+            { "item": 4, "cy": 0.83 },
+            { "item": 5, "cy": 0.864 },
+            { "item": 6, "cy": 0.897 },
+            { "item": 7, "cy": 0.93 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 292,
+      "exercises": [
+        {
+          "id": "23-6",
+          "type": "translate",
+          "instruction": "En español. Usa las expresiones que aparecen en la lista de frases preposicionales.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 293,
+      "exercises": [
+        {
+          "id": "23-8",
+          "type": "truefalse",
+          "instruction": "En tu caso… ¿Es verdadero o falso? Indica con V o F.",
+          "blanks": [
+            { "item": 1, "cy": 0.751 },
+            { "item": 2, "cy": 0.785 },
+            { "item": 3, "cy": 0.818 },
+            { "item": 4, "cy": 0.851 },
+            { "item": 5, "cy": 0.884 },
+            { "item": 6, "cy": 0.917 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 294,
+      "exercises": [
+        {
+          "id": "23-9",
+          "type": "matching",
+          "instruction": "¿Qué clase de relación existe entre los elementos de la oración? Observa la preposición o frase preposicional en cursiva. Indica la relación con la letra correspondiente: M (movimiento), T (tiempo), L (lugar) o O (otra).",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.284 },
+            { "item": 5, "cy": 0.318 },
+            { "item": 6, "cy": 0.351 },
+            { "item": 7, "cy": 0.384 },
+            { "item": 8, "cy": 0.417 },
+            { "item": 9, "cy": 0.451 },
+            { "item": 10, "cy": 0.484 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 295,
+      "exercises": [
+        {
+          "id": "23-10",
+          "type": "translate",
+          "instruction": "En español. Use the preposition a.",
+          "blanks": [
+            { "item": 1, "cy": 0.467 },
+            { "item": 2, "cy": 0.501 },
+            { "item": 3, "cy": 0.534 },
+            { "item": 4, "cy": 0.567 },
+            { "item": 5, "cy": 0.601 },
+            { "item": 6, "cy": 0.634 },
+            { "item": 7, "cy": 0.667 },
+            { "item": 8, "cy": 0.7 },
+            { "item": 9, "cy": 0.733 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 296,
+      "exercises": [
+        {
+          "id": "23-11",
+          "type": "fill",
+          "instruction": "En español. Escribe en español la frase entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.474 },
+            { "item": 2, "cy": 0.507 },
+            { "item": 3, "cy": 0.54 },
+            { "item": 4, "cy": 0.573 },
+            { "item": 5, "cy": 0.606 },
+            { "item": 6, "cy": 0.64 },
+            { "item": 7, "cy": 0.673 },
+            { "item": 8, "cy": 0.706 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 297,
+      "exercises": [
+        {
+          "id": "23-12",
+          "type": "matching",
+          "instruction": "Un poco de lógica. Escribe la letra que corresponde a la respuesta.",
+          "blanks": [
+            { "item": 1, "cy": 0.617 },
+            { "item": 2, "cy": 0.65 },
+            { "item": 3, "cy": 0.683 },
+            { "item": 4, "cy": 0.717 },
+            { "item": 5, "cy": 0.75 },
+            { "item": 6, "cy": 0.783 },
+            { "item": 7, "cy": 0.816 },
+            { "item": 8, "cy": 0.85 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 298,
+      "exercises": [
+        {
+          "id": "23-13",
+          "type": "translate",
+          "instruction": "En español. Usa la preposición para. As you do the exercise, notice the different English equivalents for para.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 },
+            { "item": 9, "cy": 0.434 },
+            { "item": 10, "cy": 0.467 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 299,
+      "exercises": [
+        {
+          "id": "23-14",
+          "type": "personal",
+          "instruction": "Preguntas personales.",
+          "blanks": [
+            { "item": 1, "cy": 0.44 },
+            { "item": 2, "cy": 0.474 },
+            { "item": 3, "cy": 0.507 },
+            { "item": 4, "cy": 0.54 },
+            { "item": 5, "cy": 0.573 },
+            { "item": 6, "cy": 0.606 },
+            { "item": 7, "cy": 0.64 },
+            { "item": 8, "cy": 0.673 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 300,
+      "exercises": [
+        {
+          "id": "23-15",
+          "type": "fill",
+          "instruction": "Escoge la expresión apropiada. Observa la lista y escribe la expresión más apropiada para cada respuesta.",
+          "blanks": [
+            { "item": 1, "cy": 0.244 },
+            { "item": 2, "cy": 0.277 },
+            { "item": 3, "cy": 0.31 },
+            { "item": 4, "cy": 0.343 },
+            { "item": 5, "cy": 0.376 },
+            { "item": 6, "cy": 0.41 },
+            { "item": 7, "cy": 0.443 },
+            { "item": 8, "cy": 0.476 },
+            { "item": 9, "cy": 0.509 },
+            { "item": 10, "cy": 0.543 }
+          ]
+        },
+        {
+          "id": "23-16",
+          "type": "fill",
+          "instruction": "¿Por o para? Escribe la preposición apropiada.",
+          "blanks": [
+            { "item": 1, "cy": 0.69 },
+            { "item": 2, "cy": 0.723 },
+            { "item": 3, "cy": 0.756 },
+            { "item": 4, "cy": 0.79 },
+            { "item": 5, "cy": 0.823 },
+            { "item": 6, "cy": 0.856 },
+            { "item": 7, "cy": 0.889 },
+            { "item": 8, "cy": 0.923 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 301,
+      "exercises": [
+        {
+          "id": "23-17",
+          "type": "translate",
+          "instruction": "En español. Usa por o para, de acuerdo al contexto.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 }
+          ]
+        },
+        {
+          "id": "23-18",
+          "type": "truefalse",
+          "instruction": "Y en tu caso… ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.498 },
+            { "item": 2, "cy": 0.532 },
+            { "item": 3, "cy": 0.564 },
+            { "item": 4, "cy": 0.598 },
+            { "item": 5, "cy": 0.631 },
+            { "item": 6, "cy": 0.664 },
+            { "item": 7, "cy": 0.697 }
+          ]
+        },
+        {
+          "id": "23-19",
+          "type": "free",
+          "instruction": "Explica por qué. Explain why either por or para is used in each of the following sentences. Indicate destination, movement, exchange, etc. in your answers.",
+          "blanks": [
+            { "item": 1, "cy": 0.844 },
+            { "item": 2, "cy": 0.878 },
+            { "item": 3, "cy": 0.911 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 302,
+      "exercises": [
+        {
+          "id": "23-19",
+          "type": "free",
+          "continued": true,
+          "blanks": [
+            { "item": 4, "cy": 0.083 },
+            { "item": 5, "cy": 0.116 },
+            { "item": 6, "cy": 0.149 },
+            { "item": 7, "cy": 0.182 },
+            { "item": 8, "cy": 0.215 },
+            { "item": 9, "cy": 0.249 },
+            { "item": 10, "cy": 0.282 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 303,
+      "exercises": [
+        {
+          "id": "23-20",
+          "type": "fill",
+          "instruction": "¿Cuál es la respuesta? Escribe la equivalencia en español de las palabras en inglés. You may want to review the previous list of infinitives followed by the preposition a.",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.284 },
+            { "item": 5, "cy": 0.318 },
+            { "item": 6, "cy": 0.351 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 304,
+      "exercises": [
+        {
+          "id": "23-22",
+          "type": "free",
+          "instruction": "Traducción. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.181 }
+          ]
+        }
+      ]
+    }
+  ]
+}

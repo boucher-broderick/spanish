@@ -1,0 +1,498 @@
+{
+  "unit": 16,
+  "title": "The Commands",
+  "sections": [
+    {
+      "title": "Formal or Polite Commands",
+      "page": 176,
+      "verbs": [
+        { "es": "entrar", "en": "to enter, come in" },
+        { "es": "estudiar", "en": "to study", "src": "example" },
+        { "es": "abrir", "en": "to open", "src": "example" },
+        { "es": "contestar", "en": "to answer", "src": "example" },
+        { "es": "pagar", "en": "to pay", "src": "example" },
+        { "es": "traer", "en": "to bring", "yo": "traigo", "src": "example" },
+        { "es": "guardar", "en": "to put away, keep", "src": "example" },
+        { "es": "bailar", "en": "to dance", "src": "example" },
+        { "es": "tocar", "en": "to play (an instrument), touch", "src": "example" },
+        { "es": "cantar", "en": "to sing", "src": "example" },
+        { "es": "comer", "en": "to eat", "src": "example" },
+        { "es": "recibir", "en": "to receive", "src": "example" },
+        { "es": "escuchar", "en": "to listen", "src": "example" },
+        { "es": "empezar", "en": "to begin", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el examen", "en": "exam", "gender": "m", "src": "example" },
+        { "es": "la puerta", "en": "door", "gender": "f", "src": "example" },
+        { "es": "el teléfono", "en": "telephone", "gender": "m", "src": "example" },
+        { "es": "la cuenta", "en": "bill", "gender": "f", "src": "example" },
+        { "es": "la semana", "en": "week", "gender": "f", "src": "example" },
+        { "es": "el dinero", "en": "money", "gender": "m", "src": "example" },
+        { "es": "el piano", "en": "piano", "gender": "m", "src": "example" },
+        { "es": "el libro", "en": "book", "gender": "m", "src": "example" },
+        { "es": "la instrucción", "en": "instruction", "gender": "f", "src": "example" },
+        { "es": "el cuaderno", "en": "notebook, booklet", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "ahora", "en": "now", "src": "example" },
+        { "es": "mañana", "en": "tomorrow", "src": "example" },
+        { "es": "todavía", "en": "yet, still", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "por favor", "en": "please", "src": "example" },
+        { "es": "la semana que viene", "en": "next week", "src": "example" },
+        { "es": "de una vez", "en": "once and for all", "src": "example" }
+      ]
+    },
+    {
+      "title": "Formal Commands, Irregular Forms",
+      "page": 178,
+      "verbs": [
+        { "es": "dar", "en": "to give", "yo": "doy" },
+        { "es": "estar", "en": "to be", "yo": "estoy" },
+        { "es": "ir", "en": "to go", "yo": "voy" },
+        { "es": "saber", "en": "to know", "yo": "sé" },
+        { "es": "ser", "en": "to be", "yo": "soy" },
+        { "es": "facturar", "en": "to check (luggage)", "src": "example" },
+        { "es": "pasar", "en": "to pass, go through", "src": "example" },
+        { "es": "mostrar", "en": "to show", "src": "example" },
+        { "es": "recoger", "en": "to pick up, collect", "src": "example" },
+        { "es": "saludar", "en": "to greet", "src": "example" },
+        { "es": "ofrecer", "en": "to offer", "yo": "ofrezco", "src": "example" },
+        { "es": "llevar", "en": "to wear, carry", "src": "example" },
+        { "es": "llegar", "en": "to arrive", "src": "example" },
+        { "es": "llenar", "en": "to fill out, fill", "src": "example" },
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "solicitar", "en": "to apply for, request", "src": "example" },
+        { "es": "salir", "en": "to leave, go out", "yo": "salgo", "src": "example" },
+        { "es": "explicar", "en": "to explain", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el equipaje", "en": "luggage", "gender": "m", "src": "example" },
+        { "es": "el mostrador", "en": "counter", "gender": "m", "src": "example" },
+        { "es": "el pasillo", "en": "aisle, hallway", "gender": "m", "src": "example" },
+        { "es": "la seguridad", "en": "security", "gender": "f", "src": "example" },
+        { "es": "la documentación", "en": "documents, papers", "gender": "f", "src": "example" },
+        { "es": "el guardia", "en": "guard", "gender": "m", "src": "example" },
+        { "es": "el objeto", "en": "object", "gender": "m", "src": "example" },
+        { "es": "el cliente", "en": "guest, client", "gender": "m", "src": "example" },
+        { "es": "el comentario", "en": "comment", "gender": "m", "src": "example" },
+        { "es": "la pregunta", "en": "question", "gender": "f", "src": "example" },
+        { "es": "el uniforme", "en": "uniform", "gender": "m", "src": "example" },
+        { "es": "el trabajo", "en": "work, job", "gender": "m", "src": "example" },
+        { "es": "el hotel", "en": "hotel", "gender": "m", "src": "example" },
+        { "es": "el empleado", "en": "employee", "gender": "m", "src": "example" },
+        { "es": "el sello", "en": "stamp", "gender": "m", "src": "example" },
+        { "es": "la tarjeta de crédito", "en": "credit card", "gender": "f", "src": "example" },
+        { "es": "el avión", "en": "airplane", "gender": "m", "src": "example" },
+        { "es": "la planilla", "en": "form", "gender": "f", "src": "example" },
+        { "es": "el jefe", "en": "boss", "gender": "m", "src": "example" },
+        { "es": "el aeropuerto", "en": "airport", "gender": "m", "src": "example" },
+        { "es": "la oficina de correos", "en": "post office", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "limpio, limpia", "en": "clean", "src": "example" },
+        { "es": "paciente", "en": "patient", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "también", "en": "also", "src": "example" },
+        { "es": "después", "en": "after, afterwards", "src": "example" },
+        { "es": "otra vez", "en": "again", "src": "example" },
+        { "es": "tarde", "en": "late", "src": "example" },
+        { "es": "temprano", "en": "early", "src": "example" },
+        { "es": "entonces", "en": "then", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "antes de continuar", "en": "before continuing", "src": "example" },
+        { "es": "todos los días", "en": "every day", "src": "example" }
+      ]
+    },
+    {
+      "title": "When Are Formal Commands Used in Spanish?",
+      "page": 179,
+      "verbs": [
+        { "es": "hablar", "en": "to speak, talk", "src": "example" },
+        { "es": "repetir", "en": "to repeat", "src": "example" },
+        { "es": "colgar", "en": "to hang up", "src": "example" },
+        { "es": "llamar", "en": "to call", "src": "example" },
+        { "es": "picar", "en": "to chop, cut up", "src": "example" },
+        { "es": "cortar", "en": "to cut", "src": "example" },
+        { "es": "mezclar", "en": "to mix, blend", "src": "example" },
+        { "es": "añadir", "en": "to add", "src": "example" },
+        { "es": "freír", "en": "to fry", "src": "example" },
+        { "es": "servir", "en": "to serve", "src": "example" },
+        { "es": "caminar", "en": "to walk", "src": "example" },
+        { "es": "correr", "en": "to run", "src": "example" },
+        { "es": "venir", "en": "to come", "yo": "vengo", "src": "example" },
+        { "es": "hacer", "en": "to do, make", "yo": "hago", "src": "example" },
+        { "es": "tomar", "en": "to take", "src": "example" },
+        { "es": "descansar", "en": "to rest", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el número", "en": "number", "gender": "m", "src": "example" },
+        { "es": "el problema", "en": "problem", "gender": "m", "src": "example" },
+        { "es": "el diente de ajo", "en": "garlic clove", "gender": "m", "src": "example" },
+        { "es": "la cebolla", "en": "onion", "gender": "f", "src": "example" },
+        { "es": "el tomate", "en": "tomato", "gender": "m", "src": "example" },
+        { "es": "el pepino", "en": "cucumber", "gender": "m", "src": "example" },
+        { "es": "el pimiento verde", "en": "green pepper", "gender": "m", "src": "example" },
+        { "es": "el vegetal", "en": "vegetable", "gender": "m", "src": "example" },
+        { "es": "el aceite de oliva", "en": "olive oil", "gender": "m", "src": "example" },
+        { "es": "el vinagre", "en": "vinegar", "gender": "m", "src": "example" },
+        { "es": "la sal", "en": "salt", "gender": "f", "src": "example" },
+        { "es": "la pimienta negra", "en": "black pepper", "gender": "f", "src": "example" },
+        { "es": "la cucharada", "en": "tablespoon", "gender": "f", "src": "example" },
+        { "es": "la cucharadita", "en": "teaspoon", "gender": "f", "src": "example" },
+        { "es": "el pan frito", "en": "fried croutons", "gender": "m", "src": "example" },
+        { "es": "el perejil", "en": "parsley", "gender": "m", "src": "example" },
+        { "es": "el agua", "en": "water", "gender": "f", "src": "example" },
+        { "es": "el refrigerador", "en": "refrigerator", "gender": "m", "src": "example" },
+        { "es": "la sopa", "en": "soup", "gender": "f", "src": "example" },
+        { "es": "el gazpacho", "en": "gazpacho", "gender": "m", "src": "example" },
+        { "es": "la receta", "en": "recipe", "gender": "f", "src": "example" },
+        { "es": "el gimnasio", "en": "gym", "gender": "m", "src": "example" },
+        { "es": "el ejercicio", "en": "exercise", "gender": "m", "src": "example" },
+        { "es": "la pista", "en": "track", "gender": "f", "src": "example" },
+        { "es": "el chocolate", "en": "chocolate", "gender": "m", "src": "example" },
+        { "es": "el colesterol", "en": "cholesterol", "gender": "m", "src": "example" },
+        { "es": "el peso", "en": "weight", "gender": "m", "src": "example" },
+        { "es": "la cabeza", "en": "head", "gender": "f", "src": "example" },
+        { "es": "la aspirina", "en": "aspirin", "gender": "f", "src": "example" },
+        { "es": "el alimento", "en": "food", "gender": "m", "src": "example" },
+        { "es": "la grasa", "en": "fat", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "frío, fría", "en": "cold", "src": "example" },
+        { "es": "alto, alta", "en": "high, tall", "src": "example" },
+        { "es": "exhausto, exhausta", "en": "exhausted", "src": "example" },
+        { "es": "ágil", "en": "agile, nimble", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "más alto", "en": "louder", "src": "example" },
+        { "es": "una vez más", "en": "once more", "src": "example" },
+        { "es": "inmediatamente", "en": "immediately", "src": "example" },
+        { "es": "alrededor de", "en": "around", "src": "example" },
+        { "es": "mucho", "en": "a lot, much", "src": "example" },
+        { "es": "antes de", "en": "before", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "bajar de peso", "en": "to lose weight", "src": "example" },
+        { "es": "hacer ejercicio", "en": "to exercise", "src": "example" },
+        { "es": "doler la cabeza", "en": "to have a headache", "src": "example" }
+      ]
+    },
+    {
+      "title": "Informal (Tú) Affirmative Command Forms",
+      "page": 181,
+      "verbs": [
+        { "es": "comprar", "en": "to buy" },
+        { "es": "aprender", "en": "to learn" },
+        { "es": "escribir", "en": "to write" },
+        { "es": "traer", "en": "to bring", "yo": "traigo", "src": "example" },
+        { "es": "leer", "en": "to read", "src": "example" },
+        { "es": "trabajar", "en": "to work", "src": "example" },
+        { "es": "preparar", "en": "to prepare", "src": "example" },
+        { "es": "huir", "en": "to flee", "src": "example" },
+        { "es": "beber", "en": "to drink", "src": "example" },
+        { "es": "subir", "en": "to go up, climb", "src": "example" },
+        { "es": "comenzar", "en": "to begin", "src": "example" },
+        { "es": "bajar", "en": "to go down", "src": "example" },
+        { "es": "revisar", "en": "to check, review", "src": "example" },
+        { "es": "pensar", "en": "to think", "src": "example" },
+        { "es": "escuchar", "en": "to listen", "src": "example" },
+        { "es": "ayudar", "en": "to help", "src": "example" },
+        { "es": "empezar", "en": "to begin", "src": "example" },
+        { "es": "dormir", "en": "to sleep", "src": "example" },
+        { "es": "colgar", "en": "to hang up", "src": "example" },
+        { "es": "girar", "en": "to turn", "src": "example" },
+        { "es": "conducir", "en": "to drive", "yo": "conduzco", "src": "example" },
+        { "es": "atravesar", "en": "to cross, go across", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el lápiz", "en": "pencil", "gender": "m", "src": "example" },
+        { "es": "la regla", "en": "rule", "gender": "f", "src": "example" },
+        { "es": "la carta", "en": "letter", "gender": "f", "src": "example" },
+        { "es": "la botella", "en": "bottle", "gender": "f", "src": "example" },
+        { "es": "el mensaje", "en": "message", "gender": "m", "src": "example" },
+        { "es": "la esquina", "en": "corner", "gender": "f", "src": "example" },
+        { "es": "la cuadra", "en": "block", "gender": "f", "src": "example" },
+        { "es": "el peaje", "en": "toll", "gender": "m", "src": "example" },
+        { "es": "la caseta", "en": "tollbooth", "gender": "f", "src": "example" },
+        { "es": "el puente", "en": "bridge", "gender": "m", "src": "example" },
+        { "es": "la señal", "en": "sign", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "a la izquierda", "en": "to the left", "src": "example" },
+        { "es": "a la derecha", "en": "to the right", "src": "example" },
+        { "es": "cuidadosamente", "en": "carefully", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Irregular Forms of the Familiar Tú Command",
+      "page": 182,
+      "verbs": [
+        { "es": "decir", "en": "to say, tell", "yo": "digo" },
+        { "es": "hacer", "en": "to do, make", "yo": "hago" },
+        { "es": "ir", "en": "to go", "yo": "voy" },
+        { "es": "poner", "en": "to put", "yo": "pongo" },
+        { "es": "salir", "en": "to leave, go out", "yo": "salgo" },
+        { "es": "ser", "en": "to be", "yo": "soy" },
+        { "es": "tener", "en": "to have", "yo": "tengo" },
+        { "es": "venir", "en": "to come", "yo": "vengo" }
+      ],
+      "nouns": [
+        { "es": "el dinero", "en": "money", "gender": "m", "src": "example" },
+        { "es": "la lista", "en": "list", "gender": "f", "src": "example" },
+        { "es": "la ventanilla", "en": "teller's window", "gender": "f", "src": "example" },
+        { "es": "la cuenta", "en": "account", "gender": "f", "src": "example" },
+        { "es": "el banco", "en": "bank", "gender": "m", "src": "example" },
+        { "es": "la casa", "en": "house, home", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "después", "en": "afterwards", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "tener cuidado", "en": "to be careful", "src": "example" }
+      ]
+    },
+    {
+      "title": "Tú Negative Command Forms",
+      "page": 183,
+      "verbs": [
+        { "es": "pescar", "en": "to fish" },
+        { "es": "coser", "en": "to sew" },
+        { "es": "sufrir", "en": "to suffer" },
+        { "es": "entrar", "en": "to enter", "src": "example" },
+        { "es": "olvidar", "en": "to forget", "src": "example" },
+        { "es": "usar", "en": "to use", "src": "example" },
+        { "es": "perder", "en": "to lose", "src": "example" },
+        { "es": "conducir", "en": "to drive", "yo": "conduzco", "src": "example" },
+        { "es": "escoger", "en": "to choose", "yo": "escojo", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el edificio", "en": "building", "gender": "m", "src": "example" },
+        { "es": "la escalera", "en": "stairs", "gender": "f", "src": "example" },
+        { "es": "la compra", "en": "purchase, shopping", "gender": "f", "src": "example" },
+        { "es": "el limón", "en": "lemon", "gender": "m", "src": "example" },
+        { "es": "la tarjeta de crédito", "en": "credit card", "gender": "f", "src": "example" },
+        { "es": "el recibo", "en": "receipt", "gender": "m", "src": "example" },
+        { "es": "el vegetal", "en": "vegetable", "gender": "m", "src": "example" },
+        { "es": "la naranja", "en": "orange", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "antes de", "en": "before", "src": "example" },
+        { "es": "con cuidado", "en": "carefully", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Plural Familiar (Vosotros) Affirmative Command Forms",
+      "page": 184,
+      "verbs": [
+        { "es": "bailar", "en": "to dance" },
+        { "es": "saber", "en": "to know", "yo": "sé" },
+        { "es": "huir", "en": "to flee" },
+        { "es": "comer", "en": "to eat" },
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "leer", "en": "to read", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la tortilla", "en": "omelet, tortilla", "gender": "f", "src": "example" },
+        { "es": "la entrada", "en": "ticket", "gender": "f", "src": "example" },
+        { "es": "el programa", "en": "program", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "Vosotros Negative Command Forms",
+      "page": 185,
+      "verbs": [
+        { "es": "pintar", "en": "to paint" },
+        { "es": "beber", "en": "to drink" },
+        { "es": "salir", "en": "to go out", "yo": "salgo" },
+        { "es": "remar", "en": "to row" },
+        { "es": "vender", "en": "to sell" },
+        { "es": "recibir", "en": "to receive" },
+        { "es": "servir", "en": "to serve", "src": "example" },
+        { "es": "conducir", "en": "to drive", "yo": "conduzco", "src": "example" },
+        { "es": "ir", "en": "to go", "yo": "voy" },
+        { "es": "saber", "en": "to know", "yo": "sé" },
+        { "es": "ser", "en": "to be", "yo": "soy" },
+        { "es": "escuchar", "en": "to listen", "src": "example" },
+        { "es": "despertar", "en": "to wake up", "src": "example" },
+        { "es": "aplaudir", "en": "to applaud", "src": "example" },
+        { "es": "regresar", "en": "to return", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la cerveza", "en": "beer", "gender": "f", "src": "example" },
+        { "es": "el grito", "en": "shout", "gender": "m", "src": "example" },
+        { "es": "el fanático", "en": "fan", "gender": "m", "src": "example" },
+        { "es": "el guitarrista", "en": "guitarist", "gender": "m", "src": "example" },
+        { "es": "el lobby", "en": "lobby", "gender": "m", "src": "example" },
+        { "es": "el intermedio", "en": "intermission", "gender": "m", "src": "example" },
+        { "es": "el chocolate", "en": "chocolate", "gender": "m", "src": "example" },
+        { "es": "el asiento", "en": "seat", "gender": "m", "src": "example" },
+        { "es": "el concierto", "en": "concert", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "frío, fría", "en": "cold", "src": "example" },
+        { "es": "dormido, dormida", "en": "asleep", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "de prisa", "en": "in a hurry, fast", "src": "example" },
+        { "es": "durante", "en": "during", "src": "example" },
+        { "es": "tan", "en": "so", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "When Are Informal (Tú) Commands Used in Spanish?",
+      "page": 186,
+      "verbs": [
+        { "es": "levantar(se)", "en": "to get up, raise" },
+        { "es": "terminar", "en": "to finish", "src": "example" },
+        { "es": "dejar", "en": "to let, leave", "src": "example" },
+        { "es": "pasar", "en": "to pass, let pass", "src": "example" },
+        { "es": "poner(se)", "en": "to put on, put", "yo": "pongo", "src": "example" },
+        { "es": "dar", "en": "to give", "yo": "doy", "src": "example" },
+        { "es": "tocar", "en": "to play, touch", "src": "example" },
+        { "es": "cerrar", "en": "to close", "src": "example" },
+        { "es": "esperar", "en": "to wait", "src": "example" },
+        { "es": "pelar", "en": "to peel", "src": "example" },
+        { "es": "cortar", "en": "to cut", "src": "example" },
+        { "es": "sonreír", "en": "to smile", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el sombrero", "en": "hat", "gender": "m", "src": "example" },
+        { "es": "el hombre", "en": "man", "gender": "m", "src": "example" },
+        { "es": "el dinero", "en": "money", "gender": "m", "src": "example" },
+        { "es": "la verdad", "en": "truth", "gender": "f", "src": "example" },
+        { "es": "el paraguas", "en": "umbrella", "gender": "m", "src": "example" },
+        { "es": "el piano", "en": "piano", "gender": "m", "src": "example" },
+        { "es": "el sobre", "en": "envelope", "gender": "m", "src": "example" },
+        { "es": "la dirección", "en": "address", "gender": "f", "src": "example" },
+        { "es": "la propina", "en": "tip", "gender": "m", "src": "example" },
+        { "es": "el pepino", "en": "cucumber", "gender": "m", "src": "example" },
+        { "es": "el tomate", "en": "tomato", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "triste", "en": "sad", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "primero", "en": "first", "src": "example" },
+        { "es": "ya", "en": "already, now", "src": "example" },
+        { "es": "jamás", "en": "never", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "tratamientos de cortesía o respeto", "en": "courtesy or respectful forms of address" }
+      ]
+    },
+    {
+      "title": "Other Ways of Expressing a Command (Nosotros)",
+      "page": 187,
+      "verbs": [
+        { "es": "hablar", "en": "to speak, talk" },
+        { "es": "tocar", "en": "to play (an instrument)" },
+        { "es": "bailar", "en": "to dance" },
+        { "es": "volver", "en": "to come back, return" },
+        { "es": "levantar", "en": "to raise" },
+        { "es": "leer", "en": "to read" },
+        { "es": "recibir", "en": "to receive" },
+        { "es": "educar", "en": "to educate" },
+        { "es": "cargar", "en": "to load, pick up" },
+        { "es": "comenzar", "en": "to begin" },
+        { "es": "dormir", "en": "to sleep" },
+        { "es": "mentir", "en": "to lie" },
+        { "es": "seguir", "en": "to follow, continue" },
+        { "es": "servir", "en": "to serve" },
+        { "es": "probar(se)", "en": "to try, try on" },
+        { "es": "ir(se)", "en": "to go, leave", "yo": "voy" },
+        { "es": "cambiar", "en": "to change", "src": "example" },
+        { "es": "enviar", "en": "to send", "src": "example" },
+        { "es": "comer", "en": "to eat", "src": "example" },
+        { "es": "vivir", "en": "to live", "src": "example" },
+        { "es": "ayudar", "en": "to help", "src": "example" },
+        { "es": "recoger", "en": "to pick up", "yo": "recojo", "src": "example" },
+        { "es": "responder", "en": "to answer", "src": "example" },
+        { "es": "empezar", "en": "to begin", "src": "example" },
+        { "es": "llevar", "en": "to carry, take", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el cliente", "en": "client, customer", "gender": "m", "src": "example" },
+        { "es": "la guitarra", "en": "guitar", "gender": "f", "src": "example" },
+        { "es": "la revista", "en": "magazine", "gender": "f", "src": "example" },
+        { "es": "el joven", "en": "young person", "gender": "m", "src": "example" },
+        { "es": "el paquete", "en": "package", "gender": "m", "src": "example" },
+        { "es": "el capítulo", "en": "chapter", "gender": "m", "src": "example" },
+        { "es": "la noche", "en": "night", "gender": "f", "src": "example" },
+        { "es": "el asunto", "en": "matter", "gender": "m", "src": "example" },
+        { "es": "el camino", "en": "road, way", "gender": "m", "src": "example" },
+        { "es": "la cena", "en": "dinner", "gender": "f", "src": "example" },
+        { "es": "el papel", "en": "paper", "gender": "m", "src": "example" },
+        { "es": "el momento", "en": "moment", "gender": "m", "src": "example" },
+        { "es": "la fruta", "en": "fruit", "gender": "f", "src": "example" },
+        { "es": "la carne", "en": "meat", "gender": "f", "src": "example" },
+        { "es": "el correo", "en": "mail", "gender": "m", "src": "example" },
+        { "es": "la maleta", "en": "suitcase", "gender": "f", "src": "example" },
+        { "es": "la reservación", "en": "reservation", "gender": "f", "src": "example" },
+        { "es": "el autobús", "en": "bus", "gender": "m", "src": "example" },
+        { "es": "el billete", "en": "ticket", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "ahora", "en": "now", "src": "example" },
+        { "es": "esta noche", "en": "tonight", "src": "example" },
+        { "es": "jamás", "en": "never, ever", "src": "example" },
+        { "es": "en vez de", "en": "instead of", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "¡Vamos!", "en": "Let's go!" },
+        { "es": "¡Vámonos!", "en": "Let's go!" }
+      ]
+    },
+    {
+      "title": "The Infinitive Used as a Command",
+      "page": 189,
+      "verbs": [
+        { "es": "ver", "en": "to look at, see" },
+        { "es": "fumar", "en": "to smoke" },
+        { "es": "visitar", "en": "to visit", "src": "example" },
+        { "es": "comparar", "en": "to compare", "src": "example" },
+        { "es": "firmar", "en": "to sign", "src": "example" },
+        { "es": "ahorrar", "en": "to save", "src": "example" },
+        { "es": "nadar", "en": "to swim", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la nota", "en": "note", "gender": "f", "src": "example" },
+        { "es": "la página", "en": "page", "gender": "f", "src": "example" },
+        { "es": "la agencia", "en": "agency, dealership", "gender": "f", "src": "example" },
+        { "es": "el auto", "en": "car", "gender": "m", "src": "example" },
+        { "es": "el modelo", "en": "model", "gender": "m", "src": "example" },
+        { "es": "el precio", "en": "price", "gender": "m", "src": "example" },
+        { "es": "la oferta", "en": "offer", "gender": "f", "src": "example" },
+        { "es": "el préstamo", "en": "loan", "gender": "m", "src": "example" },
+        { "es": "el contrato", "en": "contract", "gender": "m", "src": "example" },
+        { "es": "el dolor de cabeza", "en": "headache", "gender": "m", "src": "example" },
+        { "es": "el anuncio", "en": "ad, advertisement", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "nuevo, nueva", "en": "new", "src": "example" },
+        { "es": "viejo, vieja", "en": "old", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "hoy", "en": "today", "src": "example" },
+        { "es": "ahora", "en": "now", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "No fumar.", "en": "No smoking." }
+      ]
+    }
+  ]
+}

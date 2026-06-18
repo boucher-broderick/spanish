@@ -1,0 +1,384 @@
+{
+  "unit": 16,
+  "pages": [
+    {
+      "pdfPage": 189,
+      "exercises": [
+        {
+          "id": "16-1",
+          "type": "fill",
+          "instruction": "En el correo. ¡Practique Ud.! Use la forma apropiada del imperativo.",
+          "blanks": [
+            { "item": 1, "cy": 0.578 },
+            { "item": 2, "cy": 0.612 },
+            { "item": 3, "cy": 0.645 },
+            { "item": 4, "cy": 0.678 },
+            { "item": 5, "cy": 0.711 },
+            { "item": 6, "cy": 0.745 }
+          ]
+        },
+        {
+          "id": "16-2",
+          "type": "fill",
+          "instruction": "En el aeropuerto. Los viajeros escuchan las instrucciones antes de subir al avión. Usa la forma ustedes del imperativo del verbo entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.81 },
+            { "item": 2, "cy": 0.892 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 190,
+      "exercises": [
+        {
+          "id": "16-2",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 3, "cy": 0.083 },
+            { "item": 4, "cy": 0.116 },
+            { "item": 5, "cy": 0.149 },
+            { "item": 6, "cy": 0.181 }
+          ]
+        },
+        {
+          "id": "16-3",
+          "type": "translate",
+          "instruction": "En español. Instrucciones a los empleados del hotel La Gaviota. Usa la forma ustedes del imperativo.",
+          "blanks": [
+            { "item": 1, "cy": 0.308 },
+            { "item": 2, "cy": 0.341 },
+            { "item": 3, "cy": 0.373 },
+            { "item": 4, "cy": 0.406 },
+            { "item": 5, "cy": 0.439 },
+            { "item": 6, "cy": 0.471 }
+          ]
+        },
+        {
+          "id": "16-4",
+          "type": "matching",
+          "instruction": "Recomendaciones. Escribe la letra de las recomendaciones que corresponden a cada pregunta o problema de una manera lógica.",
+          "blanks": [
+            { "item": 1, "cy": 0.834 },
+            { "item": 2, "cy": 0.866 },
+            { "item": 3, "cy": 0.899 },
+            { "item": 4, "cy": 0.931 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 191,
+      "exercises": [
+        {
+          "id": "16-4",
+          "type": "matching",
+          "continued": true,
+          "blanks": [
+            { "item": 5, "cy": 0.083 }
+          ]
+        },
+        {
+          "id": "16-5",
+          "type": "translate",
+          "instruction": "Recomendaciones. En español. Use la forma correspondiente del imperativo del verbo entre paréntesis. In this series, write the pronoun as an indication of politeness.",
+          "blanks": [
+            { "item": 1, "cy": 0.229 },
+            { "item": 2, "cy": 0.263 },
+            { "item": 3, "cy": 0.296 },
+            { "item": 4, "cy": 0.33 },
+            { "item": 5, "cy": 0.362 }
+          ]
+        },
+        {
+          "id": "16-6",
+          "type": "fill",
+          "instruction": "Marta habla con la Sra. López. Usa la forma del tratamiento de cortesía usted.",
+          "blanks": [
+            { "item": 1, "cy": 0.739 },
+            { "item": 2, "cy": 0.805 },
+            { "item": 3, "cy": 0.838 },
+            { "item": 4, "cy": 0.871 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 192,
+      "exercises": [
+        {
+          "id": "16-6",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 5, "cy": 0.083 },
+            { "item": 6, "cy": 0.116 }
+          ]
+        },
+        {
+          "id": "16-7",
+          "type": "translate",
+          "instruction": "Una receta española: el gazpacho. Traduce. Escribe la forma usted del infinitivo que aparece en cada oración. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.262 },
+            { "item": 2, "cy": 0.295 },
+            { "item": 3, "cy": 0.327 },
+            { "item": 4, "cy": 0.392 },
+            { "item": 5, "cy": 0.425 },
+            { "item": 6, "cy": 0.458 },
+            { "item": 7, "cy": 0.491 },
+            { "item": 8, "cy": 0.523 }
+          ]
+        },
+        {
+          "id": "16-8",
+          "type": "fill",
+          "instruction": "En el gimnasio. Usa la forma ustedes de los mandatos del verbo entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.891 },
+            { "item": 2, "cy": 0.924 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 193,
+      "exercises": [
+        {
+          "id": "16-8",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 3, "cy": 0.083 },
+            { "item": 4, "cy": 0.116 }
+          ]
+        },
+        {
+          "id": "16-9",
+          "type": "matching",
+          "instruction": "Una respuesta lógica. Escribe la letra que indica las instrucciones de la doctora a una paciente.",
+          "blanks": [
+            { "item": 1, "cy": 0.246 },
+            { "item": 2, "cy": 0.279 },
+            { "item": 3, "cy": 0.313 },
+            { "item": 4, "cy": 0.346 },
+            { "item": 5, "cy": 0.379 }
+          ]
+        },
+        {
+          "id": "16-10",
+          "type": "translate",
+          "instruction": "En español. Carolina lee las instrucciones para llegar al hotel \"Alambra\". Usa la forma usted de los mandatos.",
+          "blanks": [
+            { "item": 1, "cy": 0.509 },
+            { "item": 2, "cy": 0.543 },
+            { "item": 3, "cy": 0.576 },
+            { "item": 4, "cy": 0.609 },
+            { "item": 5, "cy": 0.642 },
+            { "item": 6, "cy": 0.676 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 194,
+      "exercises": [
+        {
+          "id": "16-11",
+          "type": "fill",
+          "instruction": "¡Practica ahora! Escribe la forma tú del imperativo.",
+          "blanks": [
+            { "item": 1, "cy": 0.525 },
+            { "item": 2, "cy": 0.558 },
+            { "item": 3, "cy": 0.591 },
+            { "item": 4, "cy": 0.625 },
+            { "item": 5, "cy": 0.658 },
+            { "item": 6, "cy": 0.691 },
+            { "item": 7, "cy": 0.724 },
+            { "item": 8, "cy": 0.525 },
+            { "item": 9, "cy": 0.558 },
+            { "item": 10, "cy": 0.591 },
+            { "item": 11, "cy": 0.625 },
+            { "item": 12, "cy": 0.658 },
+            { "item": 13, "cy": 0.691 },
+            { "item": 14, "cy": 0.724 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 195,
+      "exercises": [
+        {
+          "id": "16-12",
+          "type": "fill",
+          "instruction": "¿Cuál es la palabra de la respuesta? Usa una de los mandatos de la lista para completar la oración.",
+          "blanks": [
+            { "item": 1, "cy": 0.272 },
+            { "item": 2, "cy": 0.305 },
+            { "item": 3, "cy": 0.338 },
+            { "item": 4, "cy": 0.371 },
+            { "item": 5, "cy": 0.405 },
+            { "item": 6, "cy": 0.438 }
+          ]
+        },
+        {
+          "id": "16-13",
+          "type": "translate",
+          "instruction": "Luisa da consejos a su hija. En español. Usa la forma tú del imperativo.",
+          "blanks": [
+            { "item": 1, "cy": 0.569 },
+            { "item": 2, "cy": 0.601 },
+            { "item": 3, "cy": 0.635 },
+            { "item": 4, "cy": 0.668 },
+            { "item": 5, "cy": 0.702 },
+            { "item": 6, "cy": 0.734 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 196,
+      "exercises": [
+        {
+          "id": "16-14",
+          "type": "fill",
+          "instruction": "Alberto escucha las sugerencias de su esposo. Escribe la forma apropiada del imperativo de los verbos entre paréntesis. Usa la persona tú.",
+          "blanks": [
+            { "item": 1, "cy": 0.289 },
+            { "item": 2, "cy": 0.322 },
+            { "item": 3, "cy": 0.355 },
+            { "item": 4, "cy": 0.388 },
+            { "item": 5, "cy": 0.422 },
+            { "item": 6, "cy": 0.455 }
+          ]
+        },
+        {
+          "id": "16-15",
+          "type": "fill",
+          "instruction": "En un concierto. Escribid las respuestas. Usad la forma vosotros del imperativo.",
+          "blanks": [
+            { "item": 1, "cy": 0.888 },
+            { "item": 2, "cy": 0.921 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 197,
+      "exercises": [
+        {
+          "id": "16-15",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 3, "cy": 0.083 },
+            { "item": 4, "cy": 0.116 },
+            { "item": 5, "cy": 0.149 },
+            { "item": 6, "cy": 0.182 },
+            { "item": 7, "cy": 0.215 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 198,
+      "exercises": [
+        {
+          "id": "16-16",
+          "type": "translate",
+          "instruction": "En español. Usa la forma vosotros.",
+          "blanks": [
+            { "item": 1, "cy": 0.083 },
+            { "item": 2, "cy": 0.116 },
+            { "item": 3, "cy": 0.149 },
+            { "item": 4, "cy": 0.182 },
+            { "item": 5, "cy": 0.215 },
+            { "item": 6, "cy": 0.249 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 199,
+      "exercises": [
+        {
+          "id": "16-17",
+          "type": "fill",
+          "instruction": "En el garaje. ¡Practica! Sustituye los sustantivos en cursiva con los pronombres correspondientes. Attach the pronouns to the verb.",
+          "blanks": [
+            { "item": 1, "cy": 0.347 },
+            { "item": 2, "cy": 0.381 },
+            { "item": 3, "cy": 0.414 },
+            { "item": 4, "cy": 0.347 },
+            { "item": 5, "cy": 0.381 }
+          ]
+        },
+        {
+          "id": "16-18",
+          "type": "translate",
+          "instruction": "En español. Write the form of the command that corresponds to the person in parentheses.",
+          "blanks": [
+            { "item": 1, "cy": 0.542 },
+            { "item": 2, "cy": 0.575 },
+            { "item": 3, "cy": 0.608 },
+            { "item": 4, "cy": 0.641 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 200,
+      "exercises": [
+        {
+          "id": "16-19",
+          "type": "fill",
+          "instruction": "¡Practiquemos! Escribe la forma nosotros de los mandatos de los verbos entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.322 },
+            { "item": 2, "cy": 0.355 },
+            { "item": 3, "cy": 0.387 },
+            { "item": 4, "cy": 0.42 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 201,
+      "exercises": [
+        {
+          "id": "16-20",
+          "type": "fill",
+          "instruction": "Practiquemos más. Hagamos los ejercicios. Usa la forma nosotros de los mandatos de los infinitivos.",
+          "blanks": [
+            { "item": 1, "cy": 0.21 },
+            { "item": 2, "cy": 0.21 },
+            { "item": 3, "cy": 0.242 },
+            { "item": 4, "cy": 0.274 },
+            { "item": 5, "cy": 0.242 },
+            { "item": 6, "cy": 0.274 }
+          ]
+        },
+        {
+          "id": "16-21",
+          "type": "fill",
+          "instruction": "Escribamos las respuestas. Replace the italicized direct objects with object pronouns and attach them to the verb.",
+          "blanks": [
+            { "item": 1, "cy": 0.401 },
+            { "item": 2, "cy": 0.433 },
+            { "item": 3, "cy": 0.465 }
+          ]
+        },
+        {
+          "id": "16-22",
+          "type": "free",
+          "instruction": "En la agencia de autos. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.731 }
+          ]
+        }
+      ]
+    }
+  ]
+}

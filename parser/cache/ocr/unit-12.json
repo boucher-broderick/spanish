@@ -1,0 +1,164 @@
+{
+  "unit": 12,
+  "pages": [
+    {
+      "pdfPage": 137,
+      "exercises": [
+        {
+          "id": "12-1",
+          "type": "fill",
+          "instruction": "Cada uno en su trabajo. Práctica. Change the sentences to the passive voice. Usa el pretérito del verbo ser.",
+          "blanks": [
+            { "item": 1, "cy": 0.779 },
+            { "item": 2, "cy": 0.813 },
+            { "item": 3, "cy": 0.846 },
+            { "item": 4, "cy": 0.879 },
+            { "item": 5, "cy": 0.912 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 138,
+      "exercises": [
+        {
+          "id": "12-2",
+          "type": "translate",
+          "instruction": "¿Cómo será la fiesta de fin de año? En español. Usa la forma pasiva del futuro del verbo ser.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 }
+          ]
+        },
+        {
+          "id": "12-3",
+          "type": "truefalse",
+          "instruction": "Un poco de historia. ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.852 },
+            { "item": 2, "cy": 0.885 },
+            { "item": 3, "cy": 0.919 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 139,
+      "exercises": [
+        {
+          "id": "12-3",
+          "type": "truefalse",
+          "continued": true,
+          "blanks": [
+            { "item": 4, "cy": 0.083 },
+            { "item": 5, "cy": 0.116 },
+            { "item": 6, "cy": 0.149 },
+            { "item": 7, "cy": 0.182 },
+            { "item": 8, "cy": 0.215 },
+            { "item": 9, "cy": 0.249 }
+          ]
+        },
+        {
+          "id": "12-4",
+          "type": "translate",
+          "instruction": "Una noticia curiosa. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.493 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 140,
+      "exercises": [
+        {
+          "id": "12-5",
+          "type": "matching",
+          "instruction": "¿Qué se hace en estos lugares? Escribe la letra que completa mejor la frase.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 }
+          ]
+        },
+        {
+          "id": "12-6",
+          "type": "personal",
+          "instruction": "Ahora te toca a ti. Contesta las preguntas.",
+          "blanks": [
+            { "item": 1, "cy": 0.768 },
+            { "item": 2, "cy": 0.801 },
+            { "item": 3, "cy": 0.835 },
+            { "item": 4, "cy": 0.867 },
+            { "item": 5, "cy": 0.901 },
+            { "item": 6, "cy": 0.934 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 141,
+      "exercises": [
+        {
+          "id": "12-7",
+          "type": "fill",
+          "instruction": "En la cocina. ¿Cómo se prepara? Usa la pasiva refleja (construcción con el pronombre se) y la forma apropiada del presente del verbo entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.284 },
+            { "item": 5, "cy": 0.318 },
+            { "item": 6, "cy": 0.351 }
+          ]
+        },
+        {
+          "id": "12-8",
+          "type": "truefalse",
+          "instruction": "¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.481 },
+            { "item": 2, "cy": 0.515 },
+            { "item": 3, "cy": 0.548 },
+            { "item": 4, "cy": 0.581 },
+            { "item": 5, "cy": 0.614 },
+            { "item": 6, "cy": 0.648 }
+          ]
+        },
+        {
+          "id": "12-9",
+          "type": "translate",
+          "instruction": "En español. Usa la pasiva refleja (con se). Observa si el verbo está en el presente, pasado o futuro.",
+          "blanks": [
+            { "item": 1, "cy": 0.778 },
+            { "item": 2, "cy": 0.811 },
+            { "item": 3, "cy": 0.844 },
+            { "item": 4, "cy": 0.878 },
+            { "item": 5, "cy": 0.911 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 142,
+      "exercises": [
+        {
+          "id": "12-10",
+          "type": "translate",
+          "instruction": "En busca de un tesoro. Traduce. Usa el vocabulario útil y la pasiva refleja.",
+          "blanks": [
+            { "item": 1, "cy": 0.691 }
+          ]
+        }
+      ]
+    }
+  ]
+}

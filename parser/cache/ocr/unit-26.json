@@ -1,0 +1,202 @@
+{
+  "unit": 26,
+  "pages": [
+    {
+      "pdfPage": 322,
+      "exercises": [
+        {
+          "id": "26-1",
+          "type": "fill",
+          "instruction": "En español. Escribe los números que aparecen entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.314 },
+            { "item": 2, "cy": 0.347 },
+            { "item": 3, "cy": 0.381 },
+            { "item": 4, "cy": 0.414 },
+            { "item": 5, "cy": 0.447 },
+            { "item": 6, "cy": 0.48 },
+            { "item": 7, "cy": 0.514 },
+            { "item": 8, "cy": 0.314 },
+            { "item": 9, "cy": 0.347 },
+            { "item": 10, "cy": 0.381 },
+            { "item": 11, "cy": 0.414 },
+            { "item": 12, "cy": 0.447 },
+            { "item": 13, "cy": 0.48 },
+            { "item": 14, "cy": 0.514 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 323,
+      "exercises": [
+        {
+          "id": "26-2",
+          "type": "translate",
+          "instruction": "¿Qué hora? ¿Qué fecha? Escribe en español. Spell all the numbers in Spanish.",
+          "blanks": [
+            { "item": 1, "cy": 0.658 },
+            { "item": 2, "cy": 0.691 },
+            { "item": 3, "cy": 0.724 },
+            { "item": 4, "cy": 0.758 },
+            { "item": 5, "cy": 0.79 },
+            { "item": 6, "cy": 0.824 },
+            { "item": 7, "cy": 0.857 },
+            { "item": 8, "cy": 0.891 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 324,
+      "exercises": [
+        {
+          "id": "26-3",
+          "type": "personal",
+          "instruction": "Preguntas personales.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 },
+            { "item": 9, "cy": 0.434 },
+            { "item": 10, "cy": 0.467 },
+            { "item": 11, "cy": 0.501 }
+          ]
+        },
+        {
+          "id": "26-4",
+          "type": "truefalse",
+          "instruction": "¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.631 },
+            { "item": 2, "cy": 0.664 },
+            { "item": 3, "cy": 0.697 },
+            { "item": 4, "cy": 0.731 },
+            { "item": 5, "cy": 0.764 },
+            { "item": 6, "cy": 0.797 },
+            { "item": 7, "cy": 0.83 },
+            { "item": 8, "cy": 0.864 },
+            { "item": 9, "cy": 0.897 },
+            { "item": 10, "cy": 0.93 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 325,
+      "exercises": [
+        {
+          "id": "26-5",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 326,
+      "exercises": [
+        {
+          "id": "26-6",
+          "type": "fill",
+          "instruction": "Escribe el número ordinal que corresponde al número cardinal entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.169 },
+            { "item": 7, "cy": 0.201 },
+            { "item": 8, "cy": 0.235 },
+            { "item": 9, "cy": 0.268 },
+            { "item": 10, "cy": 0.302 }
+          ]
+        },
+        {
+          "id": "26-7",
+          "type": "personal",
+          "instruction": "Preguntas personales.",
+          "blanks": [
+            { "item": 1, "cy": 0.431 },
+            { "item": 2, "cy": 0.465 },
+            { "item": 3, "cy": 0.498 },
+            { "item": 4, "cy": 0.532 },
+            { "item": 5, "cy": 0.564 },
+            { "item": 6, "cy": 0.598 }
+          ]
+        },
+        {
+          "id": "26-8",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.728 },
+            { "item": 2, "cy": 0.762 },
+            { "item": 3, "cy": 0.795 },
+            { "item": 4, "cy": 0.828 },
+            { "item": 5, "cy": 0.861 },
+            { "item": 6, "cy": 0.894 },
+            { "item": 7, "cy": 0.928 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 327,
+      "exercises": [
+        {
+          "id": "26-8",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 8, "cy": 0.083 },
+            { "item": 9, "cy": 0.116 },
+            { "item": 10, "cy": 0.149 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 328,
+      "exercises": [
+        {
+          "id": "26-9",
+          "type": "translate",
+          "instruction": "Escribe en español.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 }
+          ]
+        },
+        {
+          "id": "26-10",
+          "type": "translate",
+          "instruction": "Los números son importantes. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.678 }
+          ]
+        }
+      ]
+    }
+  ]
+}

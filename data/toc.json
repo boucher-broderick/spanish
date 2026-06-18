@@ -1,0 +1,375 @@
+{
+  "frontMatter": [
+    { "title": "Introduction", "page": -1 }
+  ],
+  "units": [
+    {
+      "unit": 1,
+      "title": "The Present Tense of Regular Verbs, Irregular Verbs, and Verbs with Spelling Changes",
+      "page": 1,
+      "sections": [
+        { "title": "Regular Verbs in the Present Tense", "page": 2 },
+        { "title": "When Is the Present Tense Used in Spanish?", "page": 4 },
+        { "title": "Irregular Verbs in the Present Tense", "page": 8 },
+        { "title": "Verbs with Spelling Changes in the Present Tense", "page": 12 },
+        { "title": "Dar, Haber, Hacer, and Tener in Expressions with a Special Meaning", "page": 14 }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "The Present Tense of Verbs with Stem Changes",
+      "page": 18,
+      "sections": [
+        { "title": "Verbs Ending in -ar and -er", "page": 18 },
+        { "title": "Verbs Ending in -ir", "page": 22 },
+        { "title": "Verbs Ending in -uir", "page": 24 }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Ser and Estar",
+      "page": 27,
+      "sections": [
+        { "title": "Similarities and Differences Between Ser and Estar", "page": 27 },
+        { "title": "When Is Ser Used in Spanish?", "page": 28 },
+        { "title": "When Is Estar Used in Spanish?", "page": 30 },
+        { "title": "Adjectives That Change Their Meaning When Used with Either Ser or Estar", "page": 32 },
+        { "title": "Expressions with Estar", "page": 33 }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "The Preterit Tense",
+      "page": 35,
+      "sections": [
+        { "title": "Regular Verbs in the Preterit", "page": 35 },
+        { "title": "When Is the Preterit Used in Spanish?", "page": 36 },
+        { "title": "Verbs with Spelling Changes in the Preterit", "page": 39 },
+        { "title": "Stem-Changing Verbs in the Preterit", "page": 42 },
+        { "title": "Irregular Verbs in the Preterit", "page": 44 },
+        { "title": "Verbs with a Special Meaning in the Preterit", "page": 47 }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "The Imperfect Tense",
+      "page": 49,
+      "sections": [
+        { "title": "Formation of the Imperfect", "page": 49 },
+        { "title": "Irregular Verbs in the Imperfect", "page": 51 },
+        { "title": "When Is the Imperfect Used in Spanish?", "page": 52 },
+        { "title": "The Imperfect and the Preterit in the Same Sentence", "page": 56 }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "More About the Preterit and the Imperfect",
+      "page": 59,
+      "sections": [
+        { "title": "Summary and Contrast of the Preterit and the Imperfect", "page": 59 },
+        { "title": "Verbs with a Special Meaning: Ponerse, Volverse, and Hacerse", "page": 65 }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "The Future and the Conditional",
+      "page": 67,
+      "sections": [
+        { "title": "The Future Tense", "page": 67 },
+        { "title": "Irregular Verbs in the Future Tense", "page": 69 },
+        { "title": "When Is the Future Tense Used in Spanish?", "page": 71 },
+        { "title": "Other Ways of Expressing the Future in Spanish", "page": 73 },
+        { "title": "The Conditional Mood", "page": 74 },
+        { "title": "Irregular Verbs in the Conditional", "page": 76 },
+        { "title": "When Is the Conditional Used in Spanish?", "page": 77 },
+        { "title": "Other Uses of the Conditional: Conjecture in the Past and the Conditional in Contrary-to-Fact If-Clauses", "page": 79 }
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "Reflexive Verbs and Reflexive Constructions",
+      "page": 81,
+      "sections": [
+        { "title": "Reflexive Verbs and Pronouns", "page": 82 },
+        { "title": "More Reflexive Verbs", "page": 83 },
+        { "title": "Reflexive Constructions with Stem-Changing and Irregular Verbs", "page": 84 },
+        { "title": "The Use of Reflexive Verbs in Spanish", "page": 85 },
+        { "title": "Verbs That Change Meaning When Used as Reflexive Verbs", "page": 86 },
+        { "title": "The Commands in Reflexive Constructions", "page": 88 },
+        { "title": "The Infinitive and Present Participle in Reflexive Constructions", "page": 89 },
+        { "title": "Reflexive Constructions in Reciprocal Actions", "page": 91 },
+        { "title": "How to Express to Become in Spanish", "page": 92 },
+        { "title": "The Reflexive Construction in Other Tenses", "page": 94 }
+      ]
+    },
+    {
+      "unit": 9,
+      "title": "The Progressive Tenses",
+      "page": 95,
+      "sections": [
+        { "title": "The Forms of the Present Participle in Regular, Irregular, and Stem-Changing Verbs", "page": 95 },
+        { "title": "Placement of Reflexive Pronouns and Other Object Pronouns with the Present Participle", "page": 98 },
+        { "title": "When Is the Present Progressive Used in Spanish?", "page": 99 },
+        { "title": "The Progressive Forms in Other Tenses", "page": 100 },
+        { "title": "Verbs of Motion in Progressive Tenses", "page": 101 },
+        { "title": "Present Participle: Spanish Compared to English", "page": 102 }
+      ]
+    },
+    {
+      "unit": 10,
+      "title": "Compound Tenses: The Present Perfect and the Past Perfect",
+      "page": 104,
+      "sections": [
+        { "title": "The Present Perfect", "page": 104 },
+        { "title": "Past Participles Ending in -ído and Irregular Past Participles", "page": 106 },
+        { "title": "When Is the Present Perfect Tense Used in Spanish?", "page": 109 },
+        { "title": "The Past Perfect or Pluperfect", "page": 110 },
+        { "title": "When Is the Past Perfect Used in Spanish?", "page": 111 },
+        { "title": "Other Compound Tense Forms: The Preterit Perfect", "page": 113 },
+        { "title": "When Is the Preterit Perfect Tense Used in Spanish?", "page": 113 },
+        { "title": "Haber + a Participle: The Spanish Equivalent of the Perfect Infinitive", "page": 114 },
+        { "title": "When Is the Infinitive of Haber + a Participle Used in Spanish?", "page": 114 }
+      ]
+    },
+    {
+      "unit": 11,
+      "title": "Compound Tenses: The Future Perfect and the Conditional Perfect",
+      "page": 115,
+      "sections": [
+        { "title": "The Future Perfect", "page": 115 },
+        { "title": "When Is the Future Perfect Used in Spanish?", "page": 117 },
+        { "title": "The Conditional Perfect", "page": 119 },
+        { "title": "When Is the Conditional Perfect Used in Spanish?", "page": 121 }
+      ]
+    },
+    {
+      "unit": 12,
+      "title": "The Passive Voice and Passive Constructions",
+      "page": 124,
+      "sections": [
+        { "title": "The Passive Voice in Spanish", "page": 125 },
+        { "title": "When Is the Passive Voice Used in Spanish?", "page": 126 },
+        { "title": "The Passive Construction with the Pronoun Se", "page": 127 },
+        { "title": "When Is the Passive Construction with Se Used in Spanish?", "page": 128 },
+        { "title": "Impersonal Constructions Used to Substitute for Passive Constructions", "page": 130 }
+      ]
+    },
+    {
+      "unit": 13,
+      "title": "The Subjunctive Mood: The Present and the Present Perfect Subjunctive Tenses in Noun Clauses",
+      "page": 131,
+      "sections": [
+        { "title": "The Subjunctive Mood: The Present Subjunctive", "page": 131 },
+        { "title": "Formation of the Present Subjunctive", "page": 133 },
+        { "title": "Verbs with Spelling Changes in the Present Subjunctive", "page": 134 },
+        { "title": "Verbs with Stem Changes in the Present Subjunctive", "page": 135 },
+        { "title": "Irregular Verbs in the Present Indicative and in the Present Subjunctive", "page": 138 },
+        { "title": "Irregular Verbs in the Present Subjunctive", "page": 139 },
+        { "title": "When Is the Present Subjunctive Used in Spanish?", "page": 140 },
+        { "title": "Other Uses of the Present Subjunctive", "page": 143 },
+        { "title": "The Present Perfect Subjunctive", "page": 145 },
+        { "title": "When Is the Present Perfect Subjunctive Used in Spanish?", "page": 146 }
+      ]
+    },
+    {
+      "unit": 14,
+      "title": "More Uses of the Subjunctive: Adverb and Relative Clauses",
+      "page": 148,
+      "sections": [
+        { "title": "The Subjunctive in Adverb Clauses", "page": 148 },
+        { "title": "When Is the Subjunctive Used in Dependent Adverb Clauses in Spanish?", "page": 149 },
+        { "title": "Expressions That May or May Not Require the Subjunctive", "page": 151 },
+        { "title": "When Is the Subjunctive Not Used in Dependent Adverb Clauses in Spanish?", "page": 153 },
+        { "title": "More Uses of the Subjunctive: The Subjunctive in Adjective Clauses", "page": 155 },
+        { "title": "When Is the Subjunctive Used in Adjective Clauses?", "page": 156 },
+        { "title": "Other Uses of the Subjunctive", "page": 159 }
+      ]
+    },
+    {
+      "unit": 15,
+      "title": "The Subjunctive Mood Past Tenses: The Imperfect and the Pluperfect Subjunctive",
+      "page": 162,
+      "sections": [
+        { "title": "The Imperfect Subjunctive", "page": 163 },
+        { "title": "When Is the Imperfect Subjunctive Used in Spanish?", "page": 165 },
+        { "title": "Other Uses of the Imperfect Subjunctive", "page": 167 },
+        { "title": "The Pluperfect Subjunctive", "page": 168 },
+        { "title": "When Is the Pluperfect Subjunctive Used in Spanish?", "page": 169 },
+        { "title": "Other Uses of the Pluperfect Subjunctive", "page": 170 },
+        { "title": "The Imperfect and Pluperfect Subjunctive in Contrary-to-Fact Conditional Clauses", "page": 171 }
+      ]
+    },
+    {
+      "unit": 16,
+      "title": "The Commands",
+      "page": 175,
+      "sections": [
+        { "title": "Formal or Polite Commands", "page": 176 },
+        { "title": "Formal Commands, Irregular Forms", "page": 178 },
+        { "title": "When Are Formal Commands Used in Spanish?", "page": 179 },
+        { "title": "Informal (Tú) Affirmative Command Forms", "page": 181 },
+        { "title": "Irregular Forms of the Familiar Tú Command", "page": 182 },
+        { "title": "Tú Negative Command Forms", "page": 183 },
+        { "title": "Plural Familiar (Vosotros) Affirmative Command Forms", "page": 184 },
+        { "title": "Vosotros Negative Command Forms", "page": 185 },
+        { "title": "Irregular Negative Vosotros Forms", "page": 185 },
+        { "title": "When Are Informal (Tú) Commands Used in Spanish?", "page": 186 },
+        { "title": "Commands and the Position of Reflexive and Object Pronouns", "page": 186 },
+        { "title": "Other Ways of Expressing a Command (Nosotros)", "page": 187 },
+        { "title": "The Infinitive Used as a Command", "page": 189 }
+      ]
+    },
+    {
+      "unit": 17,
+      "title": "Nouns and Articles",
+      "page": 190,
+      "sections": [
+        { "title": "Gender of Nouns in Spanish: Endings of Nouns", "page": 190 },
+        { "title": "Masculine Nouns and Their Endings in Spanish", "page": 190 },
+        { "title": "Feminine Nouns and Their Endings in Spanish", "page": 192 },
+        { "title": "Other Endings to Consider for the Gender of Nouns", "page": 193 },
+        { "title": "Other Nouns and Their Gender", "page": 195 },
+        { "title": "Plural of Nouns", "page": 199 },
+        { "title": "Definite Articles", "page": 201 },
+        { "title": "When Are Definite Articles Used in Spanish?", "page": 202 },
+        { "title": "When Are Definite Articles Omitted in Spanish?", "page": 205 },
+        { "title": "Lo, the Neuter Article", "page": 206 },
+        { "title": "Indefinite Articles", "page": 207 },
+        { "title": "When Are Indefinite Articles Used in Spanish?", "page": 208 },
+        { "title": "When Are Indefinite Articles Not Used in Spanish?", "page": 209 }
+      ]
+    },
+    {
+      "unit": 18,
+      "title": "Adjectives",
+      "page": 211,
+      "sections": [
+        { "title": "Gender and Number of Adjectives in Spanish", "page": 211 },
+        { "title": "Where Are Adjectives Placed in Spanish?", "page": 215 },
+        { "title": "Other Adjective Forms Used Before Nouns: The Shortened Forms", "page": 217 },
+        { "title": "Other Considerations About the Position of Adjectives", "page": 218 },
+        { "title": "Words That Function as Adjectives", "page": 219 },
+        { "title": "Comparatives and Superlatives", "page": 220 },
+        { "title": "Irregular Comparative and Superlative Adjectives", "page": 223 },
+        { "title": "Other Comparisons", "page": 223 }
+      ]
+    },
+    {
+      "unit": 19,
+      "title": "Personal Pronouns",
+      "page": 225,
+      "sections": [
+        { "title": "Subject Pronouns", "page": 225 },
+        { "title": "Uses of the Subject Pronouns", "page": 226 },
+        { "title": "Pronouns as Objects of Prepositions", "page": 229 },
+        { "title": "When Are Prepositional Pronouns Used in Spanish?", "page": 229 },
+        { "title": "Direct Object Pronouns", "page": 231 },
+        { "title": "When Are Direct Object Pronouns Used in Spanish?", "page": 231 },
+        { "title": "Indirect Object Pronouns", "page": 235 },
+        { "title": "Where Are Indirect Object Pronouns Placed?", "page": 235 },
+        { "title": "Double Object Pronouns", "page": 239 },
+        { "title": "How Are Double Object Pronouns Used in Spanish?", "page": 239 },
+        { "title": "The Indirect Object Pronoun with Gustar and Other Verbs", "page": 241 }
+      ]
+    },
+    {
+      "unit": 20,
+      "title": "Relative Pronouns",
+      "page": 244,
+      "sections": [
+        { "title": "Que: When Is the Relative Pronoun Que Used in Spanish?", "page": 245 },
+        { "title": "Quien: When Is the Relative Pronoun Quien Used in Spanish?", "page": 247 },
+        { "title": "El que and El cual: When Are the Relative Pronouns El que and El cual and Their Forms Used in Spanish?", "page": 248 },
+        { "title": "Lo que and Lo cual: When Are the Relative Pronouns Lo que and Lo cual Used in Spanish?", "page": 249 },
+        { "title": "Relative Pronouns After Prepositions", "page": 251 },
+        { "title": "Cuyo, Cuya: When Are the Relative Adjectives Cuyo, Cuya Used in Spanish?", "page": 252 }
+      ]
+    },
+    {
+      "unit": 21,
+      "title": "Possessive and Demonstrative Adjectives and Pronouns",
+      "page": 253,
+      "sections": [
+        { "title": "Possessive Adjectives and Pronouns", "page": 253 },
+        { "title": "Possessive Adjective Forms: The Short Forms and the Long Forms", "page": 253 },
+        { "title": "When Are the Short and Long Forms of the Possessive Adjectives Used in Spanish?", "page": 257 },
+        { "title": "Possessive Pronouns", "page": 258 },
+        { "title": "Demonstrative Adjectives", "page": 260 },
+        { "title": "When Are the Different Forms of the Demonstrative Adjectives Used in Spanish?", "page": 261 },
+        { "title": "Demonstrative Pronouns", "page": 263 },
+        { "title": "The Neuter Forms of the Demonstrative Pronouns", "page": 264 }
+      ]
+    },
+    {
+      "unit": 22,
+      "title": "Adverbs",
+      "page": 266,
+      "sections": [
+        { "title": "Adverb Forms in Spanish", "page": 266 },
+        { "title": "Compound Adverbs", "page": 269 },
+        { "title": "Other Adverb Forms: Adverbial Expressions", "page": 271 },
+        { "title": "Adjectives and Nouns Used as Adverbs", "page": 273 },
+        { "title": "Comparisons with Adverbs", "page": 274 },
+        { "title": "When Are Adverbs Used in Spanish?", "page": 274 }
+      ]
+    },
+    {
+      "unit": 23,
+      "title": "Prepositions",
+      "page": 276,
+      "sections": [
+        { "title": "Frequently Used Prepositions in Spanish", "page": 277 },
+        { "title": "Relationships of Commonly Used Prepositions and Compound Prepositions", "page": 280 },
+        { "title": "The Preposition a and the Personal a", "page": 282 },
+        { "title": "Uses of Prepositions and Their English Equivalents", "page": 283 },
+        { "title": "The Uses of para and por", "page": 284 },
+        { "title": "Por in Common Idiomatic Expressions", "page": 287 },
+        { "title": "Verbs That Require the Preposition a or de + an Infinitive in Spanish", "page": 290 },
+        { "title": "Verbs with Other Prepositions", "page": 291 },
+        { "title": "Verbs That Require a Preposition in English but Not in Spanish", "page": 292 }
+      ]
+    },
+    {
+      "unit": 24,
+      "title": "Indefinite and Negative Words and Expressions",
+      "page": 293,
+      "sections": [
+        { "title": "Indefinite and Negative Words in Spanish", "page": 294 },
+        { "title": "When Are Indefinite and Negative Words Used in Spanish?", "page": 295 },
+        { "title": "Other Negative Expressions", "page": 298 },
+        { "title": "The Conjunctions pero and sino and Negative Expressions", "page": 298 },
+        { "title": "When Are pero and sino Used in Spanish?", "page": 299 }
+      ]
+    },
+    {
+      "unit": 25,
+      "title": "Interrogative and Exclamatory Words",
+      "page": 301,
+      "sections": [
+        { "title": "Interrogative Words and Expressions", "page": 301 },
+        { "title": "Interrogative Words in Spanish", "page": 301 },
+        { "title": "Other Uses of Interrogative Words and Expressions", "page": 302 },
+        { "title": "¿Para qué? ¿Por qué? When Are They Used in Spanish?", "page": 304 },
+        { "title": "Interrogative Words and Expressions in Indirect Questions", "page": 305 },
+        { "title": "Exclamations", "page": 306 }
+      ]
+    },
+    {
+      "unit": 26,
+      "title": "Numbers",
+      "page": 308,
+      "sections": [
+        { "title": "Cardinal Numbers", "page": 308 },
+        { "title": "When Do We Use Cardinal Numbers?", "page": 310 },
+        { "title": "Ordinal Numbers", "page": 313 },
+        { "title": "Other Numbers: Fractions and Multiple Numbers", "page": 315 }
+      ]
+    }
+  ],
+  "backMatter": [
+    { "title": "Verb Tables", "page": 317 },
+    { "title": "Spanish-English Glossary", "page": 324 },
+    { "title": "English-Spanish Glossary", "page": 332 },
+    { "title": "Answer Key", "page": 341 }
+  ]
+}

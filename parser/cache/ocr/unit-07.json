@@ -1,0 +1,374 @@
+{
+  "unit": 7,
+  "pages": [
+    {
+      "pdfPage": 80,
+      "exercises": [
+        {
+          "id": "7-1",
+          "type": "fill",
+          "instruction": "Conjugación. Escribe el futuro de los siguientes verbos entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.476 },
+            { "item": 2, "cy": 0.508 },
+            { "item": 3, "cy": 0.54 },
+            { "item": 4, "cy": 0.572 },
+            { "item": 5, "cy": 0.604 },
+            { "item": 6, "cy": 0.636 },
+            { "item": 7, "cy": 0.476 },
+            { "item": 8, "cy": 0.508 },
+            { "item": 9, "cy": 0.54 },
+            { "item": 10, "cy": 0.572 },
+            { "item": 11, "cy": 0.604 },
+            { "item": 12, "cy": 0.636 }
+          ]
+        },
+        {
+          "id": "7-2",
+          "type": "fill",
+          "instruction": "¿Qué harán? Escribe la forma apropiada del futuro del verbo entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.765 },
+            { "item": 2, "cy": 0.797 },
+            { "item": 3, "cy": 0.829 },
+            { "item": 4, "cy": 0.861 },
+            { "item": 5, "cy": 0.893 },
+            { "item": 6, "cy": 0.925 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 81,
+      "exercises": [
+        {
+          "id": "7-3",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.168 },
+            { "item": 2, "cy": 0.2 },
+            { "item": 3, "cy": 0.233 },
+            { "item": 4, "cy": 0.266 },
+            { "item": 5, "cy": 0.298 },
+            { "item": 6, "cy": 0.33 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 82,
+      "exercises": [
+        {
+          "id": "7-4",
+          "type": "fill",
+          "instruction": "Práctica. Cambia los verbos en negrita (in bold face) y escribe el futuro. Some verbs have irregular forms in the future.",
+          "blanks": [
+            { "item": 1, "cy": 0.414 },
+            { "item": 2, "cy": 0.447 },
+            { "item": 3, "cy": 0.48 },
+            { "item": 4, "cy": 0.514 },
+            { "item": 5, "cy": 0.547 },
+            { "item": 6, "cy": 0.649 }
+          ]
+        },
+        {
+          "id": "7-5",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.744 },
+            { "item": 2, "cy": 0.777 },
+            { "item": 3, "cy": 0.81 },
+            { "item": 4, "cy": 0.843 },
+            { "item": 5, "cy": 0.877 },
+            { "item": 6, "cy": 0.91 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 83,
+      "exercises": [
+        {
+          "id": "7-6",
+          "type": "personal",
+          "instruction": "¿Qué planes tienes tú para mañana? Usa el futuro en tus respuestas.",
+          "blanks": [
+            { "item": 1, "cy": 0.718 },
+            { "item": 2, "cy": 0.751 },
+            { "item": 3, "cy": 0.785 },
+            { "item": 4, "cy": 0.818 },
+            { "item": 5, "cy": 0.851 },
+            { "item": 6, "cy": 0.884 },
+            { "item": 7, "cy": 0.917 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 84,
+      "exercises": [
+        {
+          "id": "7-7",
+          "type": "fill",
+          "instruction": "Conjeturas. After each statement, complete the question to indicate a conjecture about each sentence. Use the future tense of the verb in italics.",
+          "blanks": [
+            { "item": 1, "cy": 0.251 },
+            { "item": 2, "cy": 0.284 },
+            { "item": 3, "cy": 0.318 },
+            { "item": 4, "cy": 0.351 },
+            { "item": 5, "cy": 0.386 }
+          ]
+        },
+        {
+          "id": "7-8",
+          "type": "truefalse",
+          "instruction": "Predicciones. ¿Verdadero o falso? ¿Eres pesimista u optimista?",
+          "blanks": [
+            { "item": 1, "cy": 0.564 },
+            { "item": 2, "cy": 0.598 },
+            { "item": 3, "cy": 0.631 },
+            { "item": 4, "cy": 0.664 },
+            { "item": 5, "cy": 0.697 },
+            { "item": 6, "cy": 0.731 }
+          ]
+        },
+        {
+          "id": "7-9",
+          "type": "translate",
+          "instruction": "El pronóstico del tiempo. En español. En tu traducción usa el futuro del verbo español entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.861 },
+            { "item": 2, "cy": 0.894 },
+            { "item": 3, "cy": 0.928 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 85,
+      "exercises": [
+        {
+          "id": "7-9",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 4, "cy": 0.083 },
+            { "item": 5, "cy": 0.116 }
+          ]
+        },
+        {
+          "id": "7-10",
+          "type": "fill",
+          "instruction": "Condiciones. Escribe el resultado de las condiciones siguientes. Usa el futuro.",
+          "blanks": [
+            { "item": 1, "cy": 0.698 },
+            { "item": 2, "cy": 0.728 },
+            { "item": 3, "cy": 0.794 },
+            { "item": 4, "cy": 0.827 },
+            { "item": 5, "cy": 0.859 },
+            { "item": 6, "cy": 0.893 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 86,
+      "exercises": [
+        {
+          "id": "7-10",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 5, "cy": 0.083 },
+            { "item": 6, "cy": 0.116 },
+            { "item": 7, "cy": 0.149 }
+          ]
+        },
+        {
+          "id": "7-11",
+          "type": "translate",
+          "instruction": "La telenovela. Traduce. Usa el vocabulario útil.",
+          "blanks": []
+        }
+      ]
+    },
+    {
+      "pdfPage": 87,
+      "exercises": [
+        {
+          "id": "7-12",
+          "type": "fill",
+          "instruction": "Conjugación. Escribe el condicional de los verbos que aparecen entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.348 },
+            { "item": 2, "cy": 0.382 },
+            { "item": 3, "cy": 0.415 },
+            { "item": 4, "cy": 0.348 },
+            { "item": 5, "cy": 0.382 },
+            { "item": 6, "cy": 0.415 }
+          ]
+        },
+        {
+          "id": "7-13",
+          "type": "fill",
+          "instruction": "Problemas con el auto. ¿Qué sugerirían estas personas? Escribe la forma apropiada del condicional del verbo entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.562 },
+            { "item": 2, "cy": 0.595 },
+            { "item": 3, "cy": 0.629 },
+            { "item": 4, "cy": 0.662 },
+            { "item": 5, "cy": 0.695 },
+            { "item": 6, "cy": 0.728 }
+          ]
+        },
+        {
+          "id": "7-14",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.859 },
+            { "item": 2, "cy": 0.892 },
+            { "item": 3, "cy": 0.925 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 88,
+      "exercises": [
+        {
+          "id": "7-14",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 4, "cy": 0.083 },
+            { "item": 5, "cy": 0.115 },
+            { "item": 6, "cy": 0.146 }
+          ]
+        },
+        {
+          "id": "7-15",
+          "type": "fill",
+          "instruction": "Un plan de compras. Subraya (Underline) el verbo en el presente. Después, escribe el verbo en el condicional.",
+          "blanks": [
+            { "item": 1, "cy": 0.898 },
+            { "item": 2, "cy": 0.93 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 89,
+      "exercises": [
+        {
+          "id": "7-15",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 3, "cy": 0.083 },
+            { "item": 4, "cy": 0.116 }
+          ]
+        },
+        {
+          "id": "7-16",
+          "type": "translate",
+          "instruction": "En español. Usa la forma apropiada del condicional en tus respuestas.",
+          "blanks": [
+            { "item": 1, "cy": 0.246 },
+            { "item": 2, "cy": 0.279 },
+            { "item": 3, "cy": 0.313 },
+            { "item": 4, "cy": 0.346 }
+          ]
+        },
+        {
+          "id": "7-17",
+          "type": "free",
+          "instruction": "En cada situación, ¿qué harías? What would you do? Write an affirmative or negative sentence using the appropriate present conditional form of the infinitive that appears after the sentence.",
+          "blanks": [
+            { "item": 1, "cy": 0.493 },
+            { "item": 2, "cy": 0.526 },
+            { "item": 3, "cy": 0.56 },
+            { "item": 4, "cy": 0.592 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 90,
+      "exercises": [
+        {
+          "id": "7-18",
+          "type": "fill",
+          "instruction": "Las elecciones. Usa el condicional de los verbos entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.33 },
+            { "item": 2, "cy": 0.364 },
+            { "item": 3, "cy": 0.397 },
+            { "item": 4, "cy": 0.43 },
+            { "item": 5, "cy": 0.464 },
+            { "item": 6, "cy": 0.497 },
+            { "item": 7, "cy": 0.53 },
+            { "item": 8, "cy": 0.563 }
+          ]
+        },
+        {
+          "id": "7-19",
+          "type": "matching",
+          "instruction": "Conexiones. ¿Qué les gustaría hacer a estas personas? Choose the letter of the statement that indicates why these people would like to do these things.",
+          "blanks": [
+            { "item": 1, "cy": 0.71 },
+            { "item": 2, "cy": 0.744 },
+            { "item": 3, "cy": 0.777 },
+            { "item": 4, "cy": 0.81 },
+            { "item": 5, "cy": 0.843 },
+            { "item": 6, "cy": 0.877 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 91,
+      "exercises": [
+        {
+          "id": "7-20",
+          "type": "translate",
+          "instruction": "¿El crimen perfecto? En español. Las probabilidades en el pasado. Usa la forma apropiada del condicional en tus respuestas.",
+          "blanks": [
+            { "item": 1, "cy": 0.458 },
+            { "item": 2, "cy": 0.492 },
+            { "item": 3, "cy": 0.525 },
+            { "item": 4, "cy": 0.558 },
+            { "item": 5, "cy": 0.591 },
+            { "item": 6, "cy": 0.625 }
+          ]
+        },
+        {
+          "id": "7-21",
+          "type": "truefalse",
+          "instruction": "Y en tu caso… ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.755 },
+            { "item": 2, "cy": 0.788 },
+            { "item": 3, "cy": 0.822 },
+            { "item": 4, "cy": 0.855 },
+            { "item": 5, "cy": 0.888 },
+            { "item": 6, "cy": 0.921 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 92,
+      "exercises": [
+        {
+          "id": "7-22",
+          "type": "translate",
+          "instruction": "La salud. Traduce. Usa el vocabulario útil. Use the conditional or the future as needed in each situation.",
+          "blanks": []
+        }
+      ]
+    }
+  ]
+}

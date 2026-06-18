@@ -1,0 +1,559 @@
+{
+  "unit": 19,
+  "title": "Personal Pronouns",
+  "sections": [
+    {
+      "title": "Subject Pronouns",
+      "page": 225,
+      "verbs": [
+        { "es": "comer", "en": "to eat", "src": "example" },
+        { "es": "salir", "en": "to leave, to go out", "src": "example" },
+        { "es": "ir", "en": "to go", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el jefe", "en": "boss", "gender": "m", "src": "example" },
+        { "es": "el café", "en": "coffee", "gender": "m", "src": "example" },
+        { "es": "la hora", "en": "hour, time", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "personal", "en": "personal", "src": "example" },
+        { "es": "exigente", "en": "demanding", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "ahora", "en": "now", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Uses of the Subject Pronouns",
+      "page": 226,
+      "verbs": [
+        { "es": "saber", "en": "to know", "src": "example" },
+        { "es": "mentir", "en": "to lie", "src": "example" },
+        { "es": "estudiar", "en": "to study", "src": "example" },
+        { "es": "querer", "en": "to want", "src": "example" },
+        { "es": "mirar", "en": "to watch, to look at", "src": "example" },
+        { "es": "trabajar", "en": "to work", "src": "example" },
+        { "es": "entrar", "en": "to enter, to come in", "src": "example" },
+        { "es": "decir", "en": "to say, to tell", "src": "example" },
+        { "es": "llover", "en": "to rain", "src": "example" },
+        { "es": "donar", "en": "to donate", "src": "example" },
+        { "es": "venir", "en": "to come", "src": "example" },
+        { "es": "vivir", "en": "to live", "src": "example" },
+        { "es": "pedir", "en": "to ask for, to request", "src": "example" },
+        { "es": "cocinar", "en": "to cook", "src": "example" },
+        { "es": "preparar", "en": "to prepare", "src": "example" },
+        { "es": "dormir", "en": "to sleep", "src": "example" },
+        { "es": "merecer", "en": "to deserve", "yo": "merezco", "src": "example" },
+        { "es": "creer", "en": "to believe", "src": "example" },
+        { "es": "nadar", "en": "to swim", "src": "example" },
+        { "es": "beber", "en": "to drink", "src": "example" },
+        { "es": "preferir", "en": "to prefer", "src": "example" },
+        { "es": "nevar", "en": "to snow", "src": "example" },
+        { "es": "leer", "en": "to read", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el refresco", "en": "soft drink", "gender": "m", "src": "example" },
+        { "es": "la limonada", "en": "lemonade", "gender": "f", "src": "example" },
+        { "es": "el pasaporte", "en": "passport", "gender": "m", "src": "example" },
+        { "es": "el nombre", "en": "name", "gender": "m", "src": "example" },
+        { "es": "el astronauta", "en": "astronaut", "gender": "m", "src": "example" },
+        { "es": "las condiciones atmosféricas", "en": "atmospheric conditions", "gender": "f", "src": "example" },
+        { "es": "el artista", "en": "artist", "gender": "m", "src": "example" },
+        { "es": "el cuadro", "en": "painting", "gender": "m", "src": "example" },
+        { "es": "la cena", "en": "dinner", "gender": "f", "src": "example" },
+        { "es": "la habitación", "en": "room", "gender": "f", "src": "example" },
+        { "es": "la vista", "en": "view", "gender": "f", "src": "example" },
+        { "es": "el mar", "en": "sea", "gender": "m", "src": "example" },
+        { "es": "la medalla", "en": "medal", "gender": "f", "src": "example" },
+        { "es": "el té", "en": "tea", "gender": "m", "src": "example" },
+        { "es": "la verdad", "en": "truth", "gender": "f", "src": "example" },
+        { "es": "el cuento de hadas", "en": "fairy tale", "gender": "m", "src": "example" },
+        { "es": "el periódico", "en": "newspaper", "gender": "m", "src": "example" },
+        { "es": "la cita", "en": "appointment", "gender": "f", "src": "example" },
+        { "es": "la hermana", "en": "sister", "gender": "f", "src": "example" },
+        { "es": "el prima", "en": "cousin", "gender": "f", "src": "example" },
+        { "es": "el abuelo", "en": "grandfather", "gender": "m", "src": "example" },
+        { "es": "el desconocido", "en": "stranger", "gender": "m", "src": "example" },
+        { "es": "la edad", "en": "age", "gender": "f", "src": "example" },
+        { "es": "el director", "en": "principal, director", "gender": "m", "src": "example" },
+        { "es": "la escuela", "en": "school", "gender": "f", "src": "example" },
+        { "es": "el presidente", "en": "president", "gender": "m", "src": "example" },
+        { "es": "el secretario", "en": "secretary", "gender": "m", "src": "example" },
+        { "es": "la esposa", "en": "wife", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "trabajador, trabajadora", "en": "hardworking", "src": "example" },
+        { "es": "perezoso, perezosa", "en": "lazy", "src": "example" },
+        { "es": "realista", "en": "realistic", "src": "example" },
+        { "es": "instantáneo, instantánea", "en": "instant", "src": "example" },
+        { "es": "contento, contenta", "en": "happy, content", "src": "example" },
+        { "es": "viejo, vieja", "en": "old", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "ahora", "en": "now", "src": "example" },
+        { "es": "muy", "en": "very", "src": "example" },
+        { "es": "bien", "en": "well", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "hacer sol", "en": "to be sunny", "src": "example" },
+        { "es": "por favor", "en": "please", "src": "example" }
+      ]
+    },
+    {
+      "title": "Pronouns as Objects of Prepositions",
+      "page": 229,
+      "verbs": [
+        { "es": "recibir", "en": "to receive", "src": "example" },
+        { "es": "traer", "en": "to bring", "src": "example" },
+        { "es": "apreciar", "en": "to appreciate", "src": "example" },
+        { "es": "tocar", "en": "to be one's turn", "src": "example" },
+        { "es": "ver", "en": "to see", "src": "example" },
+        { "es": "apoyar", "en": "to support", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la felicitación", "en": "greeting card, congratulation", "gender": "f", "src": "example" },
+        { "es": "la maleta", "en": "suitcase", "gender": "f", "src": "example" },
+        { "es": "el turno", "en": "turn", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "loco, loca", "en": "crazy", "src": "example" }
+      ],
+      "adverbs": [],
+      "expressions": [
+        { "es": "de acuerdo con", "en": "in agreement with, according to", "src": "example" }
+      ]
+    },
+    {
+      "title": "When Are Prepositional Pronouns Used in Spanish?",
+      "page": 229,
+      "verbs": [
+        { "es": "enviar", "en": "to send", "src": "example" },
+        { "es": "vivir", "en": "to live", "src": "example" },
+        { "es": "poner", "en": "to put", "src": "example" },
+        { "es": "hablar", "en": "to speak, to talk", "src": "example" },
+        { "es": "traer", "en": "to bring", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la empleada", "en": "employee", "gender": "f", "src": "example" },
+        { "es": "el chico", "en": "boy", "gender": "m", "src": "example" },
+        { "es": "la medicina", "en": "medicine", "gender": "f", "src": "example" },
+        { "es": "la flor", "en": "flower", "gender": "f", "src": "example" },
+        { "es": "la almohada", "en": "pillow", "gender": "f", "src": "example" },
+        { "es": "la casa", "en": "house", "gender": "f", "src": "example" },
+        { "es": "el gato", "en": "cat", "gender": "m", "src": "example" },
+        { "es": "la prensa", "en": "press", "gender": "f", "src": "example" },
+        { "es": "la respuesta", "en": "answer", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "debajo de", "en": "under, underneath", "src": "example" },
+        { "es": "delante de", "en": "in front of", "src": "example" },
+        { "es": "acerca de", "en": "about", "src": "example" },
+        { "es": "cerca de", "en": "near", "src": "example" },
+        { "es": "encima de", "en": "on top of, above", "src": "example" },
+        { "es": "lejos de", "en": "far from", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "en lugar de", "en": "instead of", "src": "example" }
+      ]
+    },
+    {
+      "title": "Direct Object Pronouns",
+      "page": 231,
+      "verbs": [
+        { "es": "preparar", "en": "to prepare", "src": "example" },
+        { "es": "ver", "en": "to see", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la película", "en": "movie", "gender": "f", "src": "example" },
+        { "es": "el postre", "en": "dessert", "gender": "m", "src": "example" },
+        { "es": "el reloj de oro", "en": "gold watch", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "When Are Direct Object Pronouns Used in Spanish?",
+      "page": 231,
+      "verbs": [
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "invitar", "en": "to invite", "src": "example" },
+        { "es": "llamar", "en": "to call", "src": "example" },
+        { "es": "tener", "en": "to have", "src": "example" },
+        { "es": "lanzar", "en": "to throw", "src": "example" },
+        { "es": "anotar", "en": "to score", "src": "example" },
+        { "es": "robar", "en": "to steal", "src": "example" },
+        { "es": "fregar", "en": "to wash (dishes), to scrub", "src": "example" },
+        { "es": "regar", "en": "to water", "src": "example" },
+        { "es": "preferir", "en": "to prefer", "src": "example" },
+        { "es": "poner", "en": "to put", "src": "example" },
+        { "es": "guardar", "en": "to keep, to put away", "src": "example" },
+        { "es": "necesitar", "en": "to need", "src": "example" },
+        { "es": "odiar", "en": "to hate", "src": "example" },
+        { "es": "leer", "en": "to read", "src": "example" },
+        { "es": "subir", "en": "to climb, to go up", "src": "example" },
+        { "es": "gastar", "en": "to spend", "src": "example" },
+        { "es": "lavar", "en": "to wash", "src": "example" },
+        { "es": "freír", "en": "to fry", "src": "example" },
+        { "es": "quemar", "en": "to burn", "src": "example" },
+        { "es": "bajar", "en": "to lower", "src": "example" },
+        { "es": "mandar", "en": "to send", "src": "example" },
+        { "es": "devolver", "en": "to return (something)", "src": "example" },
+        { "es": "cerrar", "en": "to close", "src": "example" },
+        { "es": "comprender", "en": "to understand", "src": "example" },
+        { "es": "practicar", "en": "to practice", "src": "example" },
+        { "es": "hacer", "en": "to do, to make", "src": "example" },
+        { "es": "perder", "en": "to lose", "src": "example" },
+        { "es": "ganar", "en": "to win", "src": "example" },
+        { "es": "responder", "en": "to answer", "src": "example" },
+        { "es": "esconder", "en": "to hide", "src": "example" },
+        { "es": "buscar", "en": "to look for", "src": "example" },
+        { "es": "oír", "en": "to hear", "src": "example" },
+        { "es": "pagar", "en": "to pay", "src": "example" },
+        { "es": "beber", "en": "to drink", "src": "example" },
+        { "es": "aplaudir", "en": "to applaud", "src": "example" },
+        { "es": "observar", "en": "to observe", "src": "example" },
+        { "es": "tocar", "en": "to play (music)", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la entrada", "en": "ticket", "gender": "f", "src": "example" },
+        { "es": "el hermano", "en": "brother", "gender": "m", "src": "example" },
+        { "es": "los binoculares", "en": "binoculars", "gender": "m", "src": "example" },
+        { "es": "el refresco", "en": "soft drink", "gender": "m", "src": "example" },
+        { "es": "la pelota", "en": "ball", "gender": "f", "src": "example" },
+        { "es": "la carrera", "en": "run (in baseball)", "gender": "f", "src": "example" },
+        { "es": "la base", "en": "base", "gender": "f", "src": "example" },
+        { "es": "el plato", "en": "dish, plate", "gender": "m", "src": "example" },
+        { "es": "la planta", "en": "plant", "gender": "f", "src": "example" },
+        { "es": "la fruta", "en": "fruit", "gender": "f", "src": "example" },
+        { "es": "el agua", "en": "water", "gender": "f", "src": "example" },
+        { "es": "el libro", "en": "book", "gender": "m", "src": "example" },
+        { "es": "la flor", "en": "flower", "gender": "f", "src": "example" },
+        { "es": "el vegetal", "en": "vegetable", "gender": "m", "src": "example" },
+        { "es": "la congeladora", "en": "freezer", "gender": "f", "src": "example" },
+        { "es": "el mercado", "en": "market", "gender": "m", "src": "example" },
+        { "es": "el ingrediente", "en": "ingredient", "gender": "m", "src": "example" },
+        { "es": "el dinero", "en": "money", "gender": "m", "src": "example" },
+        { "es": "la papa", "en": "potato", "gender": "f", "src": "example" },
+        { "es": "la cebolla", "en": "onion", "gender": "f", "src": "example" },
+        { "es": "el arroz", "en": "rice", "gender": "m", "src": "example" },
+        { "es": "la botella", "en": "bottle", "gender": "f", "src": "example" },
+        { "es": "la llama", "en": "flame", "gender": "f", "src": "example" },
+        { "es": "la revista", "en": "magazine", "gender": "f", "src": "example" },
+        { "es": "la carta", "en": "letter", "gender": "f", "src": "example" },
+        { "es": "la llave", "en": "key", "gender": "f", "src": "example" },
+        { "es": "la ventana", "en": "window", "gender": "f", "src": "example" },
+        { "es": "el cubo de la basura", "en": "trash can", "gender": "m", "src": "example" },
+        { "es": "el deporte", "en": "sport", "gender": "m", "src": "example" },
+        { "es": "el ejercicio", "en": "exercise", "gender": "m", "src": "example" },
+        { "es": "la apuesta", "en": "bet", "gender": "f", "src": "example" },
+        { "es": "el partido", "en": "game, match", "gender": "m", "src": "example" },
+        { "es": "el pronombre", "en": "pronoun", "gender": "m", "src": "example" },
+        { "es": "el chocolate", "en": "chocolate", "gender": "m", "src": "example" },
+        { "es": "la zapatilla", "en": "slipper", "gender": "f", "src": "example" },
+        { "es": "la música", "en": "music", "gender": "f", "src": "example" },
+        { "es": "la cuenta", "en": "bill, check", "gender": "f", "src": "example" },
+        { "es": "el periódico", "en": "newspaper", "gender": "m", "src": "example" },
+        { "es": "la limonada", "en": "lemonade", "gender": "f", "src": "example" },
+        { "es": "el músico", "en": "musician", "gender": "m", "src": "example" },
+        { "es": "la banda", "en": "band", "gender": "f", "src": "example" },
+        { "es": "la marcha", "en": "march", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "frío, fría", "en": "cold", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "después de", "en": "after", "src": "example" },
+        { "es": "bien", "en": "well", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Indirect Object Pronouns",
+      "page": 235,
+      "verbs": [
+        { "es": "dar", "en": "to give", "src": "example" },
+        { "es": "prometer", "en": "to promise", "src": "example" },
+        { "es": "venir", "en": "to come", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el anillo", "en": "ring", "gender": "m", "src": "example" },
+        { "es": "la maleta", "en": "suitcase", "gender": "f", "src": "example" },
+        { "es": "la palabra", "en": "word", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [],
+      "expressions": [
+        { "es": "dar tu palabra", "en": "to give your word", "src": "example" }
+      ]
+    },
+    {
+      "title": "Where Are Indirect Object Pronouns Placed?",
+      "page": 235,
+      "verbs": [
+        { "es": "contar", "en": "to tell", "src": "example" },
+        { "es": "dar", "en": "to give", "src": "example" },
+        { "es": "decir", "en": "to say, to tell", "src": "example" },
+        { "es": "pedir", "en": "to ask for", "src": "example" },
+        { "es": "regalar", "en": "to give (a gift)", "src": "example" },
+        { "es": "servir", "en": "to serve", "src": "example" },
+        { "es": "traer", "en": "to bring", "src": "example" },
+        { "es": "enviar", "en": "to send", "src": "example" },
+        { "es": "devolver", "en": "to return (something)", "src": "example" },
+        { "es": "mostrar", "en": "to show", "src": "example" },
+        { "es": "repartir", "en": "to distribute, to hand out", "src": "example" },
+        { "es": "reciclar", "en": "to recycle", "src": "example" },
+        { "es": "añadir", "en": "to add", "src": "example" },
+        { "es": "pegar", "en": "to hit", "src": "example" },
+        { "es": "escribir", "en": "to write", "src": "example" },
+        { "es": "responder", "en": "to answer", "src": "example" },
+        { "es": "explicar", "en": "to explain", "src": "example" },
+        { "es": "preparar", "en": "to prepare", "src": "example" },
+        { "es": "preguntar", "en": "to ask", "src": "example" },
+        { "es": "revisar", "en": "to check, to review", "src": "example" },
+        { "es": "entregar", "en": "to hand in, to deliver", "src": "example" },
+        { "es": "comentar", "en": "to comment on", "src": "example" },
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "llevar", "en": "to take, to carry", "src": "example" },
+        { "es": "ayudar", "en": "to help", "src": "example" },
+        { "es": "buscar", "en": "to look for", "src": "example" },
+        { "es": "tocar", "en": "to play (music)", "src": "example" },
+        { "es": "lavar", "en": "to wash", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el empleado", "en": "employee", "gender": "m", "src": "example" },
+        { "es": "la tarjeta postal", "en": "postcard", "gender": "f", "src": "example" },
+        { "es": "el libro", "en": "book", "gender": "m", "src": "example" },
+        { "es": "la bibliotecaria", "en": "librarian", "gender": "f", "src": "example" },
+        { "es": "la intención", "en": "intention", "gender": "f", "src": "example" },
+        { "es": "el juguete", "en": "toy", "gender": "m", "src": "example" },
+        { "es": "el niño", "en": "child", "gender": "m", "src": "example" },
+        { "es": "la botella", "en": "bottle", "gender": "f", "src": "example" },
+        { "es": "el coñac", "en": "cognac, brandy", "gender": "m", "src": "example" },
+        { "es": "la receta", "en": "recipe", "gender": "f", "src": "example" },
+        { "es": "el golpe", "en": "hit, blow", "gender": "m", "src": "example" },
+        { "es": "la carta", "en": "letter", "gender": "f", "src": "example" },
+        { "es": "el problema", "en": "problem", "gender": "m", "src": "example" },
+        { "es": "el compromiso", "en": "engagement", "gender": "m", "src": "example" },
+        { "es": "el anillo de compromiso", "en": "engagement ring", "gender": "m", "src": "example" },
+        { "es": "el almuerzo", "en": "lunch", "gender": "m", "src": "example" },
+        { "es": "la pregunta", "en": "question", "gender": "f", "src": "example" },
+        { "es": "la tarea", "en": "homework", "gender": "f", "src": "example" },
+        { "es": "la solicitud", "en": "application", "gender": "f", "src": "example" },
+        { "es": "el director", "en": "director", "gender": "m", "src": "example" },
+        { "es": "el programa", "en": "program", "gender": "m", "src": "example" },
+        { "es": "la mentira", "en": "lie", "gender": "f", "src": "example" },
+        { "es": "el jefe", "en": "boss", "gender": "m", "src": "example" },
+        { "es": "la visa", "en": "visa", "gender": "f", "src": "example" },
+        { "es": "el cónsul", "en": "consul", "gender": "m", "src": "example" },
+        { "es": "el final", "en": "ending", "gender": "m", "src": "example" },
+        { "es": "la torta", "en": "cake", "gender": "f", "src": "example" },
+        { "es": "el maestro", "en": "teacher", "gender": "m", "src": "example" },
+        { "es": "el siquiatra", "en": "psychiatrist", "gender": "m", "src": "example" },
+        { "es": "el síntoma", "en": "symptom", "gender": "m", "src": "example" },
+        { "es": "el doctor", "en": "doctor", "gender": "m", "src": "example" },
+        { "es": "la novia", "en": "girlfriend", "gender": "f", "src": "example" },
+        { "es": "la fiesta", "en": "party", "gender": "f", "src": "example" },
+        { "es": "el dólar", "en": "dollar", "gender": "m", "src": "example" },
+        { "es": "el caviar", "en": "caviar", "gender": "m", "src": "example" },
+        { "es": "la excusa", "en": "excuse", "gender": "f", "src": "example" },
+        { "es": "la zapatilla", "en": "slipper", "gender": "f", "src": "example" },
+        { "es": "la tarjeta", "en": "card", "gender": "f", "src": "example" },
+        { "es": "la tía", "en": "aunt", "gender": "f", "src": "example" },
+        { "es": "la música", "en": "music", "gender": "f", "src": "example" },
+        { "es": "el público", "en": "audience", "gender": "m", "src": "example" },
+        { "es": "la cuenta", "en": "bill", "gender": "f", "src": "example" },
+        { "es": "la tesorera", "en": "treasurer", "gender": "f", "src": "example" },
+        { "es": "el artículo", "en": "article", "gender": "m", "src": "example" },
+        { "es": "la limonada", "en": "lemonade", "gender": "f", "src": "example" },
+        { "es": "la cena", "en": "dinner", "gender": "f", "src": "example" },
+        { "es": "la sábana", "en": "bedsheet", "gender": "f", "src": "example" },
+        { "es": "la comunidad", "en": "community", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "siempre", "en": "always", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "pegar un golpe", "en": "to hit, to strike a blow", "src": "example" }
+      ]
+    },
+    {
+      "title": "Double Object Pronouns",
+      "page": 239,
+      "verbs": [
+        { "es": "escuchar", "en": "to listen to", "src": "example" },
+        { "es": "leer", "en": "to read", "src": "example" },
+        { "es": "enviar", "en": "to send", "src": "example" },
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "dar", "en": "to give", "src": "example" },
+        { "es": "prestar", "en": "to lend", "src": "example" },
+        { "es": "pedir", "en": "to ask for", "src": "example" },
+        { "es": "escribir", "en": "to write", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el comentario", "en": "comment", "gender": "m", "src": "example" },
+        { "es": "el dinero", "en": "money", "gender": "m", "src": "example" },
+        { "es": "la tarjeta postal", "en": "postcard", "gender": "f", "src": "example" },
+        { "es": "la bicicleta", "en": "bicycle", "gender": "f", "src": "example" },
+        { "es": "el banco", "en": "bank", "gender": "m", "src": "example" },
+        { "es": "la nota", "en": "note", "gender": "f", "src": "example" },
+        { "es": "la oferta", "en": "offer", "gender": "m", "src": "example" },
+        { "es": "el favor", "en": "favor", "gender": "m", "src": "example" },
+        { "es": "el niño", "en": "child", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "con frecuencia", "en": "frequently", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "ahora mismo", "en": "right now", "src": "example" }
+      ]
+    },
+    {
+      "title": "How Are Double Object Pronouns Used in Spanish?",
+      "page": 239,
+      "verbs": [
+        { "es": "traer", "en": "to bring", "src": "example" },
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "explicar", "en": "to explain", "src": "example" },
+        { "es": "decir", "en": "to say, to tell", "src": "example" },
+        { "es": "entregar", "en": "to hand in, to deliver", "src": "example" },
+        { "es": "hacer", "en": "to make, to do", "src": "example" },
+        { "es": "presentar", "en": "to present", "src": "example" },
+        { "es": "preparar", "en": "to prepare", "src": "example" },
+        { "es": "leer", "en": "to read", "src": "example" },
+        { "es": "probar", "en": "to try on", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el paquete", "en": "package", "gender": "m", "src": "example" },
+        { "es": "el vegetal", "en": "vegetable", "gender": "m", "src": "example" },
+        { "es": "el meteorólogo", "en": "meteorologist", "gender": "m", "src": "example" },
+        { "es": "el tiempo", "en": "weather", "gender": "m", "src": "example" },
+        { "es": "el televidente", "en": "TV viewer", "gender": "m", "src": "example" },
+        { "es": "la noticia", "en": "news", "gender": "f", "src": "example" },
+        { "es": "la tarea", "en": "homework", "gender": "f", "src": "example" },
+        { "es": "el profesor", "en": "professor, teacher", "gender": "m", "src": "example" },
+        { "es": "el agente de viajes", "en": "travel agent", "gender": "m", "src": "example" },
+        { "es": "la reservación", "en": "reservation", "gender": "f", "src": "example" },
+        { "es": "el periodista", "en": "journalist", "gender": "m", "src": "example" },
+        { "es": "la pregunta", "en": "question", "gender": "f", "src": "example" },
+        { "es": "la senadora", "en": "senator", "gender": "f", "src": "example" },
+        { "es": "la peluquera", "en": "hairdresser", "gender": "f", "src": "example" },
+        { "es": "el tinte", "en": "hair color, dye", "gender": "m", "src": "example" },
+        { "es": "el policía", "en": "police officer", "gender": "m", "src": "example" },
+        { "es": "la multa", "en": "traffic ticket, fine", "gender": "f", "src": "example" },
+        { "es": "el conductor", "en": "driver", "gender": "m", "src": "example" },
+        { "es": "el periódico", "en": "newspaper", "gender": "m", "src": "example" },
+        { "es": "el té", "en": "tea", "gender": "m", "src": "example" },
+        { "es": "la hermana", "en": "sister", "gender": "f", "src": "example" },
+        { "es": "el traje", "en": "suit", "gender": "m", "src": "example" },
+        { "es": "el sombrero", "en": "hat", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "malo, mala", "en": "bad", "src": "example" },
+        { "es": "tailandés, tailandesa", "en": "Thai", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "personalmente", "en": "personally", "src": "example" },
+        { "es": "también", "en": "also, too", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "The Indirect Object Pronoun with Gustar and Other Verbs",
+      "page": 241,
+      "verbs": [
+        { "es": "gustar", "en": "to like (to be pleasing to)" },
+        { "es": "apasionar", "en": "to love passionately" },
+        { "es": "encantar", "en": "to love (something)" },
+        { "es": "enloquecer", "en": "to be driven mad" },
+        { "es": "disgustar", "en": "to dislike, to hate" },
+        { "es": "faltar", "en": "to be missing" },
+        { "es": "fascinar", "en": "to be fascinated" },
+        { "es": "hacer falta", "en": "to be in need of" },
+        { "es": "importar", "en": "to care about, to matter" },
+        { "es": "molestar", "en": "to be bothered by" },
+        { "es": "parecer", "en": "to seem, to appear to" },
+        { "es": "sobrar", "en": "to be left over" },
+        { "es": "tocarle a alguien", "en": "to be one's turn" },
+        { "es": "bailar", "en": "to dance", "src": "example" },
+        { "es": "nadar", "en": "to swim", "src": "example" },
+        { "es": "caminar", "en": "to walk", "src": "example" },
+        { "es": "viajar", "en": "to travel", "src": "example" },
+        { "es": "cantar", "en": "to sing", "src": "example" },
+        { "es": "repetir", "en": "to repeat", "src": "example" },
+        { "es": "vender", "en": "to sell", "src": "example" },
+        { "es": "ofrecer", "en": "to offer", "yo": "ofrezco", "src": "example" },
+        { "es": "describir", "en": "to describe", "src": "example" },
+        { "es": "ir de compras", "en": "to go shopping", "src": "example" },
+        { "es": "sacar fotos", "en": "to take photos", "src": "example" },
+        { "es": "competir", "en": "to compete", "src": "example" },
+        { "es": "esquiar", "en": "to ski", "src": "example" },
+        { "es": "expresar", "en": "to express", "src": "example" },
+        { "es": "dormir", "en": "to sleep", "src": "example" },
+        { "es": "amar", "en": "to love", "src": "example" },
+        { "es": "odiar", "en": "to hate", "src": "example" },
+        { "es": "tocar", "en": "to play (an instrument)", "src": "example" },
+        { "es": "llevar", "en": "to wear", "src": "example" },
+        { "es": "practicar", "en": "to practice", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el chocolate", "en": "chocolate", "gender": "m", "src": "example" },
+        { "es": "la motocicleta", "en": "motorcycle", "gender": "f", "src": "example" },
+        { "es": "el objeto de cristal", "en": "crystal object", "gender": "m", "src": "example" },
+        { "es": "la cerámica", "en": "ceramic", "gender": "f", "src": "example" },
+        { "es": "el hermano", "en": "brother", "gender": "m", "src": "example" },
+        { "es": "la playa", "en": "beach", "gender": "f", "src": "example" },
+        { "es": "el examen", "en": "exam", "gender": "m", "src": "example" },
+        { "es": "el pacifista", "en": "pacifist", "gender": "m", "src": "example" },
+        { "es": "la guerra", "en": "war", "gender": "f", "src": "example" },
+        { "es": "el turista", "en": "tourist", "gender": "m", "src": "example" },
+        { "es": "la flor", "en": "flower", "gender": "f", "src": "example" },
+        { "es": "el amigo", "en": "friend", "gender": "m", "src": "example" },
+        { "es": "la música mexicana", "en": "Mexican music", "gender": "f", "src": "example" },
+        { "es": "la sandalia", "en": "sandal", "gender": "f", "src": "example" },
+        { "es": "la comida mexicana", "en": "Mexican food", "gender": "f", "src": "example" },
+        { "es": "el zapato", "en": "shoe", "gender": "m", "src": "example" },
+        { "es": "la actitud", "en": "attitude", "gender": "f", "src": "example" },
+        { "es": "el piano", "en": "piano", "gender": "m", "src": "example" },
+        { "es": "el ajedrez", "en": "chess", "gender": "m", "src": "example" },
+        { "es": "el tiempo libre", "en": "free time", "gender": "m", "src": "example" },
+        { "es": "el anuncio", "en": "advertisement", "gender": "m", "src": "example" },
+        { "es": "la radio", "en": "radio", "gender": "f", "src": "example" },
+        { "es": "el enemigo", "en": "enemy", "gender": "m", "src": "example" },
+        { "es": "la crítica", "en": "criticism, critique", "gender": "f", "src": "example" },
+        { "es": "el dinero", "en": "money", "gender": "m", "src": "example" },
+        { "es": "la vacación", "en": "vacation", "gender": "f", "src": "example" },
+        { "es": "la cuenta de la electricidad", "en": "electricity bill", "gender": "f", "src": "example" },
+        { "es": "el deporte", "en": "sport", "gender": "m", "src": "example" },
+        { "es": "el buen gusto", "en": "good taste", "gender": "m", "src": "example" },
+        { "es": "la hamaca", "en": "hammock", "gender": "f", "src": "example" },
+        { "es": "la película de horror", "en": "horror film", "gender": "f", "src": "example" },
+        { "es": "la piscina olímpica", "en": "Olympic pool", "gender": "f", "src": "example" },
+        { "es": "el animal", "en": "animal", "gender": "m", "src": "example" },
+        { "es": "la montaña", "en": "mountain", "gender": "f", "src": "example" },
+        { "es": "la hermana", "en": "sister", "gender": "f", "src": "example" },
+        { "es": "la opinión", "en": "opinion", "gender": "f", "src": "example" },
+        { "es": "la familia", "en": "family", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "rojo, roja", "en": "red", "src": "example" },
+        { "es": "mexicano, mexicana", "en": "Mexican", "src": "example" },
+        { "es": "olímpico, olímpica", "en": "Olympic", "src": "example" },
+        { "es": "cómico, cómica", "en": "funny", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "también", "en": "also, too", "src": "example" },
+        { "es": "tarde", "en": "late", "src": "example" },
+        { "es": "en moderación", "en": "in moderation", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "Sobre gustos hay mucho escrito", "en": "There is much written about tastes (there is no accounting for taste)", "src": "example" },
+        { "es": "tener una opinión diferente", "en": "to have a different opinion", "src": "example" }
+      ]
+    }
+  ]
+}

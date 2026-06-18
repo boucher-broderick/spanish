@@ -1,0 +1,215 @@
+{
+  "unit": 20,
+  "pages": [
+    {
+      "pdfPage": 258,
+      "exercises": [
+        {
+          "id": "20-1",
+          "type": "fill",
+          "instruction": "En mi ciudad. Práctica. Combina las dos frases en una oración. Usa el pronombre relativo que.",
+          "blanks": [
+            { "item": 1, "cy": 0.21 },
+            { "item": 2, "cy": 0.244 },
+            { "item": 3, "cy": 0.277 },
+            { "item": 4, "cy": 0.31 },
+            { "item": 5, "cy": 0.343 },
+            { "item": 6, "cy": 0.376 }
+          ]
+        },
+        {
+          "id": "20-2",
+          "type": "truefalse",
+          "instruction": "Un poco de geografía. ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.504 },
+            { "item": 2, "cy": 0.537 },
+            { "item": 3, "cy": 0.571 },
+            { "item": 4, "cy": 0.604 },
+            { "item": 5, "cy": 0.637 },
+            { "item": 6, "cy": 0.67 }
+          ]
+        },
+        {
+          "id": "20-3",
+          "type": "translate",
+          "instruction": "En español. Usa el pronombre relativo que en tus traducciones.",
+          "blanks": [
+            { "item": 1, "cy": 0.831 },
+            { "item": 2, "cy": 0.865 },
+            { "item": 3, "cy": 0.898 },
+            { "item": 4, "cy": 0.931 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 259,
+      "exercises": [
+        {
+          "id": "20-3",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 5, "cy": 0.083 },
+            { "item": 6, "cy": 0.116 }
+          ]
+        },
+        {
+          "id": "20-4",
+          "type": "fill",
+          "instruction": "En el baile de máscaras. Práctica. Combina las palabras en una oración. Usa el pronombre relativo quien o quienes, de acuerdo al contexto. Escribe las comas.",
+          "blanks": [
+            { "item": 1, "cy": 0.76 },
+            { "item": 2, "cy": 0.794 },
+            { "item": 3, "cy": 0.827 },
+            { "item": 4, "cy": 0.859 },
+            { "item": 5, "cy": 0.893 },
+            { "item": 6, "cy": 0.926 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 260,
+      "exercises": [
+        {
+          "id": "20-5",
+          "type": "fill",
+          "instruction": "¿Quien o quienes? Usa la forma apropiada del pronombre de acuerdo al contexto.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 }
+          ]
+        },
+        {
+          "id": "20-6",
+          "type": "translate",
+          "instruction": "En español. Usa el pronombre relativo quien, quienes en tus traducciones.",
+          "blanks": [
+            { "item": 1, "cy": 0.465 },
+            { "item": 2, "cy": 0.498 },
+            { "item": 3, "cy": 0.532 },
+            { "item": 4, "cy": 0.564 },
+            { "item": 5, "cy": 0.598 },
+            { "item": 6, "cy": 0.631 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 261,
+      "exercises": [
+        {
+          "id": "20-7",
+          "type": "fill",
+          "instruction": "Práctica. Escribe la forma apropiada del pronombre, el cual, los cuales, la cual, las cuales, o las formas equivalentes el que, los que, la que, o las que.",
+          "blanks": [
+            { "item": 1, "cy": 0.508 },
+            { "item": 2, "cy": 0.542 },
+            { "item": 3, "cy": 0.575 },
+            { "item": 4, "cy": 0.608 },
+            { "item": 5, "cy": 0.641 },
+            { "item": 6, "cy": 0.675 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 262,
+      "exercises": [
+        {
+          "id": "20-8",
+          "type": "fill",
+          "instruction": "Reacciones personales. Escoge una frase para explicar tu reacción. Imagine you find yourself in the following situations. Note that more than one answer may be acceptable.",
+          "blanks": [
+            { "item": 1, "cy": 0.381 },
+            { "item": 2, "cy": 0.414 },
+            { "item": 3, "cy": 0.447 },
+            { "item": 4, "cy": 0.48 },
+            { "item": 5, "cy": 0.514 },
+            { "item": 6, "cy": 0.547 },
+            { "item": 7, "cy": 0.58 },
+            { "item": 8, "cy": 0.613 }
+          ]
+        },
+        {
+          "id": "20-9",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.744 },
+            { "item": 2, "cy": 0.777 },
+            { "item": 3, "cy": 0.81 },
+            { "item": 4, "cy": 0.843 },
+            { "item": 5, "cy": 0.877 },
+            { "item": 6, "cy": 0.91 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 263,
+      "exercises": [
+        {
+          "id": "20-9",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 7, "cy": 0.083 }
+          ]
+        },
+        {
+          "id": "20-10",
+          "type": "fill",
+          "instruction": "En la montaña. Práctica. Escribe la forma apropiada del pronombre el cual, los cuales, la cual, las cuales, quien o quienes.",
+          "blanks": [
+            { "item": 1, "cy": 0.744 },
+            { "item": 2, "cy": 0.777 },
+            { "item": 3, "cy": 0.81 },
+            { "item": 4, "cy": 0.843 },
+            { "item": 5, "cy": 0.877 },
+            { "item": 6, "cy": 0.91 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 264,
+      "exercises": [
+        {
+          "id": "20-10",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 7, "cy": 0.083 },
+            { "item": 8, "cy": 0.116 }
+          ]
+        },
+        {
+          "id": "20-11",
+          "type": "fill",
+          "instruction": "Práctica. Escribe la forma apropiada de cuyo, cuyos, cuya o cuyas en el espacio en blanco.",
+          "blanks": [
+            { "item": 1, "cy": 0.514 },
+            { "item": 2, "cy": 0.547 },
+            { "item": 3, "cy": 0.58 },
+            { "item": 4, "cy": 0.613 }
+          ]
+        },
+        {
+          "id": "20-12",
+          "type": "translate",
+          "instruction": "Las preparaciones para una reunión. Traduce. Usa el vocabulario útil y la persona usted.",
+          "blanks": [
+            { "item": 1, "cy": 0.676 }
+          ]
+        }
+      ]
+    }
+  ]
+}

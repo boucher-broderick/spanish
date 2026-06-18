@@ -1,0 +1,95 @@
+{
+  "unit": 1,
+  "pages": [
+    {
+      "pdfPage": 15,
+      "exercises": [
+        {
+          "id": "1-1",
+          "type": "fill",
+          "instruction": "¿Qué hacen? Escribe la forma del presente del verbo entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.447 },
+            { "item": 2, "cy": 0.48 },
+            { "item": 3, "cy": 0.514 },
+            { "item": 4, "cy": 0.547 },
+            { "item": 5, "cy": 0.58 },
+            { "item": 6, "cy": 0.613 },
+            { "item": 7, "cy": 0.646 },
+            { "item": 8, "cy": 0.68 }
+          ]
+        },
+        {
+          "id": "1-2",
+          "type": "translate",
+          "instruction": "Práctica. Escribe en español.",
+          "blanks": [
+            { "item": 1, "cy": 0.81 },
+            { "item": 2, "cy": 0.843 },
+            { "item": 3, "cy": 0.877 },
+            { "item": 4, "cy": 0.91 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "exercises": [
+        {
+          "id": "1-2",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 5, "cy": 0.083 },
+            { "item": 6, "cy": 0.116 },
+            { "item": 7, "cy": 0.149 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "exercises": [
+        {
+          "id": "1-3",
+          "type": "truefalse",
+          "instruction": "Y en tu caso… ¿Es verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 }
+          ]
+        },
+        {
+          "id": "1-4",
+          "type": "translate",
+          "instruction": "En español. Usa el presente.",
+          "blanks": [
+            { "item": 1, "cy": 0.465 },
+            { "item": 2, "cy": 0.498 },
+            { "item": 3, "cy": 0.532 },
+            { "item": 4, "cy": 0.564 },
+            { "item": 5, "cy": 0.598 },
+            { "item": 6, "cy": 0.631 }
+          ]
+        },
+        {
+          "id": "1-5",
+          "type": "personal",
+          "instruction": "Preguntas personales. Usa el presente.",
+          "blanks": [
+            { "item": 1, "cy": 0.762 },
+            { "item": 2, "cy": 0.795 },
+            { "item": 3, "cy": 0.828 },
+            { "item": 4, "cy": 0.861 },
+            { "item": 5, "cy": 0.894 },
+            { "item": 6, "cy": 0.928 }
+          ]
+        }
+      ]
+    }
+  ]
+}

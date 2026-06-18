@@ -1,0 +1,177 @@
+{
+  "unit": 6,
+  "pages": [
+    {
+      "pdfPage": 73,
+      "exercises": [
+        {
+          "id": "6-1",
+          "type": "fill",
+          "instruction": "¿El pretérito o el imperfecto? Remember: the choice of the imperfect or the preterit can sometimes be determined by the idea you wish to convey. Focus on the nature of the verbs and the expressions of time to help you choose the appropriate tense.",
+          "blanks": [
+            { "item": 1, "cy": 0.422 },
+            { "item": 2, "cy": 0.455 },
+            { "item": 3, "cy": 0.488 },
+            { "item": 4, "cy": 0.521 },
+            { "item": 5, "cy": 0.555 },
+            { "item": 5, "cy": 0.555 },
+            { "item": 5, "cy": 0.588 },
+            { "item": 6, "cy": 0.621 }
+          ]
+        },
+        {
+          "id": "6-2",
+          "type": "translate",
+          "instruction": "Los domingos. En español. El domingo, ¿es tu día favorito también? Tip: use the Spanish preterit for each verb in italics.",
+          "blanks": [
+            { "item": 1, "cy": 0.801 },
+            { "item": 2, "cy": 0.835 },
+            { "item": 3, "cy": 0.901 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 74,
+      "exercises": [
+        {
+          "id": "6-2",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 4, "cy": 0.083 },
+            { "item": 5, "cy": 0.116 },
+            { "item": 6, "cy": 0.149 },
+            { "item": 7, "cy": 0.182 },
+            { "item": 8, "cy": 0.215 },
+            { "item": 9, "cy": 0.249 }
+          ]
+        },
+        {
+          "id": "6-3",
+          "type": "free",
+          "instruction": "La decisión correcta. Go back to your Spanish translations for the previous exercise (ejercicio 6-2), and explain why each of the verbs in English italics was best translated by the preterit.",
+          "blanks": [
+            { "item": 2, "cy": 0.396 },
+            { "item": 3, "cy": 0.429 },
+            { "item": 8, "cy": 0.463 },
+            { "item": 9, "cy": 0.496 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 75,
+      "exercises": [
+        {
+          "id": "6-4",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.483 },
+            { "item": 2, "cy": 0.516 },
+            { "item": 3, "cy": 0.549 },
+            { "item": 4, "cy": 0.583 }
+          ]
+        },
+        {
+          "id": "6-5",
+          "type": "fill",
+          "instruction": "¿Qué hacías tú? Traduce la expresión entre paréntesis. Then use it to tell how often you used to do these actions when you were younger. Note the example.",
+          "blanks": [
+            { "item": 1, "cy": 0.617 },
+            { "item": 2, "cy": 0.648 },
+            { "item": 3, "cy": 0.796 },
+            { "item": 4, "cy": 0.829 },
+            { "item": 5, "cy": 0.863 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 76,
+      "exercises": [
+        {
+          "id": "6-6",
+          "type": "fill",
+          "instruction": "En español. Escribe en español la expresión entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.318 },
+            { "item": 6, "cy": 0.351 }
+          ]
+        },
+        {
+          "id": "6-8",
+          "type": "free",
+          "instruction": "¿Por qué es la respuesta correcta? For each of the sentences in the previous exercise (ejercicio 6-7), write the reason you chose the preterit or the imperfect. If a key expression gives you a clue, include it in your answer.",
+          "blanks": [
+            { "item": 1, "cy": 0.861 },
+            { "item": 2, "cy": 0.894 },
+            { "item": 3, "cy": 0.928 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 77,
+      "exercises": [
+        {
+          "id": "6-8",
+          "type": "free",
+          "continued": true,
+          "blanks": [
+            { "item": 4, "cy": 0.083 },
+            { "item": 5, "cy": 0.116 },
+            { "item": 6, "cy": 0.149 },
+            { "item": 7, "cy": 0.182 }
+          ]
+        },
+        {
+          "id": "6-9",
+          "type": "translate",
+          "instruction": "La boda. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.476 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 78,
+      "exercises": [
+        {
+          "id": "6-10",
+          "type": "truefalse",
+          "instruction": "Y en tu caso… ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.382 },
+            { "item": 2, "cy": 0.415 },
+            { "item": 3, "cy": 0.448 },
+            { "item": 4, "cy": 0.481 },
+            { "item": 5, "cy": 0.515 }
+          ]
+        },
+        {
+          "id": "6-11",
+          "type": "fill",
+          "instruction": "Una explicación lógica. Usa el pretérito de hacerse, ponerse o volverse de acuerdo al contexto y termina la oración.",
+          "blanks": [
+            { "item": 1, "cy": 0.662 },
+            { "item": 2, "cy": 0.728 },
+            { "item": 3, "cy": 0.795 },
+            { "item": 4, "cy": 0.861 },
+            { "item": 4, "cy": 0.861 },
+            { "item": 5, "cy": 0.894 },
+            { "item": 5, "cy": 0.894 },
+            { "item": 6, "cy": 0.928 },
+            { "item": 6, "cy": 0.928 }
+          ]
+        }
+      ]
+    }
+  ]
+}

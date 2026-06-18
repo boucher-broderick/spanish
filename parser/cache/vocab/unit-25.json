@@ -1,0 +1,238 @@
+{
+  "unit": 25,
+  "title": "Interrogative and Exclamatory Words",
+  "sections": [
+    {
+      "title": "Interrogative Words and Expressions",
+      "page": 301,
+      "verbs": [],
+      "nouns": [],
+      "adjectives": [],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "Interrogative Words in Spanish",
+      "page": 301,
+      "verbs": [
+        { "es": "vivir", "en": "to live", "src": "example" },
+        { "es": "necesitar", "en": "to need", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el alumno", "en": "student", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "¿cuál?, ¿cuáles?", "en": "which one(s)?" },
+        { "es": "¿cuándo?", "en": "when?" },
+        { "es": "¿cuánto?, ¿cuánta?", "en": "how much?" },
+        { "es": "¿cuántos?, ¿cuántas?", "en": "how many?" },
+        { "es": "¿cómo?", "en": "how?" },
+        { "es": "¿dónde?", "en": "where?" },
+        { "es": "¿adónde?", "en": "where (to)?" },
+        { "es": "¿de dónde?", "en": "where from?" },
+        { "es": "¿qué?", "en": "what?" },
+        { "es": "¿para qué?", "en": "what for?" },
+        { "es": "¿por qué?", "en": "why?" },
+        { "es": "¿quién?, ¿quiénes?", "en": "who?" },
+        { "es": "¿a quién?, ¿a quiénes?", "en": "whom?" },
+        { "es": "¿de quién?, ¿de quiénes?", "en": "whose?" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Other Uses of Interrogative Words and Expressions",
+      "page": 302,
+      "verbs": [
+        { "es": "preferir", "en": "to prefer", "src": "example" },
+        { "es": "usar", "en": "to use, to wear", "src": "example" },
+        { "es": "costar", "en": "to cost", "src": "example" },
+        { "es": "hablar", "en": "to talk, to speak", "src": "example" },
+        { "es": "esperar", "en": "to wait for", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el dólar", "en": "dollar", "gender": "m", "src": "example" },
+        { "es": "el traje", "en": "suit", "gender": "m", "src": "example" },
+        { "es": "la blusa", "en": "blouse", "gender": "f", "src": "example" },
+        { "es": "la fecha", "en": "date", "gender": "f", "src": "example" },
+        { "es": "el chico", "en": "boy", "gender": "m", "src": "example" },
+        { "es": "la chica", "en": "girl", "gender": "f", "src": "example" },
+        { "es": "el salón", "en": "room, hall", "gender": "m", "src": "example" },
+        { "es": "la nevera", "en": "refrigerator", "gender": "f", "src": "example" },
+        { "es": "el reloj", "en": "watch, clock", "gender": "m", "src": "example" },
+        { "es": "la prisa", "en": "hurry", "gender": "f", "src": "example" },
+        { "es": "el novio", "en": "boyfriend", "gender": "m", "src": "example" },
+        { "es": "la hermana", "en": "sister", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "rojo, roja", "en": "red", "src": "example" },
+        { "es": "azul", "en": "blue", "src": "example" },
+        { "es": "bonito, bonita", "en": "pretty, beautiful", "src": "example" }
+      ],
+      "adverbs": [],
+      "expressions": [
+        { "es": "¿con quién?", "en": "with whom?", "src": "example" }
+      ]
+    },
+    {
+      "title": "¿Para qué? ¿Por qué? When Are They Used in Spanish?",
+      "page": 304,
+      "verbs": [
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "entrenar(se)", "en": "to train", "src": "example" },
+        { "es": "correr", "en": "to run", "src": "example" },
+        { "es": "revisar", "en": "to check, to review", "src": "example" },
+        { "es": "ayudar", "en": "to help", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el dinero", "en": "money", "gender": "m", "src": "example" },
+        { "es": "el palo de golf", "en": "golf club", "gender": "m", "src": "example" },
+        { "es": "el papel", "en": "paper", "gender": "m", "src": "example" },
+        { "es": "el perfeccionista", "en": "perfectionist", "gender": "m", "src": "example" },
+        { "es": "el maratón", "en": "marathon", "gender": "m", "src": "example" },
+        { "es": "el entrenador", "en": "coach, trainer", "gender": "m", "src": "example" },
+        { "es": "el fútbol", "en": "soccer", "gender": "m", "src": "example" },
+        { "es": "el invitado", "en": "guest", "gender": "m", "src": "example" },
+        { "es": "la boda", "en": "wedding", "gender": "f", "src": "example" },
+        { "es": "el nombre", "en": "name", "gender": "m", "src": "example" },
+        { "es": "la fecha de nacimiento", "en": "date of birth", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "otra vez", "en": "again", "src": "example" },
+        { "es": "tan rápido", "en": "so fast", "src": "example" },
+        { "es": "aproximadamente", "en": "approximately", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "¿para qué?", "en": "what for?" },
+        { "es": "¿por qué?", "en": "why?" },
+        { "es": "porque", "en": "because" },
+        { "es": "¿cuánto tiempo hace que...?", "en": "how long has it been since...?", "src": "example" }
+      ]
+    },
+    {
+      "title": "Interrogative Words and Expressions in Indirect Questions",
+      "page": 305,
+      "verbs": [
+        { "es": "preguntar", "en": "to ask", "src": "example" },
+        { "es": "saber", "en": "to know", "src": "example" },
+        { "es": "querer", "en": "to want", "src": "example" },
+        { "es": "salir", "en": "to leave, to depart", "src": "example" },
+        { "es": "gastar", "en": "to spend", "src": "example" },
+        { "es": "llamarse", "en": "to be called", "src": "example" },
+        { "es": "responder", "en": "to answer", "src": "example" },
+        { "es": "ir", "en": "to go", "src": "example" },
+        { "es": "llegar", "en": "to arrive", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el pasajero", "en": "passenger", "gender": "m", "src": "example" },
+        { "es": "el tren", "en": "train", "gender": "m", "src": "example" },
+        { "es": "el papá", "en": "dad", "gender": "m", "src": "example" },
+        { "es": "el amigo", "en": "friend", "gender": "m", "src": "example" },
+        { "es": "la compra", "en": "purchase", "gender": "f", "src": "example" },
+        { "es": "el programa", "en": "program", "gender": "m", "src": "example" },
+        { "es": "el pariente", "en": "relative", "gender": "m", "src": "example" },
+        { "es": "la fiesta", "en": "party, holiday", "gender": "f", "src": "example" },
+        { "es": "la entrevista", "en": "interview", "gender": "f", "src": "example" },
+        { "es": "el trabajo", "en": "job, work", "gender": "m", "src": "example" },
+        { "es": "el vecino", "en": "neighbor", "gender": "m", "src": "example" },
+        { "es": "el presidente", "en": "president", "gender": "m", "src": "example" },
+        { "es": "el maestro", "en": "teacher", "gender": "m", "src": "example" },
+        { "es": "la pregunta", "en": "question", "gender": "f", "src": "example" },
+        { "es": "el agente de viajes", "en": "travel agent", "gender": "m", "src": "example" },
+        { "es": "las vacaciones", "en": "vacation", "gender": "f", "src": "example" },
+        { "es": "el año", "en": "year", "gender": "m", "src": "example" },
+        { "es": "la policía", "en": "police", "gender": "f", "src": "example" },
+        { "es": "el detective", "en": "detective", "gender": "m", "src": "example" },
+        { "es": "la disco", "en": "disco, club", "gender": "f", "src": "example" },
+        { "es": "la madre", "en": "mother", "gender": "f", "src": "example" },
+        { "es": "el interrogatorio", "en": "interrogation", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "siempre", "en": "always", "src": "example" },
+        { "es": "anoche", "en": "last night", "src": "example" },
+        { "es": "después de medianoche", "en": "after midnight", "src": "example" },
+        { "es": "a qué hora", "en": "at what time", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Exclamations",
+      "page": 306,
+      "verbs": [
+        { "es": "trabajar", "en": "to work", "src": "example" },
+        { "es": "encender", "en": "to start (an engine), to light", "src": "example" },
+        { "es": "salir", "en": "to leave, to come out", "src": "example" },
+        { "es": "ganar", "en": "to win, to earn", "src": "example" },
+        { "es": "gustar", "en": "to like", "src": "example" },
+        { "es": "costar", "en": "to cost", "src": "example" },
+        { "es": "recibir", "en": "to receive", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la flor", "en": "flower", "gender": "f", "src": "example" },
+        { "es": "el aniversario", "en": "anniversary", "gender": "m", "src": "example" },
+        { "es": "la sorpresa", "en": "surprise", "gender": "f", "src": "example" },
+        { "es": "la casa", "en": "house", "gender": "f", "src": "example" },
+        { "es": "el color de pelo", "en": "hair color", "gender": "m", "src": "example" },
+        { "es": "el corte de pelo", "en": "haircut", "gender": "m", "src": "example" },
+        { "es": "el cliente", "en": "client, customer", "gender": "m", "src": "example" },
+        { "es": "el servicio", "en": "service", "gender": "m", "src": "example" },
+        { "es": "el pelo", "en": "hair", "gender": "m", "src": "example" },
+        { "es": "el peluquero", "en": "hairdresser", "gender": "m", "src": "example" },
+        { "es": "la peluquería", "en": "hair salon", "gender": "f", "src": "example" },
+        { "es": "la suerte", "en": "luck", "gender": "f", "src": "example" },
+        { "es": "la cita", "en": "appointment", "gender": "f", "src": "example" },
+        { "es": "el examen", "en": "exam", "gender": "m", "src": "example" },
+        { "es": "la lotería", "en": "lottery", "gender": "f", "src": "example" },
+        { "es": "el equipo", "en": "team", "gender": "m", "src": "example" },
+        { "es": "la comida", "en": "food, meal", "gender": "f", "src": "example" },
+        { "es": "el restaurante", "en": "restaurant", "gender": "m", "src": "example" },
+        { "es": "la persona", "en": "person", "gender": "f", "src": "example" },
+        { "es": "el premio", "en": "prize, award", "gender": "m", "src": "example" },
+        { "es": "el taxi", "en": "taxi", "gender": "m", "src": "example" },
+        { "es": "el tráfico", "en": "traffic", "gender": "m", "src": "example" },
+        { "es": "el billete", "en": "fare, ticket", "gender": "m", "src": "example" },
+        { "es": "el día", "en": "day", "gender": "m", "src": "example" },
+        { "es": "la playa", "en": "beach", "gender": "f", "src": "example" },
+        { "es": "la gente", "en": "people", "gender": "f", "src": "example" },
+        { "es": "el cuarto", "en": "room", "gender": "m", "src": "example" },
+        { "es": "el vestido", "en": "dress", "gender": "m", "src": "example" },
+        { "es": "el viernes", "en": "Friday", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "horrible", "en": "horrible, ugly", "src": "example" },
+        { "es": "bonito, bonita", "en": "pretty, beautiful", "src": "example" },
+        { "es": "difícil", "en": "difficult", "src": "example" },
+        { "es": "fácil", "en": "easy", "src": "example" },
+        { "es": "sabroso, sabrosa", "en": "tasty, delicious", "src": "example" },
+        { "es": "barato, barata", "en": "cheap", "src": "example" },
+        { "es": "bueno, buena", "en": "good", "src": "example" },
+        { "es": "contento, contenta", "en": "happy, content", "src": "example" },
+        { "es": "verde", "en": "green", "src": "example" },
+        { "es": "favorito, favorita", "en": "favorite", "src": "example" },
+        { "es": "feo, fea", "en": "ugly", "src": "example" },
+        { "es": "ridículo, ridícula", "en": "ridiculous", "src": "example" },
+        { "es": "desagradable", "en": "annoying, unpleasant", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "¡cuánto...!, ¡cuánta...!", "en": "how much...!" },
+        { "es": "¡cuántos...!, ¡cuántas...!", "en": "how many...!" },
+        { "es": "¡cuán...!", "en": "how...! (literary)" },
+        { "es": "¡cómo...!", "en": "how...!" },
+        { "es": "¡qué...!", "en": "what...!" },
+        { "es": "¡porque...!", "en": "because...!" },
+        { "es": "¡quién...!, ¡quiénes...!", "en": "who...!" },
+        { "es": "tan", "en": "so", "src": "example" },
+        { "es": "más", "en": "more", "src": "example" },
+        { "es": "rápido", "en": "fast, quickly", "src": "example" },
+        { "es": "solamente", "en": "only", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "¡qué sorpresa!", "en": "what a surprise!", "src": "example" },
+        { "es": "¡qué mala suerte!", "en": "what bad luck!", "src": "example" },
+        { "es": "¡qué barato!", "en": "how cheap!", "src": "example" }
+      ]
+    }
+  ]
+}

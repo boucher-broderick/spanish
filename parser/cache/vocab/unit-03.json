@@ -1,0 +1,208 @@
+{
+  "unit": 3,
+  "title": "Ser and Estar",
+  "sections": [
+    {
+      "title": "Similarities and Differences Between Ser and Estar",
+      "page": 27,
+      "verbs": [
+        { "es": "ser", "en": "to be", "yo": "soy" },
+        { "es": "estar", "en": "to be", "yo": "estoy" },
+        { "es": "considerar", "en": "to consider", "src": "example" },
+        { "es": "estudiar", "en": "to study", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el caso", "en": "case", "gender": "m", "src": "example" },
+        { "es": "la autoridad", "en": "authority", "gender": "f", "src": "example" },
+        { "es": "la propuesta", "en": "proposal", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "When Is Ser Used in Spanish?",
+      "page": 28,
+      "verbs": [],
+      "nouns": [
+        { "es": "el mercado", "en": "market", "gender": "m", "src": "example" },
+        { "es": "la independencia", "en": "independence", "gender": "f", "src": "example" },
+        { "es": "el dentista", "en": "dentist", "gender": "m", "src": "example" },
+        { "es": "el estudiante", "en": "student", "gender": "m", "src": "example" },
+        { "es": "el guacamole", "en": "guacamole", "gender": "m", "src": "example" },
+        { "es": "el plato", "en": "dish", "gender": "m", "src": "example" },
+        { "es": "la familia", "en": "family", "gender": "f", "src": "example" },
+        { "es": "la luna", "en": "moon", "gender": "f", "src": "example" },
+        { "es": "el planeta", "en": "planet", "gender": "m", "src": "example" },
+        { "es": "el científico", "en": "scientist", "gender": "m", "src": "example" },
+        { "es": "la biología", "en": "biology", "gender": "f", "src": "example" },
+        { "es": "la ciencia", "en": "science", "gender": "f", "src": "example" },
+        { "es": "la capital", "en": "capital", "gender": "f", "src": "example" },
+        { "es": "la hora", "en": "hour", "gender": "f", "src": "example" },
+        { "es": "la medida", "en": "measure", "gender": "f", "src": "example" },
+        { "es": "el tiempo", "en": "time", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "mejicano, mejicana", "en": "Mexican", "src": "example" },
+        { "es": "cubano, cubana", "en": "Cuban", "src": "example" },
+        { "es": "honrado, honrada", "en": "honest", "src": "example" },
+        { "es": "católico, católica", "en": "Catholic", "src": "example" },
+        { "es": "alto, alta", "en": "tall", "src": "example" },
+        { "es": "rubio, rubia", "en": "blond", "src": "example" },
+        { "es": "simpático, simpática", "en": "pleasant, nice", "src": "example" },
+        { "es": "pelirrojo, pelirroja", "en": "redhead", "src": "example" },
+        { "es": "bueno, buena", "en": "good", "src": "example" },
+        { "es": "famoso, famosa", "en": "famous", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "ahora", "en": "now", "src": "example" },
+        { "es": "antes", "en": "before", "src": "example" },
+        { "es": "muy", "en": "very", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "When Is Estar Used in Spanish?",
+      "page": 30,
+      "verbs": [
+        { "es": "publicar", "en": "to publish", "src": "example" },
+        { "es": "llamar", "en": "to call", "src": "example" },
+        { "es": "buscar", "en": "to look for", "src": "example" },
+        { "es": "presentar", "en": "to introduce", "src": "example" },
+        { "es": "cantar", "en": "to sing", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la hermana", "en": "sister", "gender": "f", "src": "example" },
+        { "es": "el ex-marido", "en": "ex-husband", "gender": "m", "src": "example" },
+        { "es": "el amigo", "en": "friend", "gender": "m", "src": "example" },
+        { "es": "el cumpleaños", "en": "birthday", "gender": "m", "src": "example" },
+        { "es": "la reunión", "en": "meeting", "gender": "f", "src": "example" },
+        { "es": "el salón de conferencias", "en": "conference room", "gender": "m", "src": "example" },
+        { "es": "el zapato", "en": "shoe", "gender": "m", "src": "example" },
+        { "es": "la casa", "en": "house", "gender": "f", "src": "example" },
+        { "es": "el reloj", "en": "watch, clock", "gender": "m", "src": "example" },
+        { "es": "el oro", "en": "gold", "gender": "m", "src": "example" },
+        { "es": "el euro", "en": "euro", "gender": "m", "src": "example" },
+        { "es": "la playa", "en": "beach", "gender": "f", "src": "example" },
+        { "es": "el turista", "en": "tourist", "gender": "m", "src": "example" },
+        { "es": "el libro", "en": "book", "gender": "m", "src": "example" },
+        { "es": "el concierto", "en": "concert", "gender": "m", "src": "example" },
+        { "es": "el cantante", "en": "singer", "gender": "m", "src": "example" },
+        { "es": "el músico", "en": "musician", "gender": "m", "src": "example" },
+        { "es": "la llave", "en": "key", "gender": "f", "src": "example" },
+        { "es": "el parque", "en": "park", "gender": "m", "src": "example" },
+        { "es": "el asistente", "en": "assistant", "gender": "m", "src": "example" },
+        { "es": "el atleta", "en": "athlete", "gender": "m", "src": "example" },
+        { "es": "la ciudad", "en": "city", "gender": "f", "src": "example" },
+        { "es": "la sala", "en": "living room", "gender": "f", "src": "example" },
+        { "es": "el chico", "en": "boy, kid", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "ecuatoriano, ecuatoriana", "en": "Ecuadorian", "src": "example" },
+        { "es": "excelente", "en": "excellent", "src": "example" },
+        { "es": "joven", "en": "young", "src": "example" },
+        { "es": "urgente", "en": "urgent", "src": "example" },
+        { "es": "enfermo, enferma", "en": "ill, sick", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "afuera", "en": "outside", "src": "example" },
+        { "es": "ahora", "en": "now", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "estar en la luna", "en": "to be lost, distracted" }
+      ]
+    },
+    {
+      "title": "Adjectives That Change Their Meaning When Used with Either Ser or Estar",
+      "page": 32,
+      "verbs": [
+        { "es": "descansar", "en": "to rest", "src": "example" },
+        { "es": "tomar el sol", "en": "to sunbathe", "src": "example" },
+        { "es": "salir", "en": "to leave, go out", "src": "example" },
+        { "es": "celebrar", "en": "to celebrate", "src": "example" },
+        { "es": "comprender", "en": "to understand", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la piscina", "en": "swimming pool", "gender": "f", "src": "example" },
+        { "es": "el gimnasio", "en": "gym", "gender": "m", "src": "example" },
+        { "es": "el hotel", "en": "hotel", "gender": "m", "src": "example" },
+        { "es": "el bolso", "en": "bag", "gender": "m", "src": "example" },
+        { "es": "el traje de baño", "en": "bathing suit", "gender": "m", "src": "example" },
+        { "es": "la habitación", "en": "room", "gender": "f", "src": "example" },
+        { "es": "la sesión", "en": "session", "gender": "f", "src": "example" },
+        { "es": "el candidato", "en": "candidate", "gender": "m", "src": "example" },
+        { "es": "el gobernador", "en": "governor", "gender": "m", "src": "example" },
+        { "es": "el estado", "en": "state", "gender": "m", "src": "example" },
+        { "es": "el ancestro", "en": "ancestor", "gender": "m" },
+        { "es": "la campaña", "en": "campaign", "gender": "f" },
+        { "es": "la derrota", "en": "defeat", "gender": "f" },
+        { "es": "la inauguración", "en": "inauguration", "gender": "f" },
+        { "es": "el mandato", "en": "mandate", "gender": "m" },
+        { "es": "la realidad", "en": "reality", "gender": "f" },
+        { "es": "el voluntario", "en": "volunteer", "gender": "m", "src": "example" },
+        { "es": "la oficina", "en": "office", "gender": "f", "src": "example" },
+        { "es": "el queso", "en": "cheese", "gender": "m", "src": "example" },
+        { "es": "el empleado", "en": "employee", "gender": "m", "src": "example" },
+        { "es": "el trabajo", "en": "work, job", "gender": "m", "src": "example" },
+        { "es": "la fiesta", "en": "party", "gender": "f", "src": "example" },
+        { "es": "la foto", "en": "photo", "gender": "f", "src": "example" },
+        { "es": "la respuesta", "en": "answer", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "ideal", "en": "ideal", "src": "example" },
+        { "es": "firme", "en": "firm", "src": "example" },
+        { "es": "honesto, honesta", "en": "honest", "src": "example" },
+        { "es": "franco, franca", "en": "frank", "src": "example" },
+        { "es": "brutal", "en": "brutal", "src": "example" },
+        { "es": "popular", "en": "popular", "src": "example" },
+        { "es": "hipócrita", "en": "hypocritical", "src": "example" },
+        { "es": "feliz", "en": "happy", "src": "example" },
+        { "es": "ingenuo, ingenua", "en": "naive", "src": "example" },
+        { "es": "pálido, pálida", "en": "pale", "src": "example" },
+        { "es": "listo, lista", "en": "clever (ser); ready (estar)", "src": "example" },
+        { "es": "fresco, fresca", "en": "fresh", "src": "example" },
+        { "es": "orgulloso, orgullosa", "en": "conceited (ser); proud (estar)", "src": "example" },
+        { "es": "atento, atenta", "en": "attentive", "src": "example" },
+        { "es": "servicial", "en": "helpful", "src": "example" },
+        { "es": "viejo, vieja", "en": "old", "src": "example" },
+        { "es": "aburrido, aburrida", "en": "boring (ser); bored (estar)" },
+        { "es": "malo, mala", "en": "bad (ser); ill (estar)" },
+        { "es": "rico, rica", "en": "rich (ser); tasty (estar)" },
+        { "es": "seguro, segura", "en": "safe (ser); sure, certain (estar)" },
+        { "es": "vivo, viva", "en": "sharp (ser); alive (estar)" }
+      ],
+      "adverbs": [
+        { "es": "brutalmente", "en": "brutally" },
+        { "es": "por eso", "en": "that's why" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Expressions with Estar",
+      "page": 33,
+      "verbs": [
+        { "es": "acabar", "en": "to finish", "src": "example" },
+        { "es": "salir", "en": "to leave", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la reducción", "en": "reduction, cutting", "gender": "f", "src": "example" },
+        { "es": "el impuesto", "en": "tax", "gender": "m", "src": "example" },
+        { "es": "la decisión", "en": "decision", "gender": "f", "src": "example" },
+        { "es": "la paz", "en": "peace", "gender": "f", "src": "example" },
+        { "es": "el jefe", "en": "boss", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [],
+      "expressions": [
+        { "es": "estar a + fecha", "en": "to be a certain date" },
+        { "es": "estar a punto de + infinitivo", "en": "to be just about to" },
+        { "es": "estar de acuerdo (con)", "en": "to agree with" },
+        { "es": "estar para + infinitivo", "en": "to be about to" },
+        { "es": "estar por + sustantivo", "en": "to be in favor of" },
+        { "es": "estar conforme (con)", "en": "to agree, be in agreement (with)" },
+        { "es": "estar de vacaciones", "en": "to be on vacation" },
+        { "es": "estar de vuelta", "en": "to be back" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "unit": 18,
+  "pages": [
+    {
+      "pdfPage": 224,
+      "exercises": [
+        {
+          "id": "18-1",
+          "type": "fill",
+          "instruction": "Práctica. ¿Masculino o femenino? Escribe la forma apropiada del adjetivo entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.81 },
+            { "item": 2, "cy": 0.843 },
+            { "item": 3, "cy": 0.877 },
+            { "item": 4, "cy": 0.91 },
+            { "item": 5, "cy": 0.81 },
+            { "item": 6, "cy": 0.843 },
+            { "item": 7, "cy": 0.877 },
+            { "item": 8, "cy": 0.91 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 225,
+      "exercises": [
+        {
+          "id": "18-2",
+          "type": "fill",
+          "instruction": "¿Masculino o femenino? ¿Singular o plural? Escribe la forma apropiada del adjetivo de acuerdo al contexto.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 }
+          ]
+        },
+        {
+          "id": "18-3",
+          "type": "translate",
+          "instruction": "En español. Escribe la frase en español. Coloca el adjetivo en el lugar apropiado.",
+          "blanks": [
+            { "item": 1, "cy": 0.532 },
+            { "item": 2, "cy": 0.564 },
+            { "item": 3, "cy": 0.598 },
+            { "item": 4, "cy": 0.631 },
+            { "item": 5, "cy": 0.664 },
+            { "item": 6, "cy": 0.697 },
+            { "item": 7, "cy": 0.532 },
+            { "item": 8, "cy": 0.564 },
+            { "item": 9, "cy": 0.598 },
+            { "item": 10, "cy": 0.631 },
+            { "item": 11, "cy": 0.664 },
+            { "item": 12, "cy": 0.697 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 226,
+      "exercises": [
+        {
+          "id": "18-4",
+          "type": "matching",
+          "instruction": "Definiciones. Indica la letra que mejor completa la frase.",
+          "blanks": [
+            { "item": 1, "cy": 0.584 },
+            { "item": 2, "cy": 0.617 },
+            { "item": 3, "cy": 0.65 },
+            { "item": 4, "cy": 0.683 },
+            { "item": 5, "cy": 0.717 },
+            { "item": 6, "cy": 0.75 },
+            { "item": 7, "cy": 0.783 },
+            { "item": 8, "cy": 0.816 },
+            { "item": 9, "cy": 0.85 },
+            { "item": 10, "cy": 0.883 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 227,
+      "exercises": [
+        {
+          "id": "18-5",
+          "type": "fill",
+          "instruction": "El adjetivo, ¿antes o después del nombre? Usa la forma apropiada del adjetivo entre paréntesis. After reading the sentence, place the correct form of the adjective in the appropriate place.",
+          "blanks": [
+            { "item": 1, "cy": 0.786 },
+            { "item": 2, "cy": 0.819 },
+            { "item": 3, "cy": 0.852 },
+            { "item": 4, "cy": 0.885 },
+            { "item": 5, "cy": 0.919 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 228,
+      "exercises": [
+        {
+          "id": "18-6",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.717 },
+            { "item": 2, "cy": 0.75 },
+            { "item": 3, "cy": 0.783 },
+            { "item": 4, "cy": 0.816 },
+            { "item": 5, "cy": 0.85 },
+            { "item": 6, "cy": 0.883 },
+            { "item": 7, "cy": 0.916 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 229,
+      "exercises": [
+        {
+          "id": "18-7",
+          "type": "truefalse",
+          "instruction": "¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.795 },
+            { "item": 2, "cy": 0.828 },
+            { "item": 3, "cy": 0.861 },
+            { "item": 4, "cy": 0.894 },
+            { "item": 5, "cy": 0.928 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 230,
+      "exercises": [
+        {
+          "id": "18-8",
+          "type": "fill",
+          "instruction": "¿Dónde están los adjetivos? Identifica todos los adjetivos y subráyalos. Remember you may find some shortened forms and adjectives placed before the noun.",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.318 },
+            { "item": 5, "cy": 0.385 }
+          ]
+        },
+        {
+          "id": "18-9",
+          "type": "personal",
+          "instruction": "Preguntas personales. In your answers, place the adjectives in the appropriate place.",
+          "blanks": [
+            { "item": 1, "cy": 0.48 },
+            { "item": 2, "cy": 0.514 },
+            { "item": 3, "cy": 0.547 },
+            { "item": 4, "cy": 0.58 },
+            { "item": 5, "cy": 0.613 },
+            { "item": 6, "cy": 0.646 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 231,
+      "exercises": [
+        {
+          "id": "18-10",
+          "type": "translate",
+          "instruction": "En español. Place the adjectives in their appropriate places.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 }
+          ]
+        },
+        {
+          "id": "18-11",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.798 },
+            { "item": 2, "cy": 0.831 },
+            { "item": 3, "cy": 0.865 },
+            { "item": 4, "cy": 0.898 },
+            { "item": 5, "cy": 0.931 },
+            { "item": 6, "cy": 0.798 },
+            { "item": 7, "cy": 0.831 },
+            { "item": 8, "cy": 0.865 },
+            { "item": 9, "cy": 0.898 },
+            { "item": 10, "cy": 0.931 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 232,
+      "exercises": [
+        {
+          "id": "18-12",
+          "type": "truefalse",
+          "instruction": "En tu opinión… ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 },
+            { "item": 9, "cy": 0.434 },
+            { "item": 10, "cy": 0.467 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 233,
+      "exercises": [
+        {
+          "id": "18-13",
+          "type": "fill",
+          "instruction": "Las comparaciones de igualdad. Usa las palabras tan + adjetivo + como y escribe comparaciones de igualdad. Make sure you use the appropriate gender and number of the adjectives.",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.284 },
+            { "item": 5, "cy": 0.318 },
+            { "item": 6, "cy": 0.351 },
+            { "item": 7, "cy": 0.384 }
+          ]
+        },
+        {
+          "id": "18-14",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.515 },
+            { "item": 2, "cy": 0.548 },
+            { "item": 3, "cy": 0.581 },
+            { "item": 4, "cy": 0.614 },
+            { "item": 5, "cy": 0.648 },
+            { "item": 6, "cy": 0.681 },
+            { "item": 7, "cy": 0.714 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 234,
+      "exercises": [
+        {
+          "id": "18-15",
+          "type": "fill",
+          "instruction": "Los lugares de la ciudad. Práctica. Escribe la forma apropiada del superlativo absoluto que termina en -ísimo, -ísimos, -ísima e -ísimas.",
+          "blanks": [
+            { "item": 1, "cy": 0.474 },
+            { "item": 2, "cy": 0.507 },
+            { "item": 3, "cy": 0.54 },
+            { "item": 4, "cy": 0.573 },
+            { "item": 5, "cy": 0.606 },
+            { "item": 6, "cy": 0.474 },
+            { "item": 7, "cy": 0.507 },
+            { "item": 8, "cy": 0.54 },
+            { "item": 9, "cy": 0.573 },
+            { "item": 10, "cy": 0.606 }
+          ]
+        },
+        {
+          "id": "18-16",
+          "type": "personal",
+          "instruction": "Preguntas personales.",
+          "blanks": [
+            { "item": 1, "cy": 0.737 },
+            { "item": 2, "cy": 0.77 },
+            { "item": 3, "cy": 0.803 },
+            { "item": 4, "cy": 0.837 },
+            { "item": 5, "cy": 0.87 },
+            { "item": 6, "cy": 0.903 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 235,
+      "exercises": [
+        {
+          "id": "18-17",
+          "type": "fill",
+          "instruction": "Escribe en español las palabras entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.764 },
+            { "item": 2, "cy": 0.797 },
+            { "item": 3, "cy": 0.83 },
+            { "item": 4, "cy": 0.864 },
+            { "item": 5, "cy": 0.897 },
+            { "item": 6, "cy": 0.93 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 236,
+      "exercises": [
+        {
+          "id": "18-17",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 7, "cy": 0.083 },
+            { "item": 8, "cy": 0.116 }
+          ]
+        },
+        {
+          "id": "18-18",
+          "type": "fill",
+          "instruction": "Comparativos. ¿Cuál es la forma apropiada de los comparativos? Use que, de, or de lo que.",
+          "blanks": [
+            { "item": 1, "cy": 0.246 },
+            { "item": 2, "cy": 0.279 },
+            { "item": 3, "cy": 0.313 },
+            { "item": 4, "cy": 0.346 },
+            { "item": 5, "cy": 0.379 },
+            { "item": 6, "cy": 0.412 },
+            { "item": 7, "cy": 0.445 }
+          ]
+        },
+        {
+          "id": "18-19",
+          "type": "free",
+          "instruction": "¡Ayúdeme, por favor! Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.511 }
+          ]
+        }
+      ]
+    }
+  ]
+}

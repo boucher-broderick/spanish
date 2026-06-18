@@ -1,0 +1,159 @@
+{
+  "unit": 3,
+  "pages": [
+    {
+      "pdfPage": 41,
+      "exercises": [
+        {
+          "id": "3-1",
+          "type": "truefalse",
+          "instruction": "¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.779 },
+            { "item": 2, "cy": 0.811 },
+            { "item": 3, "cy": 0.843 },
+            { "item": 4, "cy": 0.875 },
+            { "item": 5, "cy": 0.907 },
+            { "item": 6, "cy": 0.939 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 42,
+      "exercises": [
+        {
+          "id": "3-2",
+          "type": "translate",
+          "instruction": "Te presento a unos amigos. En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 }
+          ]
+        },
+        {
+          "id": "3-3",
+          "type": "matching",
+          "instruction": "Pareados. Busca la respuesta para cada pregunta. Escribe la letra que corresponde.",
+          "blanks": [
+            { "item": 1, "cy": 0.465 },
+            { "item": 2, "cy": 0.498 },
+            { "item": 3, "cy": 0.532 },
+            { "item": 4, "cy": 0.564 },
+            { "item": 5, "cy": 0.598 },
+            { "item": 6, "cy": 0.631 },
+            { "item": 7, "cy": 0.664 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 43,
+      "exercises": [
+        {
+          "id": "3-4",
+          "type": "fill",
+          "instruction": "¿Ser o estar? Pancho lee el mensaje de Berta. Lee las oraciones. De acuerdo al contexto, escribe la forma apropiada de ser o estar.",
+          "blanks": [
+            { "item": 1, "cy": 0.608 },
+            { "item": 2, "cy": 0.64 },
+            { "item": 3, "cy": 0.672 },
+            { "item": 4, "cy": 0.704 },
+            { "item": 5, "cy": 0.736 },
+            { "item": 6, "cy": 0.768 }
+          ]
+        },
+        {
+          "id": "3-5",
+          "type": "free",
+          "instruction": "¿Por qué? Vuelva al ejercicio 3-4. Explica por qué escribiste ser o estar en cada oración.",
+          "blanks": [
+            { "item": 1, "cy": 0.898 },
+            { "item": 2, "cy": 0.931 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 44,
+      "exercises": [
+        {
+          "id": "3-5",
+          "type": "free",
+          "continued": true,
+          "blanks": [
+            { "item": 3, "cy": 0.083 },
+            { "item": 4, "cy": 0.116 },
+            { "item": 5, "cy": 0.149 },
+            { "item": 6, "cy": 0.182 }
+          ]
+        },
+        {
+          "id": "3-6",
+          "type": "translate",
+          "instruction": "Las características familiares. Traduce. Usa las palabras del vocabulario útil.",
+          "blanks": []
+        }
+      ]
+    },
+    {
+      "pdfPage": 45,
+      "exercises": [
+        {
+          "id": "3-7",
+          "type": "fill",
+          "instruction": "¿Ser o estar? Subraya (Underline) la respuesta correcta.",
+          "blanks": []
+        },
+        {
+          "id": "3-8",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.463 },
+            { "item": 2, "cy": 0.496 },
+            { "item": 3, "cy": 0.529 },
+            { "item": 4, "cy": 0.562 },
+            { "item": 5, "cy": 0.595 },
+            { "item": 6, "cy": 0.629 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 46,
+      "exercises": [
+        {
+          "id": "3-9",
+          "type": "matching",
+          "instruction": "Es lo mismo. Escoge la letra necesaria para traducir la frase.",
+          "blanks": [
+            { "item": 1, "cy": 0.442 },
+            { "item": 2, "cy": 0.475 },
+            { "item": 3, "cy": 0.508 },
+            { "item": 4, "cy": 0.542 },
+            { "item": 5, "cy": 0.575 },
+            { "item": 6, "cy": 0.608 }
+          ]
+        },
+        {
+          "id": "3-10",
+          "type": "translate",
+          "instruction": "Te toca a ti. En español. Go back to ejercicio 3-9. Translate the numbered sentences into Spanish using the expressions you selected.",
+          "blanks": [
+            { "item": 1, "cy": 0.755 },
+            { "item": 2, "cy": 0.788 },
+            { "item": 3, "cy": 0.822 },
+            { "item": 4, "cy": 0.855 },
+            { "item": 5, "cy": 0.888 },
+            { "item": 6, "cy": 0.921 }
+          ]
+        }
+      ]
+    }
+  ]
+}

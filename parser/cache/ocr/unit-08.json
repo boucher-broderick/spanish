@@ -1,0 +1,321 @@
+{
+  "unit": 8,
+  "pages": [
+    {
+      "pdfPage": 94,
+      "exercises": [
+        {
+          "id": "8-1",
+          "type": "fill",
+          "instruction": "Mi rutina diaria. Choose one of the reflexive verbs from the previous list to complete the thought in each sentence. Use the yo form.",
+          "blanks": [
+            { "item": 1, "cy": 0.917 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 95,
+      "exercises": [
+        {
+          "id": "8-1",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 2, "cy": 0.083 },
+            { "item": 3, "cy": 0.116 },
+            { "item": 4, "cy": 0.149 },
+            { "item": 5, "cy": 0.182 },
+            { "item": 6, "cy": 0.215 },
+            { "item": 7, "cy": 0.249 }
+          ]
+        },
+        {
+          "id": "8-2",
+          "type": "translate",
+          "instruction": "En español. Escribe la forma apropiada del verbo y el pronombre reflexivo.",
+          "blanks": [
+            { "item": 1, "cy": 0.758 },
+            { "item": 2, "cy": 0.79 },
+            { "item": 3, "cy": 0.824 },
+            { "item": 4, "cy": 0.857 },
+            { "item": 5, "cy": 0.891 },
+            { "item": 6, "cy": 0.923 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 96,
+      "exercises": [
+        {
+          "id": "8-2",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 7, "cy": 0.073 },
+            { "item": 8, "cy": 0.097 },
+            { "item": 9, "cy": 0.097 },
+            { "item": 10, "cy": 0.097 }
+          ]
+        },
+        {
+          "id": "8-3",
+          "type": "fill",
+          "instruction": "¿Qué hacen? Escribe la forma apropiada del presente del verbo reflexivo entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.481 },
+            { "item": 2, "cy": 0.515 },
+            { "item": 3, "cy": 0.548 },
+            { "item": 4, "cy": 0.581 },
+            { "item": 5, "cy": 0.614 },
+            { "item": 6, "cy": 0.648 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 97,
+      "exercises": [
+        {
+          "id": "8-4",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.759 },
+            { "item": 2, "cy": 0.792 },
+            { "item": 3, "cy": 0.825 },
+            { "item": 4, "cy": 0.859 },
+            { "item": 5, "cy": 0.892 },
+            { "item": 6, "cy": 0.925 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 98,
+      "exercises": [
+        {
+          "id": "8-4",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 7, "cy": 0.083 },
+            { "item": 8, "cy": 0.116 },
+            { "item": 9, "cy": 0.149 },
+            { "item": 10, "cy": 0.182 }
+          ]
+        },
+        {
+          "id": "8-5",
+          "type": "truefalse",
+          "instruction": "¿Eres sensible (sensitive)? Indica sí o no.",
+          "blanks": [
+            { "item": 1, "cy": 0.313 },
+            { "item": 2, "cy": 0.346 },
+            { "item": 3, "cy": 0.379 },
+            { "item": 4, "cy": 0.412 },
+            { "item": 5, "cy": 0.445 },
+            { "item": 6, "cy": 0.479 },
+            { "item": 7, "cy": 0.512 },
+            { "item": 8, "cy": 0.545 },
+            { "item": 9, "cy": 0.578 },
+            { "item": 10, "cy": 0.612 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 99,
+      "exercises": [
+        {
+          "id": "8-6",
+          "type": "fill",
+          "instruction": "¿Reflexivo o no? Choose the verb with the basic or the reflexive meaning that fits the sentence. Then write the appropriate form of the verb in the present tense.",
+          "blanks": [
+            { "item": 1, "cy": 0.537 },
+            { "item": 2, "cy": 0.571 },
+            { "item": 3, "cy": 0.604 },
+            { "item": 4, "cy": 0.637 },
+            { "item": 5, "cy": 0.67 },
+            { "item": 6, "cy": 0.704 },
+            { "item": 7, "cy": 0.737 },
+            { "item": 8, "cy": 0.77 },
+            { "item": 9, "cy": 0.803 },
+            { "item": 10, "cy": 0.837 },
+            { "item": 11, "cy": 0.87 },
+            { "item": 12, "cy": 0.903 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 100,
+      "exercises": [
+        {
+          "id": "8-7",
+          "type": "fill",
+          "instruction": "¡Practica! Escribe la forma del mandato del verbo entre paréntesis. Escribe el acento si es necesario.",
+          "blanks": [
+            { "item": 1, "cy": 0.778 },
+            { "item": 2, "cy": 0.811 },
+            { "item": 3, "cy": 0.844 },
+            { "item": 4, "cy": 0.878 },
+            { "item": 5, "cy": 0.911 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 101,
+      "exercises": [
+        {
+          "id": "8-7",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 6, "cy": 0.083 },
+            { "item": 7, "cy": 0.116 },
+            { "item": 8, "cy": 0.149 }
+          ]
+        },
+        {
+          "id": "8-8",
+          "type": "translate",
+          "instruction": "En español. Usa las formas reflexivas.",
+          "blanks": [
+            { "item": 1, "cy": 0.278 },
+            { "item": 2, "cy": 0.31 },
+            { "item": 3, "cy": 0.342 },
+            { "item": 4, "cy": 0.374 },
+            { "item": 5, "cy": 0.406 },
+            { "item": 6, "cy": 0.438 },
+            { "item": 7, "cy": 0.47 },
+            { "item": 8, "cy": 0.502 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 102,
+      "exercises": [
+        {
+          "id": "8-9",
+          "type": "truefalse",
+          "instruction": "Y en tu caso… ¿Es verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 },
+            { "item": 9, "cy": 0.434 },
+            { "item": 10, "cy": 0.467 },
+            { "item": 11, "cy": 0.501 }
+          ]
+        },
+        {
+          "id": "8-10",
+          "type": "matching",
+          "instruction": "Consejos y mandatos. Escribe la letra de la frase que indica un consejo (advice) o mandato apropiado.",
+          "blanks": [
+            { "item": 1, "cy": 0.631 },
+            { "item": 2, "cy": 0.664 },
+            { "item": 3, "cy": 0.697 },
+            { "item": 4, "cy": 0.731 },
+            { "item": 5, "cy": 0.764 },
+            { "item": 6, "cy": 0.797 },
+            { "item": 7, "cy": 0.83 },
+            { "item": 8, "cy": 0.864 },
+            { "item": 9, "cy": 0.897 },
+            { "item": 10, "cy": 0.93 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 103,
+      "exercises": [
+        {
+          "id": "8-11",
+          "type": "translate",
+          "instruction": "En la tienda. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.369 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 104,
+      "exercises": [
+        {
+          "id": "8-12",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.305 },
+            { "item": 2, "cy": 0.338 },
+            { "item": 3, "cy": 0.371 },
+            { "item": 4, "cy": 0.405 },
+            { "item": 5, "cy": 0.438 },
+            { "item": 6, "cy": 0.471 },
+            { "item": 7, "cy": 0.504 },
+            { "item": 8, "cy": 0.537 },
+            { "item": 9, "cy": 0.571 },
+            { "item": 10, "cy": 0.604 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 105,
+      "exercises": [
+        {
+          "id": "8-13",
+          "type": "truefalse",
+          "instruction": "¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.272 },
+            { "item": 2, "cy": 0.305 },
+            { "item": 3, "cy": 0.338 },
+            { "item": 4, "cy": 0.371 },
+            { "item": 5, "cy": 0.405 },
+            { "item": 6, "cy": 0.438 },
+            { "item": 7, "cy": 0.471 },
+            { "item": 8, "cy": 0.504 },
+            { "item": 9, "cy": 0.537 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 106,
+      "exercises": [
+        {
+          "id": "8-15",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.212 },
+            { "item": 2, "cy": 0.244 },
+            { "item": 3, "cy": 0.276 },
+            { "item": 4, "cy": 0.307 },
+            { "item": 5, "cy": 0.339 }
+          ]
+        },
+        {
+          "id": "8-16",
+          "type": "translate",
+          "instruction": "El sueño de Martín. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.673 }
+          ]
+        }
+      ]
+    }
+  ]
+}

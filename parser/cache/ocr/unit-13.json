@@ -1,0 +1,334 @@
+{
+  "unit": 13,
+  "pages": [
+    {
+      "pdfPage": 146,
+      "exercises": [
+        {
+          "id": "13-1",
+          "type": "fill",
+          "instruction": "Práctica. Usa la forma apropiada del presente de subjuntivo del verbo entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 147,
+      "exercises": [
+        {
+          "id": "13-3",
+          "type": "translate",
+          "instruction": "En español. Use the present subjunctive to translate the italicized verb constructions.",
+          "blanks": [
+            { "item": 1, "cy": 0.297 },
+            { "item": 2, "cy": 0.33 },
+            { "item": 3, "cy": 0.364 },
+            { "item": 4, "cy": 0.397 },
+            { "item": 5, "cy": 0.43 },
+            { "item": 6, "cy": 0.464 },
+            { "item": 7, "cy": 0.497 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 148,
+      "exercises": [
+        {
+          "id": "13-4",
+          "type": "translate",
+          "instruction": "En español. Use the present subjunctive in the dependent clause.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 }
+          ]
+        },
+        {
+          "id": "13-5",
+          "type": "truefalse",
+          "instruction": "Y en tu opinión… ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.693 },
+            { "item": 2, "cy": 0.725 },
+            { "item": 3, "cy": 0.759 },
+            { "item": 4, "cy": 0.792 },
+            { "item": 5, "cy": 0.825 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 149,
+      "exercises": [
+        {
+          "id": "13-6",
+          "type": "fill",
+          "instruction": "Una lista: el líder ideal. Usa el presente de subjuntivo para comunicar las ideas de los verbos entre paréntesis. La gente prefiere que los líderes…",
+          "blanks": [
+            { "item": 1, "cy": 0.575 },
+            { "item": 2, "cy": 0.63 },
+            { "item": 3, "cy": 0.664 },
+            { "item": 4, "cy": 0.575 },
+            { "item": 5, "cy": 0.63 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 150,
+      "exercises": [
+        {
+          "id": "13-8",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.816 },
+            { "item": 2, "cy": 0.85 },
+            { "item": 3, "cy": 0.883 },
+            { "item": 4, "cy": 0.916 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 151,
+      "exercises": [
+        {
+          "id": "13-8",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 5, "cy": 0.083 },
+            { "item": 6, "cy": 0.116 }
+          ]
+        },
+        {
+          "id": "13-9",
+          "type": "translate",
+          "instruction": "En español. Usa el subjuntivo. El gerente quiere que…",
+          "blanks": [
+            { "item": 1, "cy": 0.489 },
+            { "item": 2, "cy": 0.522 },
+            { "item": 3, "cy": 0.556 },
+            { "item": 4, "cy": 0.589 },
+            { "item": 5, "cy": 0.622 }
+          ]
+        },
+        {
+          "id": "13-10",
+          "type": "matching",
+          "instruction": "Pareados. Escribe la letra que corresponde a la respuesta correcta.",
+          "blanks": [
+            { "item": 1, "cy": 0.752 },
+            { "item": 2, "cy": 0.786 },
+            { "item": 3, "cy": 0.819 },
+            { "item": 4, "cy": 0.852 },
+            { "item": 5, "cy": 0.885 },
+            { "item": 6, "cy": 0.919 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 152,
+      "exercises": [
+        {
+          "id": "13-11",
+          "type": "fill",
+          "instruction": "Práctica. Todos están muy ocupados hablando de otras personas. Escribe la forma apropiada del subjuntivo en las siguientes oraciones para comprender el mensaje.",
+          "blanks": [
+            { "item": 1, "cy": 0.782 },
+            { "item": 2, "cy": 0.815 },
+            { "item": 3, "cy": 0.848 },
+            { "item": 4, "cy": 0.882 },
+            { "item": 5, "cy": 0.915 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 154,
+      "exercises": [
+        {
+          "id": "13-12",
+          "type": "truefalse",
+          "instruction": "Y en tu opinión… ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.305 },
+            { "item": 2, "cy": 0.338 },
+            { "item": 3, "cy": 0.371 },
+            { "item": 4, "cy": 0.405 },
+            { "item": 5, "cy": 0.438 }
+          ]
+        },
+        {
+          "id": "13-13",
+          "type": "translate",
+          "instruction": "En español. Use the present subjunctive where you see a verb in italics. Note that if the verb is not in italics, you may choose the present indicative or the infinitive form.",
+          "blanks": [
+            { "item": 1, "cy": 0.585 },
+            { "item": 2, "cy": 0.618 },
+            { "item": 3, "cy": 0.652 },
+            { "item": 4, "cy": 0.685 },
+            { "item": 5, "cy": 0.718 },
+            { "item": 6, "cy": 0.751 }
+          ]
+        },
+        {
+          "id": "13-14",
+          "type": "free",
+          "instruction": "¿Por qué no el subjuntivo? Explain why you did not use the subjunctive in the items of the previous exercise (ejercicio 13-13) where there are no italics.",
+          "blanks": [
+            { "item": 3, "cy": 0.898 },
+            { "item": 5, "cy": 0.931 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 155,
+      "exercises": [
+        {
+          "id": "13-15",
+          "type": "free",
+          "instruction": "Mi nueva compañera de cuarto. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.249 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 156,
+      "exercises": [
+        {
+          "id": "13-16",
+          "type": "personal",
+          "instruction": "En tu opinión, ¿cómo es la mascota (pet) ideal? Indica sí o no si estás de acuerdo o no con estas ideas.",
+          "blanks": [
+            { "item": 1, "cy": 0.289 },
+            { "item": 2, "cy": 0.322 },
+            { "item": 3, "cy": 0.355 },
+            { "item": 4, "cy": 0.388 },
+            { "item": 5, "cy": 0.422 },
+            { "item": 6, "cy": 0.455 },
+            { "item": 7, "cy": 0.488 },
+            { "item": 8, "cy": 0.521 }
+          ]
+        },
+        {
+          "id": "13-17",
+          "type": "fill",
+          "instruction": "Una carta. Escribe la forma apropiada de los verbos entre paréntesis. Decide si necesitas usar el indicativo o el subjuntivo. Querida Elena:",
+          "blanks": [
+            { "item": 1, "cy": 0.702 },
+            { "item": 2, "cy": 0.734 },
+            { "item": 3, "cy": 0.768 },
+            { "item": 4, "cy": 0.801 },
+            { "item": 5, "cy": 0.835 },
+            { "item": 6, "cy": 0.867 },
+            { "item": 7, "cy": 0.901 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 157,
+      "exercises": [
+        {
+          "id": "13-17",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 8, "cy": 0.083 },
+            { "item": 9, "cy": 0.116 }
+          ]
+        },
+        {
+          "id": "13-18",
+          "type": "free",
+          "instruction": "El nuevo gerente. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.393 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 158,
+      "exercises": [
+        {
+          "id": "13-19",
+          "type": "fill",
+          "instruction": "Las reacciones de la gente. Práctica. Usa el pretérito perfecto de subjuntivo del verbo entre paréntesis para expresar las emociones de estas personas.",
+          "blanks": [
+            { "item": 1, "cy": 0.634 },
+            { "item": 2, "cy": 0.667 },
+            { "item": 3, "cy": 0.7 },
+            { "item": 4, "cy": 0.733 },
+            { "item": 5, "cy": 0.766 },
+            { "item": 6, "cy": 0.8 },
+            { "item": 7, "cy": 0.85 },
+            { "item": 8, "cy": 0.899 },
+            { "item": 9, "cy": 0.933 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 159,
+      "exercises": [
+        {
+          "id": "13-20",
+          "type": "translate",
+          "instruction": "En español. Usa el pretérito perfecto de subjuntivo de los verbos en cursiva.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 }
+          ]
+        },
+        {
+          "id": "13-21",
+          "type": "truefalse",
+          "instruction": "Y en tu opinión… ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.465 },
+            { "item": 2, "cy": 0.498 },
+            { "item": 3, "cy": 0.532 },
+            { "item": 4, "cy": 0.564 },
+            { "item": 5, "cy": 0.598 }
+          ]
+        },
+        {
+          "id": "13-22",
+          "type": "fill",
+          "instruction": "Los inversionistas están contentos. Usa el pretérito perfecto de subjuntivo en tus respuestas. Los inversionistas se alegran de que…",
+          "blanks": [
+            { "item": 1, "cy": 0.762 },
+            { "item": 2, "cy": 0.795 },
+            { "item": 3, "cy": 0.828 },
+            { "item": 4, "cy": 0.861 },
+            { "item": 5, "cy": 0.894 },
+            { "item": 6, "cy": 0.928 }
+          ]
+        }
+      ]
+    }
+  ]
+}

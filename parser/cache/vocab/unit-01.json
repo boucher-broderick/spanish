@@ -1,0 +1,1473 @@
+{
+  "unit": 1,
+  "title": "The Present Tense of Regular Verbs, Irregular Verbs, and Verbs with Spelling Changes",
+  "sections": [
+    {
+      "title": "Regular Verbs in the Present Tense",
+      "page": 2,
+      "verbs": [
+        {
+          "es": "comprar",
+          "en": "to buy"
+        },
+        {
+          "es": "aprender",
+          "en": "to learn"
+        },
+        {
+          "es": "recibir",
+          "en": "to receive"
+        },
+        {
+          "es": "bajar",
+          "en": "to step down"
+        },
+        {
+          "es": "cocinar",
+          "en": "to cook"
+        },
+        {
+          "es": "conversar",
+          "en": "to talk"
+        },
+        {
+          "es": "cooperar",
+          "en": "to cooperate"
+        },
+        {
+          "es": "dibujar",
+          "en": "to draw"
+        },
+        {
+          "es": "escuchar",
+          "en": "to listen"
+        },
+        {
+          "es": "limpiar",
+          "en": "to clean"
+        },
+        {
+          "es": "preparar",
+          "en": "to prepare"
+        },
+        {
+          "es": "sacar",
+          "en": "to take out"
+        },
+        {
+          "es": "sumar",
+          "en": "to add (up)"
+        },
+        {
+          "es": "trabajar",
+          "en": "to work"
+        },
+        {
+          "es": "estudiar",
+          "en": "to study"
+        },
+        {
+          "es": "necesitar",
+          "en": "to need"
+        },
+        {
+          "es": "planear",
+          "en": "to plan"
+        },
+        {
+          "es": "beber",
+          "en": "to drink"
+        },
+        {
+          "es": "comer",
+          "en": "to eat"
+        },
+        {
+          "es": "comprender",
+          "en": "to understand"
+        },
+        {
+          "es": "correr",
+          "en": "to run"
+        },
+        {
+          "es": "creer",
+          "en": "to believe"
+        },
+        {
+          "es": "leer",
+          "en": "to read"
+        },
+        {
+          "es": "responder",
+          "en": "to answer"
+        },
+        {
+          "es": "romper",
+          "en": "to break"
+        },
+        {
+          "es": "temer",
+          "en": "to fear"
+        },
+        {
+          "es": "vender",
+          "en": "to sell"
+        },
+        {
+          "es": "abrir",
+          "en": "to open"
+        },
+        {
+          "es": "compartir",
+          "en": "to share"
+        },
+        {
+          "es": "cubrir",
+          "en": "to cover"
+        },
+        {
+          "es": "decidir",
+          "en": "to decide"
+        },
+        {
+          "es": "discutir",
+          "en": "to discuss"
+        },
+        {
+          "es": "escribir",
+          "en": "to write"
+        },
+        {
+          "es": "repartir",
+          "en": "to distribute"
+        },
+        {
+          "es": "subir",
+          "en": "to climb, to go up"
+        },
+        {
+          "es": "sufrir",
+          "en": "to suffer"
+        },
+        {
+          "es": "vivir",
+          "en": "to live"
+        }
+      ],
+      "nouns": [
+        {
+          "es": "la actriz",
+          "en": "actress",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el amigo",
+          "en": "friend",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el apartamento",
+          "en": "apartment",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la cena",
+          "en": "dinner",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el crítico",
+          "en": "critic",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la cuenta",
+          "en": "the bill",
+          "gender": "f"
+        },
+        {
+          "es": "el edificio",
+          "en": "building",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la escalera",
+          "en": "stairs, staircase",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la familia",
+          "en": "family",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el gato",
+          "en": "cat",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la hija",
+          "en": "daughter",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la leche",
+          "en": "milk",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el perro",
+          "en": "dog",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el reportero / la reportera",
+          "en": "reporter",
+          "gender": "m/f"
+        },
+        {
+          "es": "la universidad",
+          "en": "university",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la visita",
+          "en": "visit",
+          "gender": "f",
+          "src": "example"
+        }
+      ],
+      "adjectives": [],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "When Is the Present Tense Used in Spanish?",
+      "page": 4,
+      "verbs": [
+        {
+          "es": "ver",
+          "en": "to see"
+        },
+        {
+          "es": "llegar",
+          "en": "to arrive"
+        },
+        {
+          "es": "viajar",
+          "en": "to travel"
+        },
+        {
+          "es": "hablar",
+          "en": "to speak, to talk"
+        }
+      ],
+      "nouns": [
+        {
+          "es": "el aniversario",
+          "en": "anniversary",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el café",
+          "en": "coffee",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el campo",
+          "en": "countryside",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la casa",
+          "en": "house",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la ciencia ficción",
+          "en": "science fiction",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la ciudad",
+          "en": "city",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el deporte",
+          "en": "sport",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el desayuno",
+          "en": "breakfast",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el día",
+          "en": "day",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la enchilada",
+          "en": "enchilada",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la fruta",
+          "en": "fruit",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la limonada",
+          "en": "lemonade",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el mensaje",
+          "en": "message",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el misterio",
+          "en": "mystery",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la música",
+          "en": "music",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el niño",
+          "en": "child, boy",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la noche",
+          "en": "night",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la noticia",
+          "en": "news item",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la novela",
+          "en": "novel",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el olor",
+          "en": "smell",
+          "gender": "m"
+        },
+        {
+          "es": "los parientes",
+          "en": "relatives",
+          "gender": "m"
+        },
+        {
+          "es": "el patio",
+          "en": "backyard, patio",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el plan",
+          "en": "plan",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la política",
+          "en": "politics",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el programa",
+          "en": "program",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la puerta",
+          "en": "door",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la reunión",
+          "en": "meeting",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la sala",
+          "en": "living room",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el supermercado",
+          "en": "supermarket",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el té",
+          "en": "tea",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el vegetal",
+          "en": "vegetable",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el verano",
+          "en": "summer",
+          "gender": "m",
+          "src": "example"
+        }
+      ],
+      "adjectives": [
+        {
+          "es": "electrónico, electrónica",
+          "en": "electronic",
+          "src": "example"
+        },
+        {
+          "es": "fresco, fresca",
+          "en": "fresh"
+        },
+        {
+          "es": "latino, latina",
+          "en": "Latin"
+        },
+        {
+          "es": "libre",
+          "en": "free",
+          "src": "example"
+        }
+      ],
+      "adverbs": [
+        {
+          "es": "ahora",
+          "en": "now",
+          "src": "example"
+        },
+        {
+          "es": "al mediodía",
+          "en": "at noon"
+        },
+        {
+          "es": "de vez en cuando",
+          "en": "from time to time"
+        },
+        {
+          "es": "esta semana",
+          "en": "this week"
+        },
+        {
+          "es": "este mes",
+          "en": "this month"
+        },
+        {
+          "es": "generalmente",
+          "en": "generally",
+          "src": "example"
+        },
+        {
+          "es": "hoy",
+          "en": "today"
+        },
+        {
+          "es": "el lunes, el martes, etc.",
+          "en": "on Monday, on Tuesday, etc."
+        },
+        {
+          "es": "los lunes, los martes, etc.",
+          "en": "on Mondays, on Tuesdays, etc."
+        },
+        {
+          "es": "mañana",
+          "en": "tomorrow",
+          "src": "example"
+        },
+        {
+          "es": "normalmente",
+          "en": "normally, usually",
+          "src": "example"
+        },
+        {
+          "es": "nunca",
+          "en": "never"
+        },
+        {
+          "es": "por la mañana",
+          "en": "in the morning"
+        },
+        {
+          "es": "por la noche",
+          "en": "in the evening, at night"
+        },
+        {
+          "es": "por la tarde",
+          "en": "in the afternoon"
+        },
+        {
+          "es": "siempre",
+          "en": "always"
+        },
+        {
+          "es": "todos los días",
+          "en": "every day"
+        }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Irregular Verbs in the Present Tense",
+      "page": 8,
+      "verbs": [
+        {
+          "es": "caber",
+          "en": "to fit",
+          "yo": "quepo"
+        },
+        {
+          "es": "caer",
+          "en": "to fall",
+          "yo": "caigo"
+        },
+        {
+          "es": "dar",
+          "en": "to give",
+          "yo": "doy"
+        },
+        {
+          "es": "estar",
+          "en": "to be",
+          "yo": "estoy"
+        },
+        {
+          "es": "hacer",
+          "en": "to do, to make",
+          "yo": "hago"
+        },
+        {
+          "es": "poner",
+          "en": "to put",
+          "yo": "pongo"
+        },
+        {
+          "es": "saber",
+          "en": "to know",
+          "yo": "sé"
+        },
+        {
+          "es": "salir",
+          "en": "to leave, to go out",
+          "yo": "salgo"
+        },
+        {
+          "es": "traer",
+          "en": "to bring",
+          "yo": "traigo"
+        },
+        {
+          "es": "valer",
+          "en": "to be worth",
+          "yo": "valgo"
+        },
+        {
+          "es": "componer",
+          "en": "to compose",
+          "yo": "compongo"
+        },
+        {
+          "es": "deshacer",
+          "en": "to undo",
+          "yo": "deshago"
+        },
+        {
+          "es": "disponer",
+          "en": "to arrange",
+          "yo": "dispongo"
+        },
+        {
+          "es": "distraer(se)",
+          "en": "to distract",
+          "yo": "distraigo"
+        },
+        {
+          "es": "proponer",
+          "en": "to propose",
+          "yo": "propongo"
+        },
+        {
+          "es": "rehacer",
+          "en": "to remake",
+          "yo": "rehago"
+        },
+        {
+          "es": "reponer",
+          "en": "to replace",
+          "yo": "repongo"
+        },
+        {
+          "es": "suponer",
+          "en": "to suppose",
+          "yo": "supongo"
+        },
+        {
+          "es": "conocer",
+          "en": "to know",
+          "yo": "conozco"
+        },
+        {
+          "es": "agradecer",
+          "en": "to thank, to be grateful",
+          "yo": "agradezco"
+        },
+        {
+          "es": "aparecer",
+          "en": "to appear",
+          "yo": "aparezco"
+        },
+        {
+          "es": "complacer",
+          "en": "to please",
+          "yo": "complazco"
+        },
+        {
+          "es": "crecer",
+          "en": "to grow",
+          "yo": "crezco"
+        },
+        {
+          "es": "establecer",
+          "en": "to establish",
+          "yo": "establezco"
+        },
+        {
+          "es": "merecer",
+          "en": "to deserve",
+          "yo": "merezco"
+        },
+        {
+          "es": "ofrecer",
+          "en": "to offer",
+          "yo": "ofrezco"
+        },
+        {
+          "es": "padecer",
+          "en": "to suffer",
+          "yo": "padezco"
+        },
+        {
+          "es": "permanecer",
+          "en": "to remain",
+          "yo": "permanezco"
+        },
+        {
+          "es": "pertenecer",
+          "en": "to belong",
+          "yo": "pertenezco"
+        },
+        {
+          "es": "reconocer",
+          "en": "to recognize",
+          "yo": "reconozco"
+        },
+        {
+          "es": "obedecer",
+          "en": "to obey",
+          "yo": "obedezco"
+        },
+        {
+          "es": "traducir",
+          "en": "to translate",
+          "yo": "traduzco"
+        },
+        {
+          "es": "conducir",
+          "en": "to drive, to lead",
+          "yo": "conduzco"
+        },
+        {
+          "es": "producir",
+          "en": "to produce",
+          "yo": "produzco"
+        },
+        {
+          "es": "decir",
+          "en": "to say",
+          "yo": "digo"
+        },
+        {
+          "es": "ir",
+          "en": "to go",
+          "yo": "voy"
+        },
+        {
+          "es": "oír",
+          "en": "to hear",
+          "yo": "oigo"
+        },
+        {
+          "es": "ser",
+          "en": "to be",
+          "yo": "soy"
+        },
+        {
+          "es": "tener",
+          "en": "to have",
+          "yo": "tengo"
+        },
+        {
+          "es": "venir",
+          "en": "to come",
+          "yo": "vengo"
+        },
+        {
+          "es": "haber",
+          "en": "to have (auxiliary); hay = there is/are"
+        },
+        {
+          "es": "contener",
+          "en": "to contain",
+          "yo": "contengo"
+        },
+        {
+          "es": "detener",
+          "en": "to detain, to stop",
+          "yo": "detengo"
+        },
+        {
+          "es": "mantener",
+          "en": "to maintain",
+          "yo": "mantengo"
+        },
+        {
+          "es": "obtener",
+          "en": "to obtain",
+          "yo": "obtengo"
+        },
+        {
+          "es": "retener",
+          "en": "to retain",
+          "yo": "retengo"
+        },
+        {
+          "es": "sostener",
+          "en": "to sustain, to hold",
+          "yo": "sostengo"
+        }
+      ],
+      "nouns": [
+        {
+          "es": "el admirador",
+          "en": "admirer, fan",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el aficionado",
+          "en": "fan",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el agua",
+          "en": "water",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el autobús",
+          "en": "bus",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la canción",
+          "en": "song",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el coche",
+          "en": "car",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la cocina",
+          "en": "kitchen, cooking",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el comentario",
+          "en": "comment",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el compañero de trabajo",
+          "en": "coworker",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el conductor",
+          "en": "driver",
+          "gender": "m"
+        },
+        {
+          "es": "la conferencia",
+          "en": "lecture",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la creación",
+          "en": "creation",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el cuadro",
+          "en": "painting",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el descanso",
+          "en": "rest, break",
+          "gender": "m"
+        },
+        {
+          "es": "la estrella",
+          "en": "star",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el estudio",
+          "en": "studio",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la obra de arte",
+          "en": "work of art",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la orden",
+          "en": "order",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "los pantalones",
+          "en": "pants",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el plato",
+          "en": "dish, plate",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la posibilidad",
+          "en": "possibility",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el problema",
+          "en": "problem",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el regalo",
+          "en": "gift",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la silla",
+          "en": "chair",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la solución",
+          "en": "solution",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el técnico",
+          "en": "technician",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la televisión",
+          "en": "television",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la trampa",
+          "en": "trap",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el vaso",
+          "en": "glass",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la verdad",
+          "en": "truth",
+          "gender": "f",
+          "src": "example"
+        }
+      ],
+      "adjectives": [
+        {
+          "es": "apasionado, apasionada",
+          "en": "passionate",
+          "src": "example"
+        },
+        {
+          "es": "callado, callada",
+          "en": "quiet",
+          "src": "example"
+        },
+        {
+          "es": "exquisito, exquisita",
+          "en": "exquisite",
+          "src": "example"
+        },
+        {
+          "es": "famoso, famosa",
+          "en": "famous",
+          "src": "example"
+        },
+        {
+          "es": "favorable",
+          "en": "favorable",
+          "src": "example"
+        },
+        {
+          "es": "favorito, favorita",
+          "en": "favorite",
+          "src": "example"
+        },
+        {
+          "es": "ocupado, ocupada",
+          "en": "busy",
+          "src": "example"
+        }
+      ],
+      "adverbs": [
+        {
+          "es": "bien",
+          "en": "well",
+          "src": "example"
+        },
+        {
+          "es": "juntos",
+          "en": "together",
+          "src": "example"
+        },
+        {
+          "es": "muy",
+          "en": "very",
+          "src": "example"
+        },
+        {
+          "es": "temprano",
+          "en": "early",
+          "src": "example"
+        }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Verbs with Spelling Changes in the Present Tense",
+      "page": 12,
+      "verbs": [
+        {
+          "es": "coger",
+          "en": "to catch, to grab",
+          "yo": "cojo"
+        },
+        {
+          "es": "encoger",
+          "en": "to shrink",
+          "yo": "encojo"
+        },
+        {
+          "es": "escoger",
+          "en": "to choose",
+          "yo": "escojo"
+        },
+        {
+          "es": "proteger",
+          "en": "to protect",
+          "yo": "protejo"
+        },
+        {
+          "es": "recoger",
+          "en": "to pick up",
+          "yo": "recojo"
+        },
+        {
+          "es": "exigir",
+          "en": "to demand",
+          "yo": "exijo"
+        },
+        {
+          "es": "dirigir",
+          "en": "to direct",
+          "yo": "dirijo"
+        },
+        {
+          "es": "fingir",
+          "en": "to pretend",
+          "yo": "finjo"
+        },
+        {
+          "es": "distinguir",
+          "en": "to distinguish",
+          "yo": "distingo"
+        },
+        {
+          "es": "extinguir",
+          "en": "to extinguish",
+          "yo": "extingo"
+        },
+        {
+          "es": "convencer",
+          "en": "to convince",
+          "yo": "convenzo"
+        },
+        {
+          "es": "ejercer",
+          "en": "to practice (a profession)",
+          "yo": "ejerzo"
+        },
+        {
+          "es": "vencer",
+          "en": "to overcome",
+          "yo": "venzo"
+        },
+        {
+          "es": "elegir",
+          "en": "to choose, to elect",
+          "yo": "elijo"
+        },
+        {
+          "es": "torcer",
+          "en": "to twist",
+          "yo": "tuerzo"
+        }
+      ],
+      "nouns": [
+        {
+          "es": "el color",
+          "en": "color",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "los derechos",
+          "en": "rights",
+          "gender": "m"
+        },
+        {
+          "es": "la explicación",
+          "en": "explanation",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el fuego",
+          "en": "fire",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el obstáculo",
+          "en": "obstacle",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el periódico",
+          "en": "newspaper",
+          "gender": "m",
+          "src": "example"
+        }
+      ],
+      "adjectives": [],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "Dar, Haber, Hacer, and Tener in Expressions with a Special Meaning",
+      "page": 14,
+      "verbs": [
+        {
+          "es": "distribuir",
+          "en": "to assign, to distribute"
+        },
+        {
+          "es": "guardar",
+          "en": "to put away, to keep"
+        }
+      ],
+      "nouns": [
+        {
+          "es": "el abrazo",
+          "en": "hug",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el accidente",
+          "en": "accident",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el actor",
+          "en": "actor",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "los aparatos electrodomésticos",
+          "en": "electrical appliances",
+          "gender": "m"
+        },
+        {
+          "es": "la aspiradora",
+          "en": "vacuum cleaner",
+          "gender": "f"
+        },
+        {
+          "es": "la carretera",
+          "en": "highway",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el concierto",
+          "en": "concert",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el cuarto",
+          "en": "room",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el daño",
+          "en": "harm",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el grito",
+          "en": "shout",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la hora",
+          "en": "hour",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la lavadora",
+          "en": "washing machine",
+          "gender": "f"
+        },
+        {
+          "es": "el maestro",
+          "en": "teacher",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la mañana",
+          "en": "morning",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el médico",
+          "en": "doctor",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la multitud",
+          "en": "crowd",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "la neblina",
+          "en": "fog",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el papel",
+          "en": "role, paper",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el primo",
+          "en": "cousin",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "los quehaceres domésticos",
+          "en": "household chores",
+          "gender": "m"
+        },
+        {
+          "es": "el reloj",
+          "en": "clock, watch",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "la secadora",
+          "en": "dryer",
+          "gender": "f"
+        },
+        {
+          "es": "la serpiente",
+          "en": "snake",
+          "gender": "f",
+          "src": "example"
+        },
+        {
+          "es": "el sol",
+          "en": "sun",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el sospechoso",
+          "en": "suspect",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el tío",
+          "en": "uncle",
+          "gender": "m",
+          "src": "example"
+        },
+        {
+          "es": "el viaje",
+          "en": "trip",
+          "gender": "m",
+          "src": "example"
+        }
+      ],
+      "adjectives": [
+        {
+          "es": "inocente",
+          "en": "innocent",
+          "src": "example"
+        }
+      ],
+      "adverbs": [
+        {
+          "es": "a veces",
+          "en": "sometimes",
+          "src": "example"
+        },
+        {
+          "es": "aquí",
+          "en": "here",
+          "src": "example"
+        },
+        {
+          "es": "pronto",
+          "en": "soon",
+          "src": "example"
+        },
+        {
+          "es": "tarde",
+          "en": "late",
+          "src": "example"
+        }
+      ],
+      "expressions": [
+        {
+          "es": "dar un abrazo",
+          "en": "to hug, to embrace"
+        },
+        {
+          "es": "dar gritos",
+          "en": "to shout"
+        },
+        {
+          "es": "dar la hora",
+          "en": "to strike the hour"
+        },
+        {
+          "es": "hay que + infinitive",
+          "en": "to be necessary (obligation)"
+        },
+        {
+          "es": "haber sol",
+          "en": "to be sunny"
+        },
+        {
+          "es": "haber neblina",
+          "en": "to be foggy"
+        },
+        {
+          "es": "hacer calor",
+          "en": "to be hot"
+        },
+        {
+          "es": "hacer fresco",
+          "en": "to be cool"
+        },
+        {
+          "es": "hacer viento",
+          "en": "to be windy"
+        },
+        {
+          "es": "hacer un viaje",
+          "en": "to take a trip"
+        },
+        {
+          "es": "hacer una visita",
+          "en": "to pay a visit"
+        },
+        {
+          "es": "hacer daño",
+          "en": "to harm, to damage"
+        },
+        {
+          "es": "hacer caso a",
+          "en": "to notice, to pay attention to"
+        },
+        {
+          "es": "hacer el papel de",
+          "en": "to play the role of"
+        },
+        {
+          "es": "tener que + infinitive",
+          "en": "to have to"
+        },
+        {
+          "es": "tener frío",
+          "en": "to be cold"
+        },
+        {
+          "es": "tener calor",
+          "en": "to be hot"
+        },
+        {
+          "es": "tener hambre",
+          "en": "to be hungry"
+        },
+        {
+          "es": "tener sed",
+          "en": "to be thirsty"
+        },
+        {
+          "es": "tener miedo",
+          "en": "to be afraid"
+        },
+        {
+          "es": "tener razón",
+          "en": "to be right"
+        },
+        {
+          "es": "tener prisa",
+          "en": "to be in a hurry"
+        },
+        {
+          "es": "tener sueño",
+          "en": "to be sleepy"
+        },
+        {
+          "es": "tener la culpa (de)",
+          "en": "to be to blame (for)"
+        },
+        {
+          "es": "tener lugar",
+          "en": "to take place"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "unit": 7,
+  "title": "The Future and the Conditional",
+  "sections": [
+    {
+      "title": "The Future Tense",
+      "page": 67,
+      "verbs": [
+        { "es": "arreglar", "en": "to fix" },
+        { "es": "comprar", "en": "to buy" },
+        { "es": "devolver", "en": "to return (something)" },
+        { "es": "pedir", "en": "to ask for" },
+        { "es": "leer", "en": "to read" },
+        { "es": "ser", "en": "to be" },
+        { "es": "bajar", "en": "to step down, to go down", "src": "example" },
+        { "es": "viajar", "en": "to travel", "src": "example" },
+        { "es": "cocinar", "en": "to cook", "src": "example" },
+        { "es": "decidir", "en": "to decide", "src": "example" },
+        { "es": "recibir", "en": "to receive", "src": "example" },
+        { "es": "bailar", "en": "to dance", "src": "example" },
+        { "es": "cooperar", "en": "to cooperate", "src": "example" },
+        { "es": "vender", "en": "to sell", "src": "example" },
+        { "es": "temer", "en": "to fear", "src": "example" },
+        { "es": "elegir", "en": "to choose, to elect", "src": "example" },
+        { "es": "estar", "en": "to be", "src": "example" },
+        { "es": "llevar", "en": "to take, to carry", "src": "example" },
+        { "es": "recoger", "en": "to pick up", "src": "example" },
+        { "es": "ir", "en": "to go", "src": "example" },
+        { "es": "pasar", "en": "to spend (time)", "src": "example" },
+        { "es": "mudarse", "en": "to move (residence)", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el auto", "en": "car", "gender": "m", "src": "example" },
+        { "es": "la noticia", "en": "news item", "gender": "f", "src": "example" },
+        { "es": "el padre", "en": "father, parent", "gender": "m", "src": "example" },
+        { "es": "el hermano", "en": "brother", "gender": "m", "src": "example" },
+        { "es": "la chica", "en": "girl", "gender": "f", "src": "example" },
+        { "es": "el norteamericano", "en": "North American", "gender": "m", "src": "example" },
+        { "es": "el mecánico", "en": "mechanic", "gender": "m", "src": "example" },
+        { "es": "el carro", "en": "car", "gender": "m", "src": "example" },
+        { "es": "el consulado", "en": "consulate", "gender": "m", "src": "example" },
+        { "es": "el mes", "en": "month", "gender": "m", "src": "example" },
+        { "es": "la semana", "en": "week", "gender": "f", "src": "example" },
+        { "es": "el verano", "en": "summer", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "ocupado, ocupada", "en": "busy", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "mañana", "en": "tomorrow", "src": "example" },
+        { "es": "primero", "en": "first", "src": "example" },
+        { "es": "temprano", "en": "early", "src": "example" },
+        { "es": "después", "en": "afterward, later", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Irregular Verbs in the Future Tense",
+      "page": 69,
+      "verbs": [
+        { "es": "poner", "en": "to put", "yo": "pondré" },
+        { "es": "poder", "en": "to be able", "yo": "podré" },
+        { "es": "decir", "en": "to tell", "yo": "diré" },
+        { "es": "salir", "en": "to leave, to go out", "yo": "saldré" },
+        { "es": "tener", "en": "to have", "yo": "tendré" },
+        { "es": "valer", "en": "to be worth", "yo": "valdré" },
+        { "es": "venir", "en": "to come", "yo": "vendré" },
+        { "es": "caber", "en": "to fit", "yo": "cabré" },
+        { "es": "haber", "en": "there is; there will be (habrá)" },
+        { "es": "querer", "en": "to want", "yo": "querré" },
+        { "es": "saber", "en": "to know", "yo": "sabré" },
+        { "es": "hacer", "en": "to do, to make", "yo": "haré" },
+        { "es": "componer", "en": "to fix, to compose", "yo": "compondré" },
+        { "es": "deshacer", "en": "to undo", "yo": "desharé" },
+        { "es": "detener", "en": "to detain, to stop", "yo": "detendré" },
+        { "es": "disponer", "en": "to dispose, to arrange", "yo": "dispondré" },
+        { "es": "exponer", "en": "to expose", "yo": "expondré" },
+        { "es": "imponer", "en": "to impose", "yo": "impondré" },
+        { "es": "mantener", "en": "to maintain", "yo": "mantendré" },
+        { "es": "obtener", "en": "to obtain", "yo": "obtendré" },
+        { "es": "oponer(se)", "en": "to oppose", "yo": "opondré" },
+        { "es": "proponer", "en": "to propose", "yo": "propondré" },
+        { "es": "rehacer", "en": "to do again, to remake", "yo": "reharé" },
+        { "es": "reponer", "en": "to replace", "yo": "repondré" },
+        { "es": "retener", "en": "to retain", "yo": "retendré" },
+        { "es": "satisfacer", "en": "to satisfy", "yo": "satisfaré" },
+        { "es": "suponer", "en": "to suppose", "yo": "supondré" },
+        { "es": "encontrar", "en": "to find", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la cuenta", "en": "bill", "gender": "f", "src": "example" },
+        { "es": "la fiesta", "en": "party", "gender": "f", "src": "example" },
+        { "es": "la sorpresa", "en": "surprise", "gender": "f", "src": "example" },
+        { "es": "la ciudad", "en": "city", "gender": "f", "src": "example" },
+        { "es": "el campo", "en": "countryside", "gender": "m", "src": "example" },
+        { "es": "el ruido", "en": "noise", "gender": "m", "src": "example" },
+        { "es": "la tranquilidad", "en": "tranquility", "gender": "f", "src": "example" },
+        { "es": "la paz", "en": "peace", "gender": "f", "src": "example" },
+        { "es": "el espacio", "en": "space, room", "gender": "m", "src": "example" },
+        { "es": "la tarea", "en": "homework", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "When Is the Future Tense Used in Spanish?",
+      "page": 71,
+      "verbs": [
+        { "es": "ver", "en": "to see", "src": "example" },
+        { "es": "costar", "en": "to cost", "src": "example" },
+        { "es": "despertar(se)", "en": "to wake up", "src": "example" },
+        { "es": "trabajar", "en": "to work", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la primavera", "en": "spring", "gender": "f" },
+        { "es": "la tarde", "en": "afternoon", "gender": "f" },
+        { "es": "el año", "en": "year", "gender": "m" },
+        { "es": "el lunes", "en": "Monday", "gender": "m" },
+        { "es": "el martes", "en": "Tuesday", "gender": "m" },
+        { "es": "la noche", "en": "night", "gender": "f" },
+        { "es": "la milla", "en": "mile", "gender": "f", "src": "example" },
+        { "es": "el bolso", "en": "purse, bag", "gender": "m", "src": "example" },
+        { "es": "la sección", "en": "section", "gender": "f", "src": "example" },
+        { "es": "el periódico", "en": "newspaper", "gender": "m", "src": "example" },
+        { "es": "la ropa", "en": "clothes", "gender": "f", "src": "example" },
+        { "es": "el mercado", "en": "market", "gender": "m", "src": "example" },
+        { "es": "el ejercicio", "en": "exercise", "gender": "m", "src": "example" },
+        { "es": "el cuaderno", "en": "notebook", "gender": "m", "src": "example" },
+        { "es": "la hora", "en": "hour", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "bonito, bonita", "en": "pretty", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "a la una, a las dos de la tarde", "en": "at one, at two in the afternoon" },
+        { "es": "de aquí a dos (tres, etc.) días", "en": "in two (three, etc.) days" },
+        { "es": "el año que viene", "en": "next year" },
+        { "es": "el lunes que viene", "en": "next Monday" },
+        { "es": "el martes", "en": "on Tuesday" },
+        { "es": "el mes que viene", "en": "next month" },
+        { "es": "en un mes", "en": "in a month" },
+        { "es": "en una semana", "en": "in one week" },
+        { "es": "esta noche", "en": "tonight" },
+        { "es": "esta primavera", "en": "this spring" },
+        { "es": "esta tarde", "en": "this afternoon" },
+        { "es": "este verano", "en": "this summer" },
+        { "es": "la semana que viene", "en": "next week" },
+        { "es": "luego", "en": "later" },
+        { "es": "mañana", "en": "tomorrow" },
+        { "es": "mañana por la mañana", "en": "tomorrow morning" },
+        { "es": "mañana por la noche", "en": "tomorrow night" },
+        { "es": "mañana por la tarde", "en": "tomorrow afternoon" },
+        { "es": "pasado mañana", "en": "the day after tomorrow" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Other Ways of Expressing the Future in Spanish",
+      "page": 73,
+      "verbs": [
+        { "es": "discutir", "en": "to discuss", "src": "example" },
+        { "es": "beber", "en": "to drink", "src": "example" },
+        { "es": "abrir", "en": "to open", "src": "example" },
+        { "es": "exigir", "en": "to demand", "src": "example" },
+        { "es": "quejarse", "en": "to complain", "src": "example" },
+        { "es": "ayudar", "en": "to help", "src": "example" },
+        { "es": "pagar", "en": "to pay", "src": "example" },
+        { "es": "convencer", "en": "to convince", "src": "example" },
+        { "es": "levantarse", "en": "to get up", "src": "example" },
+        { "es": "sonar", "en": "to ring, to sound", "src": "example" },
+        { "es": "llover", "en": "to rain", "src": "example" },
+        { "es": "subir", "en": "to climb, to rise", "src": "example" },
+        { "es": "caer", "en": "to fall", "src": "example" },
+        { "es": "brillar", "en": "to shine", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la pera", "en": "pear", "gender": "f", "src": "example" },
+        { "es": "la frutería", "en": "fruit stand", "gender": "f", "src": "example" },
+        { "es": "el plan", "en": "plan", "gender": "m", "src": "example" },
+        { "es": "la reunión", "en": "meeting", "gender": "f", "src": "example" },
+        { "es": "el agua", "en": "water", "gender": "f", "src": "example" },
+        { "es": "el vino", "en": "wine", "gender": "m", "src": "example" },
+        { "es": "la puerta", "en": "door", "gender": "f", "src": "example" },
+        { "es": "el dinero", "en": "money", "gender": "m", "src": "example" },
+        { "es": "la golosina", "en": "candy, sweet", "gender": "f", "src": "example" },
+        { "es": "el paquete", "en": "package", "gender": "m", "src": "example" },
+        { "es": "la explicación", "en": "explanation", "gender": "f", "src": "example" },
+        { "es": "la temperatura", "en": "temperature", "gender": "f", "src": "example" },
+        { "es": "el grado", "en": "degree", "gender": "m", "src": "example" },
+        { "es": "la lluvia", "en": "rain", "gender": "f", "src": "example" },
+        { "es": "el sol", "en": "sun", "gender": "m", "src": "example" },
+        { "es": "el cielo", "en": "sky", "gender": "m", "src": "example" },
+        { "es": "el noroeste", "en": "northwest", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "nublado, nublada", "en": "cloudy", "src": "example" },
+        { "es": "fuerte", "en": "heavy, strong", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "luego", "en": "later", "src": "example" },
+        { "es": "tampoco", "en": "neither, either", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "ir a + infinitive", "en": "to be going to (do something)" },
+        { "es": "todo el día", "en": "all day", "src": "example" }
+      ]
+    },
+    {
+      "title": "The Conditional Mood",
+      "page": 74,
+      "verbs": [
+        { "es": "sacar", "en": "to take out" },
+        { "es": "perder", "en": "to lose" },
+        { "es": "servir", "en": "to serve" },
+        { "es": "investigar", "en": "to investigate", "src": "example" },
+        { "es": "planchar", "en": "to iron", "src": "example" },
+        { "es": "comer", "en": "to eat", "src": "example" },
+        { "es": "llamar", "en": "to call", "src": "example" },
+        { "es": "esperar", "en": "to wait for", "src": "example" },
+        { "es": "ofrecer", "en": "to offer", "src": "example" },
+        { "es": "tomar", "en": "to take", "src": "example" },
+        { "es": "volver", "en": "to return", "src": "example" },
+        { "es": "dormirse", "en": "to fall asleep", "src": "example" },
+        { "es": "querer", "en": "to want, to love", "src": "example" },
+        { "es": "recoger", "en": "to pick up", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la silla", "en": "chair", "gender": "f", "src": "example" },
+        { "es": "el vecino", "en": "neighbor", "gender": "m", "src": "example" },
+        { "es": "la telenovela", "en": "soap opera", "gender": "f" },
+        { "es": "el tapón", "en": "earplug", "gender": "m" },
+        { "es": "el oído", "en": "ear", "gender": "m" },
+        { "es": "la casa", "en": "house, home", "gender": "f" },
+        { "es": "el protagonista", "en": "main character", "gender": "m" },
+        { "es": "el título", "en": "title", "gender": "m" },
+        { "es": "la fiera", "en": "shrew, wild beast", "gender": "f" },
+        { "es": "el toro", "en": "bull", "gender": "m", "src": "example" },
+        { "es": "la taza", "en": "cup", "gender": "f", "src": "example" },
+        { "es": "el café", "en": "coffee", "gender": "m", "src": "example" },
+        { "es": "la cocina", "en": "kitchen", "gender": "f", "src": "example" },
+        { "es": "el capítulo", "en": "chapter", "gender": "m", "src": "example" },
+        { "es": "la escena", "en": "scene", "gender": "f", "src": "example" },
+        { "es": "el anillo", "en": "ring", "gender": "m", "src": "example" },
+        { "es": "el diamante", "en": "diamond", "gender": "m", "src": "example" },
+        { "es": "la boda", "en": "wedding", "gender": "f", "src": "example" },
+        { "es": "el grúa", "en": "tow truck", "gender": "m", "src": "example" },
+        { "es": "el coche", "en": "car", "gender": "m", "src": "example" },
+        { "es": "la ayuda", "en": "help", "gender": "f", "src": "example" },
+        { "es": "el centro comercial", "en": "shopping mall", "gender": "m", "src": "example" },
+        { "es": "el autobús", "en": "bus", "gender": "m", "src": "example" },
+        { "es": "la tortilla", "en": "tortilla", "gender": "f", "src": "example" },
+        { "es": "el juguete", "en": "toy", "gender": "m", "src": "example" },
+        { "es": "la cerveza", "en": "beer", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "domado, domada", "en": "tamed" },
+        { "es": "inesperado, inesperada", "en": "unexpected" },
+        { "es": "raro, rara", "en": "unusual, strange" },
+        { "es": "favorito, favorita", "en": "favorite", "src": "example" },
+        { "es": "exótico, exótica", "en": "exotic", "src": "example" },
+        { "es": "sensacional", "en": "sensational", "src": "example" },
+        { "es": "nuevo, nueva", "en": "new", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "probablemente", "en": "probably", "src": "example" },
+        { "es": "felizmente", "en": "happily", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "todas las mañanas", "en": "every morning", "src": "example" }
+      ]
+    },
+    {
+      "title": "Irregular Verbs in the Conditional",
+      "page": 76,
+      "verbs": [
+        { "es": "poner", "en": "to put", "yo": "pondría" },
+        { "es": "poder", "en": "to be able", "yo": "podría" },
+        { "es": "decir", "en": "to tell", "yo": "diría" },
+        { "es": "salir", "en": "to leave, to go out", "yo": "saldría" },
+        { "es": "tener", "en": "to have", "yo": "tendría" },
+        { "es": "valer", "en": "to be worth", "yo": "valdría" },
+        { "es": "venir", "en": "to come", "yo": "vendría" },
+        { "es": "caber", "en": "to fit", "yo": "cabría" },
+        { "es": "haber", "en": "there is; there would be (habría)" },
+        { "es": "querer", "en": "to want", "yo": "querría" },
+        { "es": "saber", "en": "to know", "yo": "sabría" },
+        { "es": "hacer", "en": "to do, to make", "yo": "haría" },
+        { "es": "traer", "en": "to bring", "src": "example" },
+        { "es": "reír(se)", "en": "to laugh", "src": "example" },
+        { "es": "jugar", "en": "to play", "src": "example" },
+        { "es": "leer", "en": "to read", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la novela", "en": "novel", "gender": "f", "src": "example" },
+        { "es": "la revista", "en": "magazine", "gender": "f", "src": "example" },
+        { "es": "el cartero", "en": "mail carrier", "gender": "m", "src": "example" },
+        { "es": "la cerveza", "en": "beer", "gender": "f", "src": "example" },
+        { "es": "el autobús", "en": "bus", "gender": "m", "src": "example" },
+        { "es": "el tránsito", "en": "traffic", "gender": "m", "src": "example" },
+        { "es": "la carretera", "en": "highway", "gender": "f", "src": "example" },
+        { "es": "la tienda", "en": "store", "gender": "f", "src": "example" },
+        { "es": "el tiempo", "en": "time", "gender": "m", "src": "example" },
+        { "es": "la rebaja", "en": "sale, discount", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "When Is the Conditional Used in Spanish?",
+      "page": 77,
+      "verbs": [
+        { "es": "sugerir", "en": "to suggest", "src": "example" },
+        { "es": "fregar", "en": "to scrub, to wash dishes", "src": "example" },
+        { "es": "alquilar", "en": "to rent", "src": "example" },
+        { "es": "cenar", "en": "to have dinner", "src": "example" },
+        { "es": "quemar", "en": "to burn", "src": "example" },
+        { "es": "funcionar", "en": "to work, to function", "src": "example" },
+        { "es": "votar", "en": "to vote", "src": "example" },
+        { "es": "comunicar", "en": "to communicate", "src": "example" },
+        { "es": "ganar", "en": "to win, to earn", "src": "example" },
+        { "es": "contar", "en": "to count", "src": "example" },
+        { "es": "celebrar", "en": "to celebrate", "src": "example" },
+        { "es": "anunciar", "en": "to announce", "src": "example" },
+        { "es": "asegurar", "en": "to assure", "src": "example" },
+        { "es": "decidir", "en": "to decide", "src": "example" },
+        { "es": "indicar", "en": "to indicate", "src": "example" },
+        { "es": "creer", "en": "to believe", "src": "example" },
+        { "es": "prometer", "en": "to promise", "src": "example" },
+        { "es": "ir", "en": "to go", "src": "example" },
+        { "es": "cerrar", "en": "to close", "src": "example" },
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "dormir", "en": "to sleep", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la conferencia", "en": "conference, lecture", "gender": "f" },
+        { "es": "la copa", "en": "glass (of wine)", "gender": "f" },
+        { "es": "el vino", "en": "wine", "gender": "m" },
+        { "es": "la fregadora de platos", "en": "dishwasher", "gender": "f", "src": "example" },
+        { "es": "el plato", "en": "dish, plate", "gender": "m", "src": "example" },
+        { "es": "el auto", "en": "car", "gender": "m", "src": "example" },
+        { "es": "la gasolina", "en": "gasoline", "gender": "f", "src": "example" },
+        { "es": "el programa", "en": "program", "gender": "m", "src": "example" },
+        { "es": "la cena", "en": "dinner", "gender": "f", "src": "example" },
+        { "es": "la campaña electoral", "en": "electoral campaign", "gender": "f", "src": "example" },
+        { "es": "el candidato", "en": "candidate", "gender": "m", "src": "example" },
+        { "es": "la idea", "en": "idea", "gender": "f", "src": "example" },
+        { "es": "el público", "en": "public", "gender": "m", "src": "example" },
+        { "es": "la elección", "en": "election", "gender": "f", "src": "example" },
+        { "es": "los fondos", "en": "funds", "gender": "m", "src": "example" },
+        { "es": "la victoria", "en": "victory", "gender": "f", "src": "example" },
+        { "es": "el voto", "en": "vote", "gender": "m", "src": "example" },
+        { "es": "el voluntario", "en": "volunteer", "gender": "m", "src": "example" },
+        { "es": "la paella", "en": "paella", "gender": "f", "src": "example" },
+        { "es": "la cerveza", "en": "beer", "gender": "f", "src": "example" },
+        { "es": "la ventana", "en": "window", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "reñido, reñida", "en": "close (contest)", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "pronto", "en": "soon", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "valer la pena", "en": "to be worth it" },
+        { "es": "estar de vacaciones", "en": "to be on vacation", "src": "example" },
+        { "es": "tener sueño", "en": "to be sleepy", "src": "example" },
+        { "es": "tener frío", "en": "to be cold", "src": "example" },
+        { "es": "tener sed", "en": "to be thirsty", "src": "example" },
+        { "es": "tener hambre", "en": "to be hungry", "src": "example" }
+      ]
+    },
+    {
+      "title": "Other Uses of the Conditional: Conjecture in the Past and the Conditional in Contrary-to-Fact If-Clauses",
+      "page": 79,
+      "verbs": [
+        { "es": "estar", "en": "to be" },
+        { "es": "ser", "en": "to be" },
+        { "es": "tener", "en": "to have" },
+        { "es": "deber", "en": "ought to, should; deber de = must (probability)" },
+        { "es": "ocurrir", "en": "to happen, to occur", "src": "example" },
+        { "es": "ayudar", "en": "to help", "src": "example" },
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "seguir", "en": "to follow", "src": "example" },
+        { "es": "mejorar", "en": "to improve", "src": "example" },
+        { "es": "levantar", "en": "to lift", "src": "example" },
+        { "es": "correr", "en": "to run", "src": "example" },
+        { "es": "aprender", "en": "to learn", "src": "example" },
+        { "es": "viajar", "en": "to travel", "src": "example" },
+        { "es": "dormir", "en": "to sleep", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el auto", "en": "car", "gender": "m", "src": "example" },
+        { "es": "el traje", "en": "suit", "gender": "m", "src": "example" },
+        { "es": "el brazalete", "en": "bracelet", "gender": "m", "src": "example" },
+        { "es": "la perla", "en": "pearl", "gender": "f", "src": "example" },
+        { "es": "la playa", "en": "beach", "gender": "f", "src": "example" },
+        { "es": "el ladrón", "en": "thief", "gender": "m", "src": "example" },
+        { "es": "el cuadro", "en": "painting", "gender": "m", "src": "example" },
+        { "es": "la sala", "en": "living room", "gender": "f", "src": "example" },
+        { "es": "el cómplice", "en": "accomplice", "gender": "m", "src": "example" },
+        { "es": "el camión", "en": "truck", "gender": "m", "src": "example" },
+        { "es": "el gimnasio", "en": "gym", "gender": "m" },
+        { "es": "la salud", "en": "health", "gender": "f" },
+        { "es": "la libra", "en": "pound", "gender": "f" },
+        { "es": "el médico", "en": "doctor", "gender": "m", "src": "example" },
+        { "es": "el dinero", "en": "money", "gender": "m", "src": "example" },
+        { "es": "la casa", "en": "house", "gender": "f", "src": "example" },
+        { "es": "la guitarra", "en": "guitar", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "saludable", "en": "healthy" },
+        { "es": "perfecto, perfecta", "en": "perfect", "src": "example" },
+        { "es": "alemán, alemana", "en": "German", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "aproximadamente", "en": "approximately" },
+        { "es": "probablemente", "en": "probably", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "deber de + infinitive", "en": "must (do something) — probability" },
+        { "es": "levantar pesas", "en": "to lift weights" },
+        { "es": "hacer culturismo", "en": "to do bodybuilding" },
+        { "es": "hacer ejercicio", "en": "to exercise" }
+      ]
+    }
+  ]
+}

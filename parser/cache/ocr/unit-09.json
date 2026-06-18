@@ -1,0 +1,208 @@
+{
+  "unit": 9,
+  "pages": [
+    {
+      "pdfPage": 108,
+      "exercises": [
+        {
+          "id": "9-1",
+          "type": "truefalse",
+          "instruction": "Imagínate. Tú estás en la playa, ¿qué ves? Indicate with an X what is probably happening at this moment at the beach. If the statement doesn't fit, leave a blank.",
+          "blanks": [
+            { "item": 1, "cy": 0.305 },
+            { "item": 2, "cy": 0.338 },
+            { "item": 3, "cy": 0.371 },
+            { "item": 4, "cy": 0.405 },
+            { "item": 5, "cy": 0.438 },
+            { "item": 6, "cy": 0.471 },
+            { "item": 7, "cy": 0.504 },
+            { "item": 8, "cy": 0.537 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 109,
+      "exercises": [
+        {
+          "id": "9-2",
+          "type": "fill",
+          "instruction": "Un poco de lógica. From the previous list of present participles choose the one that fits the meaning of each of the following sentences.",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.284 },
+            { "item": 5, "cy": 0.318 },
+            { "item": 6, "cy": 0.351 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 110,
+      "exercises": [
+        {
+          "id": "9-3",
+          "type": "fill",
+          "instruction": "Decide. From the list of verbs, choose the one that fits, and write the present participle to complete the meaning of each of the following sentences.",
+          "blanks": [
+            { "item": 1, "cy": 0.227 },
+            { "item": 2, "cy": 0.261 },
+            { "item": 3, "cy": 0.294 },
+            { "item": 4, "cy": 0.326 },
+            { "item": 5, "cy": 0.36 },
+            { "item": 6, "cy": 0.394 }
+          ]
+        },
+        {
+          "id": "9-4",
+          "type": "truefalse",
+          "instruction": "En el cine. ¿Qué están haciendo las personas en el cine? Indica con una X si estás de acuerdo. Leave a blank if the statement does not fit.",
+          "blanks": [
+            { "item": 1, "cy": 0.749 },
+            { "item": 2, "cy": 0.779 },
+            { "item": 3, "cy": 0.861 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 111,
+      "exercises": [
+        {
+          "id": "9-4",
+          "type": "truefalse",
+          "continued": true,
+          "blanks": [
+            { "item": 4, "cy": 0.083 },
+            { "item": 5, "cy": 0.116 },
+            { "item": 6, "cy": 0.149 }
+          ]
+        },
+        {
+          "id": "9-5",
+          "type": "fill",
+          "instruction": "¿Qué están haciendo ahora? Escribe la forma apropiada del presente de estar y el gerundio de los verbos entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.752 },
+            { "item": 2, "cy": 0.786 },
+            { "item": 3, "cy": 0.819 },
+            { "item": 4, "cy": 0.852 },
+            { "item": 5, "cy": 0.885 },
+            { "item": 6, "cy": 0.919 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 112,
+      "exercises": [
+        {
+          "id": "9-6",
+          "type": "translate",
+          "instruction": "En español. Usa el verbo estar + el gerundio.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 },
+            { "item": 9, "cy": 0.434 }
+          ]
+        },
+        {
+          "id": "9-7",
+          "type": "fill",
+          "instruction": "En el banco. Practiquemos un poco. Describe la escena en el banco ayer. Usa el verbo estar en el imperfecto de indicativo (estaba, estabas, estaba…) + el gerundio.",
+          "blanks": [
+            { "item": 1, "cy": 0.901 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 113,
+      "exercises": [
+        {
+          "id": "9-7",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 2, "cy": 0.083 },
+            { "item": 3, "cy": 0.116 },
+            { "item": 4, "cy": 0.149 },
+            { "item": 5, "cy": 0.182 },
+            { "item": 6, "cy": 0.215 },
+            { "item": 7, "cy": 0.249 },
+            { "item": 8, "cy": 0.282 },
+            { "item": 9, "cy": 0.315 }
+          ]
+        },
+        {
+          "id": "9-8",
+          "type": "personal",
+          "instruction": "Preguntas personales. Contesta en español.",
+          "blanks": [
+            { "item": 1, "cy": 0.445 },
+            { "item": 2, "cy": 0.479 },
+            { "item": 3, "cy": 0.512 },
+            { "item": 4, "cy": 0.545 },
+            { "item": 5, "cy": 0.578 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 114,
+      "exercises": [
+        {
+          "id": "9-9",
+          "type": "translate",
+          "instruction": "En español. Usa el verbo entre paréntesis para traducir el verbo en cursiva.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 115,
+      "exercises": [
+        {
+          "id": "9-10",
+          "type": "fill",
+          "instruction": "En la piscina. ¿El gerundio o el infinitivo? Escribe la forma apropiada del gerundio o el infinitivo del verbo entre paréntesis, de acuerdo a la frase.",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.284 },
+            { "item": 5, "cy": 0.318 },
+            { "item": 6, "cy": 0.351 },
+            { "item": 7, "cy": 0.384 },
+            { "item": 8, "cy": 0.417 }
+          ]
+        },
+        {
+          "id": "9-11",
+          "type": "free",
+          "instruction": "En el maratón. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.678 }
+          ]
+        }
+      ]
+    }
+  ]
+}

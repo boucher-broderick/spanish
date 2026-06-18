@@ -1,0 +1,386 @@
+{
+  "4-9": {
+    "1": ["Él se cayó."],
+    "2": ["Alicia leyó la revista."],
+    "3": ["¡Ella escuchó mi canción!"],
+    "4": ["Mi tía distribuyó el dinero."],
+    "5": ["Ella creyó una mentira."],
+    "6": ["La ceremonia concluyó a tiempo."],
+    "7": ["Mis amigos construyeron una casa."],
+    "8": ["¿Leyó ella el libro?"],
+    "9": ["El caballo huyó."]
+  },
+  "4-10": {
+    "1": ["leyó"],
+    "2": ["incluyó"],
+    "3": ["intuyó"],
+    "4": ["distribuyeron"],
+    "5": ["contribuyó"],
+    "6": ["concluyeron"]
+  },
+  "4-11": {
+    "1": ["invitó"],
+    "2": ["se vistió... salió"],
+    "3": ["llegó... sonrieron"],
+    "4": ["pidieron"],
+    "5": ["sirvió"],
+    "6": ["siguieron"],
+    "7": ["se divirtió"],
+    "8": ["pidió"],
+    "9": ["prefirió"],
+    "10": ["consiguió"]
+  },
+  "4-12": {
+    "1": ["En el gimnasio, Marisa consiguió terminar sus ejercicios temprano."],
+    "2": ["Se vistió y llegó al cine a las seis de la tarde."],
+    "3": ["Compró su entrada y pidió un refresco."],
+    "4": ["Una chica joven le sirvió la bebida y sonrió."],
+    "5": ["En el teatro, Marisa se sentó y miró los comerciales."],
+    "6": ["¡Cuántos comerciales! ¡Pagó para ver una película, no anuncios comerciales aburridos!"],
+    "7": ["Marisa durmió por una hora."],
+    "8": ["Se despertó veinte minutos antes del final de la película."]
+  },
+  "4-13": {
+    "1": ["Alberto no pudo."],
+    "2": ["Anoche Rita puso las llaves sobre la mesa."],
+    "3": ["La maleta no cupo en el maletero."],
+    "4": ["Ayer hubo una reunión."],
+    "5": ["Estuvieron aquí."],
+    "6": ["Puse el tenedor en la gaveta."],
+    "7": ["Tuvimos que ir a la tienda."],
+    "8": ["¿Estuvieron Uds. en la fiesta?"],
+    "9": ["Mis amigos tuvieron un accidente."]
+  },
+  "4-14": {
+    "1": ["No dije una mentira."],
+    "2": ["Trajo un pastel."],
+    "3": ["Tradujeron los ejercicios."],
+    "4": ["Hicimos el trabajo."],
+    "5": ["Tú viniste tarde."],
+    "6": ["Tim hizo la tarea."],
+    "7": ["¿Vinieron ellos?"]
+  },
+  "4-15": {
+    "1": ["hizo"],
+    "2": ["trajo"],
+    "3": ["dio"],
+    "4": ["fuimos"],
+    "5": ["puse"],
+    "6": ["vino"],
+    "7": ["produjeron"],
+    "8": ["propusimos"],
+    "9": ["pude"],
+    "10": ["supuso"]
+  },
+  "4-16": {
+    "1": ["Hace dos días que Marcos trajo las flores."],
+    "2": ["El intérprete tradujo los ejercicios en este libro."],
+    "3": ["Ayer, le di mi llave a tu hermana."],
+    "4": ["Fuimos al parque el domingo."],
+    "5": ["Ricardo fue el presidente de la compañía por tres años."],
+    "6": ["Los dos hermanos estuvieron aquí anoche."],
+    "7": ["Elisa y yo no pudimos llegar a la reunión a las seis."],
+    "8": ["¿Puso Ud. el dinero sobre la mesa?"],
+    "9": ["Tú no estuviste en clase anoche."],
+    "10": ["¡No tuve un accidente la semana pasada!"],
+    "11": ["Conocimos a Ambrosio hace un mes."]
+  },
+  "4-17": {
+    "1": ["F"],
+    "2": ["V"],
+    "3": ["V"],
+    "4": ["V"],
+    "5": ["V"],
+    "6": ["F"],
+    "7": ["V"],
+    "8": ["F"]
+  },
+  "4-18": {
+    "1": ["Las librerías no son solamente lugares para comprar libros. Las librerías son lugares cómodos para pasar tiempo fuera de casa. Puedes leer una revista, escuchar tu música favorita en un CD o comer algo. La semana pasada, me detuve en mi librería favorita. \"¿Por qué no?\", pensé y entré. Vi un anuncio grande con el título La mancha negra, una nueva novela de misterio. Con la novela me senté en una silla muy cómoda cerca del café. Leí unas páginas y decidí tomar una taza de café descafeinado. Regresé a mi silla y bebí mi café despacio. Cuando decidí irme, noté una mancha de café en mi corbata nueva. Me levanté, fui a la caja, pagué la novela con la tarjeta de crédito y salí. Desgraciadamente, el descuento que recibí con mi tarjeta de lector no pagó la cuenta de la tintorería."]
+  },
+  "5-1": {
+    "1": ["caminaba"],
+    "2": ["nadaba... dormía"],
+    "3": ["comía"],
+    "4": ["jugaban"],
+    "5": ["corría"],
+    "6": ["volvía"],
+    "7": ["se bañaba... se vestía"],
+    "8": ["salíamos"]
+  },
+  "5-2": {
+    "1": ["Jugaba"],
+    "2": ["Aprendía"],
+    "3": ["Arreglaba"],
+    "4": ["Tocaba"],
+    "5": ["Recibía"],
+    "6": ["Leía"],
+    "7": ["Vivía"],
+    "8": ["Miraba"],
+    "9": ["Tenía"],
+    "10": ["Cantaba"]
+  },
+  "5-3": {
+    "1": ["era"],
+    "2": ["era"],
+    "3": ["eran"],
+    "4": ["iba"],
+    "5": ["veíamos"],
+    "6": ["eran"],
+    "7": ["iban"],
+    "8": ["ibas... eras"]
+  },
+  "5-4": {
+    "1": ["salía"],
+    "2": ["montaban"],
+    "3": ["bailábamos"],
+    "4": ["tenían"],
+    "5": ["sabían"],
+    "6": ["conocíamos"],
+    "7": ["tocaban"],
+    "8": ["podía"],
+    "9": ["quería"]
+  },
+  "5-5": {
+    "1": ["Ana compraba chocolates."],
+    "2": ["(Yo) escribía postales."],
+    "3": ["(Ella) nadaba."],
+    "4": ["Ud. llamaba a menudo."],
+    "5": ["Ustedes y yo trabajábamos."],
+    "6": ["Ellos iban a la biblioteca."],
+    "7": ["Tú ayudabas siempre."],
+    "8": ["Louise y tú ahorraban dinero."]
+  },
+  "5-6": {
+    "1": ["Todos los días (ella) descansaba después de almorzar."],
+    "2": ["Casi siempre ponían azúcar en el café."],
+    "3": ["A veces, usted se levantaba temprano."],
+    "4": ["De vez en cuando Sheila se quedaba en casa."],
+    "5": ["Generalmente el tren llegaba tarde por la mañana."],
+    "6": ["Muchas veces perdía el autobús."],
+    "7": ["Mi madre casi nunca dormía."]
+  },
+  "5-7": {
+    "1": ["Cuando tenía veinte años, yo vivía con unos amigos en Nueva York."],
+    "2": ["Nos conocíamos desde que estábamos en kindergarten."],
+    "3": ["Todas las mañanas iba a mi clase de inglés."],
+    "4": ["Usualmente, mi clase terminaba al mediodía."],
+    "5": ["El tiempo era maravilloso en la primavera."],
+    "6": ["Me gustaba Nueva York."],
+    "7": ["Mis amigos y yo vivíamos cerca del barrio chino."],
+    "8": ["Ellos trabajaban para una compañía chilena."],
+    "9": ["A menudo, yo ayudaba con los quehaceres de la casa."]
+  },
+  "5-8": {
+    "1": ["blank"],
+    "2": ["blank"],
+    "3": ["todas las mañanas"],
+    "4": ["usualmente"],
+    "5": ["blank"],
+    "6": ["blank"],
+    "7": ["blank"],
+    "8": ["blank"],
+    "9": ["a menudo"]
+  },
+  "5-9": {
+    "1": ["pensaba"],
+    "2": ["decía"],
+    "3": ["sentían"],
+    "4": ["comprabas"],
+    "5": ["estaba"],
+    "6": ["salías"]
+  },
+  "5-10": {
+    "1": ["dormía"],
+    "2": ["Había"],
+    "3": ["quería"],
+    "4": ["era"],
+    "5": ["tenían"],
+    "6": ["prefería"],
+    "7": ["ayudaban"]
+  },
+  "5-11": {
+    "1": ["Dormía"],
+    "2": ["Se bañaba"],
+    "3": ["Leía"],
+    "4": ["eran"],
+    "5": ["Entraba"],
+    "6": ["Miraba"],
+    "7": ["hablaba"],
+    "8": ["Regresaba"]
+  },
+  "5-13": {
+    "1": ["Frank era un hombre metódico. Cada primavera, Frank viajaba a España en un vuelo directo a Madrid. En el aeropuerto de Chicago, presentaba su pasaporte, facturaba su maleta y descansaba en la puerta de embarque. Subía a la cabina del avión y le pedía una almohada al/a la asistente de viaje. En el bolsillo llevaba la lista de regalos para su familia y pensaba en los días de compras en los almacenes españoles. Se dormía y cuando llegaba al aeropuerto de Madrid, iba a la terminal de equipaje, recogía su maleta y pasaba por la aduana. Después, iba a su hotel. Pero el año pasado fue diferente. El avión hizo una escala en Nueva York y Frank decidió visitar la ciudad. Frank perdió el vuelo a Madrid y determinó iniciar una nueva tradición: pasar sus vacaciones en los Estados Unidos."]
+  },
+  "6-1": {
+    "1": ["sabían"],
+    "2": ["era"],
+    "3": ["dio"],
+    "4": ["observaste"],
+    "5": ["llegó... se sentó... se fue"],
+    "6": ["veían"]
+  },
+  "6-2": {
+    "1": ["El domingo era mi día favorito. Me levantaba tarde y leía el periódico en la cama."],
+    "2": ["Ese domingo fue diferente."],
+    "3": ["Me levanté temprano, me vestí rápidamente y salí a montar mi bicicleta por el barrio."],
+    "4": ["Era una mañana bonita. Hacía frío también."],
+    "5": ["Mientras yo montaba la bicicleta, había mucha gente activa en el parque."],
+    "6": ["Dos mujeres jóvenes hacían jogging mientras un perro las seguía."],
+    "7": ["Un señor mayor hacía ejercicio en el parque y dos niños jugaban."],
+    "8": ["De repente, tanta actividad me hizo sentir cansado/a."],
+    "9": ["Entonces, volví a casa, guardé la bicicleta y preparé una taza de chocolate caliente."]
+  },
+  "6-3": {
+    "2": ["a specific, particular Sunday"],
+    "3": ["a series of specific actions that took place in the past"],
+    "8": ["observe the nature of the verb, hacerse, and the expression of time, de repente"],
+    "9": ["sequence of actions completed in the past"]
+  },
+  "6-4": {
+    "1": ["¿Cuánto tiempo hacía que vivías en México?"],
+    "2": ["Mientras yo cantaba, Juan entró a la habitación."],
+    "3": ["Hacía tres semanas que mi jefe estaba de vacaciones."],
+    "4": ["Ella cantaba y de repente alguien abrió la puerta."]
+  },
+  "6-5": {
+    "1": ["leía novelas de ciencia-ficción a menudo."],
+    "2": ["salía con mis amigos todos los fines de semana."],
+    "3": ["ponía la mesa para la cena todas las noches."],
+    "4": ["no me preocupaba mucho nunca."],
+    "5": ["era muy impaciente siempre."]
+  },
+  "6-6": {
+    "1": ["El lunes"],
+    "2": ["El fin de semana pasado"],
+    "3": ["Anoche"],
+    "4": ["Hace dos meses"],
+    "5": ["Ayer"],
+    "6": ["Esta mañana"]
+  },
+  "6-7": {
+    "1": ["salió"],
+    "2": ["Hacía"],
+    "3": ["Vimos"],
+    "4": ["ganaron"],
+    "5": ["creían", "creyeron"],
+    "6": ["eran"],
+    "7": ["tocaba"]
+  },
+  "6-8": {
+    "1": ["a las ocho en punto, specific time"],
+    "2": ["background description"],
+    "3": ["el mes pasado, specific time"],
+    "4": ["ese día, specific time"],
+    "5": ["creían expresses a mental or emotional action"],
+    "6": ["ser describes people's inherent qualities, an action of indefinite duration"],
+    "7": ["two simultaneous actions in the past"]
+  },
+  "6-9": {
+    "1": ["Ana tenía veintiocho años cuando se casó con Marco. Ana se hizo enfermera un mes antes de la boda. La ceremonia fue magnífica. La familia de Marco viajó desde California para la celebración. Eran las ocho de la noche cuando empezó la recepción en el hotel. Mientras los invitados llegaban, los camareros sirvieron bebidas. Eran las ocho y media cuando Ana y su esposo llegaron a la fiesta. En ese momento la orquesta empezó a tocar una melodía bonita y la mamá de Ana se puso a llorar. La mamá de Ana vivía en Alemania y no veía a Ana a menudo. Todas las madres lloran en la boda de sus hijas. A pesar de las lágrimas, los invitados disfrutaron la noche. Eran las doce y media cuando los recién casados decidieron salir de luna de miel. ¿Y sabes adónde fueron? ¡A Alemania!"]
+  },
+  "6-11": {
+    "1": ["se hizo (médico)"],
+    "2": ["se volvió... (loco)"],
+    "3": ["me puse... (furioso/a)"],
+    "4": ["se pusieron... (nerviosos)"],
+    "5": ["me volví... (loco/a)"],
+    "6": ["me hice... (rico/a, millonarion[a])"]
+  },
+  "7-1": {
+    "1": ["bajaré"],
+    "2": ["viajarán"],
+    "3": ["cocinaremos"],
+    "4": ["pedirán"],
+    "5": ["leeremos"],
+    "6": ["decidirán"],
+    "7": ["recibirán"],
+    "8": ["bailarán"],
+    "9": ["cooperarán"],
+    "10": ["venderás"],
+    "11": ["temerá"],
+    "12": ["elegirán"]
+  },
+  "7-2": {
+    "1": ["estará"],
+    "2": ["llevará"],
+    "3": ["recogeré"],
+    "4": ["iremos"],
+    "5": ["pasarán"],
+    "6": ["se mudarán"]
+  },
+  "7-3": {
+    "1": ["Prepararás la cena."],
+    "2": ["Los niños no subirán a los árboles."],
+    "3": ["El/La vendedor(a) sumará la cuenta."],
+    "4": ["La mamá de Carly no hablará a su vecino/a."],
+    "5": ["Mis amigos comerán en \"La Valentina\"."],
+    "6": ["Mi hermana y yo esperaremos."]
+  },
+  "7-4": {
+    "1": ["saldremos"],
+    "2": ["habrá"],
+    "3": ["encontrarás"],
+    "4": ["querrás"],
+    "5": ["podrá", "tendremos"],
+    "6": ["vendrán"]
+  },
+  "7-5": {
+    "1": ["Iré contigo."],
+    "2": ["¿Irás tú también?"],
+    "3": ["Ella sonreirá."],
+    "4": ["¿Quién ayudará?"],
+    "5": ["¿Harán la tarea?"],
+    "6": ["No cabremos."]
+  },
+  "7-7": {
+    "1": ["será"],
+    "2": ["irá"],
+    "3": ["habrá"],
+    "4": ["llegará"],
+    "5": ["vendrán"]
+  },
+  "7-9": {
+    "1": ["Mañana lloverá en California."],
+    "2": ["En Texas la temperatura subirá a noventa y dos grados."],
+    "3": ["Una lluvia fuerte caerá en el sur de la Florida."],
+    "4": ["El sol brillará todo el día en Colorado."],
+    "5": ["Los cielos estarán nublados en el noroeste."]
+  },
+  "7-10": {
+    "1": ["exigiré"],
+    "2": ["vendrá"],
+    "3": ["trabajaré"],
+    "4": ["pagaré"],
+    "5": ["tendremos"],
+    "6": ["se levantarán"],
+    "7": ["llevaré"]
+  },
+  "7-11": {
+    "1": ["Mi vecina Lidia será muy buena pero es un poco rara. Todas las mañanas, Lidia lee el periódico. Hoy Lidia abrirá la puerta de su casa, recogerá el periódico y leerá su sección favorita: \"Espectáculos\". Ella leerá un título como \"Mesa para dos\" y querrá contarme la película. Y vendrá con su taza de café a mi cocina y contará el último capítulo de su telenovela favorita: \"La fiera domada\". Traerá una lista de las posibles escenas finales: ¿Se casará La fiera (¡ese es el nombre del personaje principal!) con Leonardo? ¿Comprará Leonardo un anillo de diamantes? ¿Tendrán una boda sensacional? ¿Vivirán en un lugar exótico? ¿O habrá un final totalmente inesperado y sorprendente? Ahí viene Lidia. Me pondré mis tapones para los oídos y mientras habla, sonreiré feliz."]
+  },
+  "7-12": {
+    "1": ["subiría"],
+    "2": ["compraría"],
+    "3": ["plancharían"],
+    "4": ["investigaría"],
+    "5": ["leerían"],
+    "6": ["comeríais"]
+  },
+  "7-13": {
+    "1": ["llamarían"],
+    "2": ["esperaría"],
+    "3": ["ofreceríamos"],
+    "4": ["llevarían"],
+    "5": ["tomarían"],
+    "6": ["volvería"]
+  },
+  "7-14": {
+    "1": ["¿Comerían Uds. las tortillas?"],
+    "2": ["Los niños no jugarían con este juguete."],
+    "3": ["¿Quién traería la cerveza?"],
+    "4": ["Pedro no reiría."],
+    "5": ["Yo no leería esta novela."],
+    "6": ["El cartero traería las revistas."]
+  }
+}

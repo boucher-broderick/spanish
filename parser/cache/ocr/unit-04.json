@@ -1,0 +1,318 @@
+{
+  "unit": 4,
+  "pages": [
+    {
+      "pdfPage": 48,
+      "exercises": [
+        {
+          "id": "4-1",
+          "type": "fill",
+          "instruction": "¿Y ayer, qué hicieron? Escribe la forma apropiada del pretérito del verbo entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.33 },
+            { "item": 2, "cy": 0.364 },
+            { "item": 3, "cy": 0.397 },
+            { "item": 4, "cy": 0.43 },
+            { "item": 5, "cy": 0.464 },
+            { "item": 6, "cy": 0.497 },
+            { "item": 7, "cy": 0.53 },
+            { "item": 8, "cy": 0.563 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 49,
+      "exercises": [
+        {
+          "id": "4-2",
+          "type": "translate",
+          "instruction": "En español. Usa la lista de expresiones para escribir en español las oraciones siguientes.",
+          "blanks": [
+            { "item": 1, "cy": 0.461 },
+            { "item": 2, "cy": 0.494 },
+            { "item": 3, "cy": 0.528 },
+            { "item": 4, "cy": 0.56 },
+            { "item": 5, "cy": 0.594 },
+            { "item": 6, "cy": 0.627 }
+          ]
+        },
+        {
+          "id": "4-3",
+          "type": "truefalse",
+          "instruction": "Y en tu caso… ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.765 },
+            { "item": 2, "cy": 0.798 },
+            { "item": 3, "cy": 0.831 },
+            { "item": 4, "cy": 0.865 },
+            { "item": 5, "cy": 0.898 },
+            { "item": 6, "cy": 0.931 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 50,
+      "exercises": [
+        {
+          "id": "4-4",
+          "type": "matching",
+          "instruction": "Momentos importantes de la vida de Paco. Indica el orden de esos momentos con los números 1 a 5.",
+          "blanks": [
+            { "item": 1, "cy": 0.634 },
+            { "item": 2, "cy": 0.667 },
+            { "item": 3, "cy": 0.7 },
+            { "item": 4, "cy": 0.733 },
+            { "item": 5, "cy": 0.766 }
+          ]
+        },
+        {
+          "id": "4-5",
+          "type": "translate",
+          "instruction": "Carlos y su amigo pasaron el fin de semana juntos. En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.93 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 51,
+      "exercises": [
+        {
+          "id": "4-5",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 2, "cy": 0.083 },
+            { "item": 3, "cy": 0.116 },
+            { "item": 4, "cy": 0.149 },
+            { "item": 5, "cy": 0.182 }
+          ]
+        },
+        {
+          "id": "4-6",
+          "type": "personal",
+          "instruction": "¿Qué hiciste ayer? Escribe en español.",
+          "blanks": [
+            { "item": 1, "cy": 0.313 },
+            { "item": 2, "cy": 0.346 },
+            { "item": 3, "cy": 0.379 },
+            { "item": 4, "cy": 0.412 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 52,
+      "exercises": [
+        {
+          "id": "4-8",
+          "type": "fill",
+          "instruction": "¿Qué hiciste tú? Busca el verbo que tiene sentido. Después, escribe la primera persona del pretérito.",
+          "blanks": [
+            { "item": 1, "cy": 0.614 },
+            { "item": 2, "cy": 0.648 },
+            { "item": 3, "cy": 0.681 },
+            { "item": 4, "cy": 0.714 },
+            { "item": 5, "cy": 0.747 },
+            { "item": 6, "cy": 0.781 },
+            { "item": 7, "cy": 0.814 },
+            { "item": 8, "cy": 0.847 },
+            { "item": 9, "cy": 0.88 },
+            { "item": 10, "cy": 0.914 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 53,
+      "exercises": [
+        {
+          "id": "4-9",
+          "type": "translate",
+          "instruction": "Práctica. Escribe la forma que corresponde en el pretérito.",
+          "blanks": [
+            { "item": 1, "cy": 0.649 },
+            { "item": 2, "cy": 0.682 },
+            { "item": 3, "cy": 0.716 },
+            { "item": 4, "cy": 0.749 },
+            { "item": 5, "cy": 0.782 },
+            { "item": 6, "cy": 0.815 },
+            { "item": 7, "cy": 0.848 },
+            { "item": 8, "cy": 0.882 },
+            { "item": 9, "cy": 0.915 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 54,
+      "exercises": [
+        {
+          "id": "4-10",
+          "type": "fill",
+          "instruction": "Un misterio. Escribe en el pasado. Change the verb in italics to the preterit tense.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 55,
+      "exercises": [
+        {
+          "id": "4-11",
+          "type": "fill",
+          "instruction": "Una reunión en el restaurante. Escribe la forma apropiada del pretérito.",
+          "blanks": [
+            { "item": 1, "cy": 0.364 },
+            { "item": 2, "cy": 0.414 },
+            { "item": 3, "cy": 0.447 },
+            { "item": 4, "cy": 0.48 },
+            { "item": 5, "cy": 0.514 },
+            { "item": 6, "cy": 0.547 },
+            { "item": 7, "cy": 0.58 },
+            { "item": 8, "cy": 0.613 },
+            { "item": 9, "cy": 0.646 },
+            { "item": 10, "cy": 0.681 }
+          ]
+        },
+        {
+          "id": "4-12",
+          "type": "translate",
+          "instruction": "¿Qué pasó? En español. Usa el pretérito.",
+          "blanks": [
+            { "item": 1, "cy": 0.777 },
+            { "item": 2, "cy": 0.81 },
+            { "item": 3, "cy": 0.843 },
+            { "item": 4, "cy": 0.877 },
+            { "item": 5, "cy": 0.91 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 56,
+      "exercises": [
+        {
+          "id": "4-12",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 6, "cy": 0.083 },
+            { "item": 7, "cy": 0.116 },
+            { "item": 8, "cy": 0.149 }
+          ]
+        },
+        {
+          "id": "4-13",
+          "type": "translate",
+          "instruction": "Práctica. Usa el pretérito.",
+          "blanks": [
+            { "item": 1, "cy": 0.658 },
+            { "item": 2, "cy": 0.691 },
+            { "item": 3, "cy": 0.724 },
+            { "item": 4, "cy": 0.758 },
+            { "item": 5, "cy": 0.79 },
+            { "item": 6, "cy": 0.824 },
+            { "item": 7, "cy": 0.857 },
+            { "item": 8, "cy": 0.891 },
+            { "item": 9, "cy": 0.923 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 57,
+      "exercises": [
+        {
+          "id": "4-14",
+          "type": "translate",
+          "instruction": "Más práctica. Usa el pretérito.",
+          "blanks": [
+            { "item": 1, "cy": 0.474 },
+            { "item": 2, "cy": 0.507 },
+            { "item": 3, "cy": 0.54 },
+            { "item": 4, "cy": 0.573 },
+            { "item": 5, "cy": 0.606 },
+            { "item": 6, "cy": 0.64 },
+            { "item": 7, "cy": 0.673 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 58,
+      "exercises": [
+        {
+          "id": "4-15",
+          "type": "fill",
+          "instruction": "La semana pasada en la agencia. Escribe la forma del pretérito que corresponde.",
+          "blanks": [
+            { "item": 1, "cy": 0.606 },
+            { "item": 2, "cy": 0.64 },
+            { "item": 3, "cy": 0.673 },
+            { "item": 4, "cy": 0.706 },
+            { "item": 5, "cy": 0.739 },
+            { "item": 6, "cy": 0.773 },
+            { "item": 7, "cy": 0.806 },
+            { "item": 8, "cy": 0.839 },
+            { "item": 9, "cy": 0.872 },
+            { "item": 10, "cy": 0.906 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 59,
+      "exercises": [
+        {
+          "id": "4-16",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.58 },
+            { "item": 2, "cy": 0.613 },
+            { "item": 3, "cy": 0.646 },
+            { "item": 4, "cy": 0.68 },
+            { "item": 5, "cy": 0.713 },
+            { "item": 6, "cy": 0.746 },
+            { "item": 7, "cy": 0.779 },
+            { "item": 8, "cy": 0.813 },
+            { "item": 9, "cy": 0.846 },
+            { "item": 10, "cy": 0.879 },
+            { "item": 11, "cy": 0.912 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 60,
+      "exercises": [
+        {
+          "id": "4-17",
+          "type": "truefalse",
+          "instruction": "¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "unit": 24,
+  "pages": [
+    {
+      "pdfPage": 306,
+      "exercises": [
+        {
+          "id": "24-1",
+          "type": "fill",
+          "instruction": "Práctica. Usa algún, alguno, alguna, algunos, algunas de acuerdo al contexto de la oración.",
+          "blanks": [
+            { "item": 1, "cy": 0.438 },
+            { "item": 2, "cy": 0.471 },
+            { "item": 3, "cy": 0.504 },
+            { "item": 4, "cy": 0.537 },
+            { "item": 5, "cy": 0.571 },
+            { "item": 6, "cy": 0.604 },
+            { "item": 7, "cy": 0.637 },
+            { "item": 8, "cy": 0.67 }
+          ]
+        },
+        {
+          "id": "24-2",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.798 },
+            { "item": 2, "cy": 0.831 },
+            { "item": 3, "cy": 0.865 },
+            { "item": 4, "cy": 0.898 },
+            { "item": 5, "cy": 0.931 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 307,
+      "exercises": [
+        {
+          "id": "24-2",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 6, "cy": 0.083 },
+            { "item": 7, "cy": 0.116 },
+            { "item": 8, "cy": 0.149 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 308,
+      "exercises": [
+        {
+          "id": "24-3",
+          "type": "translate",
+          "instruction": "Lo opuesto. Escribe las frases en forma negativa. In some of your answers, you may need more than one negative word.",
+          "blanks": [
+            { "item": 1, "cy": 0.218 },
+            { "item": 2, "cy": 0.251 },
+            { "item": 3, "cy": 0.284 },
+            { "item": 4, "cy": 0.318 },
+            { "item": 5, "cy": 0.351 },
+            { "item": 6, "cy": 0.384 },
+            { "item": 7, "cy": 0.417 },
+            { "item": 8, "cy": 0.451 },
+            { "item": 9, "cy": 0.484 },
+            { "item": 10, "cy": 0.517 }
+          ]
+        },
+        {
+          "id": "24-4",
+          "type": "translate",
+          "instruction": "Contesta las preguntas en forma negativa. You may need more than one negative word in your answers.",
+          "blanks": [
+            { "item": 1, "cy": 0.648 },
+            { "item": 2, "cy": 0.681 },
+            { "item": 3, "cy": 0.714 },
+            { "item": 4, "cy": 0.747 },
+            { "item": 5, "cy": 0.781 },
+            { "item": 6, "cy": 0.814 },
+            { "item": 7, "cy": 0.847 },
+            { "item": 8, "cy": 0.88 },
+            { "item": 9, "cy": 0.914 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 309,
+      "exercises": [
+        {
+          "id": "24-4",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 10, "cy": 0.083 },
+            { "item": 11, "cy": 0.116 }
+          ]
+        },
+        {
+          "id": "24-5",
+          "type": "personal",
+          "instruction": "Preguntas personales.",
+          "blanks": [
+            { "item": 1, "cy": 0.246 },
+            { "item": 2, "cy": 0.279 },
+            { "item": 3, "cy": 0.313 },
+            { "item": 4, "cy": 0.346 },
+            { "item": 5, "cy": 0.379 },
+            { "item": 6, "cy": 0.412 },
+            { "item": 7, "cy": 0.445 },
+            { "item": 8, "cy": 0.479 },
+            { "item": 9, "cy": 0.512 },
+            { "item": 10, "cy": 0.545 }
+          ]
+        },
+        {
+          "id": "24-6",
+          "type": "translate",
+          "instruction": "En español. Remember, it may be necessary to use more than one negative word in Spanish. Use algo, nada, nunca, etc.",
+          "blanks": [
+            { "item": 1, "cy": 0.693 },
+            { "item": 2, "cy": 0.725 },
+            { "item": 3, "cy": 0.759 },
+            { "item": 4, "cy": 0.792 },
+            { "item": 5, "cy": 0.825 },
+            { "item": 6, "cy": 0.859 },
+            { "item": 7, "cy": 0.892 },
+            { "item": 8, "cy": 0.925 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 310,
+      "exercises": [
+        {
+          "id": "24-7",
+          "type": "matching",
+          "instruction": "Un poco de sentido común. Escribe la letra de la mejor respuesta y completa la frase.",
+          "blanks": [
+            { "item": 1, "cy": 0.407 },
+            { "item": 2, "cy": 0.44 },
+            { "item": 3, "cy": 0.474 },
+            { "item": 4, "cy": 0.507 },
+            { "item": 5, "cy": 0.54 },
+            { "item": 6, "cy": 0.573 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 311,
+      "exercises": [
+        {
+          "id": "24-8",
+          "type": "fill",
+          "instruction": "Las cosas claras. Completa las oraciones con una corrección. Escribe la corrección con la palabra entre paréntesis y la conjunción sino.",
+          "blanks": [
+            { "item": 1, "cy": 0.693 },
+            { "item": 2, "cy": 0.725 },
+            { "item": 3, "cy": 0.759 },
+            { "item": 4, "cy": 0.792 },
+            { "item": 5, "cy": 0.825 },
+            { "item": 6, "cy": 0.859 },
+            { "item": 7, "cy": 0.892 },
+            { "item": 8, "cy": 0.925 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 312,
+      "exercises": [
+        {
+          "id": "24-8",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 9, "cy": 0.083 }
+          ]
+        },
+        {
+          "id": "24-9",
+          "type": "fill",
+          "instruction": "¿Pero, sino o sino que? Decide si debes usar pero, sino o sino que. Escribe la palabra apropiada en cada oración.",
+          "blanks": [
+            { "item": 1, "cy": 0.229 },
+            { "item": 2, "cy": 0.263 },
+            { "item": 3, "cy": 0.296 },
+            { "item": 4, "cy": 0.33 },
+            { "item": 5, "cy": 0.362 },
+            { "item": 6, "cy": 0.396 },
+            { "item": 7, "cy": 0.429 },
+            { "item": 8, "cy": 0.463 },
+            { "item": 9, "cy": 0.496 },
+            { "item": 10, "cy": 0.529 }
+          ]
+        },
+        {
+          "id": "24-10",
+          "type": "free",
+          "instruction": "La adicción a la televisión. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.773 }
+          ]
+        }
+      ]
+    }
+  ]
+}

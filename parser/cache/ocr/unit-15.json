@@ -1,0 +1,268 @@
+{
+  "unit": 15,
+  "pages": [
+    {
+      "pdfPage": 176,
+      "exercises": [
+        {
+          "id": "15-1",
+          "type": "fill",
+          "instruction": "La conjugación. Observa las formas del pretérito de indicativo. Escribe el imperfecto de subjuntivo de los verbos. Usa la forma que termina en -ra.",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.284 },
+            { "item": 5, "cy": 0.318 },
+            { "item": 6, "cy": 0.185 },
+            { "item": 7, "cy": 0.218 },
+            { "item": 8, "cy": 0.251 },
+            { "item": 9, "cy": 0.284 },
+            { "item": 10, "cy": 0.318 }
+          ]
+        },
+        {
+          "id": "15-2",
+          "type": "fill",
+          "instruction": "Práctica. Escribe las dos formas del imperfecto de subjuntivo: la forma en -ra y la forma en -se.",
+          "blanks": [
+            { "item": 1, "cy": 0.448 },
+            { "item": 2, "cy": 0.481 },
+            { "item": 3, "cy": 0.515 },
+            { "item": 4, "cy": 0.564 },
+            { "item": 5, "cy": 0.598 },
+            { "item": 6, "cy": 0.631 },
+            { "item": 7, "cy": 0.664 },
+            { "item": 8, "cy": 0.697 }
+          ]
+        },
+        {
+          "id": "15-3",
+          "type": "translate",
+          "instruction": "En el cine. En español. Usa la forma -ra del imperfecto de subjuntivo.",
+          "blanks": [
+            { "item": 1, "cy": 0.828 },
+            { "item": 2, "cy": 0.861 },
+            { "item": 3, "cy": 0.894 },
+            { "item": 4, "cy": 0.928 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 177,
+      "exercises": [
+        {
+          "id": "15-3",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 5, "cy": 0.083 },
+            { "item": 6, "cy": 0.115 }
+          ]
+        },
+        {
+          "id": "15-4",
+          "type": "fill",
+          "instruction": "La cena. Te toca a ti. Use one of the verbs suggested to complete the sentences in the imperfect subjunctive. Add your own words to each sentence to complete the meaning.",
+          "blanks": [
+            { "item": 1, "cy": 0.775 },
+            { "item": 2, "cy": 0.808 },
+            { "item": 3, "cy": 0.839 },
+            { "item": 4, "cy": 0.871 },
+            { "item": 5, "cy": 0.903 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 178,
+      "exercises": [
+        {
+          "id": "15-5",
+          "type": "matching",
+          "instruction": "Un poco de lógica. Laura preparó su boda. Escoge la letra que complete la oración de la manera más lógica.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 },
+            { "item": 9, "cy": 0.434 },
+            { "item": 10, "cy": 0.467 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 179,
+      "exercises": [
+        {
+          "id": "15-7",
+          "type": "translate",
+          "instruction": "¡Qué amable! En español. Usa el imperfecto de subjuntivo de los verbos deber, gustar y poder para traducir las formas en el condicional.",
+          "blanks": [
+            { "item": 1, "cy": 0.769 },
+            { "item": 2, "cy": 0.801 },
+            { "item": 3, "cy": 0.834 },
+            { "item": 4, "cy": 0.866 },
+            { "item": 5, "cy": 0.899 },
+            { "item": 6, "cy": 0.931 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 180,
+      "exercises": [
+        {
+          "id": "15-8",
+          "type": "matching",
+          "instruction": "Reacciones. Escribe la letra de la frase que conecta y completa la frase de una manera lógica.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 181,
+      "exercises": [
+        {
+          "id": "15-9",
+          "type": "fill",
+          "instruction": "Conjugación. Cambia la forma del presente del verbo al pluscuamperfecto de subjuntivo. Usa las dos formas que terminan en -ra y en -se.",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.284 },
+            { "item": 5, "cy": 0.318 }
+          ]
+        },
+        {
+          "id": "15-10",
+          "type": "fill",
+          "instruction": "Un caso difícil. Escribe la forma apropiada del pluscuamperfecto de subjuntivo de los verbos entre paréntesis. Usa la forma que termina en -ra.",
+          "blanks": [
+            { "item": 1, "cy": 0.464 },
+            { "item": 2, "cy": 0.497 },
+            { "item": 3, "cy": 0.53 },
+            { "item": 4, "cy": 0.563 },
+            { "item": 5, "cy": 0.597 },
+            { "item": 6, "cy": 0.629 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 182,
+      "exercises": [
+        {
+          "id": "15-11",
+          "type": "translate",
+          "instruction": "Una campaña publicitaria. Termina la frase en español. Write the italicized portion of the sentence in Spanish. Use the pluperfect subjunctive -ra form.",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.284 },
+            { "item": 5, "cy": 0.334 }
+          ]
+        },
+        {
+          "id": "15-12",
+          "type": "translate",
+          "instruction": "Los turistas. En español. Escribe las oraciones en el pasado. Use the imperfect indicative in the main clause, and the pluperfect subjunctive -ra form in the dependent clause.",
+          "blanks": [
+            { "item": 1, "cy": 0.564 },
+            { "item": 2, "cy": 0.598 },
+            { "item": 3, "cy": 0.664 },
+            { "item": 4, "cy": 0.697 },
+            { "item": 5, "cy": 0.731 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 183,
+      "exercises": [
+        {
+          "id": "15-13",
+          "type": "truefalse",
+          "instruction": "Y en tu caso… ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.373 },
+            { "item": 2, "cy": 0.406 },
+            { "item": 3, "cy": 0.439 },
+            { "item": 4, "cy": 0.472 },
+            { "item": 5, "cy": 0.506 },
+            { "item": 6, "cy": 0.539 },
+            { "item": 7, "cy": 0.572 },
+            { "item": 8, "cy": 0.605 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 185,
+      "exercises": [
+        {
+          "id": "15-14",
+          "type": "fill",
+          "instruction": "¿Qué harían? Usa el imperfecto de subjuntivo en la cláusula que empieza con si.",
+          "blanks": [
+            { "item": 1, "cy": 0.592 },
+            { "item": 2, "cy": 0.626 },
+            { "item": 3, "cy": 0.659 },
+            { "item": 4, "cy": 0.693 },
+            { "item": 5, "cy": 0.725 },
+            { "item": 6, "cy": 0.759 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 186,
+      "exercises": [
+        {
+          "id": "15-16",
+          "type": "fill",
+          "instruction": "¿Cómo serías tú si…? Usa la forma en -ra del imperfecto de subjuntivo. Choose one of the verbs suggested to complete the sentences with a personal answer.",
+          "blanks": [
+            { "item": 1, "cy": 0.388 },
+            { "item": 2, "cy": 0.422 },
+            { "item": 3, "cy": 0.455 },
+            { "item": 4, "cy": 0.488 },
+            { "item": 5, "cy": 0.521 },
+            { "item": 6, "cy": 0.555 },
+            { "item": 7, "cy": 0.588 },
+            { "item": 8, "cy": 0.621 }
+          ]
+        },
+        {
+          "id": "15-17",
+          "type": "truefalse",
+          "instruction": "¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.751 },
+            { "item": 2, "cy": 0.785 },
+            { "item": 3, "cy": 0.818 },
+            { "item": 4, "cy": 0.851 },
+            { "item": 5, "cy": 0.884 },
+            { "item": 6, "cy": 0.917 }
+          ]
+        }
+      ]
+    }
+  ]
+}

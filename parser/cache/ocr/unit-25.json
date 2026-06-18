@@ -1,0 +1,152 @@
+{
+  "unit": 25,
+  "pages": [
+    {
+      "pdfPage": 315,
+      "exercises": [
+        {
+          "id": "25-1",
+          "type": "fill",
+          "instruction": "¿Cuál es la palabra interrogativa apropiada? Escoge la palabra interrogativa para cada pregunta. Usa cada palabra solamente una vez.",
+          "blanks": [
+            { "item": 1, "cy": 0.227 },
+            { "item": 2, "cy": 0.261 },
+            { "item": 3, "cy": 0.294 },
+            { "item": 4, "cy": 0.326 },
+            { "item": 5, "cy": 0.36 },
+            { "item": 6, "cy": 0.227 },
+            { "item": 7, "cy": 0.261 },
+            { "item": 8, "cy": 0.294 },
+            { "item": 9, "cy": 0.326 },
+            { "item": 10, "cy": 0.36 }
+          ]
+        },
+        {
+          "id": "25-2",
+          "type": "personal",
+          "instruction": "Preguntas personales.",
+          "blanks": [
+            { "item": 1, "cy": 0.491 },
+            { "item": 2, "cy": 0.524 },
+            { "item": 3, "cy": 0.557 },
+            { "item": 4, "cy": 0.59 },
+            { "item": 5, "cy": 0.624 }
+          ]
+        },
+        {
+          "id": "25-3",
+          "type": "free",
+          "instruction": "Un poco de geografía y otras cosas. Contesta en español.",
+          "blanks": [
+            { "item": 1, "cy": 0.754 },
+            { "item": 2, "cy": 0.787 },
+            { "item": 3, "cy": 0.82 },
+            { "item": 4, "cy": 0.854 },
+            { "item": 5, "cy": 0.887 },
+            { "item": 6, "cy": 0.92 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 316,
+      "exercises": [
+        {
+          "id": "25-4",
+          "type": "translate",
+          "instruction": "En el banco. En español. Usa la persona Ud.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 }
+          ]
+        },
+        {
+          "id": "25-5",
+          "type": "matching",
+          "instruction": "¿Cuál es la pregunta? Escoge la letra que indica la pregunta a cada respuesta.",
+          "blanks": [
+            { "item": 1, "cy": 0.751 },
+            { "item": 2, "cy": 0.785 },
+            { "item": 3, "cy": 0.818 },
+            { "item": 4, "cy": 0.851 },
+            { "item": 5, "cy": 0.884 },
+            { "item": 6, "cy": 0.917 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 317,
+      "exercises": [
+        {
+          "id": "25-6",
+          "type": "truefalse",
+          "instruction": "Y en tu caso… ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.416 },
+            { "item": 2, "cy": 0.45 },
+            { "item": 3, "cy": 0.483 },
+            { "item": 4, "cy": 0.516 },
+            { "item": 5, "cy": 0.549 },
+            { "item": 6, "cy": 0.583 },
+            { "item": 7, "cy": 0.616 },
+            { "item": 8, "cy": 0.649 }
+          ]
+        },
+        {
+          "id": "25-7",
+          "type": "translate",
+          "instruction": "El interrogatorio. En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.779 },
+            { "item": 2, "cy": 0.813 },
+            { "item": 3, "cy": 0.846 },
+            { "item": 4, "cy": 0.879 },
+            { "item": 5, "cy": 0.912 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 319,
+      "exercises": [
+        {
+          "id": "25-9",
+          "type": "matching",
+          "instruction": "¿Cómo respondes? Usa la exclamación apropiada.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 }
+          ]
+        },
+        {
+          "id": "25-10",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.532 },
+            { "item": 2, "cy": 0.564 },
+            { "item": 3, "cy": 0.598 },
+            { "item": 4, "cy": 0.631 },
+            { "item": 5, "cy": 0.664 },
+            { "item": 6, "cy": 0.697 },
+            { "item": 7, "cy": 0.731 },
+            { "item": 8, "cy": 0.764 },
+            { "item": 9, "cy": 0.797 },
+            { "item": 10, "cy": 0.83 }
+          ]
+        }
+      ]
+    }
+  ]
+}

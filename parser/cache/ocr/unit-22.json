@@ -1,0 +1,241 @@
+{
+  "unit": 22,
+  "pages": [
+    {
+      "pdfPage": 279,
+      "exercises": [
+        {
+          "id": "22-1",
+          "type": "fill",
+          "instruction": "El adverbio apropiado. Usa un adverbio para completar cada oración.",
+          "blanks": [
+            { "item": 1, "cy": 0.698 },
+            { "item": 2, "cy": 0.732 },
+            { "item": 3, "cy": 0.765 },
+            { "item": 4, "cy": 0.798 },
+            { "item": 5, "cy": 0.831 },
+            { "item": 6, "cy": 0.865 },
+            { "item": 7, "cy": 0.898 },
+            { "item": 8, "cy": 0.931 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 280,
+      "exercises": [
+        {
+          "id": "22-2",
+          "type": "personal",
+          "instruction": "Preguntas personales.",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 },
+            { "item": 9, "cy": 0.434 },
+            { "item": 10, "cy": 0.467 }
+          ]
+        },
+        {
+          "id": "22-3",
+          "type": "translate",
+          "instruction": "Así soy yo. En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.598 },
+            { "item": 2, "cy": 0.631 },
+            { "item": 3, "cy": 0.664 },
+            { "item": 4, "cy": 0.697 },
+            { "item": 5, "cy": 0.731 },
+            { "item": 6, "cy": 0.764 },
+            { "item": 7, "cy": 0.797 },
+            { "item": 8, "cy": 0.83 },
+            { "item": 9, "cy": 0.864 },
+            { "item": 10, "cy": 0.897 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 281,
+      "exercises": [
+        {
+          "id": "22-4",
+          "type": "fill",
+          "instruction": "Práctica. Cambia los adjetivos a adverbios. Escribe la forma apropiada que termina en -mente.",
+          "blanks": [
+            { "item": 1, "cy": 0.577 },
+            { "item": 2, "cy": 0.611 },
+            { "item": 3, "cy": 0.644 },
+            { "item": 4, "cy": 0.677 },
+            { "item": 5, "cy": 0.71 },
+            { "item": 6, "cy": 0.744 },
+            { "item": 7, "cy": 0.777 },
+            { "item": 8, "cy": 0.81 },
+            { "item": 9, "cy": 0.843 },
+            { "item": 10, "cy": 0.877 },
+            { "item": 11, "cy": 0.577 },
+            { "item": 12, "cy": 0.611 },
+            { "item": 13, "cy": 0.644 },
+            { "item": 14, "cy": 0.677 },
+            { "item": 15, "cy": 0.71 },
+            { "item": 16, "cy": 0.744 },
+            { "item": 17, "cy": 0.777 },
+            { "item": 18, "cy": 0.81 },
+            { "item": 19, "cy": 0.843 },
+            { "item": 20, "cy": 0.877 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 282,
+      "exercises": [
+        {
+          "id": "22-5",
+          "type": "truefalse",
+          "instruction": "Y en tu caso… ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 },
+            { "item": 9, "cy": 0.434 },
+            { "item": 10, "cy": 0.467 }
+          ]
+        },
+        {
+          "id": "22-6",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.598 },
+            { "item": 2, "cy": 0.631 },
+            { "item": 3, "cy": 0.664 },
+            { "item": 4, "cy": 0.697 },
+            { "item": 5, "cy": 0.731 },
+            { "item": 6, "cy": 0.764 },
+            { "item": 7, "cy": 0.797 },
+            { "item": 8, "cy": 0.83 },
+            { "item": 9, "cy": 0.864 },
+            { "item": 10, "cy": 0.897 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 283,
+      "exercises": [
+        {
+          "id": "22-7",
+          "type": "fill",
+          "instruction": "La frase adverbial apropiada. Escribe en español la frase adverbial que aparece en inglés entre paréntesis. Recuerda: la expresión adverbial consiste de una preposición + adjetivo o nombre (noun).",
+          "blanks": [
+            { "item": 1, "cy": 0.685 },
+            { "item": 2, "cy": 0.718 },
+            { "item": 3, "cy": 0.751 },
+            { "item": 4, "cy": 0.785 },
+            { "item": 5, "cy": 0.818 },
+            { "item": 6, "cy": 0.851 },
+            { "item": 7, "cy": 0.884 },
+            { "item": 8, "cy": 0.917 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 284,
+      "exercises": [
+        {
+          "id": "22-8",
+          "type": "truefalse",
+          "instruction": "Y en tu caso… ¿Verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.169 },
+            { "item": 2, "cy": 0.201 },
+            { "item": 3, "cy": 0.235 },
+            { "item": 4, "cy": 0.268 },
+            { "item": 5, "cy": 0.302 },
+            { "item": 6, "cy": 0.334 },
+            { "item": 7, "cy": 0.368 },
+            { "item": 8, "cy": 0.401 }
+          ]
+        },
+        {
+          "id": "22-9",
+          "type": "fill",
+          "instruction": "Sustituye las expresiones adverbiales. Escribe un adverbio terminado en -mente para sustituir las frases adverbiales.",
+          "blanks": [
+            { "item": 1, "cy": 0.532 },
+            { "item": 2, "cy": 0.564 },
+            { "item": 3, "cy": 0.598 },
+            { "item": 4, "cy": 0.631 },
+            { "item": 5, "cy": 0.664 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 285,
+      "exercises": [
+        {
+          "id": "22-10",
+          "type": "translate",
+          "instruction": "En español. Usa una de las frases adverbiales de la lista anterior.",
+          "blanks": [
+            { "item": 1, "cy": 0.338 },
+            { "item": 2, "cy": 0.371 },
+            { "item": 3, "cy": 0.405 },
+            { "item": 4, "cy": 0.438 },
+            { "item": 5, "cy": 0.471 },
+            { "item": 6, "cy": 0.504 },
+            { "item": 7, "cy": 0.537 },
+            { "item": 8, "cy": 0.571 },
+            { "item": 9, "cy": 0.604 },
+            { "item": 10, "cy": 0.637 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 286,
+      "exercises": [
+        {
+          "id": "22-11",
+          "type": "fill",
+          "instruction": "Usa los adverbios. Escribe el adverbio en español. Note that numbers 2 and 7 require a comparative form.",
+          "blanks": [
+            { "item": 1, "cy": 0.532 },
+            { "item": 2, "cy": 0.566 },
+            { "item": 3, "cy": 0.599 },
+            { "item": 4, "cy": 0.632 },
+            { "item": 5, "cy": 0.665 },
+            { "item": 6, "cy": 0.698 },
+            { "item": 7, "cy": 0.732 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 287,
+      "exercises": [
+        {
+          "id": "22-12",
+          "type": "free",
+          "instruction": "Ya voy a publicar mi libro. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.622 }
+          ]
+        }
+      ]
+    }
+  ]
+}

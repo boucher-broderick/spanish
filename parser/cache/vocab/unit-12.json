@@ -1,0 +1,293 @@
+{
+  "unit": 12,
+  "title": "The Passive Voice and Passive Constructions",
+  "sections": [
+    {
+      "title": "The Passive Voice in Spanish",
+      "page": 125,
+      "verbs": [
+        { "es": "reparar", "en": "to repair, fix", "src": "example" },
+        { "es": "contar", "en": "to count", "src": "example" },
+        { "es": "pintar", "en": "to paint", "src": "example" },
+        { "es": "atacar", "en": "to attack", "src": "example" },
+        { "es": "dibujar", "en": "to sketch, draw", "src": "example" },
+        { "es": "filmar", "en": "to film", "src": "example" },
+        { "es": "aclamar", "en": "to acclaim", "src": "example" },
+        { "es": "arreglar", "en": "to fix, arrange", "src": "example" },
+        { "es": "anular", "en": "to cancel, annul", "src": "example" },
+        { "es": "preparar", "en": "to prepare", "src": "example" },
+        { "es": "vender", "en": "to sell", "src": "example" },
+        { "es": "despedir", "en": "to fire (from a job)", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el mecánico", "en": "mechanic", "gender": "m", "src": "example" },
+        { "es": "el auto", "en": "car", "gender": "m", "src": "example" },
+        { "es": "el voto", "en": "vote", "gender": "m", "src": "example" },
+        { "es": "el cuadro", "en": "painting", "gender": "m", "src": "example" },
+        { "es": "el elefante", "en": "elephant", "gender": "m", "src": "example" },
+        { "es": "el león", "en": "lion", "gender": "m", "src": "example" },
+        { "es": "la mariposa", "en": "butterfly", "gender": "f", "src": "example" },
+        { "es": "la película", "en": "movie, film", "gender": "f", "src": "example" },
+        { "es": "el director", "en": "director", "gender": "m", "src": "example" },
+        { "es": "el festival de cine", "en": "movie festival", "gender": "m", "src": "example" },
+        { "es": "el examen", "en": "exam", "gender": "m", "src": "example" },
+        { "es": "el cocinero", "en": "cook", "gender": "m", "src": "example" },
+        { "es": "la cena", "en": "dinner", "gender": "f", "src": "example" },
+        { "es": "el agente", "en": "agent", "gender": "m", "src": "example" },
+        { "es": "la póliza de seguro", "en": "insurance policy", "gender": "f", "src": "example" },
+        { "es": "el jefe", "en": "boss", "gender": "m", "src": "example" },
+        { "es": "el empleado", "en": "employee", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "británico, británica", "en": "British", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "después", "en": "later, afterward", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "When Is the Passive Voice Used in Spanish?",
+      "page": 126,
+      "verbs": [
+        { "es": "donar", "en": "to donate", "src": "example" },
+        { "es": "permitir", "en": "to allow, permit", "src": "example" },
+        { "es": "distribuir", "en": "to distribute", "src": "example" },
+        { "es": "invitar", "en": "to invite", "src": "example" },
+        { "es": "celebrar", "en": "to celebrate", "src": "example" },
+        { "es": "avisar", "en": "to call, notify", "src": "example" },
+        { "es": "recibir", "en": "to welcome, receive", "src": "example" },
+        { "es": "detener", "en": "to detain", "src": "example" },
+        { "es": "escribir", "en": "to write", "src": "example" },
+        { "es": "inventar", "en": "to invent", "src": "example" },
+        { "es": "popularizar", "en": "to popularize", "src": "example" },
+        { "es": "dirigir", "en": "to direct", "src": "example" },
+        { "es": "pronunciar", "en": "to utter, pronounce", "src": "example" },
+        { "es": "descubrir", "en": "to discover", "src": "example" },
+        { "es": "fundar", "en": "to found", "src": "example" },
+        { "es": "entrevistar", "en": "to interview", "src": "example" },
+        { "es": "revelar", "en": "to reveal", "src": "example" },
+        { "es": "considerar", "en": "to consider", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la comida", "en": "food", "gender": "f", "src": "example" },
+        { "es": "el refresco", "en": "refreshment, soft drink", "gender": "m", "src": "example" },
+        { "es": "el cigarro", "en": "cigar", "gender": "m", "src": "example" },
+        { "es": "el cigarrillo", "en": "cigarette", "gender": "m", "src": "example" },
+        { "es": "el regalo", "en": "gift", "gender": "m", "src": "example" },
+        { "es": "el amigo", "en": "friend", "gender": "m", "src": "example" },
+        { "es": "el año nuevo", "en": "New Year", "gender": "m", "src": "example" },
+        { "es": "la música", "en": "music", "gender": "f", "src": "example" },
+        { "es": "la policía", "en": "police", "gender": "f", "src": "example" },
+        { "es": "el vecino", "en": "neighbor", "gender": "m", "src": "example" },
+        { "es": "el ciudadano", "en": "citizen", "gender": "m", "src": "example" },
+        { "es": "el presidente", "en": "president", "gender": "m", "src": "example" },
+        { "es": "la república", "en": "republic", "gender": "f", "src": "example" },
+        { "es": "el manifestante", "en": "protester", "gender": "m", "src": "example" },
+        { "es": "el poema", "en": "poem", "gender": "m", "src": "example" },
+        { "es": "la boda", "en": "wedding", "gender": "f", "src": "example" },
+        { "es": "el salón", "en": "ballroom, hall", "gender": "m", "src": "example" },
+        { "es": "la radio", "en": "radio", "gender": "f", "src": "example" },
+        { "es": "el básquetbol", "en": "basketball", "gender": "m", "src": "example" },
+        { "es": "la ciudad", "en": "city", "gender": "f", "src": "example" },
+        { "es": "el teléfono", "en": "telephone", "gender": "m", "src": "example" },
+        { "es": "la fiesta de fin de año", "en": "New Year's Eve party", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "famoso, famosa", "en": "famous", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "frecuentemente", "en": "frequently", "src": "example" },
+        { "es": "finalmente", "en": "finally", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "verdadero o falso", "en": "true or false", "src": "example" },
+        { "es": "un poco de historia", "en": "a bit of history", "src": "example" }
+      ]
+    },
+    {
+      "title": "The Passive Construction with the Pronoun Se",
+      "page": 127,
+      "verbs": [
+        { "es": "hablar", "en": "to speak", "src": "example" },
+        { "es": "cerrar", "en": "to close", "src": "example" },
+        { "es": "ver", "en": "to see", "src": "example" },
+        { "es": "llamar", "en": "to call", "src": "example" },
+        { "es": "conducir", "en": "to drive", "src": "example" },
+        { "es": "identificar", "en": "to identify", "src": "example" },
+        { "es": "introducir", "en": "to introduce", "src": "example" },
+        { "es": "ofrecer", "en": "to offer", "src": "example" },
+        { "es": "llevar", "en": "to wear, carry", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la puerta", "en": "door", "gender": "f", "src": "example" },
+        { "es": "la autoridad", "en": "authority", "gender": "f", "src": "example" },
+        { "es": "el asiento trasero", "en": "backseat", "gender": "m", "src": "example" },
+        { "es": "la identidad", "en": "identity", "gender": "f", "src": "example" },
+        { "es": "la correa", "en": "leash", "gender": "f", "src": "example" },
+        { "es": "el pasajero", "en": "passenger", "gender": "m", "src": "example" },
+        { "es": "la prensa", "en": "press", "gender": "f", "src": "example" },
+        { "es": "el truco", "en": "stunt, trick", "gender": "m", "src": "example" },
+        { "es": "el león", "en": "lion", "gender": "m", "src": "example" },
+        { "es": "el coche", "en": "car", "gender": "m", "src": "example" },
+        { "es": "la avenida", "en": "avenue", "gender": "f", "src": "example" },
+        { "es": "el conductor", "en": "driver", "gender": "m", "src": "example" },
+        { "es": "la mujer", "en": "woman", "gender": "f", "src": "example" },
+        { "es": "el diamante", "en": "diamond", "gender": "m", "src": "example" },
+        { "es": "el incidente", "en": "incident", "gender": "m", "src": "example" },
+        { "es": "la información", "en": "information", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "extravagante", "en": "extravagant", "src": "example" },
+        { "es": "peculiar", "en": "peculiar", "src": "example" },
+        { "es": "misterioso, misteriosa", "en": "mysterious", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "inmediatamente", "en": "immediately", "src": "example" },
+        { "es": "de última hora", "en": "last-minute", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "When Is the Passive Construction with Se Used in Spanish?",
+      "page": 128,
+      "verbs": [
+        { "es": "decir", "en": "to say", "src": "example" },
+        { "es": "subir", "en": "to go up, rise", "src": "example" },
+        { "es": "alquilar", "en": "to rent", "src": "example" },
+        { "es": "cometer", "en": "to commit, make (an error)", "src": "example" },
+        { "es": "visitar", "en": "to visit", "src": "example" },
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "servir", "en": "to serve", "src": "example" },
+        { "es": "despachar", "en": "to sell, dispatch", "src": "example" },
+        { "es": "depositar", "en": "to deposit", "src": "example" },
+        { "es": "leer", "en": "to read", "src": "example" },
+        { "es": "comentar", "en": "to comment, talk about", "src": "example" },
+        { "es": "comer", "en": "to eat", "src": "example" },
+        { "es": "beber", "en": "to drink", "src": "example" },
+        { "es": "preparar", "en": "to prepare", "src": "example" },
+        { "es": "pelar", "en": "to peel", "src": "example" },
+        { "es": "freír", "en": "to fry", "src": "example" },
+        { "es": "añadir", "en": "to add", "src": "example" },
+        { "es": "evitar", "en": "to avoid", "src": "example" },
+        { "es": "cortar", "en": "to cut", "src": "example" },
+        { "es": "hervir", "en": "to boil", "src": "example" },
+        { "es": "elegir", "en": "to elect, choose", "src": "example" },
+        { "es": "nadar", "en": "to swim", "src": "example" },
+        { "es": "aceptar", "en": "to accept", "src": "example" },
+        { "es": "fumar", "en": "to smoke", "src": "example" },
+        { "es": "inaugurar", "en": "to inaugurate", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la gasolina", "en": "gasoline", "gender": "f", "src": "example" },
+        { "es": "el precio", "en": "price", "gender": "m", "src": "example" },
+        { "es": "el error", "en": "mistake, error", "gender": "m", "src": "example" },
+        { "es": "el lugar histórico", "en": "historical place", "gender": "m", "src": "example" },
+        { "es": "la zapatería", "en": "shoe store", "gender": "f", "src": "example" },
+        { "es": "el bar", "en": "bar", "gender": "m", "src": "example" },
+        { "es": "la oficina de correos", "en": "post office", "gender": "f", "src": "example" },
+        { "es": "el banco", "en": "bank", "gender": "m", "src": "example" },
+        { "es": "la farmacia", "en": "pharmacy", "gender": "f", "src": "example" },
+        { "es": "el hospital", "en": "hospital", "gender": "m", "src": "example" },
+        { "es": "el sello", "en": "stamp", "gender": "m", "src": "example" },
+        { "es": "la tapa", "en": "appetizer, tapa", "gender": "f", "src": "example" },
+        { "es": "la cerveza", "en": "beer", "gender": "f", "src": "example" },
+        { "es": "el enfermo", "en": "sick person", "gender": "m", "src": "example" },
+        { "es": "la aspirina", "en": "aspirin", "gender": "f", "src": "example" },
+        { "es": "el jarabe", "en": "syrup", "gender": "m", "src": "example" },
+        { "es": "el dinero", "en": "money", "gender": "m", "src": "example" },
+        { "es": "el zapato", "en": "shoe", "gender": "m", "src": "example" },
+        { "es": "el periódico", "en": "newspaper", "gender": "m", "src": "example" },
+        { "es": "la calle", "en": "street", "gender": "f", "src": "example" },
+        { "es": "el mercado", "en": "market", "gender": "m", "src": "example" },
+        { "es": "la pasta", "en": "pasta", "gender": "f", "src": "example" },
+        { "es": "el tomate", "en": "tomato", "gender": "m", "src": "example" },
+        { "es": "el espárrago", "en": "asparagus", "gender": "m", "src": "example" },
+        { "es": "el aceite", "en": "oil", "gender": "m", "src": "example" },
+        { "es": "el limón", "en": "lemon", "gender": "m", "src": "example" },
+        { "es": "la papa", "en": "potato", "gender": "f", "src": "example" },
+        { "es": "la sal", "en": "salt", "gender": "f", "src": "example" },
+        { "es": "la grasa", "en": "fat", "gender": "f", "src": "example" },
+        { "es": "la dieta", "en": "diet", "gender": "f", "src": "example" },
+        { "es": "el vegetal", "en": "vegetable", "gender": "m", "src": "example" },
+        { "es": "la piscina", "en": "swimming pool", "gender": "f", "src": "example" },
+        { "es": "el árbol", "en": "tree", "gender": "m", "src": "example" },
+        { "es": "el desierto", "en": "desert", "gender": "m", "src": "example" },
+        { "es": "la tarjeta de crédito", "en": "credit card", "gender": "f", "src": "example" },
+        { "es": "la tienda", "en": "store", "gender": "f", "src": "example" },
+        { "es": "el vuelo", "en": "flight", "gender": "m", "src": "example" },
+        { "es": "el crimen", "en": "crime", "gender": "m", "src": "example" },
+        { "es": "el museo", "en": "museum", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "amueblado, amueblada", "en": "furnished", "src": "example" },
+        { "es": "saludable", "en": "healthy", "src": "example" },
+        { "es": "internacional", "en": "international", "src": "example" },
+        { "es": "usado, usada", "en": "used", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "mucho", "en": "a lot", "src": "example" },
+        { "es": "bien", "en": "well", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "cada cuatro años", "en": "every four years", "src": "example" }
+      ]
+    },
+    {
+      "title": "Impersonal Constructions Used to Substitute for Passive Constructions",
+      "page": 130,
+      "verbs": [
+        { "es": "salir", "en": "to leave, go out", "src": "example" },
+        { "es": "matar(se)", "en": "to kill (oneself)", "src": "example" },
+        { "es": "trabajar", "en": "to work", "src": "example" },
+        { "es": "ayudar", "en": "to help", "src": "example" },
+        { "es": "saber", "en": "to know", "src": "example" },
+        { "es": "buscar", "en": "to look for", "src": "example" },
+        { "es": "recuperar", "en": "to recover", "src": "example" },
+        { "es": "arruinar(se)", "en": "to go bankrupt, ruin", "src": "example" },
+        { "es": "prepararse", "en": "to prepare oneself", "src": "example" },
+        { "es": "olvidar(se)", "en": "to forget", "src": "example" },
+        { "es": "gastar", "en": "to spend", "src": "example" },
+        { "es": "creer", "en": "to believe", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el laberinto", "en": "labyrinth", "gender": "m", "src": "example" },
+        { "es": "la cárcel", "en": "jail", "gender": "f", "src": "example" },
+        { "es": "el tesoro", "en": "treasure", "gender": "m", "src": "example" },
+        { "es": "el fondo", "en": "bottom", "gender": "m", "src": "example" },
+        { "es": "el mar Caribe", "en": "Caribbean Sea", "gender": "m", "src": "example" },
+        { "es": "el buzo", "en": "diver", "gender": "m", "src": "example" },
+        { "es": "el buceo", "en": "diving", "gender": "m", "src": "example" },
+        { "es": "la esmeralda", "en": "emerald", "gender": "f", "src": "example" },
+        { "es": "el cazador", "en": "hunter", "gender": "m", "src": "example" },
+        { "es": "la joya", "en": "jewel", "gender": "f", "src": "example" },
+        { "es": "el barco", "en": "ship", "gender": "m", "src": "example" },
+        { "es": "el buque", "en": "ship", "gender": "m", "src": "example" },
+        { "es": "la plata", "en": "silver", "gender": "f", "src": "example" },
+        { "es": "el tamaño", "en": "size", "gender": "m", "src": "example" },
+        { "es": "la tonelada", "en": "ton", "gender": "f", "src": "example" },
+        { "es": "la nuez", "en": "walnut", "gender": "f", "src": "example" },
+        { "es": "el agua", "en": "water", "gender": "f", "src": "example" },
+        { "es": "el oro", "en": "gold", "gender": "m", "src": "example" },
+        { "es": "el equipo", "en": "equipment", "gender": "m", "src": "example" },
+        { "es": "la aventura", "en": "adventure", "gender": "f", "src": "example" },
+        { "es": "el experto", "en": "expert", "gender": "m", "src": "example" },
+        { "es": "la realidad", "en": "reality", "gender": "f", "src": "example" },
+        { "es": "la vida", "en": "life", "gender": "f", "src": "example" },
+        { "es": "el océano", "en": "ocean", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "hundido, hundida", "en": "sunken", "src": "example" },
+        { "es": "enterrado, enterrada", "en": "sunken, buried", "src": "example" },
+        { "es": "perdido, perdida", "en": "lost", "src": "example" },
+        { "es": "ideal", "en": "ideal", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "mal", "en": "badly", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "en busca de", "en": "in search of", "src": "example" }
+      ]
+    }
+  ]
+}

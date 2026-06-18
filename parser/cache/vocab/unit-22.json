@@ -1,0 +1,313 @@
+{
+  "unit": 22,
+  "title": "Adverbs",
+  "sections": [
+    {
+      "title": "Adverb Forms in Spanish",
+      "page": 266,
+      "verbs": [],
+      "nouns": [
+        { "es": "la pregunta", "en": "question", "gender": "f", "src": "example" },
+        { "es": "el chico", "en": "boy", "gender": "m", "src": "example" },
+        { "es": "la prisa", "en": "hurry", "gender": "f", "src": "example" },
+        { "es": "el médico", "en": "doctor", "gender": "m", "src": "example" },
+        { "es": "el banco", "en": "bank", "gender": "m", "src": "example" },
+        { "es": "la familia", "en": "family", "gender": "f", "src": "example" },
+        { "es": "la casa", "en": "house", "gender": "f", "src": "example" },
+        { "es": "la basura", "en": "garbage", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "demasiado, demasiada", "en": "too much, too many", "src": "example" },
+        { "es": "lujoso, lujosa", "en": "luxurious", "src": "example" },
+        { "es": "rico, rica", "en": "rich", "src": "example" },
+        { "es": "listo, lista", "en": "ready", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "demasiado", "en": "too much" },
+        { "es": "ahora", "en": "now" },
+        { "es": "luego", "en": "then, later" },
+        { "es": "todavía", "en": "still, yet" },
+        { "es": "anteayer", "en": "the day before yesterday" },
+        { "es": "abajo", "en": "down, downstairs" },
+        { "es": "acá", "en": "over here" },
+        { "es": "afuera", "en": "out, outside" },
+        { "es": "ahí", "en": "there" },
+        { "es": "allá", "en": "over there" },
+        { "es": "aquí", "en": "here" },
+        { "es": "arriba", "en": "up, upstairs" },
+        { "es": "cerca", "en": "near" },
+        { "es": "debajo", "en": "under" },
+        { "es": "delante", "en": "in front" },
+        { "es": "detrás", "en": "behind" },
+        { "es": "lejos", "en": "far" },
+        { "es": "anteanoche", "en": "the night before last" },
+        { "es": "ayer", "en": "yesterday" },
+        { "es": "después", "en": "later" },
+        { "es": "nunca", "en": "never" },
+        { "es": "siempre", "en": "always, all the time" },
+        { "es": "tarde", "en": "late" },
+        { "es": "temprano", "en": "early" },
+        { "es": "ya", "en": "already, right now" },
+        { "es": "bastante", "en": "enough" },
+        { "es": "mucho", "en": "much, a lot" },
+        { "es": "poco", "en": "little" },
+        { "es": "suficiente", "en": "enough" },
+        { "es": "bien", "en": "well" },
+        { "es": "mal", "en": "badly" },
+        { "es": "muy", "en": "very", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "tener prisa", "en": "to be in a hurry", "src": "example" }
+      ]
+    },
+    {
+      "title": "Compound Adverbs",
+      "page": 269,
+      "verbs": [
+        { "es": "reír", "en": "to laugh", "src": "example" },
+        { "es": "cantar", "en": "to sing", "src": "example" },
+        { "es": "terminar", "en": "to end, to finish", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el estudiante", "en": "student", "gender": "m", "src": "example" },
+        { "es": "la niña", "en": "girl", "gender": "f", "src": "example" },
+        { "es": "el niño", "en": "child, boy", "gender": "m", "src": "example" },
+        { "es": "el programa", "en": "program", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "lento, lenta", "en": "slow", "src": "example" },
+        { "es": "fácil", "en": "easy", "src": "example" },
+        { "es": "ruidoso, ruidosa", "en": "loud, noisy", "src": "example" },
+        { "es": "alegre", "en": "happy, cheerful", "src": "example" },
+        { "es": "feliz", "en": "happy", "src": "example" },
+        { "es": "amable", "en": "kind", "src": "example" },
+        { "es": "tranquilo, tranquila", "en": "calm, quiet", "src": "example" },
+        { "es": "terrible", "en": "terrible", "src": "example" },
+        { "es": "elegante", "en": "elegant", "src": "example" },
+        { "es": "difícil", "en": "difficult", "src": "example" },
+        { "es": "continuo, continua", "en": "continuous", "src": "example" },
+        { "es": "religioso, religiosa", "en": "religious", "src": "example" },
+        { "es": "básico, básica", "en": "basic", "src": "example" },
+        { "es": "débil", "en": "weak", "src": "example" },
+        { "es": "rápido, rápida", "en": "fast, quick", "src": "example" },
+        { "es": "abundante", "en": "abundant", "src": "example" },
+        { "es": "cálido, cálida", "en": "warm, friendly", "src": "example" },
+        { "es": "amistoso, amistosa", "en": "friendly", "src": "example" },
+        { "es": "cortés", "en": "polite, courteous", "src": "example" },
+        { "es": "irónico, irónica", "en": "ironic", "src": "example" },
+        { "es": "triste", "en": "sad", "src": "example" },
+        { "es": "ansioso, ansiosa", "en": "anxious", "src": "example" },
+        { "es": "dramático, dramática", "en": "dramatic", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "lentamente", "en": "slowly", "src": "example" },
+        { "es": "fácilmente", "en": "easily", "src": "example" },
+        { "es": "alegremente", "en": "happily", "src": "example" },
+        { "es": "finalmente", "en": "finally", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "con alegría", "en": "happily", "src": "example" },
+        { "es": "por fin", "en": "finally", "src": "example" }
+      ]
+    },
+    {
+      "title": "Other Adverb Forms: Adverbial Expressions",
+      "page": 271,
+      "verbs": [
+        { "es": "salir", "en": "to leave, to go out", "src": "example" },
+        { "es": "investigar", "en": "to investigate", "src": "example" },
+        { "es": "montar", "en": "to ride", "src": "example" },
+        { "es": "charlar", "en": "to chat", "src": "example" },
+        { "es": "despedirse", "en": "to say good-bye", "src": "example" },
+        { "es": "viajar", "en": "to travel", "src": "example" },
+        { "es": "dormir", "en": "to sleep", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el auto", "en": "car", "gender": "m", "src": "example" },
+        { "es": "el dentista", "en": "dentist", "gender": "m", "src": "example" },
+        { "es": "el día", "en": "day", "gender": "m", "src": "example" },
+        { "es": "el gimnasio", "en": "gym", "gender": "m", "src": "example" },
+        { "es": "la bicicleta", "en": "bicycle", "gender": "f", "src": "example" },
+        { "es": "el teléfono", "en": "telephone", "gender": "m", "src": "example" },
+        { "es": "la ventana", "en": "window", "gender": "f", "src": "example" },
+        { "es": "la recepción", "en": "reception", "gender": "f", "src": "example" },
+        { "es": "la cafetería", "en": "cafeteria", "gender": "f", "src": "example" },
+        { "es": "la rutina", "en": "routine", "gender": "f", "src": "example" },
+        { "es": "el día feriado", "en": "holiday", "gender": "m", "src": "example" },
+        { "es": "la vida", "en": "life", "gender": "f", "src": "example" },
+        { "es": "la tristeza", "en": "sadness", "gender": "f", "src": "example" },
+        { "es": "la motocicleta", "en": "motorcycle", "gender": "f", "src": "example" },
+        { "es": "la computadora", "en": "computer", "gender": "f", "src": "example" },
+        { "es": "la cita", "en": "appointment", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "ocupado, ocupada", "en": "busy", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "de día", "en": "in the daytime" },
+        { "es": "a fondo", "en": "thoroughly" }
+      ],
+      "expressions": [
+        { "es": "a menudo", "en": "frequently, often" },
+        { "es": "a veces", "en": "sometimes" },
+        { "es": "al fin", "en": "finally" },
+        { "es": "al mismo tiempo", "en": "at the same time" },
+        { "es": "con alegría", "en": "happily" },
+        { "es": "con facilidad", "en": "easily" },
+        { "es": "con frecuencia", "en": "frequently" },
+        { "es": "con rapidez", "en": "quickly" },
+        { "es": "con tristeza", "en": "sadly" },
+        { "es": "de día", "en": "in the daytime" },
+        { "es": "de noche", "en": "at night" },
+        { "es": "de nuevo", "en": "again" },
+        { "es": "de pronto", "en": "suddenly" },
+        { "es": "de repente", "en": "suddenly" },
+        { "es": "por desgracia", "en": "unfortunately" },
+        { "es": "por fin", "en": "finally" },
+        { "es": "por suerte", "en": "fortunately" },
+        { "es": "por supuesto", "en": "of course" },
+        { "es": "por último", "en": "finally" },
+        { "es": "sin duda", "en": "without a doubt" },
+        { "es": "sin razón", "en": "without (a) reason" },
+        { "es": "por fortuna", "en": "fortunately", "src": "example" }
+      ]
+    },
+    {
+      "title": "Adjectives and Nouns Used as Adverbs",
+      "page": 273,
+      "verbs": [
+        { "es": "relajarse", "en": "to relax", "src": "example" },
+        { "es": "olvidar", "en": "to forget", "src": "example" },
+        { "es": "hablar", "en": "to speak, to talk", "src": "example" },
+        { "es": "sentirse", "en": "to feel", "src": "example" },
+        { "es": "quejarse", "en": "to complain", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el amanecer", "en": "daybreak, dawn", "gender": "m", "src": "example" },
+        { "es": "el estilo de vida", "en": "lifestyle", "gender": "m", "src": "example" },
+        { "es": "el río", "en": "river", "gender": "m", "src": "example" },
+        { "es": "el plan", "en": "plan", "gender": "m", "src": "example" },
+        { "es": "la recepcionista", "en": "receptionist", "gender": "f", "src": "example" },
+        { "es": "el hombre", "en": "man", "gender": "m", "src": "example" },
+        { "es": "la policía", "en": "police", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "aburrido, aburrida", "en": "boring", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "acá abajo", "en": "down here" },
+        { "es": "al anochecer", "en": "at nightfall" },
+        { "es": "al frente de", "en": "in front of" },
+        { "es": "al parecer", "en": "apparently" },
+        { "es": "al salir el sol", "en": "at sunrise" },
+        { "es": "allá arriba", "en": "up there" },
+        { "es": "cerca de", "en": "near (to)" },
+        { "es": "de ahora en adelante", "en": "from now on" },
+        { "es": "de veras", "en": "really, truly" },
+        { "es": "de vez en cuando", "en": "once in a while" },
+        { "es": "desde aquí", "en": "from here" },
+        { "es": "desde entonces", "en": "since then" },
+        { "es": "hasta aquí", "en": "up to here" },
+        { "es": "por lo visto", "en": "apparently, evidently" },
+        { "es": "alto", "en": "loudly" },
+        { "es": "bajo", "en": "softly" },
+        { "es": "claro", "en": "clearly" },
+        { "es": "directo", "en": "directly" },
+        { "es": "duro", "en": "hard, intensely" },
+        { "es": "fatal", "en": "bad(ly)" },
+        { "es": "fenómeno", "en": "splendidly, wonderfully" },
+        { "es": "fuerte", "en": "loudly, strongly" },
+        { "es": "rápido", "en": "quickly" }
+      ],
+      "expressions": [
+        { "es": "al amanecer", "en": "at daybreak" },
+        { "es": "al mismo tiempo", "en": "at the same time" }
+      ]
+    },
+    {
+      "title": "Comparisons with Adverbs",
+      "page": 274,
+      "verbs": [
+        { "es": "trabajar", "en": "to work", "src": "example" },
+        { "es": "gritar", "en": "to shout, to yell", "src": "example" },
+        { "es": "expresarse", "en": "to express oneself", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la venta", "en": "sale", "gender": "f", "src": "example" },
+        { "es": "el delegado", "en": "delegate", "gender": "m", "src": "example" },
+        { "es": "la asamblea", "en": "assembly", "gender": "f", "src": "example" },
+        { "es": "la impresión", "en": "impression", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "inteligente", "en": "intelligent", "src": "example" },
+        { "es": "especial", "en": "special", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "frecuentemente", "en": "frequently", "src": "example" },
+        { "es": "lentamente", "en": "slowly", "src": "example" },
+        { "es": "despacio", "en": "slowly", "src": "example" },
+        { "es": "inmediatamente", "en": "immediately", "src": "example" },
+        { "es": "fuertemente", "en": "strongly", "src": "example" },
+        { "es": "claramente", "en": "clearly", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "tan + adverbio + como", "en": "as ... as (equality)" },
+        { "es": "más/menos + adverbio + que", "en": "more/less ... than (inequality)" },
+        { "es": "de lo que", "en": "than (before a clause)" }
+      ]
+    },
+    {
+      "title": "When Are Adverbs Used in Spanish?",
+      "page": 274,
+      "verbs": [
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "viajar", "en": "to travel", "src": "example" },
+        { "es": "llegar", "en": "to arrive", "src": "example" },
+        { "es": "pasar", "en": "to pass", "src": "example" },
+        { "es": "aceptar", "en": "to accept", "src": "example" },
+        { "es": "publicar", "en": "to publish", "src": "example" },
+        { "es": "exagerar", "en": "to exaggerate", "src": "example" },
+        { "es": "odiar", "en": "to hate", "src": "example" },
+        { "es": "guardar", "en": "to keep", "src": "example" },
+        { "es": "mentir", "en": "to lie", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la moto", "en": "motorcycle", "gender": "f", "src": "example" },
+        { "es": "el examen", "en": "exam", "gender": "m", "src": "example" },
+        { "es": "la ayuda", "en": "help", "gender": "f", "src": "example" },
+        { "es": "el proyecto", "en": "project", "gender": "m", "src": "example" },
+        { "es": "el contestador automático", "en": "answering machine", "gender": "m", "src": "example" },
+        { "es": "el lector / la lectora", "en": "reader", "gender": "m/f", "src": "example" },
+        { "es": "el éxito", "en": "success", "gender": "m", "src": "example" },
+        { "es": "la bruja", "en": "witch", "gender": "f", "src": "example" },
+        { "es": "el editor", "en": "editor", "gender": "m", "src": "example" },
+        { "es": "la novela", "en": "novel", "gender": "f", "src": "example" },
+        { "es": "el libro", "en": "book", "gender": "m", "src": "example" },
+        { "es": "el secreto", "en": "secret", "gender": "m", "src": "example" },
+        { "es": "la inspiración", "en": "inspiration", "gender": "f", "src": "example" },
+        { "es": "el auto", "en": "car", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "listo, lista", "en": "ready", "src": "example" },
+        { "es": "bueno, buena", "en": "good", "src": "example" },
+        { "es": "rápido, rápida", "en": "fast, quick", "src": "example" },
+        { "es": "celoso, celosa", "en": "jealous", "src": "example" },
+        { "es": "malo, mala", "en": "mean, bad", "src": "example" },
+        { "es": "misterioso, misteriosa", "en": "mysterious", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "ahora mismo", "en": "right now", "src": "example" },
+        { "es": "hasta allí", "en": "over there", "src": "example" },
+        { "es": "obviamente", "en": "obviously", "src": "example" },
+        { "es": "demasiado", "en": "too", "src": "example" },
+        { "es": "naturalmente", "en": "naturally", "src": "example" },
+        { "es": "frecuentemente", "en": "frequently", "src": "example" },
+        { "es": "ocasionalmente", "en": "occasionally", "src": "example" },
+        { "es": "definitivamente", "en": "definitely", "src": "example" },
+        { "es": "claramente", "en": "clearly", "src": "example" },
+        { "es": "todo", "en": "everything", "src": "example" }
+      ],
+      "expressions": []
+    }
+  ]
+}

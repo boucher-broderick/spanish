@@ -1,0 +1,391 @@
+{
+  "unit": 21,
+  "title": "Possessive and Demonstrative Adjectives and Pronouns",
+  "sections": [
+    {
+      "title": "Possessive Adjectives and Pronouns",
+      "page": 253,
+      "verbs": [
+        { "es": "preparar", "en": "to prepare", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el amigo", "en": "friend", "gender": "m", "src": "example" },
+        { "es": "la fiesta de cumpleaños", "en": "birthday party", "gender": "f", "src": "example" },
+        { "es": "la sandalia", "en": "sandal", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "Possessive Adjective Forms: The Short Forms and the Long Forms",
+      "page": 253,
+      "verbs": [
+        { "es": "bajar", "en": "to step down, to get off", "src": "example" },
+        { "es": "encontrar", "en": "to meet, to find", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el zapato", "en": "shoe", "gender": "m", "src": "example" },
+        { "es": "la camisa", "en": "shirt", "gender": "f", "src": "example" },
+        { "es": "el libro", "en": "book", "gender": "m", "src": "example" },
+        { "es": "la libreta", "en": "notebook", "gender": "f", "src": "example" },
+        { "es": "el abuelo", "en": "grandfather", "gender": "m", "src": "example" },
+        { "es": "la prima", "en": "(female) cousin", "gender": "f", "src": "example" },
+        { "es": "la maestra", "en": "teacher", "gender": "f", "src": "example" },
+        { "es": "el perro", "en": "dog", "gender": "m", "src": "example" },
+        { "es": "la gata", "en": "(female) cat", "gender": "f", "src": "example" },
+        { "es": "la hija", "en": "daughter", "gender": "f", "src": "example" },
+        { "es": "el autobús", "en": "bus", "gender": "m", "src": "example" },
+        { "es": "el vendedor", "en": "salesperson", "gender": "m", "src": "example" },
+        { "es": "el cliente", "en": "customer, client", "gender": "m", "src": "example" },
+        { "es": "el asunto", "en": "matter, question", "gender": "m", "src": "example" },
+        { "es": "la maleta", "en": "suitcase", "gender": "f", "src": "example" },
+        { "es": "el plan", "en": "plan", "gender": "m", "src": "example" },
+        { "es": "el pasaporte", "en": "passport", "gender": "m", "src": "example" },
+        { "es": "el viaje", "en": "trip", "gender": "m", "src": "example" },
+        { "es": "la pluma", "en": "pen", "gender": "f", "src": "example" },
+        { "es": "el reloj", "en": "watch, clock", "gender": "m", "src": "example" },
+        { "es": "el palo de golf", "en": "golf club", "gender": "m", "src": "example" },
+        { "es": "la amistad", "en": "friendship", "gender": "f", "src": "example" },
+        { "es": "la casa", "en": "house", "gender": "f", "src": "example" },
+        { "es": "el jardín", "en": "garden", "gender": "m", "src": "example" },
+        { "es": "la vecina", "en": "(female) neighbor", "gender": "f", "src": "example" },
+        { "es": "el cojín", "en": "pillow, cushion", "gender": "m", "src": "example" },
+        { "es": "el apartamento", "en": "apartment", "gender": "m", "src": "example" },
+        { "es": "el banco", "en": "bank", "gender": "m", "src": "example" },
+        { "es": "la tarjeta de crédito", "en": "credit card", "gender": "f", "src": "example" },
+        { "es": "el juguete", "en": "toy", "gender": "m", "src": "example" },
+        { "es": "el calcetín", "en": "sock", "gender": "m", "src": "example" },
+        { "es": "la colección", "en": "collection", "gender": "f", "src": "example" },
+        { "es": "el sobre", "en": "envelope", "gender": "m", "src": "example" },
+        { "es": "la estampilla", "en": "stamp", "gender": "f", "src": "example" },
+        { "es": "el padre", "en": "father", "gender": "m", "src": "example" },
+        { "es": "la relación", "en": "relationship", "gender": "f", "src": "example" },
+        { "es": "el camión", "en": "truck", "gender": "m", "src": "example" },
+        { "es": "el apellido", "en": "last name, surname", "gender": "m", "src": "example" },
+        { "es": "la revista", "en": "magazine", "gender": "f", "src": "example" },
+        { "es": "el recibo", "en": "receipt", "gender": "m", "src": "example" },
+        { "es": "la idea", "en": "idea", "gender": "f", "src": "example" },
+        { "es": "el documento", "en": "document", "gender": "m", "src": "example" },
+        { "es": "la nota", "en": "note", "gender": "f", "src": "example" },
+        { "es": "el plato", "en": "plate, dish", "gender": "m", "src": "example" },
+        { "es": "la silla", "en": "chair", "gender": "f", "src": "example" },
+        { "es": "la mesa", "en": "table", "gender": "f", "src": "example" },
+        { "es": "los anteojos", "en": "eyeglasses", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "sucio, sucia", "en": "dirty", "src": "example" },
+        { "es": "limpio, limpia", "en": "clean", "src": "example" },
+        { "es": "bueno, buena", "en": "good", "src": "example" },
+        { "es": "grande", "en": "large, big", "src": "example" }
+      ],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "When Are the Short and Long Forms of the Possessive Adjectives Used in Spanish?",
+      "page": 257,
+      "verbs": [
+        { "es": "preferir", "en": "to prefer", "src": "example" },
+        { "es": "pedir", "en": "to ask for, to request", "src": "example" },
+        { "es": "venir", "en": "to come", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la hermana", "en": "sister", "gender": "f", "src": "example" },
+        { "es": "la rutina", "en": "routine", "gender": "f", "src": "example" },
+        { "es": "el trabajo", "en": "work, job", "gender": "m", "src": "example" },
+        { "es": "la pasión", "en": "passion", "gender": "f", "src": "example" },
+        { "es": "el diario", "en": "diary, journal", "gender": "m", "src": "example" },
+        { "es": "la cuenta bancaria", "en": "bank account", "gender": "f", "src": "example" },
+        { "es": "la reservación", "en": "reservation", "gender": "f", "src": "example" },
+        { "es": "la suegra", "en": "mother-in-law", "gender": "f", "src": "example" },
+        { "es": "la tortuga", "en": "tortoise, turtle", "gender": "f", "src": "example" },
+        { "es": "el primo", "en": "cousin", "gender": "m", "src": "example" },
+        { "es": "el sillón", "en": "easy chair, armchair", "gender": "m", "src": "example" },
+        { "es": "la receta", "en": "recipe", "gender": "f", "src": "example" },
+        { "es": "el profesor", "en": "professor", "gender": "m", "src": "example" },
+        { "es": "el pájaro", "en": "bird", "gender": "m", "src": "example" },
+        { "es": "la obsesión", "en": "obsession", "gender": "f", "src": "example" },
+        { "es": "el equipo", "en": "team", "gender": "m", "src": "example" },
+        { "es": "el béisbol", "en": "baseball", "gender": "m", "src": "example" },
+        { "es": "la exposición", "en": "art exhibit, exhibition", "gender": "f", "src": "example" },
+        { "es": "el cuadro", "en": "picture, painting", "gender": "m", "src": "example" },
+        { "es": "el cepillo de dientes", "en": "toothbrush", "gender": "m", "src": "example" },
+        { "es": "el disco", "en": "CD, record", "gender": "m", "src": "example" },
+        { "es": "la canción", "en": "song", "gender": "f", "src": "example" },
+        { "es": "la donación", "en": "donation", "gender": "f", "src": "example" },
+        { "es": "el pijama", "en": "pajamas", "gender": "m", "src": "example" },
+        { "es": "la zapatilla", "en": "slipper", "gender": "f", "src": "example" },
+        { "es": "el peine", "en": "comb", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "raro, rara", "en": "strange, rare", "src": "example" },
+        { "es": "fabuloso, fabulosa", "en": "fabulous", "src": "example" }
+      ],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "Possessive Pronouns",
+      "page": 258,
+      "verbs": [
+        { "es": "olvidar", "en": "to forget", "src": "example" },
+        { "es": "usar", "en": "to use", "src": "example" },
+        { "es": "cerrar", "en": "to close", "src": "example" },
+        { "es": "probar", "en": "to try, to taste", "src": "example" },
+        { "es": "encontrar", "en": "to find", "src": "example" },
+        { "es": "gastar", "en": "to spend", "src": "example" },
+        { "es": "escuchar", "en": "to listen to", "src": "example" },
+        { "es": "tomar", "en": "to take", "src": "example" },
+        { "es": "molestar", "en": "to bother", "src": "example" },
+        { "es": "leer", "en": "to read", "src": "example" },
+        { "es": "comprar", "en": "to buy", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la medicina", "en": "medicine", "gender": "f", "src": "example" },
+        { "es": "el abuelo", "en": "grandparent, grandfather", "gender": "m", "src": "example" },
+        { "es": "el auto", "en": "car", "gender": "m", "src": "example" },
+        { "es": "el teléfono", "en": "telephone", "gender": "m", "src": "example" },
+        { "es": "el cumpleaños", "en": "birthday", "gender": "m", "src": "example" },
+        { "es": "la foto", "en": "photo", "gender": "f", "src": "example" },
+        { "es": "el postre", "en": "dessert", "gender": "m", "src": "example" },
+        { "es": "la puerta", "en": "door", "gender": "f", "src": "example" },
+        { "es": "el hotel", "en": "hotel", "gender": "m", "src": "example" },
+        { "es": "la ventana", "en": "window", "gender": "f", "src": "example" },
+        { "es": "la sábana", "en": "bedsheet", "gender": "f", "src": "example" },
+        { "es": "la seda", "en": "silk", "gender": "f", "src": "example" },
+        { "es": "la toalla", "en": "towel", "gender": "f", "src": "example" },
+        { "es": "el algodón", "en": "cotton", "gender": "m", "src": "example" },
+        { "es": "la basura", "en": "trash, garbage", "gender": "f", "src": "example" },
+        { "es": "la cosa", "en": "thing", "gender": "f", "src": "example" },
+        { "es": "la vitamina", "en": "vitamin", "gender": "f", "src": "example" },
+        { "es": "la rosa", "en": "rose", "gender": "f", "src": "example" },
+        { "es": "la promesa", "en": "promise", "gender": "f", "src": "example" },
+        { "es": "el compromiso", "en": "commitment, engagement", "gender": "m", "src": "example" },
+        { "es": "la investigación", "en": "research, investigation", "gender": "f", "src": "example" },
+        { "es": "el problema", "en": "problem", "gender": "m", "src": "example" },
+        { "es": "la palabra", "en": "word", "gender": "f", "src": "example" },
+        { "es": "el sentimiento", "en": "feeling", "gender": "m", "src": "example" },
+        { "es": "la computadora", "en": "computer", "gender": "f", "src": "example" },
+        { "es": "la oficina", "en": "office", "gender": "f", "src": "example" },
+        { "es": "el dinero", "en": "money", "gender": "m", "src": "example" },
+        { "es": "el familiar", "en": "relative", "gender": "m", "src": "example" },
+        { "es": "el colega", "en": "colleague", "gender": "m", "src": "example" },
+        { "es": "la biblioteca", "en": "library", "gender": "f", "src": "example" },
+        { "es": "el sobrino", "en": "nephew", "gender": "m", "src": "example" },
+        { "es": "la sala de estar", "en": "den", "gender": "f", "src": "example" },
+        { "es": "la biografía", "en": "biography", "gender": "f", "src": "example" },
+        { "es": "el escritorio", "en": "desk", "gender": "m", "src": "example" },
+        { "es": "el diccionario", "en": "dictionary", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "moderno, moderna", "en": "modern, luxurious", "src": "example" },
+        { "es": "olvidadizo, olvidadiza", "en": "absentminded", "src": "example" },
+        { "es": "enojado, enojada", "en": "annoyed", "src": "example" },
+        { "es": "bilingüe", "en": "bilingual", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "por la mañana", "en": "in the morning", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "por suerte", "en": "luckily", "src": "example" }
+      ]
+    },
+    {
+      "title": "Demonstrative Adjectives",
+      "page": 260,
+      "verbs": [
+        { "es": "viajar", "en": "to travel", "src": "example" },
+        { "es": "conocer", "en": "to know, to be acquainted with", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el autobús", "en": "bus", "gender": "m", "src": "example" },
+        { "es": "el año", "en": "year", "gender": "m", "src": "example" },
+        { "es": "el dormitorio", "en": "bedroom", "gender": "m", "src": "example" },
+        { "es": "la colcha", "en": "bedspread", "gender": "f", "src": "example" },
+        { "es": "la ventana", "en": "window", "gender": "f", "src": "example" },
+        { "es": "el sofá", "en": "sofa", "gender": "m", "src": "example" },
+        { "es": "el sillón", "en": "armchair", "gender": "m", "src": "example" },
+        { "es": "la alfombra", "en": "rug, carpet", "gender": "f", "src": "example" },
+        { "es": "el espejo", "en": "mirror", "gender": "m", "src": "example" },
+        { "es": "la mesa", "en": "table", "gender": "f", "src": "example" },
+        { "es": "el salón", "en": "living room", "gender": "m", "src": "example" },
+        { "es": "el reloj", "en": "clock, watch", "gender": "m", "src": "example" },
+        { "es": "la cortina", "en": "curtain", "gender": "f", "src": "example" },
+        { "es": "el mantel", "en": "tablecloth", "gender": "m", "src": "example" },
+        { "es": "la jaula", "en": "cage", "gender": "f", "src": "example" },
+        { "es": "el comedor", "en": "dining room", "gender": "m", "src": "example" },
+        { "es": "la terraza", "en": "terrace", "gender": "f", "src": "example" },
+        { "es": "el dueño", "en": "owner", "gender": "m", "src": "example" },
+        { "es": "el restaurante", "en": "restaurant", "gender": "m", "src": "example" },
+        { "es": "la situación", "en": "situation", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "cómodo, cómoda", "en": "comfortable", "src": "example" },
+        { "es": "nuevo, nueva", "en": "new", "src": "example" },
+        { "es": "abierto, abierta", "en": "open", "src": "example" },
+        { "es": "delicado, delicada", "en": "delicate", "src": "example" }
+      ],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "When Are the Different Forms of the Demonstrative Adjectives Used in Spanish?",
+      "page": 261,
+      "verbs": [
+        { "es": "aceptar", "en": "to accept", "src": "example" },
+        { "es": "recordar", "en": "to remember", "src": "example" },
+        { "es": "saltar", "en": "to jump", "src": "example" },
+        { "es": "poner", "en": "to put", "src": "example" },
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "necesitar", "en": "to need", "src": "example" },
+        { "es": "gustar", "en": "to please, to be pleasing", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la época", "en": "time, era", "gender": "f", "src": "example" },
+        { "es": "el teléfono inalámbrico", "en": "cordless phone", "gender": "m", "src": "example" },
+        { "es": "la invitación", "en": "invitation", "gender": "f", "src": "example" },
+        { "es": "el hombre", "en": "man", "gender": "m", "src": "example" },
+        { "es": "la vacación", "en": "vacation", "gender": "f", "src": "example" },
+        { "es": "el día", "en": "day", "gender": "m", "src": "example" },
+        { "es": "el momento", "en": "moment", "gender": "m", "src": "example" },
+        { "es": "el paracaídas", "en": "parachute", "gender": "m", "src": "example" },
+        { "es": "el baño", "en": "bathroom", "gender": "m", "src": "example" },
+        { "es": "la toalla", "en": "towel", "gender": "f", "src": "example" },
+        { "es": "la puerta", "en": "door", "gender": "f", "src": "example" },
+        { "es": "el mono", "en": "monkey", "gender": "m", "src": "example" },
+        { "es": "la jirafa", "en": "giraffe", "gender": "f", "src": "example" },
+        { "es": "el pájaro", "en": "bird", "gender": "m", "src": "example" },
+        { "es": "la pantera", "en": "panther", "gender": "f", "src": "example" },
+        { "es": "el tigre", "en": "tiger", "gender": "m", "src": "example" },
+        { "es": "el león", "en": "lion", "gender": "m", "src": "example" },
+        { "es": "la serpiente", "en": "snake", "gender": "f", "src": "example" },
+        { "es": "el tiburón", "en": "shark", "gender": "m", "src": "example" },
+        { "es": "el oso panda", "en": "panda bear", "gender": "m", "src": "example" },
+        { "es": "el elefante", "en": "elephant", "gender": "m", "src": "example" },
+        { "es": "el hipopótamo", "en": "hippopotamus", "gender": "m", "src": "example" },
+        { "es": "el rinoceronte", "en": "rhinoceros", "gender": "m", "src": "example" },
+        { "es": "el florero", "en": "vase", "gender": "m", "src": "example" },
+        { "es": "la flor", "en": "flower", "gender": "f", "src": "example" },
+        { "es": "la tienda", "en": "store, shop", "gender": "f", "src": "example" },
+        { "es": "la cafetera italiana", "en": "Italian coffee maker", "gender": "f", "src": "example" },
+        { "es": "el cuadro", "en": "picture, painting", "gender": "m", "src": "example" },
+        { "es": "el marco", "en": "frame", "gender": "m", "src": "example" },
+        { "es": "la lámpara", "en": "lamp", "gender": "f", "src": "example" },
+        { "es": "la funda", "en": "pillowcase", "gender": "f", "src": "example" },
+        { "es": "la almohada", "en": "pillow", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "interesante", "en": "interesting", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "aquí", "en": "here", "src": "example" },
+        { "es": "ahí", "en": "there", "src": "example" },
+        { "es": "allá", "en": "over there", "src": "example" },
+        { "es": "ayer", "en": "yesterday", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Demonstrative Pronouns",
+      "page": 263,
+      "verbs": [
+        { "es": "tomar", "en": "to take", "src": "example" },
+        { "es": "dejar", "en": "to leave", "src": "example" },
+        { "es": "desear", "en": "to want, to wish", "src": "example" },
+        { "es": "preferir", "en": "to prefer", "src": "example" },
+        { "es": "comprar", "en": "to buy", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el libro", "en": "book", "gender": "m", "src": "example" },
+        { "es": "la sección", "en": "section", "gender": "f", "src": "example" },
+        { "es": "la novela", "en": "novel", "gender": "f", "src": "example" },
+        { "es": "el café", "en": "café, coffee", "gender": "m", "src": "example" },
+        { "es": "el té", "en": "tea", "gender": "m", "src": "example" },
+        { "es": "la cajera", "en": "cashier", "gender": "f", "src": "example" },
+        { "es": "la tarjeta de crédito", "en": "credit card", "gender": "f", "src": "example" },
+        { "es": "la postal", "en": "postcard", "gender": "f", "src": "example" },
+        { "es": "el sobre", "en": "envelope", "gender": "m", "src": "example" },
+        { "es": "el globo", "en": "balloon", "gender": "m", "src": "example" },
+        { "es": "el niño", "en": "boy, child", "gender": "m", "src": "example" },
+        { "es": "la computadora", "en": "computer", "gender": "f", "src": "example" },
+        { "es": "la estatua", "en": "statue", "gender": "f", "src": "example" },
+        { "es": "la foto", "en": "photo", "gender": "f", "src": "example" },
+        { "es": "la reproducción", "en": "reproduction", "gender": "f", "src": "example" },
+        { "es": "el cuadro", "en": "painting, picture", "gender": "m", "src": "example" },
+        { "es": "la pintura", "en": "painting", "gender": "f", "src": "example" },
+        { "es": "la entrada", "en": "ticket, entrance", "gender": "f", "src": "example" },
+        { "es": "la tienda de regalos", "en": "gift shop", "gender": "f", "src": "example" },
+        { "es": "el horario", "en": "schedule", "gender": "m", "src": "example" },
+        { "es": "el descuento", "en": "discount", "gender": "m", "src": "example" },
+        { "es": "el guía", "en": "guide", "gender": "m", "src": "example" },
+        { "es": "el folleto", "en": "flyer, brochure", "gender": "m", "src": "example" },
+        { "es": "la exposición", "en": "exhibition", "gender": "f", "src": "example" },
+        { "es": "el coche", "en": "car", "gender": "m", "src": "example" },
+        { "es": "la cámara", "en": "camera", "gender": "f", "src": "example" },
+        { "es": "la mochila", "en": "backpack", "gender": "f", "src": "example" },
+        { "es": "el bolso", "en": "bag, purse", "gender": "m", "src": "example" },
+        { "es": "el edificio de apartamentos", "en": "apartment building", "gender": "m", "src": "example" },
+        { "es": "el turista", "en": "tourist", "gender": "m", "src": "example" },
+        { "es": "el banco", "en": "bank", "gender": "m", "src": "example" },
+        { "es": "el monumento", "en": "monument", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "rápido, rápida", "en": "fast", "src": "example" },
+        { "es": "raro, rara", "en": "rare", "src": "example" },
+        { "es": "usado, usada", "en": "used", "src": "example" },
+        { "es": "nuevo, nueva", "en": "new", "src": "example" },
+        { "es": "interesante", "en": "interesting", "src": "example" }
+      ],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "The Neuter Forms of the Demonstrative Pronouns",
+      "page": 264,
+      "verbs": [
+        { "es": "encontrar", "en": "to find", "src": "example" },
+        { "es": "pasar la aspiradora", "en": "to vacuum", "src": "example" },
+        { "es": "sacudir", "en": "to dust", "src": "example" },
+        { "es": "cocinar", "en": "to cook", "src": "example" },
+        { "es": "limpiar", "en": "to clean", "src": "example" },
+        { "es": "celebrar", "en": "to celebrate", "src": "example" },
+        { "es": "marcar", "en": "to dial", "src": "example" },
+        { "es": "pedir", "en": "to ask for", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el trabajo", "en": "job, work", "gender": "m", "src": "example" },
+        { "es": "el sueldo", "en": "pay, salary", "gender": "m", "src": "example" },
+        { "es": "la verdad", "en": "truth", "gender": "f", "src": "example" },
+        { "es": "el mueble", "en": "piece of furniture", "gender": "m", "src": "example" },
+        { "es": "la barbaridad", "en": "outrage, atrocity", "gender": "f", "src": "example" },
+        { "es": "el cumpleaños", "en": "birthday", "gender": "m", "src": "example" },
+        { "es": "la casa", "en": "house", "gender": "f", "src": "example" },
+        { "es": "la cena", "en": "dinner", "gender": "f", "src": "example" },
+        { "es": "la pecera", "en": "fish tank", "gender": "f", "src": "example" },
+        { "es": "el aviso", "en": "flyer, notice", "gender": "m", "src": "example" },
+        { "es": "la información", "en": "information", "gender": "f", "src": "example" },
+        { "es": "el servicio de limpieza", "en": "cleaning service", "gender": "m", "src": "example" },
+        { "es": "el número de teléfono", "en": "phone number", "gender": "m", "src": "example" },
+        { "es": "el regalo", "en": "gift, present", "gender": "m", "src": "example" },
+        { "es": "el descuento", "en": "discount", "gender": "m", "src": "example" },
+        { "es": "el cupón", "en": "coupon", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "ideal", "en": "ideal", "src": "example" },
+        { "es": "especial", "en": "special", "src": "example" },
+        { "es": "fantástico, fantástica", "en": "fantastic", "src": "example" },
+        { "es": "propio, propia", "en": "(one's) own", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "ahora mismo", "en": "right now", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "¿y eso?", "en": "why?" },
+        { "es": "en eso", "en": "then" },
+        { "es": "eso es", "en": "that is it" },
+        { "es": "por eso", "en": "that is why" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "21-15": {
+    "1": ["ésa"],
+    "2": ["ésas"],
+    "3": ["ésa"],
+    "4": ["ése"],
+    "5": ["ésas"],
+    "6": ["ésa"],
+    "7": ["ésa"],
+    "8": ["ése"],
+    "9": ["ésos"],
+    "10": ["ése"],
+    "11": ["ése"],
+    "12": ["ésas"]
+  },
+  "21-16": {
+    "1": ["Este auto es nuevo pero ése es usado."],
+    "2": ["Tu cámara está aquí y éstas son de Julia y de Mark."],
+    "3": ["¿Es ésta tu mochila o aquélla?"],
+    "4": ["Éste es mi bolso y aquél es mío también."],
+    "5": ["Aquél es mi edificio de apartamentos."],
+    "6": ["Aquéllos son los turistas de México."],
+    "7": ["Este banco y aquél abren a las nueve."],
+    "8": ["Aquel monumento es más interesante que éste."],
+    "9": ["¿Qué es aquello?"]
+  },
+  "21-17": {
+    "1": ["Mi cumpleaños es mañana. Eso es bueno. Pero tengo que limpiar la casa, cocinar la cena y limpiar la pecera. Y eso es malo. Los cumpleaños son días para celebrar. ¿Qué es eso? ¡Ah, es un aviso con información acerca de un servicio especial de limpieza! ¡Eso es fantástico! ¿Y eso por qué? ¡Porque voy a marcar este número de teléfono ahora mismo! ¡Eso es! Voy a comprar mi propio regalo de cumpleaños. Y voy a pedir un descuento con este cupón. ¡Esto es fantástico!"]
+  },
+  "22-1": {
+    "1": ["ya"],
+    "2": ["bien"],
+    "3": ["todavía"],
+    "4": ["mal"],
+    "5": ["cerca"],
+    "6": ["poco"],
+    "7": ["muy"],
+    "8": ["afuera"]
+  },
+  "22-3": {
+    "1": ["Siempre hay una razón para ser feliz."],
+    "2": ["Nunca tengo suficiente dinero."],
+    "3": ["Todavía tengo esperanzas de ganar la lotería."],
+    "4": ["Bueno, sueño mucho."],
+    "5": ["Espero demasiado de mis amigos."],
+    "6": ["También tengo dolores de cabeza frecuentemente."],
+    "7": ["Además, no me quejo a menudo."],
+    "8": ["Luego voy a tomar dos aspirinas."],
+    "9": ["Pero todavía no, quiero esperar."],
+    "10": ["Entonces continuaré hablando de mi personalidad."]
+  },
+  "22-4": {
+    "1": ["felizmente"],
+    "2": ["amablemente"],
+    "3": ["tranquilamente"],
+    "4": ["terriblemente"],
+    "5": ["fácilmente"],
+    "6": ["elegantemente"],
+    "7": ["difícilmente"],
+    "8": ["continuamente"],
+    "9": ["religiosamente"],
+    "10": ["básicamente"],
+    "11": ["débilmente"],
+    "12": ["rápidamente"],
+    "13": ["abundantemente"],
+    "14": ["cálidamente"],
+    "15": ["amistosamente"],
+    "16": ["cortésmente"],
+    "17": ["irónicamente"],
+    "18": ["tristemente"],
+    "19": ["ansiosamente"],
+    "20": ["dramáticamente"]
+  },
+  "22-6": {
+    "1": ["Hacemos los ejercicios lentamente."],
+    "2": ["¿Siguen Uds. las instrucciones cuidadosamente?"],
+    "3": ["Usualmente no nos gusta trabajar los fines de semana."],
+    "4": ["Evidentemente este perro no protege su casa."],
+    "5": ["Por suerte Uds. no tienen muchas joyas.", "Afortunadamente Uds. no tienen muchas joyas."],
+    "6": ["Uds. pueden proteger fácilmente su casa con una alarma."],
+    "7": ["Lisa habla despacio y claramente."],
+    "8": ["También habla brevemente."],
+    "9": ["Francamente, no me gusta esperar."],
+    "10": ["Por suerte, no tengo mucha tarea hoy.", "Afortunadamente, no tengo mucha tarea hoy."]
+  },
+  "22-7": {
+    "1": ["de noche"],
+    "2": ["de día"],
+    "3": ["al mismo tiempo"],
+    "4": ["Por suerte"],
+    "5": ["con frecuencia", "a menudo"],
+    "6": ["A veces"],
+    "7": ["Sin duda"],
+    "8": ["de nuevo"]
+  },
+  "22-9": {
+    "1": ["afortunadamente"],
+    "2": ["desafortunadamente"],
+    "3": ["tristemente"],
+    "4": ["rápidamente"],
+    "5": ["indudablemente"]
+  },
+  "22-10": {
+    "1": ["Por lo visto, queremos una vida mejor."],
+    "2": ["De vez en cuando tenemos que considerar que la vida es corta."],
+    "3": ["Hasta ahora, hemos trabajado mucho."],
+    "4": ["De ahora en adelante vamos a cambiar nuestro estilo de vida."],
+    "5": ["No nos vamos a levantar al salir el sol."],
+    "6": ["Al anochecer podemos relajarnos y olvidarnos de mañana."],
+    "7": ["Desde aquí, tenemos una vista del río."],
+    "8": ["Hasta aquí, este plan es muy aburrido."],
+    "9": ["¿De veras tenemos que cambiar el estilo de vida?"],
+    "10": ["De hoy en adelante no podemos quejarnos más."]
+  },
+  "22-11": {
+    "1": ["bajo"],
+    "2": ["más rápido", "más rápidamente"],
+    "3": ["rápido"],
+    "4": ["duro"],
+    "5": ["alto"],
+    "6": ["claro"],
+    "7": ["más alto que"]
+  },
+  "22-12": {
+    "1": ["¡Por fin! El mensaje está claro en el contestador automático. El editor de \"Publicaciones Maravilla\" aceptó mi novela. Estoy muy contento. Quiero llamar a Lila ahora mismo. Obviamente ella cree que no tengo bastante talento para escribir un libro. Naturalmente, está celosa de mi éxito. Lila siempre dice que ella puede hacer todo mejor que yo. Ella habla a menudo acerca de un libro misterioso que va a publicar pronto. Sin duda, Lila exagera con frecuencia. De vez en cuando también miente. ¿Puedes guardarme el secreto? Ella es definitivamente la inspiración de Chloe, la bruja mala que todos mis lectores van a odiar."]
+  },
+  "23-1": {
+    "1": ["contra"],
+    "2": ["con"],
+    "3": ["ante"],
+    "4": ["Desde"],
+    "5": ["sobre"],
+    "6": ["tras"],
+    "7": ["sin"],
+    "8": ["hacia"],
+    "9": ["según"],
+    "10": ["entre"]
+  },
+  "23-2": {
+    "1": ["V"],
+    "2": ["F"],
+    "3": ["F"],
+    "4": ["V"],
+    "5": ["F"],
+    "6": ["F"],
+    "7": ["V"]
+  },
+  "23-3": {
+    "1": ["No puedo ir sin mi auto."],
+    "2": ["¿Tienes mi billetera en tu bolsillo?"],
+    "3": ["Esta carretera va hacia las montañas."],
+    "4": ["Desde la playa vemos tu casa."],
+    "5": ["El gato duerme debajo de la cama."],
+    "6": ["El concierto no termina hasta las diez."],
+    "7": ["Según Marly, el béisbol es el mejor deporte."]
+  },
+  "23-4": {
+    "1": ["de pie"],
+    "2": ["en una semana"],
+    "3": ["En efecto"],
+    "4": ["de ahora en adelante"],
+    "5": ["Además de"],
+    "6": ["en cambio"],
+    "7": ["En vez de"]
+  },
+  "23-6": {
+    "1": ["Las tiendas están lejos de nuestra casa."],
+    "2": ["Mi auto está fuera del garaje."],
+    "3": ["En vez de azúcar, la receta dice miel."],
+    "4": ["De vez en cuando corro diez millas."],
+    "5": ["Esta reunión termina dentro de una hora."],
+    "6": ["Hay alrededor de quince pájaros en ese árbol."]
+  },
+  "23-7": {
+    "1": ["por la ciudad"],
+    "2": ["antes de"],
+    "3": ["dentro del"],
+    "4": ["a través de"],
+    "5": ["al lado de"],
+    "6": ["en vez de"],
+    "7": ["alrededor de"],
+    "8": ["hacia"],
+    "9": ["hasta"],
+    "10": ["sobre"]
+  },
+  "23-9": {
+    "1": ["T"],
+    "2": ["M"],
+    "3": ["L"],
+    "4": ["T"],
+    "5": ["O"],
+    "6": ["L"],
+    "7": ["O"],
+    "8": ["O"],
+    "9": ["M"],
+    "10": ["L"]
+  },
+  "23-10": {
+    "1": ["Esta casa huele a pescado."],
+    "2": ["¿Llamas a Rosa o a Manuel?"],
+    "3": ["¡Yo amo a mi canario!"],
+    "4": ["Ellos no invitan a nadie a su aniversario."],
+    "5": ["Mi sopa sabe a perejil."],
+    "6": ["¿Conocen Uds. a alguien en esta clase?"],
+    "7": ["Las flores cuestan a tres dólares la docena."],
+    "8": ["La estación de trenes está a diez millas de mi casa."],
+    "9": ["Luisa cuida a mi gato."]
+  },
+  "23-11": {
+    "1": ["en lugar de caminar", "en vez de caminar"],
+    "2": ["Después de entrar"],
+    "3": ["Al terminar"],
+    "4": ["sin hacer"],
+    "5": ["con rapidez"],
+    "6": ["en paz"],
+    "7": ["al llegar"],
+    "8": ["En lugar de lavar", "En vez de lavar"]
+  },
+  "23-12": {
+    "1": ["e"],
+    "2": ["h"],
+    "3": ["f"],
+    "4": ["g"],
+    "5": ["a"],
+    "6": ["c"],
+    "7": ["d"],
+    "8": ["b"]
+  },
+  "23-13": {
+    "1": ["Para ser un liberal tiene ideas tradicionales."],
+    "2": ["¿Te entrenas para los juegos olímpicos?"],
+    "3": ["Necesito una lámpara para mi dormitorio."],
+    "4": ["Deben estar aquí para las cuatro."],
+    "5": ["Este café es para nosotros."],
+    "6": ["Lucille lee el periódico para encontrar un apartamento."],
+    "7": ["¿Es para Susan esta carta?"],
+    "8": ["Vamos para San Francisco."],
+    "9": ["¿Para qué necesitas este dinero?"],
+    "10": ["Necesito el dinero para una computadora nueva."]
+  },
+  "23-15": {
+    "1": ["por ahí"],
+    "2": ["Por favor"],
+    "3": ["Por supuesto"],
+    "4": ["por fin"],
+    "5": ["Por lo general"],
+    "6": ["Por poco"],
+    "7": ["Por eso"],
+    "8": ["por separado"],
+    "9": ["Por lo visto"],
+    "10": ["Por cierto"]
+  },
+  "23-16": {
+    "1": ["para"],
+    "2": ["por"],
+    "3": ["por"],
+    "4": ["Para"],
+    "5": ["Por"],
+    "6": ["Para"],
+    "7": ["por"],
+    "8": ["por"]
+  },
+  "23-17": {
+    "1": ["Trabajamos por Lidia."],
+    "2": ["Ellos pasan por el túnel."],
+    "3": ["Él tiene por lo menos dos autos."],
+    "4": ["Por su enfermedad no está aquí."],
+    "5": ["Mi amigo pasa por mi oficina."],
+    "6": ["Viene por tren."],
+    "7": ["Él estará aquí para las cuatro en punto."]
+  },
+  "23-19": {
+    "1": ["destination"],
+    "2": ["\"by means of\""],
+    "3": ["deadline, time in the future"],
+    "4": ["exchange"],
+    "5": ["comparison"],
+    "6": ["purpose or goal"],
+    "7": ["moving through"],
+    "8": ["reason, because of"],
+    "9": ["duration of time"],
+    "10": ["idiomatic expression with por"]
+  },
+  "23-20": {
+    "1": ["huele a"],
+    "2": ["suenan a"],
+    "3": ["inspira a"],
+    "4": ["se atreven a"],
+    "5": ["montar a"],
+    "6": ["se oponen a"]
+  },
+  "23-21": {
+    "1": ["con"],
+    "2": ["con"],
+    "3": ["por"],
+    "4": ["con"],
+    "5": ["en"],
+    "6": ["en"],
+    "7": ["a"],
+    "8": ["en"]
+  },
+  "23-22": {
+    "1": ["Bajo las escaleras, entro a la sala, pongo la tele y escucho las noticias. Sueño con un día lleno de buenas noticias. Como los líderes extranjeros no amenazan con un nuevo conflicto, los expertos financieros no reportan detalles horribles acerca de la economía y yo dejo de pensar en los problemas del mundo. No soy egoísta, por Dios. Yo solamente quiero un día de paz y pensamientos felices. ¿Qué noticias quiero escuchar? Por ejemplo, que todos estamos por la paz y en contra de la guerra, y que nos alegramos de las cosas simples de la vida. Hoy voy a apagar la televisión y voy a buscar mi pala para trabajar en el jardín."]
+  },
+  "24-1": {
+    "1": ["Algunas"],
+    "2": ["algunos"],
+    "3": ["algún"],
+    "4": ["algunas"],
+    "5": ["algunos"],
+    "6": ["algún"],
+    "7": ["Algunos"],
+    "8": ["algunos"]
+  },
+  "24-2": {
+    "1": ["Nadie trabaja en esta oficina."],
+    "2": ["Algunas personas son más agradables que otras."],
+    "3": ["Nunca hago preguntas."],
+    "4": ["No hablo mucho tampoco."],
+    "5": ["A veces necesito ayuda."],
+    "6": ["¿Habla Ud. alemán también?"],
+    "7": ["Ella come o patatas o arroz solamente."],
+    "8": ["Ni tú ni yo."]
+  },
+  "24-3": {
+    "1": ["Mis primas no van a viajar pronto."],
+    "2": ["Ningunas amigas vienen de Nueva York."],
+    "3": ["Nadie está en la sala."],
+    "4": ["Yo no voy a ir al mercado tampoco."],
+    "5": ["Nunca viajan con sus padres."],
+    "6": ["No encontré ningunos folletos de turismo en Bolivia."],
+    "7": ["No pensamos ir a Santa Fe o a Los Ángeles pronto (nunca)."],
+    "8": ["Tampoco queremos comprar nada típico de esas ciudades."],
+    "9": ["No compramos nuestros billetes por la Internet."],
+    "10": ["En ningún momento espero estar solo para descansar."]
+  },
+  "24-4": {
+    "1": ["No hay refrescos en la nevera."],
+    "2": ["No quiero ni dormir ni jugar al fútbol."],
+    "3": ["No van a ningún lugar interesante este fin de semana."],
+    "4": ["No tenemos ninguna esperanza de encontrar el anillo perdido."],
+    "5": ["No sé dónde están ni las preguntas ni las respuestas para la tarea."],
+    "6": ["No tenemos tiempo para ayudarte."],
+    "7": ["Nunca voy a visitar a mis suegros."],
+    "8": ["No voy a saludar a mis tíos tampoco."],
+    "9": ["No celebramos ningún día especial esta semana."],
+    "10": ["No conocen a nadie de nuestra familia."],
+    "11": ["No tengo nada que añadir."]
+  },
+  "24-6": {
+    "1": ["Estoy algo preocupado/a."],
+    "2": ["¿Hay alguien en esta habitación?"],
+    "3": ["Nadie quiere hacer nada."],
+    "4": ["Manny ni sacó las fotos ni filmó la reunión."],
+    "5": ["¿Tenemos que encontrar a Peter o a Sandra?"],
+    "6": ["Algún día vamos a terminar este trabajo."],
+    "7": ["No les gusta nada este trabajo."],
+    "8": ["Nunca harán esto."]
+  },
+  "24-7": {
+    "1": ["f"],
+    "2": ["c"],
+    "3": ["b"],
+    "4": ["d"],
+    "5": ["e"],
+    "6": ["a"]
+  },
+  "24-8": {
+    "1": ["El sol no es un planeta sino una estrella."],
+    "2": ["Blanca Nieves no es un personaje real sino ficticio."],
+    "3": ["La astronomía no es un deporte sino una ciencia."],
+    "4": ["El inglés no es la lengua oficial de Portugal sino el portugués."],
+    "5": ["La paella no es un plato típico mexicano sino español."],
+    "6": ["El ballet no es un juego sino un arte."],
+    "7": ["Un crucigrama no es un problema sino un pasatiempo."],
+    "8": ["Un perro no es una persona sino un animal."],
+    "9": ["La luna no es una estrella sino un satélite."]
+  },
+  "24-9": {
+    "1": ["pero"],
+    "2": ["sino"],
+    "3": ["pero"],
+    "4": ["sino que"],
+    "5": ["pero"],
+    "6": ["pero"],
+    "7": ["pero"],
+    "8": ["sino que"],
+    "9": ["pero"],
+    "10": ["sino que"]
+  },
+  "24-10": {
+    "1": ["Ray no ha decidido si vamos a la playa este fin de semana. Él no quiere ver a nadie. No quiere ir a ninguna parte, ni al concierto de rock ni al cine. También dice que no quiere ver jamás ninguna película triste. Algunos de sus amigos van a ir al museo de arte moderno pero Ray piensa que los museos son aburridos también. Tampoco quiere ir de compras. Nunca va a tener muchos amigos si no sale de casa. ¿Qué? ¿No importa? No he escuchado jamás un comentario como éste. Si Ray no deja de mirar la televisión y sale de casa, ¡nadie va a creer que está vivo!"]
+  },
+  "25-1": {
+    "1": ["Dónde"],
+    "2": ["Cuáles"],
+    "3": ["Qué"],
+    "4": ["Cuándo"],
+    "5": ["Cuántas"],
+    "6": ["Cuánto"],
+    "7": ["Cuántos"],
+    "8": ["Cuál"],
+    "9": ["Cómo"],
+    "10": ["Cuánta"]
+  },
+  "25-3": {
+    "1": ["San José."],
+    "2": ["Portugués."],
+    "3": ["Doce."],
+    "4": ["De las Américas."],
+    "5": ["Madrid y Barcelona."],
+    "6": ["En Venezuela."]
+  },
+  "25-4": {
+    "1": ["¿Quién es el próximo?"],
+    "2": ["¿Cómo se llama Ud., señor?"],
+    "3": ["¿En qué puedo ayudarlo?"],
+    "4": ["¿Cuál es su fecha de nacimiento?"],
+    "5": ["¿Dónde trabaja Ud.?"],
+    "6": ["¿Cuánto tiempo puede quedarse?"]
+  },
+  "25-5": {
+    "1": ["d"],
+    "2": ["c"],
+    "3": ["b"],
+    "4": ["a"],
+    "5": ["f"],
+    "6": ["e"]
+  },
+  "25-7": {
+    "1": ["Pregúntale a tu amigo quién está sentado allá."],
+    "2": ["La policía pregunta dónde estuviste anoche."],
+    "3": ["El/La detective pregunta a qué hora llegaste a la discoteca."],
+    "4": ["Tu mamá pregunta adónde fuiste después de la medianoche."],
+    "5": ["Preguntan cuándo terminará este interrogatorio."]
+  },
+  "25-8": {
+    "1": ["¡Qué...!"],
+    "2": ["¡Cuánto...!"],
+    "3": ["¡Cuántos...!"],
+    "4": ["¡Quién...!"],
+    "5": ["¡Cuántos...!"],
+    "6": ["¡Qué...!"],
+    "7": ["¡Cuánto...!"],
+    "8": ["¡Qué...!"]
+  },
+  "25-9": {
+    "1": ["d"],
+    "2": ["f"],
+    "3": ["e"],
+    "4": ["a"],
+    "5": ["c"],
+    "6": ["b"],
+    "7": ["h"],
+    "8": ["g"]
+  },
+  "25-10": {
+    "1": ["¡Qué mala suerte! No puedo encender el auto."],
+    "2": ["Voy a tomar un taxi. ¡Cuánto tráfico!"],
+    "3": ["La carrera es veinte dólares. ¡Cuánto dinero por este servicio!"],
+    "4": ["¡Qué día tan bonito! Y no puedo ir a la playa."],
+    "5": ["Es tarde. ¡Cuánta gente está esperando!"],
+    "6": ["¡Qué habitación tan horrible! El verde no es mi color favorito."],
+    "7": ["Aquí está Lara. ¡Qué sorpresa tan agradable!"],
+    "8": ["Lleva un vestido feo. ¡Qué ridículo!"],
+    "9": ["Dos horas y media en este lugar. ¡Qué desagradable!"],
+    "10": ["¿Mi cita no es hasta mañana? ¡Qué día!"]
+  },
+  "26-1": {
+    "1": ["treinta y cinco"],
+    "2": ["dos mil trescientos cuarenta y un"],
+    "3": ["trescientos veintidós"],
+    "4": ["dieciséis"],
+    "5": ["sesenta y siete"],
+    "6": ["setenta y un"],
+    "7": ["cien"],
+    "8": ["quinientas dos"],
+    "9": ["veintiséis"],
+    "10": ["cien mil"],
+    "11": ["treinta y un"],
+    "12": ["setecientas"],
+    "13": ["un millón"],
+    "14": ["cincuenta y una"]
+  },
+  "26-2": {
+    "1": ["el quince de marzo de mil ochocientos noventa y ocho"],
+    "2": ["Son las tres y media de la tarde."],
+    "3": ["el catorce de julio de mil setecientos setenta"],
+    "4": ["el primero de junio de dos mil dos"],
+    "5": ["Son las diez y quince de la noche.", "Son las diez y cuarto de la noche."],
+    "6": ["el treinta y uno de enero de mil novecientos noventa y nueve"],
+    "7": ["a las nueve y media de la mañana"],
+    "8": ["el treinta de noviembre a las siete de la tarde"]
+  },
+  "26-4": {
+    "1": ["V"],
+    "2": ["F"],
+    "3": ["F"],
+    "4": ["V"],
+    "5": ["F"],
+    "6": ["V"],
+    "7": ["F"],
+    "8": ["V"],
+    "9": ["F"],
+    "10": ["V"]
+  },
+  "26-5": {
+    "1": ["Hay más de cien canales de televisión."],
+    "2": ["Muchas familias americanas tienen solamente un hijo."],
+    "3": ["Muchos hogares norteamericanos tienen tres televisores."],
+    "4": ["Uno no puede comprar mucho con veinte y cinco (veinticinco) dólares."],
+    "5": ["Hay treinta y dos piezas en un juego de ajedrez."],
+    "6": ["Trabajamos cincuenta semanas cada año.", "Trabajamos cincuenta semanas al año."],
+    "7": ["El cumpleaños de Lincoln es el 12 de febrero."]
+  },
+  "26-6": {
+    "1": ["primera"],
+    "2": ["quinto"],
+    "3": ["décimo"],
+    "4": ["octava"],
+    "5": ["primer"],
+    "6": ["tercera"],
+    "7": ["séptima"],
+    "8": ["veinte"],
+    "9": ["cuarta"],
+    "10": ["segunda"]
+  },
+  "26-8": {
+    "1": ["Ésta es mi tercera visita al museo."],
+    "2": ["Pero es la primera vez que saco fotos."],
+    "3": ["El décimo capítulo es difícil."],
+    "4": ["Daisy siempre llega la segunda, después de Julia."],
+    "5": ["Ellos/Ellas apuestan en la quinta carrera."],
+    "6": ["Picasso vivió en el siglo veinte."],
+    "7": ["Hoy es el primer día del resto de mi vida."],
+    "8": ["Diciembre es el mes doce del año."],
+    "9": ["Afortunadamente, hoy es el séptimo día de la semana."],
+    "10": ["Vivimos en el cuarto piso."]
+  },
+  "26-9": {
+    "1": ["un tercio de la población", "la tercera parte de la población"],
+    "2": ["una ración doble"],
+    "3": ["media naranja"],
+    "4": ["medio día"],
+    "5": ["dos tercios de mi salario"],
+    "6": ["la sexta columna"],
+    "7": ["un octavo de yarda"],
+    "8": ["ganancias cuádruples"]
+  },
+  "26-10": {
+    "1": ["Trabajo con números y cantidades todos los días. Son muy importantes, una parte esencial de mi vida. Por ejemplo, puedo exigir un aumento del quince por ciento de mi sueldo para recibir por lo menos el diez por ciento. Voy a pagarle a mi corredor(a) de bolsa una comisión doble si gano más dinero pronto. Paso la quinta parte de mi tiempo comprando y gastando dinero. Tengo tres tarjetas de crédito y sé que el día doce de cada mes debo revisar mi balance. Hablando de fechas, el día 6 de marzo es mi cumpleaños y espero recibir el triple número de regalos este año. Afortunadamente, en este siglo veintiuno tenemos calculadoras y computadores para ayudarnos con las tareas aritméticas: suman, restan, multiplican, dividen y calculan los porcentajes. Necesito tener cuidado con mi dinero y gastar menos de lo que gano. ¡Ojalá!"]
+  }
+}

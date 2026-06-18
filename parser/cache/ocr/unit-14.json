@@ -1,0 +1,358 @@
+{
+  "unit": 14,
+  "pages": [
+    {
+      "pdfPage": 161,
+      "exercises": [
+        {
+          "id": "14-1",
+          "type": "fill",
+          "instruction": "Los clientes están en la tienda. Práctica. Escribe la forma apropiada del presente de subjuntivo de los verbos entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.865 },
+            { "item": 2, "cy": 0.898 },
+            { "item": 3, "cy": 0.931 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 162,
+      "exercises": [
+        {
+          "id": "14-1",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 4, "cy": 0.083 },
+            { "item": 5, "cy": 0.116 },
+            { "item": 6, "cy": 0.149 },
+            { "item": 7, "cy": 0.182 }
+          ]
+        },
+        {
+          "id": "14-2",
+          "type": "fill",
+          "instruction": "Preparamos una fiesta. ¿Cuál es la conjunción apropiada? Escoge la conjunción y escríbela en el espacio en blanco. You may use the choices more than once.",
+          "blanks": [
+            { "item": 1, "cy": 0.437 },
+            { "item": 2, "cy": 0.47 },
+            { "item": 3, "cy": 0.503 },
+            { "item": 4, "cy": 0.536 },
+            { "item": 5, "cy": 0.57 },
+            { "item": 6, "cy": 0.603 },
+            { "item": 7, "cy": 0.634 }
+          ]
+        },
+        {
+          "id": "14-3",
+          "type": "translate",
+          "instruction": "En español. El domingo, la familia López invita a sus amigos a un almuerzo. Escribe las frases en español. Usa el presente de subjuntivo.",
+          "blanks": [
+            { "item": 1, "cy": 0.716 },
+            { "item": 2, "cy": 0.749 },
+            { "item": 3, "cy": 0.782 },
+            { "item": 4, "cy": 0.815 },
+            { "item": 5, "cy": 0.848 },
+            { "item": 6, "cy": 0.882 },
+            { "item": 7, "cy": 0.915 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 163,
+      "exercises": [
+        {
+          "id": "14-4",
+          "type": "matching",
+          "instruction": "Pareados. Luis y Ana compran una casa nueva y tienen planes. Escribe la letra de la respuesta más lógica para completar la oración.",
+          "blanks": [
+            { "item": 1, "cy": 0.185 },
+            { "item": 2, "cy": 0.218 },
+            { "item": 3, "cy": 0.251 },
+            { "item": 4, "cy": 0.284 },
+            { "item": 5, "cy": 0.318 },
+            { "item": 6, "cy": 0.351 },
+            { "item": 7, "cy": 0.384 },
+            { "item": 8, "cy": 0.417 },
+            { "item": 9, "cy": 0.467 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 164,
+      "exercises": [
+        {
+          "id": "14-5",
+          "type": "fill",
+          "instruction": "En la tienda. Práctica. Escribe la forma apropiada del verbo en el presente de subjuntivo.",
+          "blanks": [
+            { "item": 1, "cy": 0.59 },
+            { "item": 2, "cy": 0.624 },
+            { "item": 3, "cy": 0.673 },
+            { "item": 4, "cy": 0.706 },
+            { "item": 5, "cy": 0.739 },
+            { "item": 6, "cy": 0.773 }
+          ]
+        },
+        {
+          "id": "14-6",
+          "type": "translate",
+          "instruction": "En la oficina, todos ayudan. En español. Usa el subjuntivo en tus respuestas.",
+          "blanks": [
+            { "item": 1, "cy": 0.903 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 165,
+      "exercises": [
+        {
+          "id": "14-6",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 2, "cy": 0.083 },
+            { "item": 3, "cy": 0.149 },
+            { "item": 4, "cy": 0.182 },
+            { "item": 5, "cy": 0.215 },
+            { "item": 6, "cy": 0.249 }
+          ]
+        },
+        {
+          "id": "14-7",
+          "type": "personal",
+          "instruction": "Expresa tus ideas acerca de las siguientes situaciones. Completa las oraciones con tus propias ideas. Usa el subjuntivo.",
+          "blanks": [
+            { "item": 1, "cy": 0.395 },
+            { "item": 2, "cy": 0.428 },
+            { "item": 3, "cy": 0.461 },
+            { "item": 4, "cy": 0.494 },
+            { "item": 5, "cy": 0.528 },
+            { "item": 6, "cy": 0.56 },
+            { "item": 7, "cy": 0.594 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 166,
+      "exercises": [
+        {
+          "id": "14-9",
+          "type": "personal",
+          "instruction": "Explica por qué usaste el indicativo o el subjuntivo. Go back to ejercicio 14-8. Explain why you chose the indicative or the subjunctive in the following sentences.",
+          "blanks": [
+            { "item": 1, "cy": 0.828 },
+            { "item": 3, "cy": 0.861 },
+            { "item": 5, "cy": 0.894 },
+            { "item": 7, "cy": 0.928 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 167,
+      "exercises": [
+        {
+          "id": "14-9",
+          "type": "personal",
+          "continued": true,
+          "blanks": [
+            { "item": 8, "cy": 0.083 }
+          ]
+        },
+        {
+          "id": "14-10",
+          "type": "translate",
+          "instruction": "Las finanzas y mis planes para el futuro. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.36 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 168,
+      "exercises": [
+        {
+          "id": "14-11",
+          "type": "translate",
+          "instruction": "Verdades de la vida. En español. Usa el subjuntivo.",
+          "blanks": [
+            { "item": 1, "cy": 0.843 },
+            { "item": 2, "cy": 0.877 },
+            { "item": 3, "cy": 0.91 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 169,
+      "exercises": [
+        {
+          "id": "14-11",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 4, "cy": 0.083 },
+            { "item": 5, "cy": 0.116 }
+          ]
+        },
+        {
+          "id": "14-12",
+          "type": "truefalse",
+          "instruction": "Y en tu opinión… ¿Verdadero o falso? Así somos los humanos.",
+          "blanks": [
+            { "item": 1, "cy": 0.246 },
+            { "item": 2, "cy": 0.279 },
+            { "item": 3, "cy": 0.313 },
+            { "item": 4, "cy": 0.346 },
+            { "item": 5, "cy": 0.379 },
+            { "item": 6, "cy": 0.412 },
+            { "item": 7, "cy": 0.445 },
+            { "item": 8, "cy": 0.479 }
+          ]
+        },
+        {
+          "id": "14-13",
+          "type": "personal",
+          "instruction": "Situaciones individuales. Responde a las preguntas con una respuesta lógica. Usa una forma de indicativo o de subjuntivo de acuerdo a la frase. You may use the infinitive suggested in parentheses.",
+          "blanks": [
+            { "item": 1, "cy": 0.659 },
+            { "item": 2, "cy": 0.725 },
+            { "item": 3, "cy": 0.792 },
+            { "item": 4, "cy": 0.859 },
+            { "item": 5, "cy": 0.925 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 170,
+      "exercises": [
+        {
+          "id": "14-13",
+          "type": "personal",
+          "continued": true,
+          "blanks": [
+            { "item": 6, "cy": 0.116 }
+          ]
+        },
+        {
+          "id": "14-14",
+          "type": "truefalse",
+          "instruction": "Y en tu caso… ¿Es verdadero o falso?",
+          "blanks": [
+            { "item": 1, "cy": 0.245 },
+            { "item": 2, "cy": 0.277 },
+            { "item": 3, "cy": 0.309 },
+            { "item": 4, "cy": 0.341 },
+            { "item": 5, "cy": 0.373 },
+            { "item": 6, "cy": 0.405 }
+          ]
+        },
+        {
+          "id": "14-15",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.467 },
+            { "item": 2, "cy": 0.532 },
+            { "item": 3, "cy": 0.564 },
+            { "item": 4, "cy": 0.596 },
+            { "item": 5, "cy": 0.628 },
+            { "item": 6, "cy": 0.66 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 171,
+      "exercises": [
+        {
+          "id": "14-16",
+          "type": "fill",
+          "instruction": "Una persona feliz. Usa una de las palabras compuestas con -quiera para completar las oraciones que aparecen a continuación.",
+          "blanks": [
+            { "item": 1, "cy": 0.347 },
+            { "item": 2, "cy": 0.381 },
+            { "item": 3, "cy": 0.414 },
+            { "item": 4, "cy": 0.447 },
+            { "item": 5, "cy": 0.48 },
+            { "item": 6, "cy": 0.53 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 172,
+      "exercises": [
+        {
+          "id": "14-17",
+          "type": "fill",
+          "instruction": "Escribe la forma apropiada de subjuntivo o de indicativo.",
+          "blanks": [
+            { "item": 1, "cy": 0.572 },
+            { "item": 2, "cy": 0.605 },
+            { "item": 3, "cy": 0.639 },
+            { "item": 4, "cy": 0.672 },
+            { "item": 5, "cy": 0.705 },
+            { "item": 6, "cy": 0.738 },
+            { "item": 7, "cy": 0.772 },
+            { "item": 8, "cy": 0.805 }
+          ]
+        },
+        {
+          "id": "14-18",
+          "type": "translate",
+          "instruction": "En español. Descubre lo que dice Felipe de su amigo Bob. Usa el subjuntivo.",
+          "blanks": [
+            { "item": 1, "cy": 0.901 },
+            { "item": 2, "cy": 0.934 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 173,
+      "exercises": [
+        {
+          "id": "14-18",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 3, "cy": 0.083 },
+            { "item": 4, "cy": 0.116 },
+            { "item": 5, "cy": 0.149 },
+            { "item": 6, "cy": 0.182 }
+          ]
+        },
+        {
+          "id": "14-19",
+          "type": "fill",
+          "instruction": "Frases que conectan ideas de una manera lógica. Escoge la frase para conectar el mensaje con sentido lógico.",
+          "blanks": [
+            { "item": 1, "cy": 0.355 },
+            { "item": 2, "cy": 0.388 },
+            { "item": 3, "cy": 0.422 },
+            { "item": 4, "cy": 0.455 },
+            { "item": 5, "cy": 0.504 },
+            { "item": 6, "cy": 0.555 }
+          ]
+        },
+        {
+          "id": "14-20",
+          "type": "translate",
+          "instruction": "El 15 de abril: la carrera contra el tiempo. Traduce. Usa las palabras del vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.636 }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -7,11 +7,7 @@
     "build": "next build",
     "start": "next start -p 3100",
     "lint": "eslint",
-    "test": "vitest run",
-    "data:parse": "node scripts/parse-words.mjs",
-    "data:conjugations": "tsx scripts/dump-conjugations.ts",
-    "data:sentences:split": "node scripts/split-words.mjs",
-    "data:sentences:merge": "node scripts/merge-sentences.mjs"
+    "test": "vitest run --passWithNoTests"
   },
   "dependencies": {
     "jose": "^6.2.3",

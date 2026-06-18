@@ -44,6 +44,9 @@ next-env.d.ts
 .data/
 .env.local
 
+# parser geometry cache (regenerable from public/book images by detect_all.py)
+parser/cache/geometry.json
+
 # data build intermediates / audit dumps (regenerable)
 data/_chunks/
 data/_sentences/

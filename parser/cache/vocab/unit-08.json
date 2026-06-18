@@ -1,0 +1,456 @@
+{
+  "unit": 8,
+  "title": "Reflexive Verbs and Reflexive Constructions",
+  "sections": [
+    {
+      "title": "Reflexive Verbs and Pronouns",
+      "page": 82,
+      "verbs": [
+        { "es": "bañar(se)", "en": "to bathe, take a bath" },
+        { "es": "afeitarse", "en": "to shave" },
+        { "es": "cepillarse", "en": "to brush" },
+        { "es": "desayunarse", "en": "to have breakfast" },
+        { "es": "ducharse", "en": "to shower" },
+        { "es": "mirarse", "en": "to look at oneself" },
+        { "es": "ponerse", "en": "to put on" },
+        { "es": "quitarse", "en": "to take off" },
+        { "es": "secarse", "en": "to dry oneself, dry off" },
+        { "es": "lavar(se)", "en": "to wash", "src": "example" },
+        { "es": "vestir(se)", "en": "to dress", "src": "example" },
+        { "es": "comprar", "en": "to buy", "src": "example" },
+        { "es": "escoger", "en": "to choose", "src": "example" },
+        { "es": "defender(se)", "en": "to defend (oneself)", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el espejo", "en": "mirror", "gender": "m", "src": "example" },
+        { "es": "la barba", "en": "beard", "gender": "f", "src": "example" },
+        { "es": "el pijama", "en": "pajamas", "gender": "m", "src": "example" },
+        { "es": "el agua", "en": "water", "gender": "f", "src": "example" },
+        { "es": "la toalla", "en": "towel", "gender": "f", "src": "example" },
+        { "es": "el diente", "en": "tooth", "gender": "m", "src": "example" },
+        { "es": "la mañana", "en": "morning", "gender": "f", "src": "example" },
+        { "es": "el número", "en": "number", "gender": "m", "src": "example" },
+        { "es": "el billete", "en": "ticket", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "ganador, ganadora", "en": "winning", "src": "example" },
+        { "es": "caliente", "en": "hot", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "siempre", "en": "always", "src": "example" },
+        { "es": "generalmente", "en": "generally", "src": "example" },
+        { "es": "entonces", "en": "then", "src": "example" },
+        { "es": "después", "en": "afterward", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "More Reflexive Verbs",
+      "page": 83,
+      "verbs": [
+        { "es": "bañarse", "en": "to bathe, take a bath" },
+        { "es": "cortarse", "en": "to cut" },
+        { "es": "destaparse", "en": "to uncover, take off" },
+        { "es": "lavarse", "en": "to wash" },
+        { "es": "limarse (las uñas)", "en": "to file (one's nails)" },
+        { "es": "maquillarse", "en": "to put makeup on" },
+        { "es": "peinarse", "en": "to comb one's hair" },
+        { "es": "pintarse (los labios)", "en": "to put on lipstick" },
+        { "es": "taparse", "en": "to cover" }
+      ],
+      "nouns": [
+        { "es": "la cara", "en": "face", "gender": "f", "src": "example" },
+        { "es": "el diente", "en": "tooth", "gender": "m", "src": "example" },
+        { "es": "el sombrero", "en": "hat", "gender": "m", "src": "example" },
+        { "es": "la uña", "en": "nail", "gender": "f", "src": "example" },
+        { "es": "la mano", "en": "hand", "gender": "f", "src": "example" },
+        { "es": "el payaso", "en": "clown", "gender": "m", "src": "example" },
+        { "es": "la manta", "en": "blanket", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [],
+      "expressions": []
+    },
+    {
+      "title": "Reflexive Constructions with Stem-Changing and Irregular Verbs",
+      "page": 84,
+      "verbs": [
+        { "es": "acostarse", "en": "to go to bed", "yo": "me acuesto" },
+        { "es": "despedirse", "en": "to say good-bye", "yo": "me despido" },
+        { "es": "despertarse", "en": "to wake up", "yo": "me despierto" },
+        { "es": "desvestirse", "en": "to get undressed", "yo": "me desvisto" },
+        { "es": "dormirse", "en": "to go to sleep", "yo": "me duermo" },
+        { "es": "probarse", "en": "to try on (clothing)", "yo": "me pruebo" },
+        { "es": "sentarse", "en": "to sit down", "yo": "me siento" },
+        { "es": "torcerse", "en": "to twist", "yo": "me tuerzo" },
+        { "es": "vestirse", "en": "to dress (up)", "yo": "me visto" },
+        { "es": "distraerse", "en": "to distract oneself", "yo": "me distraigo" },
+        { "es": "irse", "en": "to leave", "yo": "me voy" },
+        { "es": "reponerse", "en": "to get better", "yo": "me repongo" },
+        { "es": "sostenerse", "en": "to support, sustain oneself", "yo": "me sostengo" },
+        { "es": "ponerse", "en": "to put on", "yo": "me pongo" }
+      ],
+      "nouns": [
+        { "es": "la ropa", "en": "clothes", "gender": "f", "src": "example" },
+        { "es": "el sombrero", "en": "hat", "gender": "m", "src": "example" },
+        { "es": "el baño", "en": "bath, bathroom", "gender": "m", "src": "example" },
+        { "es": "el amigo", "en": "friend", "gender": "m", "src": "example" },
+        { "es": "la casa", "en": "house, home", "gender": "f", "src": "example" },
+        { "es": "la noche", "en": "night", "gender": "f", "src": "example" },
+        { "es": "la medianoche", "en": "midnight", "gender": "f", "src": "example" },
+        { "es": "el abrigo", "en": "coat", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "ligero, ligera", "en": "light", "src": "example" },
+        { "es": "elegante", "en": "elegant", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "antes de", "en": "before", "src": "example" },
+        { "es": "casi", "en": "almost", "src": "example" },
+        { "es": "nunca", "en": "never", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "hacer calor", "en": "to be hot (weather)", "src": "example" }
+      ]
+    },
+    {
+      "title": "The Use of Reflexive Verbs in Spanish",
+      "page": 85,
+      "verbs": [
+        { "es": "aburrirse (de)", "en": "to get bored (with)" },
+        { "es": "acordarse (de)", "en": "to remember" },
+        { "es": "alegrarse (de)", "en": "to be glad, rejoice (about)" },
+        { "es": "convertirse (en)", "en": "to become" },
+        { "es": "disgustarse (de, con)", "en": "to become upset (over, about, with)" },
+        { "es": "divertirse (con)", "en": "to enjoy oneself (with)" },
+        { "es": "enfermarse", "en": "to become ill, get sick" },
+        { "es": "enloquecer(se)", "en": "to drive crazy; to go crazy" },
+        { "es": "enojarse (con)", "en": "to get mad, angry (about, with)" },
+        { "es": "olvidarse (de)", "en": "to forget" },
+        { "es": "volverse", "en": "to become" },
+        { "es": "enamorarse (de)", "en": "to fall in love (with)", "src": "example" },
+        { "es": "mojarse", "en": "to get wet", "src": "example" },
+        { "es": "sentarse", "en": "to sit down", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el diente", "en": "tooth", "gender": "m", "src": "example" },
+        { "es": "la telenovela", "en": "soap opera", "gender": "f", "src": "example" },
+        { "es": "la película", "en": "movie, film", "gender": "f", "src": "example" },
+        { "es": "el chiste", "en": "joke", "gender": "m", "src": "example" },
+        { "es": "el contable", "en": "accountant", "gender": "m", "src": "example" },
+        { "es": "el impuesto", "en": "tax", "gender": "m", "src": "example" },
+        { "es": "la clase", "en": "class", "gender": "f", "src": "example" },
+        { "es": "la regla", "en": "rule", "gender": "f", "src": "example" },
+        { "es": "el animal", "en": "animal", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [],
+      "adverbs": [
+        { "es": "fácilmente", "en": "easily", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "Verbs That Change Meaning When Used as Reflexive Verbs",
+      "page": 86,
+      "verbs": [
+        { "es": "acercar", "en": "to bring near" },
+        { "es": "acercarse", "en": "to get closer" },
+        { "es": "acordar", "en": "to agree" },
+        { "es": "acordarse", "en": "to remember" },
+        { "es": "acostar", "en": "to put to bed" },
+        { "es": "acostarse", "en": "to go to bed" },
+        { "es": "colocar", "en": "to place" },
+        { "es": "colocarse", "en": "to get a job" },
+        { "es": "dormir", "en": "to put to sleep" },
+        { "es": "dormirse", "en": "to fall asleep" },
+        { "es": "enfermar", "en": "to make ill, sick" },
+        { "es": "enfermarse", "en": "to become ill, get sick" },
+        { "es": "engañar", "en": "to deceive" },
+        { "es": "engañarse", "en": "to deceive oneself" },
+        { "es": "esconder", "en": "to hide (something or someone)" },
+        { "es": "esconderse", "en": "to hide" },
+        { "es": "llamar", "en": "to call" },
+        { "es": "llamarse", "en": "to be called, named" },
+        { "es": "llevar", "en": "to take" },
+        { "es": "llevarse con", "en": "to get along with (someone)" },
+        { "es": "negar", "en": "to deny" },
+        { "es": "negarse", "en": "to refuse" },
+        { "es": "parecer", "en": "to appear" },
+        { "es": "parecerse a", "en": "to look like (someone)" },
+        { "es": "preparar", "en": "to prepare" },
+        { "es": "prepararse", "en": "to get ready" },
+        { "es": "probar", "en": "to try, test; to taste" },
+        { "es": "probarse", "en": "to try on" },
+        { "es": "quitar", "en": "to take away" },
+        { "es": "quitarse", "en": "to take off" },
+        { "es": "sentir", "en": "to feel" },
+        { "es": "sentirse", "en": "to feel (emotionally or physically)" },
+        { "es": "volver", "en": "to return" },
+        { "es": "volverse", "en": "to become" },
+        { "es": "arrepentirse", "en": "to regret, repent", "src": "example" },
+        { "es": "morderse", "en": "to bite (oneself)", "src": "example" },
+        { "es": "regañar", "en": "to scold", "src": "example" },
+        { "es": "cooperar", "en": "to cooperate", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el coche", "en": "car", "gender": "m", "src": "example" },
+        { "es": "la mano", "en": "hand", "gender": "f", "src": "example" },
+        { "es": "el soldado", "en": "soldier", "gender": "m", "src": "example" },
+        { "es": "el dinero", "en": "money", "gender": "m", "src": "example" },
+        { "es": "la sopa", "en": "soup", "gender": "f", "src": "example" },
+        { "es": "la fiesta", "en": "party", "gender": "f", "src": "example" },
+        { "es": "el vestido", "en": "dress", "gender": "m", "src": "example" },
+        { "es": "el zapato", "en": "shoe", "gender": "m", "src": "example" },
+        { "es": "el plato", "en": "plate, dish", "gender": "m", "src": "example" },
+        { "es": "la mesa", "en": "table", "gender": "f", "src": "example" },
+        { "es": "el pariente", "en": "relative", "gender": "m", "src": "example" },
+        { "es": "el regalito", "en": "little gift", "gender": "m", "src": "example" },
+        { "es": "el niño", "en": "child, boy", "gender": "m", "src": "example" },
+        { "es": "el sofá", "en": "sofa", "gender": "m", "src": "example" },
+        { "es": "el vecino", "en": "neighbor", "gender": "m", "src": "example" },
+        { "es": "el ruido", "en": "noise", "gender": "m", "src": "example" },
+        { "es": "el trabajo", "en": "work, job", "gender": "m", "src": "example" },
+        { "es": "el cumpleaños", "en": "birthday", "gender": "m", "src": "example" },
+        { "es": "el supervisor", "en": "supervisor", "gender": "m", "src": "example" },
+        { "es": "el novio", "en": "boyfriend", "gender": "m", "src": "example" },
+        { "es": "el nervio", "en": "nerve", "gender": "m", "src": "example" },
+        { "es": "el jefe", "en": "boss", "gender": "m", "src": "example" },
+        { "es": "la fecha", "en": "date", "gender": "f", "src": "example" },
+        { "es": "el familiar", "en": "family member, relative", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "importante", "en": "important", "src": "example" },
+        { "es": "nuevo, nueva", "en": "new", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "ahora", "en": "now", "src": "example" },
+        { "es": "bien", "en": "well", "src": "example" },
+        { "es": "tarde", "en": "late", "src": "example" },
+        { "es": "inmediatamente", "en": "immediately", "src": "example" },
+        { "es": "todos los días", "en": "every day", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "The Commands in Reflexive Constructions",
+      "page": 88,
+      "verbs": [
+        { "es": "levantarse", "en": "to get up", "src": "example" },
+        { "es": "subirse", "en": "to climb up, get on", "src": "example" },
+        { "es": "asustarse", "en": "to get scared", "src": "example" },
+        { "es": "servirse", "en": "to serve oneself", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el diente", "en": "tooth", "gender": "m", "src": "example" },
+        { "es": "el papel", "en": "paper", "gender": "m", "src": "example" },
+        { "es": "el pescado", "en": "fish", "gender": "m", "src": "example" },
+        { "es": "la cena", "en": "dinner", "gender": "f", "src": "example" },
+        { "es": "el zapato", "en": "shoe", "gender": "m", "src": "example" },
+        { "es": "el cabello", "en": "hair", "gender": "m", "src": "example" },
+        { "es": "el jabón", "en": "soap", "gender": "m", "src": "example" },
+        { "es": "la carta", "en": "letter", "gender": "f", "src": "example" },
+        { "es": "el abrigo", "en": "coat", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "mojado, mojada", "en": "wet", "src": "example" },
+        { "es": "listo, lista", "en": "ready", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "bien", "en": "well", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "The Infinitive and Present Participle in Reflexive Constructions",
+      "page": 89,
+      "verbs": [
+        { "es": "ponérselo", "en": "to put it on", "src": "example" },
+        { "es": "levantarse", "en": "to get up", "src": "example" },
+        { "es": "tranquilizarse", "en": "to calm down", "src": "example" },
+        { "es": "buscar", "en": "to look for", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el diente", "en": "tooth", "gender": "m", "src": "example" },
+        { "es": "el sombrero", "en": "hat", "gender": "m", "src": "example" },
+        { "es": "el guante", "en": "glove", "gender": "m", "src": "example" },
+        { "es": "el zapato", "en": "shoe", "gender": "m", "src": "example" },
+        { "es": "el pelo", "en": "hair", "gender": "m", "src": "example" },
+        { "es": "la secadora", "en": "dryer", "gender": "f", "src": "example" },
+        { "es": "el pijama", "en": "pajamas", "gender": "m", "src": "example" },
+        { "es": "el capítulo", "en": "chapter", "gender": "m", "src": "example" },
+        { "es": "la chaqueta", "en": "jacket", "gender": "f", "src": "example" },
+        { "es": "la pulsera", "en": "bracelet", "gender": "f", "src": "example" },
+        { "es": "la calculadora", "en": "calculator", "gender": "f", "src": "example" },
+        { "es": "el dormitorio", "en": "bedroom", "gender": "m", "src": "example" },
+        { "es": "el abuelo", "en": "grandfather", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "nervioso, nerviosa", "en": "nervous", "src": "example" },
+        { "es": "sucio, sucia", "en": "dirty", "src": "example" },
+        { "es": "aburrido, aburrida", "en": "bored", "src": "example" },
+        { "es": "crecido, crecida", "en": "long, grown out", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "temprano", "en": "early", "src": "example" },
+        { "es": "ahora", "en": "now", "src": "example" },
+        { "es": "esta noche", "en": "tonight", "src": "example" },
+        { "es": "aquí", "en": "here", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "tener calor", "en": "to be hot", "src": "example" },
+        { "es": "tener frío", "en": "to be cold", "src": "example" },
+        { "es": "tener sueño", "en": "to be sleepy", "src": "example" }
+      ]
+    },
+    {
+      "title": "Reflexive Constructions in Reciprocal Actions",
+      "page": 91,
+      "verbs": [
+        { "es": "sorprenderse", "en": "to be surprised" },
+        { "es": "preocuparse", "en": "to be worried" },
+        { "es": "tranquilizarse", "en": "to calm oneself" },
+        { "es": "cansarse", "en": "to get tired" },
+        { "es": "reunirse", "en": "to meet (someone)" },
+        { "es": "despedirse", "en": "to say good-bye" },
+        { "es": "ayudarse", "en": "to help each other", "src": "example" },
+        { "es": "pelearse", "en": "to fight with each other", "src": "example" },
+        { "es": "enfadarse", "en": "to get upset", "src": "example" },
+        { "es": "verse", "en": "to see each other / oneself", "src": "example" },
+        { "es": "admirarse", "en": "to admire one another", "src": "example" },
+        { "es": "conocerse", "en": "to know each other", "src": "example" },
+        { "es": "escribirse", "en": "to write each other", "src": "example" },
+        { "es": "quererse", "en": "to love each other", "src": "example" },
+        { "es": "disolverse", "en": "to dissolve", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "la merienda", "en": "afternoon snack", "gender": "f" },
+        { "es": "el producto de belleza", "en": "beauty product", "gender": "m" },
+        { "es": "el diseñador / la diseñadora", "en": "designer", "gender": "m/f" },
+        { "es": "el probador", "en": "fitting room", "gender": "m" },
+        { "es": "el maquillaje", "en": "makeup", "gender": "m" },
+        { "es": "el par de zapatos", "en": "pair of shoes", "gender": "m" },
+        { "es": "la zapatería", "en": "shoe department", "gender": "f" },
+        { "es": "el departamento de caballeros", "en": "the men's department", "gender": "m" },
+        { "es": "el espejo", "en": "mirror", "gender": "m", "src": "example" },
+        { "es": "el gato", "en": "cat", "gender": "m", "src": "example" },
+        { "es": "el perro", "en": "dog", "gender": "m", "src": "example" },
+        { "es": "el pelo", "en": "hair", "gender": "m", "src": "example" },
+        { "es": "el zapato", "en": "shoe", "gender": "m", "src": "example" },
+        { "es": "el azúcar", "en": "sugar", "gender": "m", "src": "example" },
+        { "es": "el paquete", "en": "package", "gender": "m", "src": "example" },
+        { "es": "la cafetería", "en": "cafeteria", "gender": "f", "src": "example" },
+        { "es": "el vestido", "en": "dress", "gender": "m", "src": "example" },
+        { "es": "el dinero", "en": "money", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "caro, cara", "en": "expensive", "src": "example" },
+        { "es": "famoso, famosa", "en": "famous", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "como siempre", "en": "as usual" },
+        { "es": "mutuamente", "en": "mutually, each other" },
+        { "es": "frecuentemente", "en": "frequently", "src": "example" },
+        { "es": "todos los días", "en": "every day", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "valer la pena", "en": "to be worth it" },
+        { "es": "el uno al otro", "en": "each other (m.)" },
+        { "es": "la una a la otra", "en": "each other (f.)" }
+      ]
+    },
+    {
+      "title": "How to Express to Become in Spanish",
+      "page": 92,
+      "verbs": [
+        { "es": "ponerse", "en": "to become (emotional/physical change)" },
+        { "es": "volverse", "en": "to become (involuntary sudden change)" },
+        { "es": "hacerse", "en": "to become (through effort)" },
+        { "es": "ahorrar", "en": "to save (money)", "src": "example" },
+        { "es": "reírse (de)", "en": "to laugh (at)", "src": "example" },
+        { "es": "criticar", "en": "to criticize", "src": "example" },
+        { "es": "practicar", "en": "to practice", "src": "example" },
+        { "es": "perder", "en": "to lose", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el contable", "en": "accountant", "gender": "m", "src": "example" },
+        { "es": "la persona", "en": "person", "gender": "f", "src": "example" },
+        { "es": "el jefe", "en": "boss", "gender": "m", "src": "example" },
+        { "es": "el ingeniero", "en": "engineer", "gender": "m", "src": "example" },
+        { "es": "la sicología", "en": "psychology", "gender": "f", "src": "example" },
+        { "es": "el tenista", "en": "tennis player", "gender": "m", "src": "example" },
+        { "es": "la llave", "en": "key", "gender": "f", "src": "example" },
+        { "es": "el equipo", "en": "team", "gender": "m", "src": "example" },
+        { "es": "el arquitecto", "en": "architect", "gender": "m", "src": "example" },
+        { "es": "el novio", "en": "boyfriend", "gender": "m", "src": "example" },
+        { "es": "el millonario", "en": "millionaire", "gender": "m", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "pálido, pálida", "en": "pale", "src": "example" },
+        { "es": "triste", "en": "sad", "src": "example" },
+        { "es": "loco, loca", "en": "crazy", "src": "example" },
+        { "es": "respetable", "en": "respectable", "src": "example" },
+        { "es": "famoso, famosa", "en": "famous", "src": "example" },
+        { "es": "furioso, furiosa", "en": "furious", "src": "example" },
+        { "es": "contento, contenta", "en": "happy, content", "src": "example" },
+        { "es": "rico, rica", "en": "rich", "src": "example" },
+        { "es": "flaco, flaca", "en": "thin", "src": "example" },
+        { "es": "mudo, muda", "en": "silent, mute", "src": "example" },
+        { "es": "impaciente", "en": "impatient", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "disciplinadamente", "en": "in a disciplined way", "src": "example" },
+        { "es": "demasiado", "en": "too much", "src": "example" }
+      ],
+      "expressions": []
+    },
+    {
+      "title": "The Reflexive Construction in Other Tenses",
+      "page": 94,
+      "verbs": [
+        { "es": "acostarse", "en": "to go to bed", "src": "example" },
+        { "es": "reírse", "en": "to laugh", "src": "example" },
+        { "es": "divertirse", "en": "to have fun", "src": "example" },
+        { "es": "bañarse", "en": "to take a bath", "src": "example" },
+        { "es": "enojarse", "en": "to get angry", "src": "example" },
+        { "es": "desvestirse", "en": "to get undressed", "src": "example" },
+        { "es": "ducharse", "en": "to take a shower", "src": "example" },
+        { "es": "mudarse", "en": "to move (residence)", "src": "example" },
+        { "es": "casarse", "en": "to get married", "src": "example" },
+        { "es": "despertarse", "en": "to wake up", "src": "example" },
+        { "es": "levantarse", "en": "to get up", "src": "example" },
+        { "es": "mirarse", "en": "to look at oneself", "src": "example" },
+        { "es": "afeitarse", "en": "to shave", "src": "example" },
+        { "es": "enamorarse", "en": "to fall in love", "src": "example" },
+        { "es": "ponerse", "en": "to become", "src": "example" }
+      ],
+      "nouns": [
+        { "es": "el sueño", "en": "dream", "gender": "m", "src": "example" },
+        { "es": "el programa", "en": "program", "gender": "m", "src": "example" },
+        { "es": "la televisión", "en": "television", "gender": "f", "src": "example" },
+        { "es": "el extraterrestre", "en": "extraterrestrial", "gender": "m", "src": "example" },
+        { "es": "el barrio", "en": "neighborhood", "gender": "m", "src": "example" },
+        { "es": "la chica", "en": "girl", "gender": "f", "src": "example" },
+        { "es": "el espejo", "en": "mirror", "gender": "m", "src": "example" },
+        { "es": "la barba", "en": "beard", "gender": "f", "src": "example" },
+        { "es": "el bigote", "en": "mustache", "gender": "m", "src": "example" },
+        { "es": "el experto", "en": "expert", "gender": "m", "src": "example" },
+        { "es": "la experiencia", "en": "experience", "gender": "f", "src": "example" },
+        { "es": "la fiesta", "en": "party", "gender": "f", "src": "example" },
+        { "es": "la gente", "en": "people", "gender": "f", "src": "example" }
+      ],
+      "adjectives": [
+        { "es": "cansado, cansada", "en": "tired", "src": "example" },
+        { "es": "pálido, pálida", "en": "pale", "src": "example" },
+        { "es": "nervioso, nerviosa", "en": "nervous", "src": "example" },
+        { "es": "loco, loca", "en": "crazy", "src": "example" }
+      ],
+      "adverbs": [
+        { "es": "mientras", "en": "while", "src": "example" },
+        { "es": "también", "en": "also, too", "src": "example" }
+      ],
+      "expressions": [
+        { "es": "tener miedo", "en": "to be afraid", "src": "example" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "unit": 21,
+  "pages": [
+    {
+      "pdfPage": 266,
+      "exercises": [
+        {
+          "id": "21-1",
+          "type": "fill",
+          "instruction": "Práctica. Escribe la forma apropiada del adjetivo posesivo mi, mis, tu, tus, su, sus, nuestro, nuestros, nuestra, nuestras, vuestro, vuestros, vuestra, vuestras que corresponde a la persona entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.801 },
+            { "item": 2, "cy": 0.835 },
+            { "item": 3, "cy": 0.867 },
+            { "item": 4, "cy": 0.901 },
+            { "item": 6, "cy": 0.801 },
+            { "item": 7, "cy": 0.835 },
+            { "item": 8, "cy": 0.867 },
+            { "item": 9, "cy": 0.901 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 267,
+      "exercises": [
+        {
+          "id": "21-1",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 5, "cy": 0.083 },
+            { "item": 10, "cy": 0.083 },
+            { "item": 11, "cy": 0.116 },
+            { "item": 12, "cy": 0.149 },
+            { "item": 13, "cy": 0.182 },
+            { "item": 14, "cy": 0.215 },
+            { "item": 15, "cy": 0.249 },
+            { "item": 16, "cy": 0.116 },
+            { "item": 17, "cy": 0.149 },
+            { "item": 18, "cy": 0.182 },
+            { "item": 19, "cy": 0.215 }
+          ]
+        },
+        {
+          "id": "21-2",
+          "type": "fill",
+          "instruction": "Escribe el plural de los sustantivos y los adjetivos posesivos. Remember that some plural noun forms have a spelling change or drop their written accent mark (see Unit 17).",
+          "blanks": [
+            { "item": 1, "cy": 0.396 },
+            { "item": 2, "cy": 0.429 },
+            { "item": 3, "cy": 0.463 },
+            { "item": 4, "cy": 0.496 },
+            { "item": 5, "cy": 0.529 },
+            { "item": 6, "cy": 0.396 },
+            { "item": 7, "cy": 0.429 },
+            { "item": 8, "cy": 0.463 },
+            { "item": 9, "cy": 0.496 },
+            { "item": 10, "cy": 0.529 }
+          ]
+        },
+        {
+          "id": "21-3",
+          "type": "translate",
+          "instruction": "En español. Use the short forms of the possessive adjectives.",
+          "blanks": [
+            { "item": 1, "cy": 0.659 },
+            { "item": 2, "cy": 0.693 },
+            { "item": 3, "cy": 0.725 },
+            { "item": 4, "cy": 0.759 },
+            { "item": 5, "cy": 0.792 },
+            { "item": 6, "cy": 0.825 },
+            { "item": 7, "cy": 0.859 },
+            { "item": 8, "cy": 0.892 },
+            { "item": 9, "cy": 0.925 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 268,
+      "exercises": [
+        {
+          "id": "21-3",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 10, "cy": 0.083 }
+          ]
+        },
+        {
+          "id": "21-4",
+          "type": "fill",
+          "instruction": "Práctica. Use the long form of the possessive adjective that refers to the person in each set of parentheses (mío, mía, suyo, etc.).",
+          "blanks": [
+            { "item": 1, "cy": 0.796 },
+            { "item": 2, "cy": 0.829 },
+            { "item": 3, "cy": 0.863 },
+            { "item": 4, "cy": 0.895 },
+            { "item": 5, "cy": 0.929 },
+            { "item": 7, "cy": 0.796 },
+            { "item": 8, "cy": 0.829 },
+            { "item": 9, "cy": 0.863 },
+            { "item": 10, "cy": 0.895 },
+            { "item": 11, "cy": 0.929 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 269,
+      "exercises": [
+        {
+          "id": "21-4",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 6, "cy": 0.083 },
+            { "item": 12, "cy": 0.083 }
+          ]
+        },
+        {
+          "id": "21-5",
+          "type": "translate",
+          "instruction": "En español. Use the long forms of the possessive adjectives (mío, tuyo, suyo, etc.).",
+          "blanks": [
+            { "item": 1, "cy": 0.213 },
+            { "item": 2, "cy": 0.246 },
+            { "item": 3, "cy": 0.279 },
+            { "item": 4, "cy": 0.313 },
+            { "item": 5, "cy": 0.346 }
+          ]
+        },
+        {
+          "id": "21-6",
+          "type": "translate",
+          "instruction": "¿De quién o quiénes son estas cosas? Use the preposition de + the item + the pronoun.",
+          "blanks": [
+            { "item": 1, "cy": 0.864 },
+            { "item": 2, "cy": 0.897 },
+            { "item": 3, "cy": 0.93 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 270,
+      "exercises": [
+        {
+          "id": "21-6",
+          "type": "translate",
+          "continued": true,
+          "blanks": [
+            { "item": 4, "cy": 0.138 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 271,
+      "exercises": [
+        {
+          "id": "21-7",
+          "type": "translate",
+          "instruction": "Cambia las palabras en cursiva. Usa forma apropiada de los pronombres posesivos. Observa el ejemplo: Tengo la silla de mi madre. → Tengo la suya.",
+          "blanks": [
+            { "item": 1, "cy": 0.238 },
+            { "item": 2, "cy": 0.272 },
+            { "item": 3, "cy": 0.305 },
+            { "item": 4, "cy": 0.338 },
+            { "item": 5, "cy": 0.371 },
+            { "item": 6, "cy": 0.405 },
+            { "item": 7, "cy": 0.438 },
+            { "item": 8, "cy": 0.471 },
+            { "item": 9, "cy": 0.504 },
+            { "item": 10, "cy": 0.537 },
+            { "item": 11, "cy": 0.571 }
+          ]
+        },
+        {
+          "id": "21-8",
+          "type": "fill",
+          "instruction": "Vamos a hablar claramente. Escribe las palabras necesarias. Use the definite article + the preposition de + the pronoun él, ella, ellos, ellas, Ud., or Uds.",
+          "blanks": [
+            { "item": 1, "cy": 0.718 },
+            { "item": 2, "cy": 0.751 },
+            { "item": 3, "cy": 0.785 },
+            { "item": 4, "cy": 0.818 },
+            { "item": 5, "cy": 0.851 },
+            { "item": 6, "cy": 0.884 },
+            { "item": 7, "cy": 0.917 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 272,
+      "exercises": [
+        {
+          "id": "21-8",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 8, "cy": 0.148 }
+          ]
+        },
+        {
+          "id": "21-9",
+          "type": "personal",
+          "instruction": "Preguntas personales. Use the various possessive pronouns in your answers whenever possible: la mía, la de ellos, etc.",
+          "blanks": [
+            { "item": 1, "cy": 0.229 },
+            { "item": 2, "cy": 0.263 },
+            { "item": 3, "cy": 0.296 },
+            { "item": 4, "cy": 0.33 },
+            { "item": 5, "cy": 0.362 }
+          ]
+        },
+        {
+          "id": "21-10",
+          "type": "free",
+          "instruction": "Lo mío es mío y lo tuyo es mío también. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.623 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 273,
+      "exercises": [
+        {
+          "id": "21-11",
+          "type": "fill",
+          "instruction": "Práctica. Usa las formas correctas de los adjetivos demostrativos este, esta, estos, estas que corresponden con el sustantivo.",
+          "blanks": [
+            { "item": 1, "cy": 0.56 },
+            { "item": 2, "cy": 0.591 },
+            { "item": 3, "cy": 0.624 },
+            { "item": 4, "cy": 0.655 },
+            { "item": 5, "cy": 0.687 },
+            { "item": 6, "cy": 0.719 },
+            { "item": 7, "cy": 0.56 },
+            { "item": 8, "cy": 0.591 },
+            { "item": 9, "cy": 0.624 },
+            { "item": 10, "cy": 0.655 },
+            { "item": 11, "cy": 0.687 },
+            { "item": 12, "cy": 0.719 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 274,
+      "exercises": [
+        {
+          "id": "21-12",
+          "type": "fill",
+          "instruction": "En el parque zoológico. Más práctica. Usa la forma apropiada del adjetivo demostrativo ese, esa, esos, esas, aquel, aquella, aquellos, aquellas entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.549 },
+            { "item": 2, "cy": 0.583 },
+            { "item": 3, "cy": 0.616 },
+            { "item": 4, "cy": 0.649 },
+            { "item": 5, "cy": 0.682 },
+            { "item": 6, "cy": 0.716 },
+            { "item": 7, "cy": 0.549 },
+            { "item": 8, "cy": 0.583 },
+            { "item": 9, "cy": 0.616 },
+            { "item": 10, "cy": 0.649 },
+            { "item": 11, "cy": 0.682 },
+            { "item": 12, "cy": 0.716 }
+          ]
+        },
+        {
+          "id": "21-13",
+          "type": "fill",
+          "instruction": "La decoración de la casa. En español. Escribe la forma apropiada del adjetivo demostrativo de acuerdo al adverbio aquí, allí y allá entre paréntesis.",
+          "blanks": [
+            { "item": 1, "cy": 0.863 },
+            { "item": 2, "cy": 0.895 },
+            { "item": 3, "cy": 0.929 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 275,
+      "exercises": [
+        {
+          "id": "21-13",
+          "type": "fill",
+          "continued": true,
+          "blanks": [
+            { "item": 4, "cy": 0.083 },
+            { "item": 5, "cy": 0.116 },
+            { "item": 6, "cy": 0.149 },
+            { "item": 7, "cy": 0.182 }
+          ]
+        },
+        {
+          "id": "21-14",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.313 },
+            { "item": 2, "cy": 0.346 },
+            { "item": 3, "cy": 0.379 },
+            { "item": 4, "cy": 0.412 },
+            { "item": 5, "cy": 0.445 },
+            { "item": 6, "cy": 0.479 },
+            { "item": 7, "cy": 0.512 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 276,
+      "exercises": [
+        {
+          "id": "21-15",
+          "type": "fill",
+          "instruction": "En el museo. Práctica. Cambia los sustantivos y usa solamente los pronombres. Use ése, ésa, ésos, ésas instead of the nouns.",
+          "blanks": [
+            { "item": 1, "cy": 0.261 },
+            { "item": 2, "cy": 0.294 },
+            { "item": 3, "cy": 0.326 },
+            { "item": 4, "cy": 0.36 },
+            { "item": 5, "cy": 0.394 },
+            { "item": 6, "cy": 0.427 },
+            { "item": 7, "cy": 0.261 },
+            { "item": 8, "cy": 0.294 },
+            { "item": 9, "cy": 0.326 },
+            { "item": 10, "cy": 0.36 },
+            { "item": 11, "cy": 0.394 },
+            { "item": 12, "cy": 0.427 }
+          ]
+        },
+        {
+          "id": "21-16",
+          "type": "translate",
+          "instruction": "En español.",
+          "blanks": [
+            { "item": 1, "cy": 0.557 },
+            { "item": 2, "cy": 0.59 },
+            { "item": 3, "cy": 0.624 },
+            { "item": 4, "cy": 0.657 },
+            { "item": 5, "cy": 0.69 },
+            { "item": 6, "cy": 0.723 },
+            { "item": 7, "cy": 0.756 },
+            { "item": 8, "cy": 0.79 },
+            { "item": 9, "cy": 0.823 }
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 277,
+      "exercises": [
+        {
+          "id": "21-17",
+          "type": "free",
+          "instruction": "Esto es un insulto. Traduce. Usa el vocabulario útil.",
+          "blanks": [
+            { "item": 1, "cy": 0.539 }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "1-1": {
+    "1": ["vive"],
+    "2": ["trabaja"],
+    "3": ["estudia"],
+    "4": ["planean"],
+    "5": ["subo"],
+    "6": ["saco"],
+    "7": ["conversas"],
+    "8": ["necesita"]
+  },
+  "1-2": {
+    "1": ["Yo preparo la cena."],
+    "2": ["Los niños suben la escalera."],
+    "3": ["Mis gatos beben leche."],
+    "4": ["El cliente suma la cuenta."],
+    "5": ["La mamá de Carli habla al reportero."],
+    "6": ["La actriz teme a los críticos."],
+    "7": ["Tus amigos comen fajitas."]
+  },
+  "1-4": {
+    "1": ["Hoy Martha y Linus celebran su aniversario."],
+    "2": ["Los parientes llegan a tiempo."],
+    "3": ["Varios amigos conversan en la sala."],
+    "4": ["En el patio, los chicos escuchan música latina."],
+    "5": ["El olor a enchiladas circula por toda la casa."],
+    "6": ["Los niños beben limonada."]
+  }
+}
