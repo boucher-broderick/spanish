@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start -p 3100",
     "lint": "eslint",
-    "test": "vitest run --passWithNoTests"
+    "test": "vitest run --passWithNoTests",
+    "vocab:normalize": "node parser/normalize_vocab.mjs",
+    "vocab:seed": "node parser/seed_vocab_db.mjs"
   },
   "dependencies": {
     "jose": "^6.2.3",

@@ -42,7 +42,7 @@ function Table({ label, tone, words }: { label: string; tone: "indigo" | "green"
 
 export default async function VocabUnitPage({ params }: { params: Promise<{ unit: string }> }) {
   const unitNum = Number((await params).unit);
-  const u = vocabForUnit(unitNum);
+  const u = await vocabForUnit(unitNum);
   if (!u) notFound();
 
   return (

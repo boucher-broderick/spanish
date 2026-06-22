@@ -25,7 +25,7 @@ export async function POST(req: Request) {
   const level = body.level ?? DEFAULT_LEVEL;
   const tense = body.tense ?? DEFAULT_TENSE;
   const topic = body.topic?.trim() || undefined;
-  const words = body.unit != null ? pickWords(body.unit, body.section ?? null) : [];
+  const words = body.unit != null ? await pickWords(body.unit, body.section ?? null) : [];
 
   try {
     const result = await generateJson<WritingPromptResult>(
@@ -33,7 +33,7 @@ export async function POST(req: Request) {
       WRITING_PROMPT_SCHEMA as unknown as Record<string, unknown>,
       { effort: "medium" }
     );
-    const sectionLabel = sectionTitle(body.unit ?? null, body.section ?? null);
+    const sectionLabel = await sectionTitle(body.unit ?? null, body.section ?? null);
     const row = await createPrompt(user, {
       level, tense,
       topic: result.topic ?? topic ?? sectionLabel ?? null,

@@ -15,7 +15,7 @@ export default async function PracticeGamePage({ params }: { params: Promise<{ g
   if (def.kind === "drill") return <PracticeQuiz gameKey={game} />;
 
   // LLM games: load the unit/section index on the server, pass to the client.
-  const sections = sectionsIndex();
+  const sections = await sectionsIndex();
   switch (game) {
     case "chat": return <ChatGame sections={sections} />;
     case "writing": return <WritingGame sections={sections} />;

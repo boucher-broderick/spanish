@@ -2,8 +2,8 @@ import Link from "next/link";
 import { Toc } from "@/components/Toc";
 import { allVocab } from "@/lib/book";
 
-export default function VocabTocPage() {
-  const available = new Set(allVocab().map((u) => u.unit));
+export default async function VocabTocPage() {
+  const available = new Set((await allVocab()).map((u) => u.unit));
   return (
     <Toc
       mode="vocab"

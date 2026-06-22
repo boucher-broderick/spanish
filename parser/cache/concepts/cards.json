@@ -1,0 +1,2074 @@
+[
+  {
+    "unit": 1,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you conjugate regular -ar verbs in the present tense?",
+    "answer": "Drop -ar and add: -o, -as, -a, -amos, -áis, -an. E.g. hablar: hablo, hablas, habla, hablamos, habláis, hablan.",
+    "tense": "present"
+  },
+  {
+    "unit": 1,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you conjugate regular -er and -ir verbs in the present tense?",
+    "answer": "-er endings: -o, -es, -e, -emos, -éis, -en (comer: como, comes, come, comemos, coméis, comen). -ir endings are the same except the nosotros/vosotros forms: -imos, -ís (vivir: vivo, vives, vive, vivimos, vivís, viven).",
+    "tense": "present"
+  },
+  {
+    "unit": 1,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "When is the present tense used in Spanish?",
+    "answer": "For actions happening now, habitual actions, general truths, and often the near future. One Spanish form covers English 'I speak,' 'I am speaking,' and 'I do speak.' E.g. Hablo español = I speak / am speaking Spanish.",
+    "tense": "present"
+  },
+  {
+    "unit": 1,
+    "sectionIdx": 2,
+    "kind": "conjugation_rule",
+    "prompt": "How are common irregular verbs like ser, ir, and estar conjugated in the present tense?",
+    "answer": "ser: soy, eres, es, somos, sois, son. ir: voy, vas, va, vamos, vais, van. estar: estoy, estás, está, estamos, estáis, están.",
+    "tense": "present"
+  },
+  {
+    "unit": 1,
+    "sectionIdx": 2,
+    "kind": "conjugation_rule",
+    "prompt": "What is the 'yo-go' pattern for irregular present-tense verbs?",
+    "answer": "Several verbs are irregular only in the yo form, ending in -go: tener→tengo, poner→pongo, hacer→hago, salir→salgo, traer→traigo, decir→digo (also stem-changes). The other forms follow normal endings (e.g. tener: tengo, tienes, tiene...).",
+    "tense": "present"
+  },
+  {
+    "unit": 1,
+    "sectionIdx": 3,
+    "kind": "conjugation_rule",
+    "prompt": "What spelling changes do verbs ending in -cer/-cir (after a vowel) make in the present tense?",
+    "answer": "The yo form changes c→zc: conocer→conozco, conducir→conduzco, traducir→traduzco, parecer→parezco. All other forms are regular (conoces, conoce...).",
+    "tense": "present"
+  },
+  {
+    "unit": 1,
+    "sectionIdx": 3,
+    "kind": "conjugation_rule",
+    "prompt": "What spelling change do verbs like construir (-uir) and others make to preserve pronunciation in the present tense?",
+    "answer": "Verbs in -ger/-gir change g→j in the yo form (escoger→escojo, dirigir→dirijo); -guir verbs drop the u in yo (seguir→sigo). This keeps the soft sound before -o.",
+    "tense": "present"
+  },
+  {
+    "unit": 1,
+    "sectionIdx": 4,
+    "kind": "idiom",
+    "prompt": "What special idiomatic expressions use tener and hacer in Spanish?",
+    "answer": "tener expresses states: tener hambre (be hungry), tener sed, tener frío/calor, tener miedo, tener prisa, tener X años (be X years old). hacer describes weather: hace frío/calor/sol/viento (it's cold/hot/sunny/windy).",
+    "tense": null
+  },
+  {
+    "unit": 1,
+    "sectionIdx": 4,
+    "kind": "idiom",
+    "prompt": "What does 'hay' mean and how is it used (haber)?",
+    "answer": "hay (from haber) means 'there is / there are' and never changes for number: Hay un libro (there is a book), Hay muchos libros (there are many books).",
+    "tense": "present"
+  },
+  {
+    "unit": 2,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do stem-changing -ar and -er verbs work in the present tense?",
+    "answer": "The stressed stem vowel changes (e→ie or o→ue) in all forms EXCEPT nosotros and vosotros. pensar (e→ie): pienso, piensas, piensa, pensamos, pensáis, piensan. poder (o→ue): puedo, puedes, puede, podemos, podéis, pueden.",
+    "tense": "present"
+  },
+  {
+    "unit": 2,
+    "sectionIdx": 1,
+    "kind": "conjugation_rule",
+    "prompt": "How do stem-changing -ir verbs differ from -ar/-er stem changers in the present tense?",
+    "answer": "-ir verbs add a third pattern e→i (besides e→ie and o→ue), still sparing nosotros/vosotros. pedir (e→i): pido, pides, pide, pedimos, pedís, piden. sentir (e→ie): siento...; dormir (o→ue): duermo...",
+    "tense": "present"
+  },
+  {
+    "unit": 2,
+    "sectionIdx": 2,
+    "kind": "conjugation_rule",
+    "prompt": "How do verbs ending in -uir (like construir) change in the present tense?",
+    "answer": "Insert a y before the ending in all forms except nosotros/vosotros. construir: construyo, construyes, construye, construimos, construís, construyen. Similarly: incluir, huir, destruir.",
+    "tense": "present"
+  },
+  {
+    "unit": 3,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "What is the core difference between ser and estar (both mean 'to be')?",
+    "answer": "ser describes essential, permanent identity/characteristics (who/what something is): Soy médico, Es alto. estar describes states, conditions, location, and results of change: Estoy cansado, La casa está en Madrid. Rule of thumb: ser = essence, estar = state/location.",
+    "tense": null
+  },
+  {
+    "unit": 3,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "When is SER used in Spanish?",
+    "answer": "Use ser for: identity/profession (Es abogada), origin/nationality (Soy de México), material/possession (Es de oro; Es de Ana), inherent traits (Es inteligente), time and dates (Son las dos; Es lunes), and where/when an event takes place (La fiesta es aquí).",
+    "tense": null
+  },
+  {
+    "unit": 3,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "When is estar used in Spanish?",
+    "answer": "Use estar for: (1) location/position of things and people: Madrid está en España; (2) temporary or changeable conditions and states: Estoy cansado, La sopa está fría; (3) the result of an action/change: La puerta está abierta; (4) forming progressive tenses with the gerund: Estoy comiendo. Memory aid: estar = how/where something is right now.",
+    "tense": null
+  },
+  {
+    "unit": 3,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "Ser or estar for location? La fiesta ___ en mi casa vs. Mi casa ___ en la ciudad.",
+    "answer": "For the location of a physical object or person, use estar: Mi casa está en la ciudad. BUT for where an EVENT takes place, use ser: La fiesta es en mi casa. So events use ser, things/people use estar.",
+    "tense": null
+  },
+  {
+    "unit": 3,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "Which adjectives change meaning with ser vs. estar? Give key examples.",
+    "answer": "Some adjectives shift meaning. Ser = inherent trait, estar = current state/result: ser aburrido (boring) / estar aburrido (bored); ser listo (clever) / estar listo (ready); ser rico (wealthy) / estar rico (tastes delicious); ser verde (green in color) / estar verde (unripe); ser malo (bad/evil) / estar malo (sick).",
+    "tense": null
+  },
+  {
+    "unit": 3,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "What's the difference between Él es vivo and Él está vivo?",
+    "answer": "Es vivo = he is sharp/clever (a character trait, ser). Está vivo = he is alive (a state, estar). Likewise ser orgulloso (a proud/arrogant person) vs. estar orgulloso (to be proud of something).",
+    "tense": null
+  },
+  {
+    "unit": 3,
+    "sectionIdx": 4,
+    "kind": "idiom",
+    "prompt": "Name some common fixed expressions with estar.",
+    "answer": "estar de acuerdo (to agree), estar de pie (to be standing), estar de vacaciones (to be on vacation), estar de viaje (to be away/traveling), estar a punto de + inf. (to be about to), estar por + inf. (to be inclined to / yet to be done), estar de moda (to be in style), estar de buen/mal humor (to be in a good/bad mood).",
+    "tense": null
+  },
+  {
+    "unit": 3,
+    "sectionIdx": 4,
+    "kind": "idiom",
+    "prompt": "How do you say 'to be about to do something' with estar?",
+    "answer": "Use estar a punto de + infinitive: Estoy a punto de salir (I'm about to leave). Compare estar por + infinitive, which means to be inclined to do something, or that something is still pending: La carta está por escribir (the letter is yet to be written).",
+    "tense": null
+  },
+  {
+    "unit": 4,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you conjugate regular -ar verbs in the preterite?",
+    "answer": "Drop -ar and add: -é, -aste, -ó, -amos, -asteis, -aron. Example, hablar: hablé, hablaste, habló, hablamos, hablasteis, hablaron. Note the written accents on the yo and él/ella forms (hablé, habló).",
+    "tense": "preterite"
+  },
+  {
+    "unit": 4,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you conjugate regular -er and -ir verbs in the preterite?",
+    "answer": "-er and -ir verbs share the SAME endings: -í, -iste, -ió, -imos, -isteis, -ieron. Example, comer: comí, comiste, comió, comimos, comisteis, comieron. Vivir: viví, viviste, vivió, vivimos, vivisteis, vivieron.",
+    "tense": "preterite"
+  },
+  {
+    "unit": 4,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "When is the preterite used in Spanish?",
+    "answer": "The preterite reports completed past actions viewed as finished events: a single completed action (Ayer comí paella), an action with a definite beginning or end (La película empezó a las ocho), or a series of completed actions (Llegué, vi y vencí). Time markers like ayer, anoche, la semana pasada, de repente often signal it.",
+    "tense": "preterite"
+  },
+  {
+    "unit": 4,
+    "sectionIdx": 2,
+    "kind": "conjugation_rule",
+    "prompt": "What spelling changes happen to -car, -gar, -zar verbs in the preterite?",
+    "answer": "Only in the yo form (to keep the original sound): -car → -qué (buscar → busqué), -gar → -gué (llegar → llegué), -zar → -cé (empezar → empecé). All other forms are regular.",
+    "tense": "preterite"
+  },
+  {
+    "unit": 4,
+    "sectionIdx": 2,
+    "kind": "conjugation_rule",
+    "prompt": "What happens to -er/-ir verbs whose stem ends in a vowel (like leer, creer, oír) in the preterite?",
+    "answer": "The unstressed i between two vowels becomes y in the él/ella and ellos forms: leyó, leyeron; creyó, creyeron; oyó, oyeron. The other forms carry a written accent on the í: leí, leíste, leímos, leísteis.",
+    "tense": "preterite"
+  },
+  {
+    "unit": 4,
+    "sectionIdx": 3,
+    "kind": "conjugation_rule",
+    "prompt": "How do stem-changing -ir verbs change in the preterite?",
+    "answer": "Only -ir stem-changers change, and ONLY in the third person (él/ella and ellos/ellas): e→i and o→u. Pedir: pidió, pidieron. Dormir: durmió, durmieron. Sentir: sintió, sintieron. The -ar and -er stem-changers do NOT change in the preterite at all.",
+    "tense": "preterite"
+  },
+  {
+    "unit": 4,
+    "sectionIdx": 4,
+    "kind": "conjugation_rule",
+    "prompt": "What is the pattern for irregular (u/i/j-stem) verbs in the preterite?",
+    "answer": "They use an irregular stem plus the unstressed endings: -e, -iste, -o, -imos, -isteis, -ieron (no accents). Stems: tener→tuv-, estar→estuv-, poder→pud-, poner→pus-, saber→sup-, hacer→hic- (hizo), venir→vin-, querer→quis-. J-stems (decir→dij-, traer→traj-) take -eron, not -ieron: dijeron.",
+    "tense": "preterite"
+  },
+  {
+    "unit": 4,
+    "sectionIdx": 4,
+    "kind": "conjugation_rule",
+    "prompt": "How are ser, ir, and dar conjugated in the preterite?",
+    "answer": "Ser and ir are IDENTICAL in the preterite: fui, fuiste, fue, fuimos, fuisteis, fueron (context tells them apart). Dar takes -er/-ir endings with no accents: di, diste, dio, dimos, disteis, dieron.",
+    "tense": "preterite"
+  },
+  {
+    "unit": 4,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "Which verbs change their meaning in the preterite, and how?",
+    "answer": "Several verbs shift sense in the preterite (a completed event): conocer = met (for the first time) [vs. knew]; saber = found out [vs. knew]; querer = tried [no quiso = refused]; poder = managed to [no pude = failed to]; tener = got/received. Example: Lo supe ayer = I found out yesterday.",
+    "tense": "preterite"
+  },
+  {
+    "unit": 5,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the imperfect tense of regular verbs?",
+    "answer": "-ar verbs: drop -ar, add -aba, -abas, -aba, -ábamos, -abais, -aban (hablar → hablaba). -er and -ir verbs share -ía, -ías, -ía, -íamos, -íais, -ían (comer → comía, vivir → vivía). The yo and él/ella forms are identical in both groups.",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 5,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the imperfect tense of regular -ar verbs?",
+    "answer": "Drop -ar and add: -aba, -abas, -aba, -ábamos, -abais, -aban. Example: hablar -> hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban.",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 5,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the imperfect tense of regular -er and -ir verbs?",
+    "answer": "-er and -ir verbs share the same endings: -ía, -ías, -ía, -íamos, -íais, -ían. Example: comer -> comía, comías, comía, comíamos, comíais, comían; vivir -> vivía, vivías, etc. Note: every form carries a written accent on the í.",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 5,
+    "sectionIdx": 1,
+    "kind": "conjugation_rule",
+    "prompt": "Which three verbs are irregular in the imperfect tense, and how are they conjugated?",
+    "answer": "Only ser, ir, and ver. ser: era, eras, era, éramos, erais, eran. ir: iba, ibas, iba, íbamos, ibais, iban. ver: veía, veías, veía, veíamos, veíais, veían. (ver is really regular but keeps the e of the stem.)",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 5,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "When is the imperfect tense used in Spanish?",
+    "answer": "For past actions with no defined endpoint: habitual/repeated actions ('used to / would'), ongoing background description, time, age, weather, and mental/emotional states in the past. Example: Cuando era niño, jugaba al fútbol todos los días (When I was a kid, I used to play soccer every day).",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 5,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "What clue words often signal the imperfect tense?",
+    "answer": "Words implying repetition or duration: siempre, a menudo, todos los días, cada año, generalmente, mientras, de niño/joven. They point to habitual or ongoing past action rather than a single completed event.",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 5,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "How do the imperfect and preterit work together in the same sentence?",
+    "answer": "The imperfect sets the ongoing background scene; the preterit reports the action that interrupts or happens against it. Example: Yo dormía (imperfect, ongoing) cuando sonó (preterit, interrupting) el teléfono — I was sleeping when the phone rang.",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 6,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "What is the core contrast between the preterit and the imperfect?",
+    "answer": "Preterit = a completed action seen as a whole, with a beginning/end (what happened). Imperfect = ongoing, habitual, or descriptive past with no defined endpoint (what was going on / used to happen). Example: Comí (I ate, done) vs. Comía (I was eating / used to eat).",
+    "tense": "preterite"
+  },
+  {
+    "unit": 6,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "Description vs. narration: which past tense is which?",
+    "answer": "Use the imperfect to describe (time, age, weather, feelings, physical/mental states, the setting). Use the preterit to narrate the sequence of completed events that move the story forward.",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 6,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "What is the difference between ponerse, volverse, and hacerse for 'to become'?",
+    "answer": "ponerse + adjective = a sudden, involuntary change of mood/physical state (Se puso triste, He became sad). volverse + adjective = a sudden, often radical or involuntary change (Se volvió loco, He went crazy). hacerse = a gradual change often through effort (Se hizo médico, He became a doctor).",
+    "tense": null
+  },
+  {
+    "unit": 7,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the future tense of regular verbs?",
+    "answer": "Add endings to the WHOLE infinitive (no dropping): -é, -ás, -á, -emos, -éis, -án. Endings are the same for -ar, -er, -ir. Example: hablar -> hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán.",
+    "tense": "future"
+  },
+  {
+    "unit": 7,
+    "sectionIdx": 1,
+    "kind": "conjugation_rule",
+    "prompt": "How are irregular verbs formed in the future tense?",
+    "answer": "They use the same endings (-é, -ás, -á, -emos, -éis, -án) but on an irregular stem. Common ones: tener->tendr-, salir->saldr-, poner->pondr-, venir->vendr-, poder->podr-, saber->sabr-, hacer->har-, decir->dir-, querer->querr-, haber->habr-. Example: tendré, saldré, haré, diré.",
+    "tense": "future"
+  },
+  {
+    "unit": 7,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "When is the future tense used in Spanish?",
+    "answer": "To state what will happen (Iré mañana, I will go tomorrow) and, very commonly, to express probability/conjecture about the present ('must be / probably'). Example: ¿Qué hora será? — Serán las tres (What time can it be? — It must be about three).",
+    "tense": "future"
+  },
+  {
+    "unit": 7,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "What are other ways to express the future besides the future tense?",
+    "answer": "1) ir a + infinitive (the most common, like English 'going to'): Voy a comer. 2) The simple present for near-certain/scheduled events: Salgo mañana (I leave tomorrow). These are more frequent in speech than the future tense.",
+    "tense": "present"
+  },
+  {
+    "unit": 5,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "What cues or trigger words signal the imperfect tense?",
+    "answer": "Expressions of repetition/habit: siempre, todos los días, generalmente, a menudo, mientras, cada año. Also used to set scenes: telling time (Eran las dos), age (Tenía diez años), weather (Llovía), and emotions/states (Estaba cansado).",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 5,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "How do the imperfect and preterit work together in one sentence?",
+    "answer": "The imperfect sets the ongoing background/scene, and the preterit marks the completed action that interrupts it. Ex: Yo dormía cuando sonó el teléfono (I was sleeping when the phone rang). 'Dormía' = background, 'sonó' = the interrupting event.",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 5,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "How do you express 'while ... was happening' versus a single past event?",
+    "answer": "Use mientras + imperfect for the continuous action and preterit for the punctual one. Ex: Mientras estudiaba, mi madre preparó la cena (While I was studying, my mother made dinner). Two simultaneous ongoing actions both take the imperfect: Mientras yo leía, ella escribía.",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 6,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "How do you decide between the preterit and the imperfect?",
+    "answer": "Preterit = completed, specific actions with a beginning/end ('what happened'). Imperfect = ongoing, habitual, or descriptive background ('what was going on / used to happen'). Ex: Comí a las dos (I ate at two - completed) vs. Comía cuando llegó (I was eating when he arrived - background).",
+    "tense": "preterite"
+  },
+  {
+    "unit": 6,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "Contrast the preterit and imperfect for habitual versus single actions.",
+    "answer": "Imperfect for repeated/habitual past ('used to'): Visitaba a mi abuela cada verano. Preterit for an action done once or a defined number of times: Visité a mi abuela ayer. The imperfect also describes states/emotions in progress, while the preterit can mark when a state began.",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 6,
+    "sectionIdx": 1,
+    "kind": "idiom",
+    "prompt": "How do ponerse, volverse, and hacerse express 'to become'?",
+    "answer": "ponerse + adjective = a sudden, involuntary change in emotion/physical state (Se puso triste = he became sad). volverse + adjective = a sudden, often radical/involuntary change (Se volvió loco = he went crazy). hacerse = a gradual change due to one's own effort (Se hizo médico = he became a doctor).",
+    "tense": null
+  },
+  {
+    "unit": 7,
+    "sectionIdx": 1,
+    "kind": "conjugation_rule",
+    "prompt": "How do irregular verbs form the future tense?",
+    "answer": "They use the same endings (-é, -ás, -á...) but on an irregular stem. Three patterns: drop the infinitive vowel (poder->podr-, querer->querr-, saber->sabr-, haber->habr-); replace vowel with d (poner->pondr-, tener->tendr-, salir->saldr-, venir->vendr-, valer->valdr-); shortened (decir->dir-, hacer->har-). Ex: tendré, diré, haré.",
+    "tense": "future"
+  },
+  {
+    "unit": 7,
+    "sectionIdx": 4,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the conditional mood of regular verbs?",
+    "answer": "Add the endings -ía, -ías, -ía, -íamos, -íais, -ían to the full infinitive (all conjugations share these endings). Ex: hablar -> hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían. It expresses 'would': Yo viajaría a España (I would travel to Spain).",
+    "tense": "conditional"
+  },
+  {
+    "unit": 7,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "What does the conditional mood express?",
+    "answer": "It expresses what 'would' happen, often hypothetically or politely. Hypothetical: Yo iría contigo (I would go with you). Polite requests/softening: ¿Podría ayudarme? (Could you help me?). Me gustaría... (I would like...).",
+    "tense": "conditional"
+  },
+  {
+    "unit": 7,
+    "sectionIdx": 5,
+    "kind": "conjugation_rule",
+    "prompt": "How do irregular verbs form the conditional?",
+    "answer": "They use the SAME irregular stems as the future tense, plus the conditional endings (-ía, -ías, -ía...). Ex: tener->tendr- -> tendría; decir->dir- -> diría; hacer->har- -> haría; poder->podr- -> podría; saber->sabr- -> sabría. If a verb is irregular in the future, it is irregular the same way in the conditional.",
+    "tense": "conditional"
+  },
+  {
+    "unit": 8,
+    "sectionIdx": 8,
+    "kind": "usage",
+    "prompt": "What are the main ways to express \"to become\" in Spanish, and how do they differ?",
+    "answer": "Spanish has no single word for \"to become\"; the choice depends on the kind of change. ponerse + adjective = a sudden, involuntary change in physical/emotional state (Se puso rojo = He turned red/blushed). volverse + adjective = a sudden or radical, often involuntary change in nature (Se volvió loco = He went crazy). hacerse + noun/adjective = a gradual change achieved through effort (Se hizo médico = He became a doctor). llegar a ser = to attain a status over time (Llegó a ser presidente). convertirse en + noun = to turn into / transform (Se convirtió en una estrella).",
+    "tense": null
+  },
+  {
+    "unit": 8,
+    "sectionIdx": 9,
+    "kind": "usage",
+    "prompt": "Where does the reflexive pronoun go when a reflexive verb is used in compound (perfect) tenses?",
+    "answer": "In compound tenses the reflexive pronoun goes immediately before the conjugated form of haber, never attached to the participle. Examples: Me he levantado (I have gotten up), Se había duchado (He had showered), Nos habremos vestido (We will have gotten dressed). The pattern is: pronoun + haber + past participle.",
+    "tense": null
+  },
+  {
+    "unit": 8,
+    "sectionIdx": 9,
+    "kind": "usage",
+    "prompt": "Where does the reflexive pronoun go with an infinitive or a present participle (gerund) in a reflexive construction?",
+    "answer": "It can either precede the conjugated verb or attach to the end of the infinitive/gerund. With an infinitive: Me voy a duchar = Voy a ducharme. With a gerund: Me estoy duchando = Estoy duchándome (note the added accent to keep stress). Both positions are correct and equivalent.",
+    "tense": null
+  },
+  {
+    "unit": 9,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the present participle (gerundio) of regular verbs in Spanish?",
+    "answer": "Drop the infinitive ending and add: -ando for -ar verbs, -iendo for -er and -ir verbs. hablar → hablando, comer → comiendo, vivir → viviendo. It corresponds to English \"-ing\" and is used with estar to form the progressive.",
+    "tense": null
+  },
+  {
+    "unit": 9,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How are irregular and stem-changing present participles (gerundios) formed?",
+    "answer": "When the stem ends in a vowel, -iendo becomes -yendo: leer → leyendo, oír → oyendo, construir → construyendo (also ir → yendo). -Ir stem-changing verbs change their stem vowel: e→i (pedir → pidiendo, sentir → sintiendo, decir → diciendo) and o→u (dormir → durmiendo, morir → muriendo). Poder → pudiendo.",
+    "tense": null
+  },
+  {
+    "unit": 9,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "Where do reflexive and object pronouns go with a present participle (gerundio)?",
+    "answer": "They may either precede the conjugated verb (estar) or attach to the end of the gerund. Lo estoy leyendo = Estoy leyéndolo. Me estoy lavando = Estoy lavándome. When pronouns attach to the gerund, add a written accent to keep the original stress (leyéndolo, lavándome). With double pronouns both attach: Estoy dándoselo.",
+    "tense": null
+  },
+  {
+    "unit": 9,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "When is the present progressive (estar + gerundio) used in Spanish, and how does it differ from English?",
+    "answer": "It emphasizes an action in progress at this very moment: ¿Qué estás haciendo? — Estoy comiendo. Unlike English, Spanish does NOT use the progressive for future plans (use present or ir a: Mañana voy al cine, not estoy yendo) and avoids it for ongoing states or verbs like ser, ir, venir. The simple present often covers habitual actions where English would use \"-ing.\"",
+    "tense": "present"
+  },
+  {
+    "unit": 9,
+    "sectionIdx": 3,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form progressive tenses other than the present (e.g., past, future)?",
+    "answer": "Keep the gerundio and conjugate estar in the desired tense. Imperfect progressive: Estaba comiendo (I was eating). Preterite progressive: Estuvo lloviendo toda la noche (It was raining all night). Future progressive: Estaré trabajando (I will be working). The gerund never changes; only estar shifts tense.",
+    "tense": null
+  },
+  {
+    "unit": 9,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "How can verbs of motion (ir, venir, andar, seguir) be used with the gerund instead of estar?",
+    "answer": "Verbs of motion replace estar to add nuance. ir + gerundio = gradual progression (Va mejorando = He's gradually improving). venir + gerundio = action building up over time toward now (Vengo diciéndolo desde hace años = I've been saying it for years). andar + gerundio = doing something all around/repeatedly (Anda buscando trabajo). seguir/continuar + gerundio = to keep on doing (Sigue lloviendo = It keeps raining).",
+    "tense": null
+  },
+  {
+    "unit": 9,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "How does the Spanish present participle (gerundio) differ from the English \"-ing\" form?",
+    "answer": "Spanish uses the gerund far less than English. Key differences: it is NEVER used as a noun (use the infinitive: Ver es creer = Seeing is believing); it is NOT used as an adjective (use que or an adjective: una caja que contiene, not conteniendo); and it is not used after prepositions (use the infinitive: antes de salir = before leaving). The gerund mainly expresses an action in progress or the manner/means of doing something (Aprendo leyendo = I learn by reading).",
+    "tense": null
+  },
+  {
+    "unit": 10,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the present perfect tense in Spanish?",
+    "answer": "Use the present tense of haber + the past participle. haber: he, has, ha, hemos, habéis, han. Regular participles: -ar → -ado, -er/-ir → -ido. Examples: He hablado (I have spoken), Has comido (You have eaten), Hemos vivido (We have lived). The participle always ends in -o and never agrees with the subject in this construction.",
+    "tense": null
+  },
+  {
+    "unit": 10,
+    "sectionIdx": 1,
+    "kind": "conjugation_rule",
+    "prompt": "When does a past participle take a written accent (-ído), and what are the common irregular past participles?",
+    "answer": "When an -er/-ir stem ends in a strong vowel (a, e, o), the -ido takes an accent to break the diphthong: leer → leído, oír → oído, traer → traído, caer → caído. Common irregular participles: abrir → abierto, decir → dicho, escribir → escrito, hacer → hecho, morir → muerto, poner → puesto, romper → roto, ver → visto, volver → vuelto. (Note: verbs ending in -uir like construir do NOT take the accent: construido.)",
+    "tense": null
+  },
+  {
+    "unit": 10,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the present perfect (pretérito perfecto) in Spanish?",
+    "answer": "Present tense of haber + past participle. Haber: he, has, ha, hemos, habéis, han. Regular participles: -ar -> -ado, -er/-ir -> -ido. Ej: He hablado (I have spoken), Hemos comido (We have eaten), ¿Has vivido aquí? (Have you lived here?). The two parts never separate and the participle never agrees.",
+    "tense": null
+  },
+  {
+    "unit": 10,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "Where do object/reflexive pronouns and the word 'no' go with the present perfect?",
+    "answer": "They go directly before the conjugated form of haber, never attached to the participle. Ej: No he comido (I haven't eaten), Me he lavado las manos (I've washed my hands), ¿Lo has visto? (Have you seen it?).",
+    "tense": null
+  },
+  {
+    "unit": 10,
+    "sectionIdx": 1,
+    "kind": "conjugation_rule",
+    "prompt": "When does a past participle take a written accent (-ído), and what are the key irregular past participles?",
+    "answer": "-er/-ir verbs whose stem ends in a strong vowel (a, e, o) add -ído with an accent to break the diphthong: leer -> leído, traer -> traído, oír -> oído, caer -> caído. Common irregular participles: abrir->abierto, decir->dicho, escribir->escrito, hacer->hecho, morir->muerto, poner->puesto, romper->roto, ver->visto, volver->vuelto.",
+    "tense": null
+  },
+  {
+    "unit": 10,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "When is the present perfect used in Spanish?",
+    "answer": "For a past action seen as connected to the present or to a still-unfinished time period, like English 'have done.' Common with hoy, esta semana, este año, ya, todavía no, alguna vez, nunca. Ej: Hoy he trabajado mucho (Today I've worked a lot); ¿Alguna vez has estado en España? (Have you ever been to Spain?). In Spain it is also used for very recent past actions where Latin America would use the preterit.",
+    "tense": null
+  },
+  {
+    "unit": 10,
+    "sectionIdx": 3,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the past perfect / pluperfect (pluscuamperfecto) in Spanish?",
+    "answer": "Imperfect of haber + past participle. Haber: había, habías, había, habíamos, habíais, habían. Ej: Yo había comido (I had eaten), Ellos habían salido (They had left). Same irregular participles apply (visto, hecho, dicho, etc.).",
+    "tense": null
+  },
+  {
+    "unit": 10,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "When is the past perfect (pluperfect) used in Spanish?",
+    "answer": "For a past action that happened BEFORE another past action — the 'had done' of English. It sets up an earlier event in the past. Ej: Cuando llegué, ellos ya habían cenado (When I arrived, they had already eaten); Nunca había visto algo así (I had never seen anything like that). Often paired with ya or cuando.",
+    "tense": null
+  },
+  {
+    "unit": 10,
+    "sectionIdx": 5,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the preterit perfect (pretérito anterior) in Spanish?",
+    "answer": "Preterit of haber + past participle. Haber: hube, hubiste, hubo, hubimos, hubisteis, hubieron. Ej: Cuando hubo terminado, salió (When he had finished, he left). It is a literary/archaic tense, rarely used in speech.",
+    "tense": null
+  },
+  {
+    "unit": 10,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "When is the preterit perfect (pretérito anterior) used in Spanish?",
+    "answer": "In formal/literary writing, for an action completed immediately before another past action, after time conjunctions like cuando, después que, en cuanto, tan pronto como, apenas, luego que. Ej: Apenas hubo llegado, comenzó la reunión (As soon as he had arrived, the meeting began). In everyday Spanish it is replaced by the preterit or pluperfect.",
+    "tense": null
+  },
+  {
+    "unit": 10,
+    "sectionIdx": 7,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the perfect infinitive (haber + past participle) in Spanish?",
+    "answer": "The infinitive haber + a past participle. Ej: haber comido (to have eaten), haber dicho (to have said). Pronouns attach to haber: haberlo hecho (to have done it). It expresses an action completed before the main verb's action.",
+    "tense": null
+  },
+  {
+    "unit": 10,
+    "sectionIdx": 8,
+    "kind": "usage",
+    "prompt": "When is the perfect infinitive (haber + participle) used in Spanish?",
+    "answer": "When the infinitive's action is completed before the main verb, especially after prepositions like después de, por, sin, and with verbs of emotion/regret. Ej: Después de haber comido, salimos (After having eaten, we left); Gracias por haberme ayudado (Thanks for having helped me); Siento no haberte llamado (I'm sorry I didn't call you).",
+    "tense": null
+  },
+  {
+    "unit": 11,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the future perfect (futuro perfecto) in Spanish?",
+    "answer": "Future of haber + past participle. Haber: habré, habrás, habrá, habremos, habréis, habrán. Ej: Para mañana habré terminado (By tomorrow I will have finished); Ellos habrán llegado ya (They will have arrived already).",
+    "tense": "future"
+  },
+  {
+    "unit": 11,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "What does the future perfect express in Spanish?",
+    "answer": "(1) An action that WILL HAVE been completed by a certain future point: Para las cinco habré salido (By five I'll have left). (2) Probability/conjecture about a recent past event: Habrá salido ya (He has probably left already / He must have left).",
+    "tense": "future"
+  },
+  {
+    "unit": 11,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "When is the future perfect (futuro perfecto) used in Spanish?",
+    "answer": "To say something WILL HAVE happened by a certain future point, or to express probability/conjecture about a recent past action. Ex: 'Para mayo, habré terminado el curso' (By May, I will have finished the course); 'Habrá salido ya' (He has probably already left).",
+    "tense": "future"
+  },
+  {
+    "unit": 11,
+    "sectionIdx": 1,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the future perfect in Spanish?",
+    "answer": "haber in the future tense (habré, habrás, habrá, habremos, habréis, habrán) + past participle. Ex: 'habré comido', 'habrán llegado'.",
+    "tense": "future"
+  },
+  {
+    "unit": 11,
+    "sectionIdx": 2,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the conditional perfect (condicional perfecto) in Spanish?",
+    "answer": "haber in the conditional (habría, habrías, habría, habríamos, habríais, habrían) + past participle. Ex: 'habría hablado' (I would have spoken), 'habrían venido' (they would have come).",
+    "tense": "conditional"
+  },
+  {
+    "unit": 11,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "When is the conditional perfect used in Spanish?",
+    "answer": "To say what WOULD HAVE happened (often something that didn't), especially in the result clause of contrary-to-fact if-clauses, and to express probability in the past. Ex: 'Si hubiera tenido tiempo, habría ido' (If I had had time, I would have gone).",
+    "tense": "conditional"
+  },
+  {
+    "unit": 12,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the true passive voice in Spanish (la voz pasiva)?",
+    "answer": "ser + past participle + por + agent. The participle agrees in gender and number with the subject. Ex: 'La carta fue escrita por Juan' (The letter was written by Juan); 'Las casas fueron construidas por ellos'.",
+    "tense": null
+  },
+  {
+    "unit": 12,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "When is the true passive voice (ser + participle) used in Spanish?",
+    "answer": "Mainly in formal/written language, and especially when the agent (the doer) is expressed with 'por'. Ex: 'El puente fue diseñado por un ingeniero famoso'. In everyday speech Spanish usually prefers the se-construction instead.",
+    "tense": null
+  },
+  {
+    "unit": 12,
+    "sectionIdx": 2,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the passive construction with 'se' (la pasiva con se)?",
+    "answer": "se + verb in the third person, agreeing with the thing acted upon. Singular subject -> singular verb; plural subject -> plural verb. Ex: 'Se vende casa' (House for sale); 'Se venden casas' (Houses for sale).",
+    "tense": null
+  },
+  {
+    "unit": 12,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "When is the passive 'se' construction used in Spanish?",
+    "answer": "When the action matters but the agent (doer) is unknown, unimportant, or unmentioned. It's the everyday way to express the passive. Ex: 'Aquí se habla español' (Spanish is spoken here); 'Se construyeron muchos edificios' (Many buildings were built).",
+    "tense": null
+  },
+  {
+    "unit": 12,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "How does Spanish use impersonal constructions to replace the passive?",
+    "answer": "Use impersonal 'se' + third-person SINGULAR verb ('Se dice que...' = It is said that...), or an unspecified third-person plural with no subject ('Dicen que...' = They say that...). Both avoid naming who does the action.",
+    "tense": null
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "What is the subjunctive mood and when (broadly) is it used in Spanish?",
+    "answer": "The subjunctive expresses non-factual or subjective situations: wishes, doubt, emotion, necessity, recommendations, and unreality. It mostly appears in dependent clauses after 'que' when the main clause shows will, emotion, or doubt. Ex: 'Quiero que vengas' (I want you to come).",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 1,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the present subjunctive of regular verbs?",
+    "answer": "Take the yo form of the present indicative, drop the -o, and add the 'opposite' endings. -ar verbs: -e, -es, -e, -emos, -éis, -en (hable). -er/-ir verbs: -a, -as, -a, -amos, -áis, -an (coma, viva).",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 1,
+    "kind": "conjugation_rule",
+    "prompt": "Why does building the present subjunctive from the 'yo' form matter for irregular verbs?",
+    "answer": "Because verbs with an irregular yo form carry that irregularity into ALL subjunctive forms. Ex: tener (tengo) -> tenga, tengas...; hacer (hago) -> haga; decir (digo) -> diga.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "When is the present subjunctive used in noun clauses in Spanish?",
+    "answer": "Use the subjunctive in a dependent noun clause (introduced by que) when the main clause expresses WEIRDO: Wishes/wanting, Emotions, Impersonal expressions, Recommendations/requests, Doubt/denial, and Ojalá. There must also be a change of subject. Ex: Quiero que tú vengas (I want you to come). With no subject change, use the infinitive: Quiero venir.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "What triggers the subjunctive in the dependent clause: 'Espero que ___ (venir) ellos'?",
+    "answer": "Verbs of emotion and hope trigger the subjunctive: Espero que vengan ellos (I hope they come). 'Esperar' (to hope) takes the subjunctive when there is a different subject.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "Indicative or subjunctive after expressions of doubt and denial like 'dudar que' and 'no creer que'?",
+    "answer": "Subjunctive. Doubt and denial require the subjunctive: Dudo que él sepa la respuesta (I doubt he knows the answer); No creo que sea verdad. But certainty (creer que, es cierto que) takes the indicative: Creo que es verdad.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 7,
+    "kind": "usage",
+    "prompt": "How is the subjunctive used with 'ojalá', 'quizás/tal vez', and 'acaso'?",
+    "answer": "Ojalá (que) always takes the subjunctive to express a wish: Ojalá (que) llueva (I hope/wish it rains). Quizás, tal vez, and acaso (maybe/perhaps) take the subjunctive to stress doubt: Tal vez venga; the indicative is possible if the speaker feels more certain.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 7,
+    "kind": "usage",
+    "prompt": "What mood follows impersonal expressions like 'es necesario que', 'es importante que', 'es posible que'?",
+    "answer": "The subjunctive, when there is a specific subject: Es necesario que estudies (It's necessary that you study). With no specified subject, use the infinitive: Es necesario estudiar. Note: impersonal expressions of certainty (es verdad que, es cierto que) take the indicative.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 8,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the present perfect subjunctive in Spanish?",
+    "answer": "Use the present subjunctive of haber + past participle: haya, hayas, haya, hayamos, hayáis, hayan + -ado/-ido. Ex: que yo haya hablado, que tú hayas comido, que ellos hayan vivido.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 9,
+    "kind": "usage",
+    "prompt": "When is the present perfect subjunctive used in Spanish?",
+    "answer": "It is used in the same subjunctive-triggering clauses (emotion, doubt, etc.) when the dependent action is completed BEFORE or up to the moment of the main verb, which is in the present or future. Ex: Espero que hayas terminado (I hope you have finished); Dudo que hayan llegado (I doubt they have arrived).",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "What is an adverb clause, and how does the subjunctive relate to it?",
+    "answer": "An adverb clause is a dependent clause introduced by a conjunction (cuando, aunque, para que, antes de que) that tells how/when/why. Some conjunctions always take the subjunctive; others take it only when the action is pending/uncertain. Ex: Te llamo antes de que salgas (before you leave).",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "Which conjunctions ALWAYS require the subjunctive in adverb clauses?",
+    "answer": "The 'ESCAPA' / purpose-and-contingency conjunctions always take the subjunctive: antes de que (before), para que / a fin de que (so that), sin que (without), con tal de que (provided that), en caso de que (in case), a menos que (unless). Ex: Trabajo para que ellos coman (so that they may eat).",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "With conjunctions of time (cuando, hasta que, en cuanto, tan pronto como), when do you use the subjunctive vs. indicative?",
+    "answer": "Use the subjunctive when the action is still pending/future: Cuando llegue, te llamaré (When I arrive, I'll call you). Use the indicative for habitual or completed past actions: Cuando llego, siempre te llamo (When I arrive, I always call you).",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "Why do conjunctions like 'aunque' and 'cuando' sometimes take the subjunctive and sometimes the indicative?",
+    "answer": "It depends on whether the action is real/known (indicative) or hypothetical/pending (subjunctive). Aunque llueve, salgo = Even though it IS raining, I go out (fact). Aunque llueva, saldré = Even if it rains, I'll go out (uncertain). Same logic for cuando and other time conjunctions.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "When is the subjunctive NOT used in dependent adverb clauses?",
+    "answer": "Use the indicative when the adverb clause states a fact, a habitual action, or a completed past action rather than something pending or hypothetical. Ex: En cuanto llego a casa, ceno (As soon as I get home, I eat dinner — habitual fact).",
+    "tense": null
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "What happens to 'antes de', 'para', 'sin' when there is no change of subject?",
+    "answer": "Drop the 'que' and use the infinitive instead of a subjunctive clause: Salí sin comer (I left without eating); Estudio para aprender. The subjunctive (antes de que, para que, sin que) is needed only when the subjects differ.",
+    "tense": null
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "What is an adjective (relative) clause, and how can it trigger the subjunctive?",
+    "answer": "An adjective clause describes a noun (the antecedent) and is usually introduced by que: Busco un libro que sea interesante. The verb in the clause goes in the subjunctive when the antecedent is unknown, indefinite, or nonexistent.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "When is the subjunctive used in adjective (relative) clauses?",
+    "answer": "Use the subjunctive when the antecedent is indefinite, unknown, or hypothetical: Busco un secretario que hable francés (I'm looking for a secretary who speaks French — any such person). Use the indicative when the antecedent is known/specific: Tengo un secretario que habla francés.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "What mood is used in an adjective clause when the antecedent does not exist (negative antecedent)?",
+    "answer": "The subjunctive. When the antecedent is denied or nonexistent, the clause verb is subjunctive: No hay nadie que sepa la respuesta (There is no one who knows the answer); No conozco a nadie que pueda hacerlo.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "What is an adjective (relative) clause, and when does it take the subjunctive?",
+    "answer": "An adjective clause is a dependent clause that describes a noun (the antecedent), usually introduced by que: 'Busco un libro que sea interesante.' Use the subjunctive in the clause when the antecedent is unknown, indefinite, or nonexistent. Use the indicative when the antecedent is a specific, known thing: 'Tengo un libro que es interesante.'",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "How does the choice of indicative vs. subjunctive in 'Busco un secretario que habla/hable francés' change the meaning?",
+    "answer": "'Busco un secretario que habla francés' (indicative) means you have a specific person in mind who does speak French. 'Busco un secretario que hable francés' (subjunctive) means you're looking for anyone who happens to speak French - the person is unknown/indefinite.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "When is the subjunctive used in adjective (relative) clauses in Spanish?",
+    "answer": "Use the subjunctive when the antecedent is (1) indefinite or unknown - 'Necesito alguien que me ayude'; or (2) nonexistent/negated - 'No hay nadie que lo sepa.' If the antecedent is known and exists, use the indicative: 'Conozco a alguien que lo sabe.'",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "Why is the personal 'a' usually dropped before an indefinite antecedent in an adjective clause (e.g. 'Busco un médico que hable inglés')?",
+    "answer": "When the antecedent is an unknown/hypothetical person you're seeking (not a specific one), the personal 'a' is omitted: 'Busco un médico que hable inglés.' It is kept with specific known people, or always before alguien/nadie: 'Busco a alguien que hable inglés.'",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "What does the subjunctive express in 'ojalá' and 'quizá(s)/tal vez' constructions?",
+    "answer": "'Ojalá (que)' + subjunctive expresses a wish/hope: 'Ojalá que llueva' (I hope it rains). 'Quizá(s)' and 'tal vez' (perhaps) take the subjunctive to stress doubt: 'Quizás venga' (maybe he'll come), or the indicative if the speaker feels more certain.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "How is the subjunctive used in indefinite '-quiera' expressions like 'whoever' or 'wherever'?",
+    "answer": "Compound indefinites take the subjunctive to express 'however/whoever/wherever it may be': 'quienquiera que sea' (whoever it may be), 'dondequiera que vayas' (wherever you go), 'por mucho que trabajes' (no matter how much you work).",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 15,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the imperfect (past) subjunctive in Spanish?",
+    "answer": "Take the third-person plural preterit (ellos form), drop -ron, and add the endings -ra, -ras, -ra, -ramos, -rais, -ran (nosotros adds an accent). E.g. hablar -> hablaron -> hablara, hablaras, hablara, habláramos, hablarais, hablaran. A second set of endings (-se, -ses, -se...) is equally valid: hablase, hablases, etc.",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 15,
+    "sectionIdx": 0,
+    "kind": "conjugation_rule",
+    "prompt": "How are irregular and stem-changing verbs formed in the imperfect subjunctive?",
+    "answer": "Any irregularity in the preterit ellos form carries into the entire imperfect subjunctive. E.g. tener -> tuvieron -> tuviera; ir/ser -> fueron -> fuera; pedir -> pidieron -> pidiera; dormir -> durmieron -> durmiera. There are no exceptions to this rule.",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 15,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "When is the imperfect subjunctive used in Spanish?",
+    "answer": "It is used in the same situations that trigger the subjunctive (wishes, doubt, emotion, impersonal expressions, etc.) but when the main clause is in a past tense or the conditional: 'Quería que vinieras' (I wanted you to come), 'Dudaba que fuera verdad' (I doubted it was true).",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 15,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "What is the sequence-of-tenses rule that calls for the imperfect subjunctive?",
+    "answer": "When the main verb is in a past tense (preterit, imperfect, pluperfect) or the conditional, the subordinate subjunctive verb must be in the imperfect subjunctive: 'Me pidió que lo hiciera' (he asked me to do it). A present-tense main clause would instead take the present subjunctive.",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 15,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "How is the imperfect subjunctive used to make polite/softened requests?",
+    "answer": "The -ra form of the imperfect subjunctive of querer, poder, and deber softens a request to sound more courteous: 'Quisiera un café' (I would like a coffee), 'Debieras estudiar más' (you really ought to study more), '¿Pudiera ayudarme?' (could you help me?).",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 15,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "What does the imperfect subjunctive express after 'como si' (as if)?",
+    "answer": "'Como si' (as if) always takes the imperfect subjunctive because it introduces a contrary-to-fact comparison: 'Habla como si lo supiera todo' (he talks as if he knew everything), 'Gasta dinero como si fuera rico' (he spends money as if he were rich).",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 15,
+    "sectionIdx": 3,
+    "kind": "conjugation_rule",
+    "prompt": "How do you form the pluperfect (past perfect) subjunctive in Spanish?",
+    "answer": "Use the imperfect subjunctive of haber + past participle: hubiera (or hubiese), hubieras, hubiera, hubiéramos, hubierais, hubieran + participle. E.g. 'hubiera hablado' (had spoken), 'hubieras venido' (had come).",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 15,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "When is the pluperfect subjunctive used in Spanish?",
+    "answer": "It expresses a subjunctive action that had already happened before another past action, when the main clause is past or conditional and triggers the subjunctive: 'Esperaba que hubieras terminado' (I hoped you had finished), 'No creía que hubiera pasado' (I didn't believe it had happened).",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 15,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "What does the pluperfect subjunctive express after 'como si' or with 'ojalá'?",
+    "answer": "After 'como si' it expresses a contrary-to-fact action completed before the past moment: 'Me miró como si hubiera visto un fantasma' (he looked at me as if he had seen a ghost). With 'ojalá' it expresses an unrealized past wish: 'Ojalá hubieras venido' (I wish you had come).",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 15,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "How do you form a contrary-to-fact 'if' sentence about the present in Spanish?",
+    "answer": "Use 'si' + imperfect subjunctive in the if-clause and the conditional in the result clause: 'Si tuviera dinero, viajaría' (If I had money, I would travel). The si-clause never uses the present subjunctive.",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 15,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "How do you form a contrary-to-fact 'if' sentence about the past in Spanish?",
+    "answer": "Use 'si' + pluperfect subjunctive in the if-clause and the conditional perfect in the result clause: 'Si hubiera estudiado, habría aprobado' (If I had studied, I would have passed). The hubiera form is also commonly used in the result clause: '...hubiera aprobado.'",
+    "tense": "imperfect"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 7,
+    "kind": "usage",
+    "prompt": "Besides noun clauses after expressions of will/emotion/doubt, what are some 'other uses' of the present subjunctive?",
+    "answer": "The present subjunctive also appears in: (1) indirect commands with que ('Que pase el siguiente' = Let the next one come in); (2) wishes with ojalá ('Ojalá que llueva' = I hope it rains); (3) with quizás/tal vez/acaso to express doubt ('Quizás venga' = Maybe he'll come); and (4) after por más/mucho que ('por mucho que estudies' = however much you study).",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 7,
+    "kind": "usage",
+    "prompt": "How does 'ojalá' work with the subjunctive in Spanish?",
+    "answer": "Ojalá (que) always triggers the subjunctive because it expresses a wish/hope. With the present subjunctive it expresses a hope about the present or future: 'Ojalá (que) lleguen a tiempo' = I hope they arrive on time. The 'que' is optional.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 7,
+    "kind": "usage",
+    "prompt": "When you use quizás, tal vez, or acaso (maybe/perhaps), do you use indicative or subjunctive?",
+    "answer": "Either, depending on certainty. The subjunctive stresses doubt/uncertainty: 'Quizás llueva mañana' (maybe it'll rain — unsure). The indicative suggests more likelihood: 'Quizás llueve.' Note: 'a lo mejor' (maybe) normally takes the indicative.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 8,
+    "kind": "conjugation_rule",
+    "prompt": "What are the present subjunctive forms of 'haber' used to build the present perfect subjunctive?",
+    "answer": "haya, hayas, haya, hayamos, hayáis, hayan. So 'I hope she has arrived' = 'Espero que haya llegado.'",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 13,
+    "sectionIdx": 9,
+    "kind": "usage",
+    "prompt": "What is the difference between 'Espero que llegue' and 'Espero que haya llegado'?",
+    "answer": "'Espero que llegue' = I hope he arrives (present/future, action not yet done). 'Espero que haya llegado' = I hope he has arrived (the present perfect subjunctive marks a completed action, looking back at something that should already have happened).",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "What is an adverb clause, and which conjunctions ALWAYS require the subjunctive?",
+    "answer": "An adverb clause modifies the verb (telling when, why, how, etc.), introduced by conjunctions. Some always take the subjunctive because they express purpose/contingency that is unrealized. Memory aid 'ESCAPA': En caso de que, Sin que, Con tal (de) que, Antes (de) que, Para que, A menos que. Example: 'Te lo digo para que lo sepas.'",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 0,
+    "kind": "idiom",
+    "prompt": "Which six conjunctions ALWAYS trigger the subjunctive (the 'ESCAPA' set)?",
+    "answer": "En caso de que (in case), Sin que (without), Con tal (de) que (provided that), Antes (de) que (before), Para que (so that), A menos que (unless). All express conditions/goals that are by nature not yet realized, so they always take subjunctive.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "When is the subjunctive used in dependent adverb clauses of TIME (cuando, hasta que, en cuanto, etc.)?",
+    "answer": "Use the subjunctive when the action is anticipated/has not yet happened (future reference): 'Cuando llegues, llámame' = When you arrive, call me. Use the indicative for habitual or already-completed actions: 'Cuando llego, lo llamo' = When I arrive (habitually), I call him.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "Why does 'antes de que' always take the subjunctive while 'después de que' does not always?",
+    "answer": "'Antes de que' (before) always takes subjunctive because the action is by definition still pending/unrealized: 'Salgo antes de que vuelvan.' 'Después de que' (after) takes the subjunctive only for future/anticipated actions, but the indicative for past/habitual ones: 'Lo hice después de que se fueron.'",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "Which conjunctions MAY or MAY NOT require the subjunctive, and what decides it?",
+    "answer": "Time/concession conjunctions like cuando, en cuanto, hasta que, tan pronto como, aunque, mientras, después de que. Subjunctive = action is anticipated/uncertain (not yet occurred); indicative = action is habitual, factual, or already happened. Example: 'Aunque llueva, iré' (even if it rains — unsure) vs 'Aunque llueve, iré' (even though it's raining — fact).",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "How does meaning change with 'aunque' + subjunctive vs 'aunque' + indicative?",
+    "answer": "'Aunque' + subjunctive = 'even if' / hypothetical: 'Aunque cueste mucho, lo compraré' (even if it costs a lot). 'Aunque' + indicative = 'even though' / known fact: 'Aunque cuesta mucho, lo compraré' (even though it costs a lot — I know it does).",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "If there is no change of subject, can you avoid the adverb clause/subjunctive entirely?",
+    "answer": "Yes. With same-subject prepositions like antes de, para, sin, después de, drop 'que' and use the infinitive instead of a subjunctive clause: 'Como antes de salir' (I eat before leaving) vs 'Como antes de que salgas' (before YOU leave). Different subjects require que + subjunctive.",
+    "tense": null
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "What is an adjective (relative) clause, and what determines if it takes the subjunctive?",
+    "answer": "An adjective clause describes a noun (the antecedent), usually introduced by 'que'. It takes the subjunctive when the antecedent is indefinite, nonexistent, or unknown; it takes the indicative when the antecedent is a specific, known thing. Example: 'Busco un libro que sea interesante' (any such book) vs 'Tengo un libro que es interesante' (a specific one).",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "When is the subjunctive used in adjective clauses in Spanish?",
+    "answer": "When the antecedent is indefinite/hypothetical or nonexistent. (1) Unknown/sought: 'Necesito alguien que hable francés' (someone — not a specific person). (2) Nonexistent: 'No hay nadie que lo sepa' (there's no one who knows). Use the indicative when the antecedent is real and known: 'Conozco a alguien que habla francés.'",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "Why is the personal 'a' often dropped before an indefinite antecedent in an adjective clause?",
+    "answer": "Because the person referred to is not specific/identified. 'Busco una secretaria que sepa inglés' (I'm looking for a secretary — any) drops the personal 'a' and uses subjunctive. Compare 'Busco a la secretaria que sabe inglés' (the specific secretary) — personal 'a' + indicative.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 6,
+    "kind": "idiom",
+    "prompt": "What are some 'other uses' of the subjunctive, such as indefinite -quiera expressions?",
+    "answer": "The subjunctive appears in indefinite/concessive expressions: cualquiera que (whoever/whichever), dondequiera que (wherever), cuandoquiera que (whenever), comoquiera que (however), and 'por + adj + que' (however...). Example: 'Dondequiera que vayas, te seguiré' = Wherever you go, I'll follow; 'Por difícil que sea, lo haré' = However hard it is, I'll do it.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 14,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "How do you say 'however much/however + adjective' with the subjunctive?",
+    "answer": "Use 'por más/mucho que' or 'por + adjective/adverb + que' + subjunctive: 'Por mucho que trabajes, no terminarás hoy' = However much you work, you won't finish today; 'Por caro que sea, lo compraré' = However expensive it is, I'll buy it.",
+    "tense": "present_subjunctive"
+  },
+  {
+    "unit": 18,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "How do you form comparisons of inequality (more/less than) with adjectives in Spanish?",
+    "answer": "Use 'más + adjective + que' (more than) or 'menos + adjective + que' (less than). Example: Ella es más alta que yo (She is taller than me); Soy menos paciente que él (I am less patient than him). Before a number, 'que' becomes 'de': más de diez (more than ten).",
+    "tense": null
+  },
+  {
+    "unit": 18,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "How do you form comparisons of equality (as ... as) with adjectives in Spanish?",
+    "answer": "Use 'tan + adjective + como' for 'as ... as'. Example: Ella es tan inteligente como tú (She is as intelligent as you). For nouns use 'tanto/-a/-os/-as + noun + como': Tengo tantos libros como tú.",
+    "tense": null
+  },
+  {
+    "unit": 18,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "How do you form the superlative (the most/least) of adjectives in Spanish?",
+    "answer": "Use 'el/la/los/las (+ noun) + más/menos + adjective', with 'de' for 'in/of'. Example: Es el estudiante más inteligente de la clase (He's the most intelligent student in the class). The absolute superlative ('very/extremely') adds -ísimo: guapísimo (extremely handsome).",
+    "tense": null
+  },
+  {
+    "unit": 18,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "What are the irregular comparative and superlative adjectives in Spanish?",
+    "answer": "bueno -> mejor (better/best); malo -> peor (worse/worst); grande -> mayor (older/greater); pequeño -> menor (younger/lesser). Example: Este libro es mejor que aquel; Mi hermano mayor (my older brother). These replace 'más bueno/malo'.",
+    "tense": null
+  },
+  {
+    "unit": 18,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "When do you use mayor/menor versus más grande/más pequeño?",
+    "answer": "Use mayor/menor mainly for age and abstract degree: Mi hermana menor (my younger sister). Use más grande/más pequeño for physical size: Esta casa es más grande (This house is bigger). So mayor = older, más grande = bigger.",
+    "tense": null
+  },
+  {
+    "unit": 18,
+    "sectionIdx": 7,
+    "kind": "usage",
+    "prompt": "How do you say 'more/less than' before a number, and how is it negated?",
+    "answer": "Before a number use 'de' not 'que': Tengo más de veinte euros (I have more than twenty euros). But in a negative sentence, 'no... más que' means 'only': No tengo más que diez euros (I have only ten euros).",
+    "tense": null
+  },
+  {
+    "unit": 18,
+    "sectionIdx": 7,
+    "kind": "usage",
+    "prompt": "How do you express 'the more... the more' and comparisons with clauses in Spanish?",
+    "answer": "Use 'cuanto más... (tanto) más': Cuanto más estudio, más aprendo (The more I study, the more I learn). To compare with a verb clause, use 'de lo que': Es más difícil de lo que pensaba (It's harder than I thought).",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "What are the subject pronouns in Spanish?",
+    "answer": "yo (I), tú (you, informal), usted (you, formal), él/ella (he/she); nosotros/nosotras (we), vosotros/vosotras (you all, informal Spain), ustedes (you all), ellos/ellas (they). Note Spanish distinguishes gender (nosotras) and formality (tú vs. usted).",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "When are subject pronouns used or omitted in Spanish?",
+    "answer": "Usually omitted because the verb ending shows the subject: Hablo español (I speak Spanish). Use them for emphasis, contrast, or clarity: Yo trabajo y tú descansas (I work and you rest). 'Usted/ustedes' are kept more often out of politeness.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "What pronouns are used as objects of prepositions in Spanish?",
+    "answer": "mí, ti, él/ella/usted, nosotros/-as, vosotros/-as, ellos/ellas/ustedes. They match subject pronouns except mí and ti. Example: para mí (for me), de ti (about you). With 'con', mí/ti become conmigo and contigo.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 2,
+    "kind": "idiom",
+    "prompt": "How do you say 'with me' and 'with you' in Spanish?",
+    "answer": "'con + mí' becomes conmigo (with me) and 'con + ti' becomes contigo (with you). Example: ¿Vienes conmigo? (Are you coming with me?). The reflexive form is consigo (with oneself).",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "When are prepositional pronouns used in Spanish?",
+    "answer": "After prepositions (a, de, para, por, sin, etc.): Este regalo es para ti. They also clarify or emphasize object pronouns: Le doy el libro a él (I give the book to him). Exceptions: after entre, según, menos, excepto use subject forms (entre tú y yo).",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "What are the direct object pronouns in Spanish?",
+    "answer": "me, te, lo/la, nos, os, los/las. They replace the direct object (the thing/person receiving the action). Example: Veo la casa -> La veo (I see it). lo/la/los/las agree in gender and number with the noun replaced.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "When and where are direct object pronouns used and placed in Spanish?",
+    "answer": "They replace a direct object to avoid repetition and go BEFORE a conjugated verb: La compro (I buy it). With an infinitive or gerund they may attach to the end: Voy a comprarla / La voy a comprar; comprándola. They attach to affirmative commands: Cómpralo.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "What are the indirect object pronouns in Spanish?",
+    "answer": "me, te, le, nos, os, les. They tell to/for whom the action is done. Example: Le doy el libro (I give the book to him/her). Note le/les are the same for masculine and feminine, often clarified with 'a él/a ella/a ellos'.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "Where are direct object pronouns placed relative to the verb?",
+    "answer": "Before a conjugated verb: La veo (I see her). With an infinitive or present participle they may attach to the end or go before: Voy a verla / La voy a ver; Estoy mirándola / La estoy mirando. They always attach to affirmative commands: ¡Cómpralo!",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "When do you use a direct object pronoun in Spanish?",
+    "answer": "To avoid repeating a direct object noun already mentioned or understood. Ex: ¿Tienes las llaves? — Sí, las tengo (Yes, I have them). Use lo to stand for a whole idea/clause: ¿Sabes que llegó? — Sí, lo sé.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "How does the direct object pronoun lo/la/los/las agree?",
+    "answer": "It agrees in gender and number with the noun it replaces. el coche -> lo, la casa -> la, los coches -> los, las casas -> las. Ex: Vi a las chicas -> Las vi.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "What are the indirect object pronouns in Spanish, and what do they express?",
+    "answer": "me, te, le, nos, os, les — they tell to whom or for whom the action is done. Ex: Le escribo una carta (I write a letter to him/her). Note le/les are the same for masculine and feminine.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "Why does Spanish often use a redundant indirect object pronoun with a noun (e.g. Le doy el libro a María)?",
+    "answer": "Spanish typically uses the indirect object pronoun even when the noun is stated, for clarity and emphasis. Because le/les are ambiguous, a + noun/pronoun clarifies them: Le hablo a él, Les doy regalos a los niños.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 7,
+    "kind": "usage",
+    "prompt": "Where are indirect object pronouns placed in a sentence?",
+    "answer": "Before a conjugated verb: Te doy el dinero. With an infinitive or gerund they attach to the end or precede: Voy a darte / Te voy a dar; Estoy diciéndote / Te estoy diciendo. They attach to affirmative commands: Dime la verdad.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 8,
+    "kind": "usage",
+    "prompt": "When both an indirect and direct object pronoun appear together, what is the order?",
+    "answer": "Indirect before direct (people before things): Me lo da (He gives it to me). The full order is RID — Reflexive, Indirect, Direct — then the verb.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 8,
+    "kind": "usage",
+    "prompt": "What happens when le or les is followed by lo, la, los, or las?",
+    "answer": "le/les changes to se before lo/la/los/las (to avoid two l-words). Ex: Le doy el libro -> Se lo doy (I give it to him/her). To clarify, add a él, a ella, a usted, a ellos, etc.: Se lo doy a ella.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 9,
+    "kind": "usage",
+    "prompt": "How do you replace both objects in 'Le mando las flores a mi madre' with double object pronouns?",
+    "answer": "Replace las flores with las (direct) and a mi madre / le with se (indirect, since le+las -> se+las): Se las mando. Pronoun order is indirect+direct before the verb.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 9,
+    "kind": "usage",
+    "prompt": "How are double object pronouns handled with infinitives, gerunds, and commands?",
+    "answer": "They stay together and either precede the conjugated verb or attach to the infinitive/gerund/affirmative command. Ex: Quiero dártelo / Te lo quiero dar; Está diciéndomelo; ¡Dámelo! A written accent is added to keep the original stress.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 10,
+    "kind": "usage",
+    "prompt": "How does the verb gustar work with indirect object pronouns?",
+    "answer": "Gustar literally means 'to be pleasing,' so the thing liked is the subject and the person is the indirect object. Me gusta el café (Coffee is pleasing to me). The verb agrees with the thing: Me gustan los libros. Use a + pronoun/noun for clarity/emphasis: A mí me gusta.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 10,
+    "kind": "usage",
+    "prompt": "Name other verbs that work like gustar (indirect object construction).",
+    "answer": "encantar (to love), interesar (to interest), importar (to matter), faltar (to be lacking), quedar (to remain/fit), molestar (to bother), doler (to hurt), parecer (to seem). Ex: Me encanta bailar; Me duelen los pies; Nos falta tiempo.",
+    "tense": null
+  },
+  {
+    "unit": 20,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "When is the relative pronoun 'que' used in Spanish?",
+    "answer": "Que (that/which/who) is the most common relative pronoun, used for people and things as subject or object of a clause. Ex: El hombre que llegó (The man who arrived); El libro que leí (The book that I read). It is never omitted as 'that' often is in English.",
+    "tense": null
+  },
+  {
+    "unit": 20,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "When is the relative pronoun 'quien/quienes' used in Spanish?",
+    "answer": "Quien (plural quienes) refers only to people. It is used mainly after a preposition (la mujer con quien hablo — the woman with whom I speak) and in nonrestrictive clauses set off by commas (Mi hermano, quien es médico, ...). It agrees in number with its antecedent.",
+    "tense": null
+  },
+  {
+    "unit": 20,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "When are 'el que' and 'el cual' (and their forms) used in Spanish?",
+    "answer": "Their forms (el/la/los/las que; el/la cual, los/las cuales) agree in gender and number with the antecedent. Use them for clarity after prepositions or in nonrestrictive clauses: La casa en la que vivo; el problema del cual hablamos. El que can also mean 'the one who/that': El que estudia, aprende.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "What is the \"personal a\" in Spanish and when is it used?",
+    "answer": "The personal a is placed before a direct object that is a specific person (or a personalized pet). It has no English translation. Ej: Veo a María (I see María) vs. Veo la casa (I see the house). It is also used before words like alguien, nadie, alguno/ninguno referring to people: No veo a nadie.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "List common uses of the preposition \"a\" in Spanish.",
+    "answer": "\"a\" expresses: direction/destination (Voy a Madrid), the personal a before human direct objects (Llamo a Juan), time (a las dos), and it marks the indirect object (Le doy el libro a ella). It also follows certain verbs before an infinitive (empezar a, aprender a).",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "What are the main meanings/uses of the preposition \"de\" in Spanish?",
+    "answer": "\"de\" expresses possession (el libro de Ana = Ana's book), origin (Soy de México), material (una mesa de madera), and content/topic (un libro de historia). It also forms the contraction del (de + el).",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "What are the main meanings/uses of the preposition \"en\" in Spanish?",
+    "answer": "\"en\" means in, on, or at: location (en la casa, en la mesa), and means of transport (en coche, en avión). Unlike English, Spanish uses en for both \"in\" and \"on\" a surface: El libro está en la mesa (The book is on the table).",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "What does the preposition \"con\" express, and what are its special pronoun forms?",
+    "answer": "\"con\" means \"with\" (Voy con mis amigos). With the pronouns mí, ti, sí it forms the special combined forms conmigo (with me), contigo (with you), and consigo (with himself/herself/oneself).",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "When do you use \"por\" vs \"para\" in Spanish?",
+    "answer": "PARA points forward to a goal/destination/recipient/deadline/purpose: Es para ti; Salgo para Madrid; Estudio para médico; para el lunes. POR points to cause/motive, exchange, duration, movement through, and \"by/per\": Lo hice por amor; Gracias por todo; por dos horas; Caminé por el parque; cinco euros por kilo.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "Give a quick rule of thumb to distinguish por and para.",
+    "answer": "Think \"para = destined for / in order to\" (goal, recipient, deadline, purpose: trabajo para una empresa) and \"por = because of / through / in exchange for\" (reason, route, duration, exchange: trabajo por dinero). Para looks ahead; por looks at the cause or the means.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 5,
+    "kind": "idiom",
+    "prompt": "Name common idiomatic expressions with \"por\" in Spanish.",
+    "answer": "por favor (please), por supuesto (of course), por eso (that's why), por ejemplo (for example), por fin (finally), por lo menos (at least), por ahora (for now), por suerte (luckily), por si acaso (just in case), and por aquí (around here).",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "Which common Spanish verbs require \"a\" before a following infinitive?",
+    "answer": "Verbs of beginning, motion, or learning: empezar a / comenzar a (to begin to), aprender a (to learn to), ir a (to be going to), volver a (to do again), ayudar a (to help to), enseñar a (to teach to). Ej: Empecé a estudiar; Aprendo a nadar.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "Which common Spanish verbs require \"de\" before a following infinitive?",
+    "answer": "acabar de (to have just done), tratar de (to try to), dejar de (to stop doing), terminar de (to finish doing), olvidarse de (to forget to), acordarse de (to remember to). Ej: Acabo de comer (I have just eaten); Dejé de fumar (I stopped smoking).",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 7,
+    "kind": "usage",
+    "prompt": "Give examples of Spanish verbs that require a preposition other than a or de before an infinitive or object.",
+    "answer": "insistir en (to insist on), soñar con (to dream about), contar con (to count on), pensar en (to think about), casarse con (to marry), tardar en (to take time to). Ej: Insisto en pagar; Sueño con viajar; Cuento contigo.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 8,
+    "kind": "usage",
+    "prompt": "Name Spanish verbs that take NO preposition where English uses one.",
+    "answer": "Several Spanish verbs include the preposition in their meaning, so none is added: buscar (to look FOR), esperar (to wait FOR), escuchar (to listen TO), mirar (to look AT), pedir (to ask FOR), pagar (to pay FOR). Ej: Busco mis llaves (I look for my keys); Escucho la música.",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "List the main Spanish indefinite words and their negative counterparts.",
+    "answer": "algo (something) / nada (nothing); alguien (someone) / nadie (no one); alguno/algún (some, any) / ninguno/ningún (none); siempre (always) / nunca, jamás (never); también (also) / tampoco (neither); o...o (either...or) / ni...ni (neither...nor).",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "How does the Spanish double negative work with words like nada, nadie, nunca?",
+    "answer": "Unlike English, Spanish allows (and requires) a double negative. If a negative word comes AFTER the verb, you must put \"no\" before the verb: No veo a nadie (I see no one); No tengo nada. If the negative word comes BEFORE the verb, \"no\" is omitted: Nadie vino; Nunca como carne.",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "How do alguno and ninguno change before a masculine singular noun?",
+    "answer": "They shorten to algún and ningún before a masculine singular noun: algún día (some day), ningún problema (no problem). Ninguno is almost always used in the singular: No tengo ningún libro (I have no books).",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 2,
+    "kind": "idiom",
+    "prompt": "Name other common negative expressions in Spanish.",
+    "answer": "ya no (no longer / not anymore), todavía no (not yet), ni siquiera (not even), de ninguna manera / de ningún modo (no way), nunca jamás (never ever), and ni...ni (neither...nor). Ej: Ya no vivo aquí; Todavía no he comido; Ni siquiera me llamó.",
+    "tense": null
+  },
+  {
+    "unit": 18,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "How do you form comparisons of inequality (more/less than) and superlatives with adjectives in Spanish?",
+    "answer": "Comparative: más/menos + adjective + que ('more/less ... than'). Ej: Ella es más alta que yo. With a number, use de instead of que: más de cinco. Superlative: el/la/los/las (+ noun) + más/menos + adjective + de. Ej: Es el chico más alto de la clase ('the tallest in the class').",
+    "tense": null
+  },
+  {
+    "unit": 18,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "How do you express comparisons of equality ('as ... as') with adjectives in Spanish?",
+    "answer": "Use tan + adjective + como ('as ... as'). Ej: Ella es tan inteligente como su hermano. (For nouns/quantity use tanto/-a/-os/-as ... como, agreeing in gender and number.)",
+    "tense": null
+  },
+  {
+    "unit": 18,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "What are the irregular comparative and superlative adjective forms in Spanish?",
+    "answer": "These do not use más: bueno → mejor (better/best), malo → peor (worse/worst), grande → mayor (older/greater), pequeño → menor (younger/lesser). Ej: Mi coche es mejor que el tuyo; Ana es mayor que Luis. They have one form for masculine/feminine, adding -es for the plural (mejores, peores).",
+    "tense": null
+  },
+  {
+    "unit": 18,
+    "sectionIdx": 7,
+    "kind": "usage",
+    "prompt": "What is the absolute superlative (-ísimo) in Spanish and how is it formed?",
+    "answer": "It means 'very/extremely + adjective' without comparing to anything. Drop the final vowel and add -ísimo/-a/-os/-as. Ej: alto → altísimo, fácil → facilísimo, rico → riquísimo (note c→qu, g→gu spelling changes). Es una casa grandísima = a very big house.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "When are subject pronouns used (or omitted) in Spanish?",
+    "answer": "They are usually omitted because the verb ending already shows the subject (Hablo español = I speak Spanish). Use them for emphasis, contrast, or clarity. Ej: Yo trabajo y tú descansas (I work and you rest). Usted/ustedes are kept more often for politeness.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "What pronouns are used after prepositions in Spanish, and what is special about 'yo' and 'tú'?",
+    "answer": "Prepositional pronouns match subject pronouns EXCEPT yo→mí and tú→ti. Ej: para mí, de ti, con él, sin nosotros. With con they fuse: conmigo (with me), contigo (with you). After entre, según, and a few others, the subject forms yo/tú are used: entre tú y yo.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "What are the direct object pronouns in Spanish and where are they placed?",
+    "answer": "me, te, lo/la (him/her/it/you formal), nos, os, los/las (them/you all). They go BEFORE a conjugated verb: La veo (I see her). With an infinitive or gerund they attach to the end or go before: Voy a verlo / Lo voy a ver.",
+    "tense": null
+  },
+  {
+    "unit": 19,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "When is a direct object pronoun used in Spanish?",
+    "answer": "It replaces the direct object (the person/thing receiving the action) to avoid repetition. ¿Compraste el libro? Sí, lo compré (Yes, I bought it). The pronoun agrees in gender and number with the noun it replaces: las flores → las compré.",
+    "tense": null
+  },
+  {
+    "unit": 21,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "What are the SHORT forms of the Spanish possessive adjectives, and where do they go?",
+    "answer": "The short (unstressed) forms go BEFORE the noun: mi, tu, su, nuestro, vuestro, su. They agree in number with the noun (and nuestro/vuestro also in gender): mi libro, mis libros; nuestra casa, nuestras casas. Su can mean his/her/your(formal)/their.",
+    "tense": null
+  },
+  {
+    "unit": 21,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "What are the LONG (stressed) forms of the Spanish possessive adjectives, and where do they go?",
+    "answer": "The long forms go AFTER the noun and agree in both gender and number: mío, tuyo, suyo, nuestro, vuestro, suyo. Example: un amigo mío (a friend of mine), unas ideas tuyas (some ideas of yours). The noun usually takes an article: el libro mío.",
+    "tense": null
+  },
+  {
+    "unit": 21,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "When do you use the short vs. long form of Spanish possessive adjectives?",
+    "answer": "Use the SHORT form before the noun for normal possession: mi coche. Use the LONG form after the noun to add emphasis, to translate 'of mine/yours/etc.', or in direct address: Es un problema mío (It's a problem of mine); ¡Dios mío! Long forms are also common after ser: La culpa es tuya.",
+    "tense": null
+  },
+  {
+    "unit": 21,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "How do you form Spanish possessive PRONOUNS (mine, yours, etc.)?",
+    "answer": "Take the definite article + the long possessive form, agreeing in gender and number with the thing possessed: el mío, la mía, los míos, las mías; el tuyo, la suya, los nuestros, etc. Example: Mi coche es viejo; el tuyo es nuevo (Mine is old; yours is new). After ser the article is often dropped: Este libro es mío.",
+    "tense": null
+  },
+  {
+    "unit": 21,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "What are the Spanish demonstrative ADJECTIVES (this/that/these/those)?",
+    "answer": "Three degrees of distance, agreeing in gender and number: este/esta/estos/estas (this/these, near speaker); ese/esa/esos/esas (that/those, near listener); aquel/aquella/aquellos/aquellas (that/those over there, far from both). They go before the noun: este libro, esas casas, aquellos días.",
+    "tense": null
+  },
+  {
+    "unit": 21,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "When do you use este, ese, and aquel in Spanish?",
+    "answer": "Use este for things near the speaker (this, here by me), ese for things near the listener or moderately distant (that, by you), and aquel for things far from both speaker and listener (that one over there / yonder). Aquel can also refer to things distant in time: en aquella época (back in that era).",
+    "tense": null
+  },
+  {
+    "unit": 21,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "How do Spanish demonstrative PRONOUNS work (this one, that one)?",
+    "answer": "They have the same forms as demonstrative adjectives—este, ese, aquel and their gender/number variants—but stand alone in place of a noun: Quiero este, no ese (I want this one, not that one). Traditionally they carried an accent (éste), but the RAE now considers it optional and usually omitted.",
+    "tense": null
+  },
+  {
+    "unit": 21,
+    "sectionIdx": 7,
+    "kind": "usage",
+    "prompt": "What are the NEUTER demonstrative pronouns esto, eso, aquello used for?",
+    "answer": "They refer to an idea, a whole situation, or an unidentified thing—never a specific noun—so they have no gender or plural and never take an accent. Examples: ¿Qué es esto? (What is this?); Eso no es verdad (That's not true); Todo aquello fue un error (All that was a mistake).",
+    "tense": null
+  },
+  {
+    "unit": 22,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "How do you form Spanish adverbs from adjectives (the -mente ending)?",
+    "answer": "Add -mente to the FEMININE singular form of the adjective: rápido → rápidamente, lento → lentamente. If the adjective has no separate feminine form, just add -mente: fácil → fácilmente, feliz → felizmente. The adjective's original accent mark is kept (fácilmente).",
+    "tense": null
+  },
+  {
+    "unit": 22,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "What happens to -mente when two or more adverbs are used together in Spanish?",
+    "answer": "Only the LAST adverb keeps -mente; the earlier ones appear in their plain feminine adjective form. Example: Habló lenta y claramente (He spoke slowly and clearly), not 'lentamente y claramente'. They are joined by y or another conjunction.",
+    "tense": null
+  },
+  {
+    "unit": 22,
+    "sectionIdx": 2,
+    "kind": "idiom",
+    "prompt": "How can you express an adverb using 'con + noun' instead of -mente in Spanish?",
+    "answer": "Spanish often replaces an -mente adverb with the phrase con + abstract noun: con cuidado = cuidadosamente (carefully); con frecuencia = frecuentemente (frequently); con paciencia = pacientemente (patiently). Other common adverbial expressions: a menudo (often), de repente (suddenly), por fin (finally).",
+    "tense": null
+  },
+  {
+    "unit": 22,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "How can adjectives be used as adverbs in Spanish, and how do they agree?",
+    "answer": "Some adjectives function as adverbs in fixed expressions, and as adverbs they do NOT agree (stay masculine singular): hablar alto/bajo (speak loudly/softly), trabajar duro (work hard), jugar limpio (play fair), comprar barato/caro. Ex: Ellas hablan muy alto (not 'altas').",
+    "tense": null
+  },
+  {
+    "unit": 22,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "How are nouns used adverbially in Spanish, especially to mean 'in the morning/afternoon/evening'?",
+    "answer": "Spanish uses 'por + noun' for times of day: por la mañana (in the morning), por la tarde (in the afternoon), por la noche (at night). These noun phrases work like adverbs of time. Ex: Estudio por la noche.",
+    "tense": null
+  },
+  {
+    "unit": 22,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "How do you form comparisons of inequality with adverbs (more/less ... than)?",
+    "answer": "Use más/menos + adverb + que. Ex: Corre más rápido que yo (He runs faster than I); Habla menos claramente que tú. For 'as ... as' use tan + adverb + como: Trabaja tan duro como ella.",
+    "tense": null
+  },
+  {
+    "unit": 22,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "What are the irregular comparative forms of the adverbs bien and mal?",
+    "answer": "bien (well) -> mejor (better); mal (badly) -> peor (worse). Use them directly, not 'más bien.' Ex: Ella canta mejor que yo; Hoy me siento peor que ayer.",
+    "tense": null
+  },
+  {
+    "unit": 22,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "How do you form the superlative of an adverb in Spanish (the most/least)?",
+    "answer": "There is no separate adverb superlative form; use the comparative reinforced by context, often with lo ... posible or de todos. Ex: Lo hizo lo más rápido posible (as fast as possible); Corre lo mejor que puede.",
+    "tense": null
+  },
+  {
+    "unit": 22,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "What is the basic word order for adverbs in Spanish relative to the verb and to adjectives?",
+    "answer": "Adverbs of manner usually follow the verb they modify: Habla lentamente. But adverbs that modify an adjective or another adverb go right before it: muy interesante, demasiado rápido. Spanish does not split the conjugated verb from its adverb the way English sometimes does.",
+    "tense": null
+  },
+  {
+    "unit": 22,
+    "sectionIdx": 5,
+    "kind": "usage",
+    "prompt": "In Spanish, when two or more -mente adverbs are used together, what happens to the ending?",
+    "answer": "Only the LAST adverb keeps -mente; the others use just the feminine adjective form. Ex: Habló clara y lentamente (clearly and slowly), not 'claramente y lentamente.'",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "What are the most frequently used simple prepositions in Spanish?",
+    "answer": "Common simple prepositions: a (to/at), de (of/from), en (in/on/at), con (with), sin (without), por (for/by/through), para (for/to), sobre (on/about), entre (between), hasta (until), desde (from/since), hacia (toward), según (according to). They are invariable.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 0,
+    "kind": "idiom",
+    "prompt": "What are the two mandatory contractions involving prepositions in Spanish?",
+    "answer": "a + el = al, and de + el = del. These are obligatory. Ex: Voy al cine; Vengo del banco. They do NOT contract with the pronoun él or before a capitalized 'El' in a name.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "What are compound prepositions in Spanish and how are they formed?",
+    "answer": "Compound (multi-word) prepositions are made of an adverb/noun + a simple preposition, usually ending in de or a. Ex: delante de (in front of), detrás de (behind), antes de (before), después de (after), cerca de (near), lejos de (far from), dentro de (inside), encima de (on top of), enfrente de (across from).",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "How do simple location adverbs relate to their compound prepositional forms (e.g., cerca vs cerca de)?",
+    "answer": "The plain word is an adverb (no object): Vive cerca (He lives nearby). Add 'de' + a noun to make it a preposition: Vive cerca de la escuela. Same pattern: dentro/dentro de, encima/encima de, delante/delante de.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "What is the 'personal a' in Spanish, and when do you use it?",
+    "answer": "The personal a is placed before a direct object that is a specific person (or a personified/pet animal). It has no English translation. Ex: Veo a María (I see María) vs. Veo la casa (no person). Also used before alguien, nadie, quién: ¿A quién buscas?",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "When is the personal a NOT used in Spanish?",
+    "answer": "Omit the personal a before non-specific/indefinite people and after the verb tener used to mean 'have': Busco un médico (any doctor, no a); Tengo tres hermanos (no a). Also normally omitted with things.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "What are the core meanings of the prepositions en and de in Spanish?",
+    "answer": "en = in, on, or at (a location): en casa, en la mesa, en Madrid. de = of/from, showing origin, possession, or material: soy de México, el libro de Ana, una mesa de madera. Note: 'on' a surface is en (en la mesa), not 'sobre' exclusively.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "How does Spanish often differ from English in matching prepositions to verbs?",
+    "answer": "Prepositions rarely translate one-to-one; learn them per expression. Ex: pensar EN (think about), soñar CON (dream of), depender DE (depend on), consistir EN (consist of). Don't map English 'about/of/on' directly.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "When do you use POR vs PARA in Spanish (the general rule)?",
+    "answer": "PARA points to a destination, goal, purpose, recipient, or deadline (the endpoint): Es para ti; Salgo para Madrid; Estudio para aprender. POR covers cause/reason, motion through/along, duration, exchange, and means: Gracias por todo; Camino por el parque; por dos horas; lo cambié por otro.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "Give a quick contrast: 'para mí' vs 'por mí', and purpose vs cause.",
+    "answer": "PARA = purpose/recipient/goal: Trabajo para una empresa (I work for a company, as employer); Lo hago para ayudar (in order to help). POR = cause/motivation/on behalf of: Lo hago por ti (because of/for your sake); Trabajo por dinero (out of need for money).",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 5,
+    "kind": "idiom",
+    "prompt": "What are common fixed idiomatic expressions with POR?",
+    "answer": "por favor (please), por supuesto (of course), por fin (finally), por ejemplo (for example), por eso (that's why), por lo menos (at least), por ahora (for now), por suerte (luckily), por casualidad (by chance), por cierto (by the way).",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 5,
+    "kind": "idiom",
+    "prompt": "What do the POR expressions 'por lo general' and 'por las nubes' mean?",
+    "answer": "por lo general = in general / usually (Por lo general, ceno tarde). por las nubes = sky-high / very expensive (Los precios están por las nubes). These are set phrases that must be memorized.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "Which common Spanish verbs require 'a' before a following infinitive?",
+    "answer": "Verbs of beginning, motion, learning, and teaching take 'a' + infinitive: empezar a, comenzar a, aprender a, enseñar a, ir a, venir a, volver a (to do again), ayudar a, ponerse a. Ex: Empecé a estudiar; Voy a comer.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 6,
+    "kind": "usage",
+    "prompt": "Which common Spanish verbs require 'de' before a following infinitive?",
+    "answer": "Verbs of stopping, finishing, trying, and remembering often take 'de' + infinitive: dejar de (to stop doing), acabar de (to have just done), tratar de (to try to), terminar de, olvidarse de, acordarse de, alegrarse de. Ex: Acabo de llegar; Dejé de fumar.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 7,
+    "kind": "usage",
+    "prompt": "Which prepositions do verbs like pensar, soñar, contar, and casarse take, and what do they mean?",
+    "answer": "Several verbs take fixed prepositions other than a/de: pensar en (to think about), soñar con (to dream about/of), contar con (to count/rely on), casarse con (to marry), insistir en (to insist on), tardar en (to take long/delay in). Ex: Sueño con viajar a España. Insisto en pagar.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 7,
+    "kind": "usage",
+    "prompt": "What preposition do verbs of beginning/ending and 'depending' take in Spanish, e.g. depender, enamorarse, fijarse?",
+    "answer": "depender de (to depend on), enamorarse de (to fall in love with), fijarse en (to notice/pay attention to), confiar en (to trust in), consistir en (to consist of). The Spanish preposition often differs from English. Ex: Depende de ti. Me enamoré de ella.",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 8,
+    "kind": "usage",
+    "prompt": "Name common Spanish verbs that need NO preposition even though their English equivalent does.",
+    "answer": "Some Spanish verbs are transitive and take a direct object directly, while English uses a preposition: buscar (to look FOR), esperar (to wait FOR), pedir (to ask FOR), escuchar (to listen TO), mirar (to look AT), pagar (to pay FOR). Ex: Busco mis llaves. Escucho la música. (No por/a/para.)",
+    "tense": null
+  },
+  {
+    "unit": 23,
+    "sectionIdx": 8,
+    "kind": "usage",
+    "prompt": "How do you say 'I'm looking for the book' and 'I'm waiting for the bus' in Spanish, and what's the trap?",
+    "answer": "Busco el libro / Espero el autobús. The trap is adding a preposition to mirror English 'for' (do NOT say *busco por el libro*). Buscar and esperar take the object directly. (Personal 'a' still applies before a person: Espero a María.)",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "What are the main pairs of indefinite and negative words in Spanish?",
+    "answer": "Each indefinite word has a negative counterpart: algo/nada (something/nothing), alguien/nadie (someone/no one), alguno(a)/ninguno(a) (some/none), siempre/nunca-jamás (always/never), también/tampoco (also/neither), o...o / ni...ni (either...or / neither...nor).",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "What happens to alguno and ninguno before a masculine singular noun?",
+    "answer": "They shorten to algún and ningún before a masculine singular noun. Ex: algún día (some day), ningún problema (no problem). The full forms are used otherwise: alguna idea, ninguna razón.",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "How does the Spanish double negative work, and where does 'no' go?",
+    "answer": "Spanish allows (and requires) double negatives. If a negative word follows the verb, you must put 'no' before the verb: No veo a nadie. No tengo nada. But if the negative word comes BEFORE the verb, 'no' is dropped: Nadie vino. Nunca como carne.",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "How do you say 'I don't want anything either' to practice tampoco and double negation?",
+    "answer": "No quiero nada tampoco (or Tampoco quiero nada). Tampoco is the negative of también. With the verb first you need 'no'; placing tampoco first lets you drop it. Ex: Yo tampoco. (Me neither.)",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 2,
+    "kind": "idiom",
+    "prompt": "What are some common 'reinforced' negative expressions in Spanish?",
+    "answer": "ni siquiera (not even), ya no (no longer/not anymore), todavía no (not yet), ni...ni (neither...nor), nunca jamás (never ever), de ninguna manera / de ningún modo (no way). Ex: Ni siquiera me llamó. Ya no vive aquí.",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "What is the difference between pero, sino, and sino que?",
+    "answer": "pero = 'but/however' (adds info). sino = 'but rather' and corrects a preceding negative, contrasting two elements (not full clauses): No es rojo sino azul. sino que is used when what follows is a conjugated clause: No canta sino que baila.",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "When do you use sino instead of pero in Spanish?",
+    "answer": "Use sino only when (1) the first clause is negative AND (2) the second part contradicts/replaces it ('not X but rather Y'): No quiero té sino café. Use pero when the first clause may be affirmative or when you simply add a contrasting idea: No es rico, pero es feliz.",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "Which connector fits: 'No estudia ____ trabaja' vs 'Estudia ____ no aprende'?",
+    "answer": "First blank: sino que (negative first clause replaced by a full conjugated clause -> No estudia sino que trabaja). Second blank: pero (affirmative first clause adding contrast -> Estudia pero no aprende).",
+    "tense": null
+  },
+  {
+    "unit": 25,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "What is the key written feature of Spanish interrogative words, and how are questions punctuated?",
+    "answer": "Interrogative words always carry a written accent (qué, quién, cómo, cuándo, dónde, por qué, cuál, cuánto), which distinguishes them from relatives/conjunctions. Questions are framed by inverted opening marks: ¿Dónde vives? ¿Por qué lloras?",
+    "tense": null
+  },
+  {
+    "unit": 25,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "What is the difference between ¿qué? and ¿cuál? when asking 'what/which'?",
+    "answer": "¿Qué? asks for a definition or identification, and is used directly before a noun: ¿Qué es esto? ¿Qué libro quieres? ¿Cuál(es)? asks for a choice/selection among options and is used before 'ser' or 'de': ¿Cuál es tu nombre? ¿Cuál prefieres?",
+    "tense": null
+  },
+  {
+    "unit": 25,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "How do ¿quién/quiénes? and ¿cuánto/a/os/as? agree in Spanish questions?",
+    "answer": "¿Quién? becomes ¿quiénes? for plural (¿Quiénes vienen?). ¿Cuánto? agrees in gender and number with the noun it modifies: ¿Cuánto dinero?, ¿Cuánta agua?, ¿Cuántos años?, ¿Cuántas personas? To ask 'whose,' use ¿De quién(es)?",
+    "tense": null
+  },
+  {
+    "unit": 25,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "How do interrogative words behave in indirect (embedded) questions?",
+    "answer": "Interrogative words keep their written accent even inside a statement (indirect question): No sé dónde está. Dime qué quieres. Me pregunto por qué vino. There are no inverted question marks because the whole sentence isn't a direct question.",
+    "tense": null
+  },
+  {
+    "unit": 25,
+    "sectionIdx": 2,
+    "kind": "idiom",
+    "prompt": "Which prepositions commonly combine with interrogatives, and what do they mean?",
+    "answer": "Interrogatives often follow prepositions: ¿De dónde eres? (Where are you from?), ¿A dónde/Adónde vas? (Where are you going?), ¿Con quién hablas? (With whom?), ¿Para qué? (What for?), ¿De qué hablas? (What about?). The preposition precedes the question word.",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "How does the double negative work in Spanish?",
+    "answer": "Unlike English, Spanish allows (and requires) double negatives. When a negative word follows the verb, you must also place 'no' before the verb. E.g. 'No veo nada' (I don't see anything), 'No viene nadie' (Nobody is coming). If the negative word comes before the verb, 'no' is dropped: 'Nadie viene'.",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "When do you use 'alguno/ninguno' vs 'algún/ningún' before a noun?",
+    "answer": "Before a masculine singular noun, 'alguno' and 'ninguno' shorten to 'algún' and 'ningún' (with an accent). E.g. 'algún día' (some day), 'ningún problema' (no problem). 'Ninguno' is almost always singular: 'No tengo ningún amigo aquí'.",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "What is the difference between using 'también' and 'tampoco'?",
+    "answer": "'También' (also/too) is used in affirmative sentences: 'Yo también voy' (I'm going too). 'Tampoco' is its negative counterpart (neither/not either): 'Yo tampoco voy' or 'No voy tampoco' (I'm not going either).",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 2,
+    "kind": "idiom",
+    "prompt": "What does the negative correlative 'ni... ni...' mean and how is it used?",
+    "answer": "'Ni... ni...' means 'neither... nor...'. With a verb you still need 'no' if it follows the verb: 'No quiero ni café ni té' (I want neither coffee nor tea). 'Ni' alone can mean 'not even': 'Ni siquiera me llamó' (He didn't even call me).",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 2,
+    "kind": "idiom",
+    "prompt": "What do the expressions 'ya no' and 'todavía no' mean?",
+    "answer": "'Ya no' means 'no longer / not anymore': 'Ya no vivo aquí' (I no longer live here). 'Todavía no' (or 'aún no') means 'not yet': 'Todavía no ha llegado' (He hasn't arrived yet).",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 2,
+    "kind": "idiom",
+    "prompt": "How do you say 'no longer... at all' or use intensified negatives like 'en absoluto' and 'para nada'?",
+    "answer": "'(No)... en absoluto' means 'not at all': 'No me gusta en absoluto' (I don't like it at all). 'Para nada' is a colloquial intensifier meaning 'not at all': 'No me importa para nada'.",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "What is the basic difference between the conjunctions 'pero' and 'sino'?",
+    "answer": "Both translate as 'but'. 'Pero' adds contrasting/additional information ('but/however'): 'Es caro pero bueno'. 'Sino' is used only after a negative statement to introduce a correction/contradiction ('but rather'): 'No es caro sino barato' (It's not expensive but rather cheap).",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 3,
+    "kind": "usage",
+    "prompt": "When do you use 'sino' vs 'sino que'?",
+    "answer": "Use 'sino' to contrast words or phrases: 'No fui yo sino él'. Use 'sino que' when the contrast is between two conjugated clauses (verbs): 'No solo cantó sino que también bailó' (He not only sang but also danced).",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 4,
+    "kind": "usage",
+    "prompt": "When is 'pero' used and when is 'sino' used in Spanish?",
+    "answer": "Use 'sino' ONLY when (1) the first clause is negative AND (2) the second clause directly contradicts/replaces it: 'No quiero té sino café'. In all other cases—including a negative statement followed by a non-contradicting addition—use 'pero': 'No tengo dinero pero soy feliz' (here happiness doesn't replace having money).",
+    "tense": null
+  },
+  {
+    "unit": 24,
+    "sectionIdx": 4,
+    "kind": "idiom",
+    "prompt": "How do you express 'not only... but also...' in Spanish?",
+    "answer": "Use 'no solo... sino (que) también...'. With nouns/phrases: 'No solo Ana sino también María'. With conjugated verbs use 'sino que': 'No solo trabaja sino que también estudia' (He not only works but also studies).",
+    "tense": null
+  },
+  {
+    "unit": 25,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "What is a key written feature of all interrogative words in Spanish?",
+    "answer": "All interrogative words carry a written accent (tilde) to distinguish them from their relative/conjunction counterparts: qué, quién, cómo, cuándo, dónde, cuánto, cuál, por qué. Questions also open with an inverted '¿': '¿Dónde vives?'. Compare relative 'que' (no accent) vs interrogative 'qué' (accent).",
+    "tense": null
+  },
+  {
+    "unit": 25,
+    "sectionIdx": 0,
+    "kind": "usage",
+    "prompt": "How are questions formed/ordered in Spanish compared to English?",
+    "answer": "Spanish does not use auxiliary 'do/does'. Questions are formed by inverting subject and verb or by intonation, framed by '¿...?'. E.g. '¿Habla usted español?' or '¿Usted habla español?'. The interrogative word normally comes first: '¿Qué quieres?'.",
+    "tense": null
+  },
+  {
+    "unit": 25,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "What is the difference between '¿qué?' and '¿cuál(es)?' when both can mean 'what/which'?",
+    "answer": "Use '¿qué?' to ask for a definition or before a noun: '¿Qué es esto?', '¿Qué libro quieres?'. Use '¿cuál(es)?' to ask for a selection/choice from a group, especially before 'ser' + a thing: '¿Cuál es tu número?', '¿Cuál prefieres?'.",
+    "tense": null
+  },
+  {
+    "unit": 25,
+    "sectionIdx": 1,
+    "kind": "usage",
+    "prompt": "How do '¿cuánto?' and '¿quién?' agree with what they ask about?",
+    "answer": "'¿Cuánto?' agrees in gender/number with the noun: ¿cuánto?, ¿cuánta?, ¿cuántos?, ¿cuántas? ('¿Cuántas hermanas tienes?'). '¿Quién?' has a plural form '¿quiénes?' for more than one person: '¿Quiénes son ellos?'.",
+    "tense": null
+  },
+  {
+    "unit": 25,
+    "sectionIdx": 1,
+    "kind": "idiom",
+    "prompt": "What does '¿de quién?' ask, and how do you say 'whose'?",
+    "answer": "Spanish has no single word for 'whose' in questions; use '¿De quién(es)?' (literally 'of whom'). E.g. '¿De quién es este libro?' (Whose book is this?). The answer uses 'de': 'Es de María'.",
+    "tense": null
+  },
+  {
+    "unit": 25,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "Do interrogative words keep their accent in indirect (embedded) questions?",
+    "answer": "Yes. Even without question marks, interrogative words keep the written accent in indirect questions: 'No sé dónde está' (I don't know where it is), 'Dime qué quieres' (Tell me what you want), 'Me preguntó cuándo llegaba'.",
+    "tense": null
+  },
+  {
+    "unit": 25,
+    "sectionIdx": 2,
+    "kind": "usage",
+    "prompt": "How do prepositions combine with interrogative words in Spanish?",
+    "answer": "In Spanish the preposition must come BEFORE the interrogative word, never stranded at the end as in English: '¿Con quién hablas?' (Who are you talking with?), '¿De dónde eres?' (Where are you from?), '¿A qué hora?' (At what time?).",
+    "tense": null
+  }
+]

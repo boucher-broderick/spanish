@@ -63,14 +63,14 @@ export function toc(): Toc {
   return _toc;
 }
 
-let _vocab: VocabUnit[] | null = null;
-/** Per-unit, per-section vocabulary tables (verbs/nouns/adjectives/adverbs/expressions). */
-export function allVocab(): VocabUnit[] {
-  if (!_vocab) _vocab = read<{ units: VocabUnit[] }>("vocab.json").units;
-  return _vocab;
+/** Per-unit, per-section vocabulary tables (verbs/nouns/adjectives/adverbs/expressions).
+ *  Sourced from Postgres (see lib/vocab-db.ts), with a data/vocab.json fallback. */
+export async function allVocab(): Promise<VocabUnit[]> {
+  const { loadVocab } = await import("./vocab-db");
+  return loadVocab();
 }
-export function vocabForUnit(unit: number): VocabUnit | null {
-  return allVocab().find((u) => u.unit === unit) ?? null;
+export async function vocabForUnit(unit: number): Promise<VocabUnit | null> {
+  return (await allVocab()).find((u) => u.unit === unit) ?? null;
 }
 
 /** printed page -> pdf page (the rendered image). printed p1 == pdf p13. */

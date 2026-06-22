@@ -29,7 +29,7 @@ export async function POST(req: Request) {
   const tense = body.tense ?? DEFAULT_TENSE;
   const length = body.length ?? DEFAULT_LENGTH;
   const topic = body.topic?.trim() || undefined;
-  const words = body.unit != null ? pickWords(body.unit, body.section ?? null) : [];
+  const words = body.unit != null ? await pickWords(body.unit, body.section ?? null) : [];
 
   try {
     const result = await generateJson<StoryResult>(

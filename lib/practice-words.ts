@@ -19,8 +19,8 @@ export interface UnitIndex {
 }
 
 /** Units + their sections, for the picker UI. Cheap (titles only). */
-export function sectionsIndex(): UnitIndex[] {
-  return allVocab().map((u) => ({
+export async function sectionsIndex(): Promise<UnitIndex[]> {
+  return (await allVocab()).map((u) => ({
     unit: u.unit,
     title: u.title,
     sections: u.sections.map((s, i) => ({ unit: u.unit, section: i, title: s.title })),
@@ -29,14 +29,14 @@ export function sectionsIndex(): UnitIndex[] {
 
 /** Random 10–20 Spanish words from a section (or across all units when
  *  unit is null / "any"). Returns fewer only if the pool is smaller. */
-export function pickWords(unit: number | null, section: number | null, min = 10, max = 20): string[] {
-  return selectWords(allVocab(), unit, section, min, max);
+export async function pickWords(unit: number | null, section: number | null, min = 10, max = 20): Promise<string[]> {
+  return selectWords(await allVocab(), unit, section, min, max);
 }
 
 /** Resolve a section's display title, for labelling generated content. */
-export function sectionTitle(unit: number | null, section: number | null): string | null {
+export async function sectionTitle(unit: number | null, section: number | null): Promise<string | null> {
   if (unit == null) return null;
-  const u = allVocab().find((x) => x.unit === unit);
+  const u = (await allVocab()).find((x) => x.unit === unit);
   if (!u) return null;
   if (section == null) return u.title;
   return u.sections[section]?.title ?? u.title;

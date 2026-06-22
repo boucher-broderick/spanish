@@ -18,7 +18,7 @@ export default async function BookPageRoute({
 
   const exercises = allExercises().filter((e) => page.exerciseIds.includes(e.id));
   const sectionTitle = page.printedPage >= 1 ? sectionTitleForPrinted(page.printedPage) : null;
-  const hasVocab = page.unit != null && vocabForUnit(page.unit) != null;
+  const hasVocab = page.unit != null && (await vocabForUnit(page.unit)) != null;
   const unitToc = page.unit != null ? toc().units.find((u) => u.unit === page.unit) : null;
   const sections = unitToc
     ? unitToc.sections.map((s) => ({ title: s.title, pdfPage: pdfPageForPrinted(s.page) }))

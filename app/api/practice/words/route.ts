@@ -9,6 +9,6 @@ export async function POST(req: Request) {
   const body = (await req.json().catch(() => ({}))) as { unit?: number | null; section?: number | null };
   const unit = body.unit ?? null;
   const section = body.section ?? null;
-  const words = unit != null ? pickWords(unit, section) : [];
-  return Response.json({ words, sectionTitle: sectionTitle(unit, section) });
+  const words = unit != null ? await pickWords(unit, section) : [];
+  return Response.json({ words, sectionTitle: await sectionTitle(unit, section) });
 }
