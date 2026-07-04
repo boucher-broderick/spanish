@@ -191,6 +191,12 @@ function pcmToWav(pcm: Buffer, sampleRate: number, channels = 1, bitsPerSample =
 
 export interface Speech { audio: Buffer; mime: "audio/wav" }
 
+/** Transient Gemini failures worth retrying: rate limit (429) and 5xx. */
+function isTransient(err: unknown): boolean {
+  return /\b(429|500|502|503|504)\b/.test((err as Error)?.message ?? "");
+}
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
 export async function synthesizeSpeech(text: string, voice = TTS_VOICE): Promise<Speech> {
   const body = {
     contents: [{ parts: [{ text }] }],
@@ -199,10 +205,23 @@ export async function synthesizeSpeech(text: string, voice = TTS_VOICE): Promise
       speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: voice } } },
     },
   };
-  const parts = await callGenerate(body, TTS_MODEL, 120_000);
-  const inline = parts.find((p) => p.inlineData)?.inlineData;
-  if (!inline) throw new Error("Gemini TTS: no audio returned");
-  const pcm = Buffer.from(inline.data, "base64");
-  const rate = Number(/rate=(\d+)/.exec(inline.mimeType)?.[1] ?? 24000);
-  return { audio: pcmToWav(pcm, rate), mime: "audio/wav" };
+  // The free-tier TTS model has a low request-per-minute cap; a burst of new
+  // clips can trip it. Retry transient 429/5xx with backoff before giving up.
+  const backoffs = [600, 1800, 4000];
+  let lastErr: unknown;
+  for (let attempt = 0; attempt <= backoffs.length; attempt++) {
+    try {
+      const parts = await callGenerate(body, TTS_MODEL, 120_000);
+      const inline = parts.find((p) => p.inlineData)?.inlineData;
+      if (!inline) throw new Error("Gemini TTS: no audio returned");
+      const pcm = Buffer.from(inline.data, "base64");
+      const rate = Number(/rate=(\d+)/.exec(inline.mimeType)?.[1] ?? 24000);
+      return { audio: pcmToWav(pcm, rate), mime: "audio/wav" };
+    } catch (err) {
+      lastErr = err;
+      if (attempt < backoffs.length && isTransient(err)) { await sleep(backoffs[attempt]); continue; }
+      throw err;
+    }
+  }
+  throw lastErr;
 }

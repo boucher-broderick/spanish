@@ -9,7 +9,7 @@ import { ensureAudio } from "@/lib/audio-store";
 // never blocks the study flow. See lib/audio-store.ts (ensureAudio).
 
 const MAX_TEXTS = 400;   // safety cap on a single batch
-const CONCURRENCY = 4;   // limit parallel Gemini calls
+const CONCURRENCY = 2;   // keep well under the free-tier TTS per-minute rate limit
 
 /** Run `worker` over `items` with at most `n` in flight at once. */
 async function pool<T>(items: T[], n: number, worker: (item: T) => Promise<void>): Promise<void> {

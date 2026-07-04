@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { Button, Card, Pill, cx } from "@/components/ui";
 import { useTts } from "@/lib/useTts";
@@ -51,10 +51,12 @@ function interleave(reviews: StudyCard[], news: StudyCard[]): StudyCard[] {
 
 const fieldCx = "w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-indigo-500 focus:outline-none disabled:bg-slate-50 disabled:text-slate-500";
 
-// Fire-and-forget: ask the server to synthesize (and cache) audio for every
-// word/verb card in the pulled queue so the play button is instant. Already-
-// generated clips are a no-op server-side. Errors are ignored — the mic still
-// falls back to lazy synthesis on click.
+// Fire-and-forget: ask the server to synthesize (and cache) audio for a few
+// upcoming cards so the play button is instant when the learner gets there.
+// Already-generated clips are a no-op server-side. Errors are ignored — the mic
+// still falls back to lazy synthesis on click. Deliberately warms only a small
+// rolling window (not the whole session at once) so we never burst past the
+// TTS provider's per-minute rate limit.
 function prewarmAudio(cards: StudyCard[]): void {
   const texts = [...new Set(cards.flatMap((c) => audioTextsForCard(c)))];
   if (!texts.length) return;
@@ -94,6 +96,7 @@ export function StudySession() {
   const [newBudget, setNewBudget] = useState(0); // "I don't know" allowance left today
   const [status, setStatus] = useState<Status | null>(null);
   const [err, setErr] = useState<string | null>(null);
+  const warmedRef = useRef<Set<string>>(new Set()); // card keys already sent to pre-warm
 
   useEffect(() => {
     fetch("/api/anki/session")
@@ -101,13 +104,24 @@ export function StudySession() {
       .then((d: Session & { error?: string }) => {
         if (d.error) { setErr("Please sign in."); return; }
         setNewBudget(d.dailyNewRemaining ?? 0);
-        const reviews = d.reviews ?? [];
-        const news = d.newCards ?? [];
-        setQueue(interleave(reviews, news));
-        prewarmAudio([...reviews, ...news]); // pre-generate audio for word/verb cards (new + review)
+        setQueue(interleave(d.reviews ?? [], d.newCards ?? []));
       })
       .catch(() => setErr("Failed to load session."));
   }, []);
+
+  // Pre-warm audio for a small rolling window (current card + next 2) as the
+  // learner advances — never the whole session at once, to stay under the TTS
+  // rate limit. Each card is warmed once; server-side cache makes repeats cheap.
+  useEffect(() => {
+    if (!queue) return;
+    const window = queue.slice(idx, idx + 3).filter((c) => {
+      const key = `${c.info.cardType}:${c.info.cardId}`;
+      if (warmedRef.current.has(key)) return false;
+      warmedRef.current.add(key);
+      return true;
+    });
+    if (window.length) prewarmAudio(window);
+  }, [idx, queue]);
 
   // Once the daily "I don't know" budget is gone, skip any not-yet-seen NEW cards.
   useEffect(() => {
