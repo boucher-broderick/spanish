@@ -13,6 +13,7 @@ export interface UseTts {
   supported: boolean;
   speaking: boolean;
   loading: boolean;
+  error: boolean; // last speak() failed to synthesize (e.g. TTS rate-limited/unavailable)
   speak: (text: string, opts?: { rate?: number }) => void;
   stop: () => void;
 }
@@ -25,6 +26,7 @@ export function useTts(): UseTts {
   const [supported, setSupported] = useState(false);
   const [speaking, setSpeaking] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const abortRef = useRef<AbortController | null>(null);
 
@@ -64,6 +66,7 @@ export function useTts(): UseTts {
     if (!text.trim() || !audio) return;
     abortRef.current?.abort();
     audio.pause();
+    setError(false); // fresh attempt
 
     // Instant replay from the in-session cache — no fetch, no loading state.
     const cached = blobCache.get(text);
@@ -86,9 +89,13 @@ export function useTts(): UseTts {
         blobCache.set(text, url);
         play(url, opts?.rate);
       })
-      .catch(() => { /* aborted or synthesis error — leave silent */ })
+      .catch(() => {
+        // Ignore user-initiated aborts; surface real synthesis failures
+        // (rate-limited / unavailable) so the UI can show an indicator.
+        if (!ctrl.signal.aborted) setError(true);
+      })
       .finally(() => { if (!ctrl.signal.aborted) setLoading(false); });
   }, [play]);
 
-  return { supported, speaking, loading, speak, stop };
+  return { supported, speaking, loading, error, speak, stop };
 }

@@ -68,11 +68,27 @@ function prewarmAudio(cards: StudyCard[]): void {
 }
 
 // Small speaker button that plays a Spanish clip via Gemini TTS (cached). Shows a
-// spinner while synthesizing on first play, and tints while playing. Self-
-// contained (its own audio element) so it can be dropped beside any reveal.
+// spinner while synthesizing, tints while playing, and falls back to a muted
+// "audio unavailable" indicator if synthesis fails (e.g. TTS rate-limited).
+// Self-contained (its own audio element) so it can be dropped beside any reveal.
 function PlayButton({ text, className }: { text: string; className?: string }) {
-  const { speak, loading, speaking } = useTts();
+  const { speak, loading, speaking, error } = useTts();
   if (!text?.trim()) return null;
+  if (error) {
+    return (
+      <span className="inline-flex items-center gap-1 text-xs text-slate-400" title="Audio unavailable — the text-to-speech service is rate-limited. Try again shortly.">
+        <button
+          type="button"
+          onClick={() => speak(text)}
+          aria-label="Retry audio"
+          className="inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full transition-colors hover:bg-slate-100"
+        >
+          🔇
+        </button>
+        <span>audio unavailable</span>
+      </span>
+    );
+  }
   return (
     <button
       type="button"
