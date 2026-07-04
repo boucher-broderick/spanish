@@ -24,20 +24,36 @@ export function nounAudioEs(w: AudioWord): string {
   return w.es;
 }
 
+/** Conjugation shape (subset) needed to build the spoken full-tense recitation. */
+export interface AudioConjugation {
+  yo: string | null; tu: string | null; el: string | null;
+  nosotros: string | null; ellos: string | null;
+}
+
+/**
+ * One spoken recitation of a whole tense: each non-null form prefixed by a plain
+ * pronoun, joined by commas so TTS reads them with natural pauses — e.g.
+ * "yo hablo, tú hablas, él habla, nosotros hablamos, ellos hablan". Returns "" if
+ * the tense has no forms.
+ */
+export function conjugationsAudioText(c: AudioConjugation): string {
+  const forms: [string, string | null][] = [
+    ["yo", c.yo], ["tú", c.tu], ["él", c.el], ["nosotros", c.nosotros], ["ellos", c.ellos],
+  ];
+  return forms.filter(([, v]) => v && v.trim()).map(([p, v]) => `${p} ${v!.trim()}`).join(", ");
+}
+
 /** Card shape (subset) for collecting a card's pre-warm texts. */
 export interface AudioCard {
   info: { cardType: "word_id" | "tense_id" | "note_id" };
   word?: { audioEs: string };
-  conjugation?: {
-    yo: string | null; tu: string | null; el: string | null;
-    nosotros: string | null; ellos: string | null;
-  };
+  conjugation?: AudioConjugation;
 }
 
 /**
  * Every Spanish string worth pre-generating audio for on this card:
  *  - word cards  → the word (with article for nouns)
- *  - verb cards  → the infinitive + each non-null conjugated form
+ *  - verb cards  → the infinitive + ONE clip reciting all conjugations
  *  - note cards  → none (lesson cards are excluded)
  */
 export function audioTextsForCard(card: AudioCard): string[] {
@@ -45,10 +61,8 @@ export function audioTextsForCard(card: AudioCard): string[] {
   if (card.info.cardType === "note_id") return out;
   if (card.word?.audioEs) out.push(card.word.audioEs);
   if (card.info.cardType === "tense_id" && card.conjugation) {
-    const c = card.conjugation;
-    for (const f of [c.yo, c.tu, c.el, c.nosotros, c.ellos]) {
-      if (f && f.trim()) out.push(f);
-    }
+    const all = conjugationsAudioText(card.conjugation);
+    if (all) out.push(all);
   }
   return out;
 }

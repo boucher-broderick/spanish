@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Button, Card, Pill, cx } from "@/components/ui";
 import { useTts } from "@/lib/useTts";
-import { audioTextsForCard } from "@/lib/audio-text";
+import { audioTextsForCard, conjugationsAudioText } from "@/lib/audio-text";
 
 // ---- card shapes (mirror lib/cards.ts) ----
 type CardType = "word_id" | "tense_id" | "note_id";
@@ -330,7 +330,10 @@ function VerbCard({ card, onGrade }: { card: StudyCard; onGrade: (a: Answer) => 
         <>
           {/* step 2 — conjugation */}
           <div className="mt-6 border-t border-slate-100 pt-5">
-            <p className="text-sm font-semibold text-slate-500">Conjugate — {conj.tense}</p>
+            <p className="flex items-center gap-2 text-sm font-semibold text-slate-500">
+              <span>Conjugate — {conj.tense}</span>
+              {conjChecked && <PlayButton text={conjugationsAudioText(conj)} />}
+            </p>
             <div className="mt-3 space-y-2">
               {persons.map(([label, ans]) => {
                 const ok = eq(forms[label] ?? "", ans);
@@ -344,9 +347,8 @@ function VerbCard({ card, onGrade }: { card: StudyCard; onGrade: (a: Answer) => 
                       onChange={(e) => setForms((f) => ({ ...f, [label]: e.target.value }))}
                     />
                     {conjChecked && (
-                      <span className={cx("flex w-40 shrink-0 items-center gap-1 text-sm font-medium", ok ? "text-emerald-700" : "text-rose-600")}>
-                        <span>{ok ? "✓ " : "✗ "}{ans ?? "—"}</span>
-                        {ans && <PlayButton text={ans} />}
+                      <span className={cx("w-32 shrink-0 text-sm font-medium", ok ? "text-emerald-700" : "text-rose-600")}>
+                        {ok ? "✓ " : "✗ "}{ans ?? "—"}
                       </span>
                     )}
                   </div>
