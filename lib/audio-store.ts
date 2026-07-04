@@ -6,11 +6,18 @@
 // the same way stories persist. Audio bytes deliberately live here, NOT in the
 // per-user JSONB state blob (lib/store.ts), to keep that row small.
 import "server-only";
+import { createHash } from "node:crypto";
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import { getPool, USE_DB } from "./store";
+import { geminiConfigured, synthesizeSpeech } from "./gemini";
 
 const AUDIO_DIR = path.join(process.cwd(), ".data", "audio");
+
+/** Content key for a clip: identical text → identical key → synthesized once, reused forever. */
+export function keyFor(text: string): string {
+  return createHash("sha256").update(text).digest("hex");
+}
 
 let ready: Promise<void> | null = null;
 async function ensureSchema(): Promise<void> {
@@ -67,6 +74,30 @@ export async function getAudio(key: string): Promise<Buffer | null> {
     }
   }
   return readFile(key);
+}
+
+/**
+ * Ensure a clip for `text` exists in the store, synthesizing it only on a miss.
+ * Always checks the persistent store first (getAudio), so a clip is generated
+ * exactly once and reused forever — nothing is ever regenerated. Best-effort:
+ * a no-op when Gemini isn't configured, and swallows synthesis errors so
+ * pre-warming a batch never fails the caller. Returns true if audio is present
+ * afterward (cache hit or freshly synthesized).
+ */
+export async function ensureAudio(text: string): Promise<boolean> {
+  const clean = text.trim();
+  if (!clean) return false;
+  const key = keyFor(clean);
+  if (await getAudio(key)) return true; // already stored — never re-synthesize
+  if (!geminiConfigured()) return false;
+  try {
+    const { audio } = await synthesizeSpeech(clean);
+    await putAudio(key, audio);
+    return true;
+  } catch (e) {
+    console.warn("[audio-store] synthesis failed for pre-warm:", (e as Error).message);
+    return false;
+  }
 }
 
 /** Store synthesized audio under a content key (idempotent). */

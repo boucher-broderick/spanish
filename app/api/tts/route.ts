@@ -1,18 +1,14 @@
-import { createHash } from "node:crypto";
 import { currentUser } from "@/lib/api-auth";
 import { geminiConfigured, synthesizeSpeech } from "@/lib/gemini";
-import { getAudio, putAudio } from "@/lib/audio-store";
+import { getAudio, putAudio, keyFor } from "@/lib/audio-store";
 
 // Text-to-speech for the Listening game and the listen-mode drills. Synthesizes
 // Spanish audio with Gemini TTS and returns WAV bytes the browser can play.
 //
 // Audio is persisted (Postgres bytea, or .data files when there's no DB),
-// content-addressed by a hash of the text, so each clip is synthesized once and
-// replayed from storage thereafter — surviving reloads and restarts, like
-// stories. See lib/audio-store.ts.
-function keyFor(text: string): string {
-  return createHash("sha256").update(text).digest("hex");
-}
+// content-addressed by a hash of the text (keyFor), so each clip is synthesized
+// once and replayed from storage thereafter — surviving reloads and restarts,
+// like stories. See lib/audio-store.ts.
 
 export async function POST(req: Request) {
   const user = await currentUser();

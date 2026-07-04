@@ -10,6 +10,7 @@
 // Plus the single-user "where am I" position (current_position). Server-only.
 import "server-only";
 import { getPool } from "./store";
+import { nounAudioEs } from "./audio-text";
 
 export type CardType = "word_id" | "tense_id" | "note_id";
 
@@ -34,6 +35,7 @@ export interface Conjugation {
 }
 export interface Word {
   wordId: string; type: string; en: string; es: string; gender: string | null;
+  audioEs: string; // Spanish to speak: nouns carry their article ("el perro"), else bare es
 }
 export interface Example { exampleId: string; exampleEn: string; exampleEs: string; }
 export interface Note { noteId: string; notePrompt: string; noteAnswer: string; }
@@ -147,7 +149,10 @@ async function hydrate(rows: RawCardRow[]): Promise<Card[]> {
     const w = await pool.query(
       `SELECT word_id, type, en, es, gender FROM vocab WHERE word_id = ANY($1::uuid[])`, [ids]
     );
-    for (const row of w.rows) wordMap.set(row.word_id, { wordId: row.word_id, type: row.type, en: row.en, es: row.es, gender: row.gender });
+    for (const row of w.rows) wordMap.set(row.word_id, {
+      wordId: row.word_id, type: row.type, en: row.en, es: row.es, gender: row.gender,
+      audioEs: nounAudioEs({ type: row.type, es: row.es, gender: row.gender }),
+    });
     const ex = await pool.query(
       `SELECT example_id, word_id, example_en, example_es FROM examples
         WHERE word_id = ANY($1::uuid[]) ORDER BY word_id, example_id`, [ids]
@@ -341,6 +346,44 @@ export async function getKnownCards(): Promise<CardSummary[]> {
     name: row.name ?? "—", en: row.en, wordType: row.word_type, tense: row.tense,
     section: row.section_id, stage: row.stage, status: row.status,
     nextDue: row.next_due, lastReviewed: isoOrNull(row.last_reviewed),
+  }));
+}
+
+/**
+ * Today's upcoming new words: the next cards that will be introduced today —
+ * the unstarted frontier cards up to the current section, capped by today's
+ * remaining new-word allowance (same selection getNewCards hands out). Returned
+ * as lightweight summaries for the overview "New today" table. Read-only view.
+ */
+export async function getTodaysNewCards(): Promise<CardSummary[]> {
+  await ensureSchema();
+  const remaining = await dailyAvailable();
+  if (remaining <= 0) return [];
+  const maxOrd = await resolveFrontier();
+  if (maxOrd == null) return [];
+  const pool = await getPool();
+  const r = await pool.query(
+    `SELECT d.card_id, d.card_type, d.section_id,
+            COALESCE(v.es, vv.es, n.note_prompt) AS name,
+            COALESCE(v.en, vv.en)               AS en,
+            COALESCE(v.type, vv.type)           AS word_type,
+            vc.tense                            AS tense
+       FROM card_deck d
+       LEFT JOIN section_anki_cards sac ON sac.card_type = d.card_type AND sac.card_id = d.card_id
+       LEFT JOIN vocab v              ON d.card_type = 'word_id'  AND v.word_id = d.card_id
+       LEFT JOIN verb_conjugations vc ON d.card_type = 'tense_id' AND vc.tense_id = d.card_id
+       LEFT JOIN vocab vv             ON d.card_type = 'tense_id' AND vv.word_id = vc.word_id
+       LEFT JOIN notes n              ON d.card_type = 'note_id'  AND n.note_id = d.card_id
+      WHERE d.ord <= $1 AND sac.card_id IS NULL
+      ORDER BY d.ord
+      LIMIT $2`,
+    [maxOrd, remaining]
+  );
+  return r.rows.map((row) => ({
+    cardId: row.card_id, cardType: row.card_type as CardType,
+    name: row.name ?? "—", en: row.en, wordType: row.word_type, tense: row.tense,
+    section: row.section_id, stage: 0, status: "new",
+    nextDue: null, lastReviewed: null,
   }));
 }
 

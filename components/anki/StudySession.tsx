@@ -2,11 +2,13 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Button, Card, Pill, cx } from "@/components/ui";
+import { useTts } from "@/lib/useTts";
+import { audioTextsForCard } from "@/lib/audio-text";
 
 // ---- card shapes (mirror lib/cards.ts) ----
 type CardType = "word_id" | "tense_id" | "note_id";
 interface Conjugation { tense: string; yo: string | null; tu: string | null; el: string | null; nosotros: string | null; ellos: string | null }
-interface Word { wordId: string; type: string; en: string; es: string; gender: string | null }
+interface Word { wordId: string; type: string; en: string; es: string; gender: string | null; audioEs: string }
 interface Example { exampleId: string; exampleEn: string; exampleEs: string }
 interface Note { noteId: string; notePrompt: string; noteAnswer: string }
 interface StudyCard {
@@ -49,6 +51,43 @@ function interleave(reviews: StudyCard[], news: StudyCard[]): StudyCard[] {
 
 const fieldCx = "w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-indigo-500 focus:outline-none disabled:bg-slate-50 disabled:text-slate-500";
 
+// Fire-and-forget: ask the server to synthesize (and cache) audio for every
+// word/verb card in the pulled queue so the play button is instant. Already-
+// generated clips are a no-op server-side. Errors are ignored — the mic still
+// falls back to lazy synthesis on click.
+function prewarmAudio(cards: StudyCard[]): void {
+  const texts = [...new Set(cards.flatMap((c) => audioTextsForCard(c)))];
+  if (!texts.length) return;
+  void fetch("/api/tts/prewarm", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ texts }),
+  }).catch(() => {});
+}
+
+// Small speaker button that plays a Spanish clip via Gemini TTS (cached). Shows a
+// spinner while synthesizing on first play, and tints while playing. Self-
+// contained (its own audio element) so it can be dropped beside any reveal.
+function PlayButton({ text, className }: { text: string; className?: string }) {
+  const { speak, loading, speaking } = useTts();
+  if (!text?.trim()) return null;
+  return (
+    <button
+      type="button"
+      onClick={() => speak(text)}
+      aria-label={`Play “${text}”`}
+      title="Play audio"
+      className={cx(
+        "inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-sm transition-colors hover:bg-slate-100",
+        speaking ? "text-indigo-600" : "text-slate-400 hover:text-slate-600",
+        className
+      )}
+    >
+      {loading ? "…" : "🔊"}
+    </button>
+  );
+}
+
 export function StudySession() {
   const [queue, setQueue] = useState<StudyCard[] | null>(null);
   const [idx, setIdx] = useState(0);
@@ -62,7 +101,10 @@ export function StudySession() {
       .then((d: Session & { error?: string }) => {
         if (d.error) { setErr("Please sign in."); return; }
         setNewBudget(d.dailyNewRemaining ?? 0);
-        setQueue(interleave(d.reviews ?? [], d.newCards ?? []));
+        const reviews = d.reviews ?? [];
+        const news = d.newCards ?? [];
+        setQueue(interleave(reviews, news));
+        prewarmAudio([...reviews, ...news]); // pre-generate audio for word/verb cards (new + review)
       })
       .catch(() => setErr("Failed to load session."));
   }, []);
@@ -214,8 +256,9 @@ function WordCard({ card, onGrade }: { card: StudyCard; onGrade: (a: Answer) => 
         onKeyDown={(e) => { if (e.key === "Enter" && !checked) doCheck(); }}
       />
       {checked && (
-        <p className={cx("mt-3 text-lg font-medium", liveCorrect ? "text-emerald-700" : "text-rose-600")}>
-          {liveCorrect ? "✓ " : "✗ "}{word.es}
+        <p className={cx("mt-3 flex items-center gap-1.5 text-lg font-medium", liveCorrect ? "text-emerald-700" : "text-rose-600")}>
+          <span>{liveCorrect ? "✓ " : "✗ "}{word.es}</span>
+          <PlayButton text={word.audioEs} />
         </p>
       )}
       <Outcome checked={checked} firstCorrect={firstCorrect} gateSatisfied={liveCorrect} isNew={isNew} onCheck={doCheck} onGrade={onGrade} />
@@ -275,8 +318,9 @@ function VerbCard({ card, onGrade }: { card: StudyCard; onGrade: (a: Answer) => 
         onKeyDown={(e) => { if (e.key === "Enter" && !infChecked) doInfCheck(); }}
       />
       {infChecked && (
-        <p className={cx("mt-2 text-lg font-medium", liveInfCorrect ? "text-emerald-700" : "text-rose-600")}>
-          {liveInfCorrect ? "✓ " : "✗ "}{card.word?.es ?? "—"}
+        <p className={cx("mt-2 flex items-center gap-1.5 text-lg font-medium", liveInfCorrect ? "text-emerald-700" : "text-rose-600")}>
+          <span>{liveInfCorrect ? "✓ " : "✗ "}{card.word?.es ?? "—"}</span>
+          {card.word?.audioEs && <PlayButton text={card.word.audioEs} />}
         </p>
       )}
 
@@ -300,8 +344,9 @@ function VerbCard({ card, onGrade }: { card: StudyCard; onGrade: (a: Answer) => 
                       onChange={(e) => setForms((f) => ({ ...f, [label]: e.target.value }))}
                     />
                     {conjChecked && (
-                      <span className={cx("w-32 shrink-0 text-sm font-medium", ok ? "text-emerald-700" : "text-rose-600")}>
-                        {ok ? "✓ " : "✗ "}{ans ?? "—"}
+                      <span className={cx("flex w-40 shrink-0 items-center gap-1 text-sm font-medium", ok ? "text-emerald-700" : "text-rose-600")}>
+                        <span>{ok ? "✓ " : "✗ "}{ans ?? "—"}</span>
+                        {ans && <PlayButton text={ans} />}
                       </span>
                     )}
                   </div>
