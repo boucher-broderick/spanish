@@ -211,10 +211,10 @@ export async function getReviewCards(): Promise<Card[]> {
 export const NEW_PULL = 40;
 /** Fewer than this many unstarted cards left in the current frontier → unlock next section. */
 export const SECTION_UNLOCK_THRESHOLD = 10;
-/** Max "I don't know" new words per day (the per-day starting value of daily_word_quota.available). */
-export const DAILY_NEW_LIMIT = 20;
+/** Max new words shown per day, known or unknown (the per-day starting value of daily_word_quota.available). */
+export const DAILY_NEW_LIMIT = 10;
 
-/** Today's remaining "I don't know" allowance (daily_word_quota.available; full if no row yet). */
+/** Today's remaining new-word allowance (daily_word_quota.available; full if no row yet). */
 export async function dailyAvailable(): Promise<number> {
   await ensureSchema();
   const pool = await getPool();
@@ -288,9 +288,12 @@ async function resolveFrontier(): Promise<number | null> {
 export async function getNewCards(limit = NEW_PULL): Promise<Card[]> {
   await ensureSchema();
   const pool = await getPool();
-  if ((await dailyAvailable()) <= 0) return []; // daily "I don't know" ceiling hit
+  const remaining = await dailyAvailable();
+  if (remaining <= 0) return []; // daily new-word ceiling hit
   const maxOrd = await resolveFrontier();
   if (maxOrd == null) return [];
+  // Every first-sight now counts toward the daily cap, so never hand out more than
+  // today's remaining allowance.
   const r = await pool.query<RawCardRow>(
     `SELECT d.card_id, d.card_type, d.section_id, 'new'::text AS status,
             0 AS stage, 0 AS in_a_row, false AS wrong_streak,
@@ -300,17 +303,19 @@ export async function getNewCards(limit = NEW_PULL): Promise<Card[]> {
       WHERE d.ord <= $1 AND sac.card_id IS NULL
       ORDER BY d.ord
       LIMIT $2`,
-    [maxOrd, limit]
+    [maxOrd, Math.min(limit, remaining)]
   );
   return hydrate(r.rows);
 }
 
-/** How many new cards can still be started now (frontier ∩ unstarted); 0 if today's quota is spent. */
+/** How many new cards can still be started now: min(today's remaining allowance, frontier ∩ unstarted). */
 export async function availableNewCount(): Promise<number> {
   await ensureSchema();
-  if ((await dailyAvailable()) <= 0) return 0;
+  const remaining = await dailyAvailable();
+  if (remaining <= 0) return 0;
   const maxOrd = await resolveFrontier();
-  return maxOrd == null ? 0 : unstartedUpTo(maxOrd);
+  if (maxOrd == null) return 0;
+  return Math.min(remaining, await unstartedUpTo(maxOrd));
 }
 
 /** Lightweight list of every started card (stage + name) for the overview table. */
@@ -395,10 +400,11 @@ const dueDate = (days: number): string => new Date(Date.now() + days * 86400000)
 
 // ---- the four NEW-card outcomes (pure). All set status→review, wrong_streak=false. ----
 interface NewOutcome { stage: number; inARow: number; incorrectSession: boolean; dueDays: number; counts: boolean; outcome: string }
+// Every first-sight counts toward the daily new-word cap, known or unknown (counts: true).
 const newIncorrect = (): NewOutcome => ({ stage: 1, inARow: 0, incorrectSession: true, dueDays: 0, counts: true, outcome: "new_incorrect" });
 const newDontKnow = (): NewOutcome => ({ stage: 1, inARow: 1, incorrectSession: false, dueDays: 0, counts: true, outcome: "new_dont_know" });
-const newKnow = (): NewOutcome => ({ stage: 4, inARow: 0, incorrectSession: false, dueDays: 4, counts: false, outcome: "new_know" });
-const newReallyKnow = (): NewOutcome => ({ stage: 8, inARow: 0, incorrectSession: false, dueDays: 8, counts: false, outcome: "new_really_know" });
+const newKnow = (): NewOutcome => ({ stage: 4, inARow: 0, incorrectSession: false, dueDays: 4, counts: true, outcome: "new_know" });
+const newReallyKnow = (): NewOutcome => ({ stage: 8, inARow: 0, incorrectSession: false, dueDays: 8, counts: true, outcome: "new_really_know" });
 
 /** Decrement today's "I don't know" allowance (starts the day at DAILY_NEW_LIMIT). */
 async function consumeDailyQuota(): Promise<void> {
@@ -553,6 +559,11 @@ export interface SessionSummary {
   correct: number;
   wrong: number;
   accuracy: number | null;   // % correct of answered, null if nothing answered
+}
+
+/** True when there's nothing left to study today (no due reviews + no new cards grantable). */
+export async function isDailyComplete(): Promise<boolean> {
+  return (await getSessionSummary()).locked;
 }
 
 /** End-of-session summary + whether the learner is locked out until tomorrow. */

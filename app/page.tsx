@@ -2,7 +2,7 @@ import Link from "next/link";
 import { currentUser } from "@/lib/api-auth";
 import { SignOutButton } from "@/components/SignOutButton";
 import { Card } from "@/components/ui";
-import { isDailyComplete } from "@/lib/srs-store";
+import { isDailyComplete } from "@/lib/cards";
 
 const TILES = [
   { href: "/course", emoji: "📖", title: "Course work", blurb: "Read the textbook and do the exercises right on the page." },
@@ -13,7 +13,7 @@ const TILES = [
 
 export default async function Home() {
   const user = await currentUser();
-  const dailyComplete = user ? await isDailyComplete(user).catch(() => true) : true;
+  const dailyComplete = user ? await isDailyComplete().catch(() => true) : true;
 
   return (
     <div className="mx-auto w-full max-w-3xl flex-1 px-4 py-8">
