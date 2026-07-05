@@ -1,8 +1,8 @@
 "use client";
-// Text-to-speech for the Listening game and listen-mode drills, backed by Gemini
-// TTS via /api/tts. Synthesizes WAV audio server-side and plays it through an
-// <audio> element. Mirrors the old Web Speech hook's surface (supported /
-// speaking / speak / stop) plus a `loading` flag.
+// Text-to-speech for the Listening game and listen-mode drills, backed by
+// OpenAI TTS via /api/tts. Synthesizes WAV audio server-side and plays it
+// through an <audio> element. Mirrors the old Web Speech hook's surface
+// (supported / speaking / speak / stop) plus a `loading` flag.
 //
 // Two caches avoid re-synthesizing: the server stores each clip on disk
 // (content-addressed), and this hook keeps an in-session map of text -> object

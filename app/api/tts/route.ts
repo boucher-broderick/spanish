@@ -1,9 +1,9 @@
 import { currentUser } from "@/lib/api-auth";
-import { geminiConfigured, synthesizeSpeech } from "@/lib/gemini";
+import { aiConfigured, synthesizeSpeech } from "@/lib/ai";
 import { getAudio, putAudio, keyFor } from "@/lib/audio-store";
 
 // Text-to-speech for the Listening game and the listen-mode drills. Synthesizes
-// Spanish audio with Gemini TTS and returns WAV bytes the browser can play.
+// Spanish audio with OpenAI TTS and returns WAV bytes the browser can play.
 //
 // Audio is persisted (Postgres bytea, or .data files when there's no DB),
 // content-addressed by a hash of the text (keyFor), so each clip is synthesized
@@ -24,7 +24,7 @@ export async function POST(req: Request) {
   const cached = await getAudio(key);
   if (cached) return wav(cached, true);
 
-  if (!geminiConfigured()) return Response.json({ error: "GEMINI_API_KEY not configured" }, { status: 503 });
+  if (!aiConfigured()) return Response.json({ error: "OPENAI_API_KEY not configured" }, { status: 503 });
 
   try {
     const { audio } = await synthesizeSpeech(clean);

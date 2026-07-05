@@ -67,7 +67,7 @@ function prewarmAudio(cards: StudyCard[]): void {
   }).catch(() => {});
 }
 
-// Small speaker button that plays a Spanish clip via Gemini TTS (cached). Shows a
+// Small speaker button that plays a Spanish clip via OpenAI TTS (cached). Shows a
 // spinner while synthesizing, tints while playing, and falls back to a muted
 // "audio unavailable" indicator if synthesis fails (e.g. TTS rate-limited).
 // Self-contained (its own audio element) so it can be dropped beside any reveal.

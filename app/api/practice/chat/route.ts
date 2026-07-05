@@ -1,5 +1,5 @@
 import { currentUser } from "@/lib/api-auth";
-import { geminiConfigured, streamChat, type ChatTurn } from "@/lib/gemini";
+import { aiConfigured, streamChat, type ChatTurn } from "@/lib/ai";
 import { chatSystemPrompt, DEFAULT_LEVEL, type Level } from "@/lib/composition";
 
 // Spanish conversation game (Chat). Streams a reply in Spanish at the chosen
@@ -8,7 +8,7 @@ import { chatSystemPrompt, DEFAULT_LEVEL, type Level } from "@/lib/composition";
 export async function POST(req: Request) {
   const user = await currentUser();
   if (!user) return Response.json({ error: "Unauthorized" }, { status: 401 });
-  if (!geminiConfigured()) return Response.json({ error: "GEMINI_API_KEY not configured" }, { status: 503 });
+  if (!aiConfigured()) return Response.json({ error: "OPENAI_API_KEY not configured" }, { status: 503 });
 
   const body = (await req.json().catch(() => ({}))) as { messages?: ChatTurn[]; level?: Level; words?: string[] };
   const messages = (body.messages ?? []).filter((m) => m.content?.trim()).slice(-30);

@@ -22,8 +22,8 @@ services:
         sync: false # set in the Render dashboard
       - key: AUTH_SECRET
         generateValue: true # Render generates a strong random secret
-      - key: GEMINI_API_KEY
-        sync: false # your Gemini key (powers Writing/Reading/Listening + TTS)
+      - key: OPENAI_API_KEY
+        sync: false # your OpenAI key (powers Writing/Reading/Listening + TTS)
       - key: DATABASE_URL
         sync: false # your Neon Postgres connection string (?sslmode=require)
       # Next standalone server binds to $HOSTNAME; force 0.0.0.0 so Render can reach it.

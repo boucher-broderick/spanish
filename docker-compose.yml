@@ -30,7 +30,7 @@ services:
       DATABASE_URL: postgres://spanish:spanish@db:5432/spanish
       # AI features (lesson explanation/chat/practice, writing/reading/listening).
       # Empty = those routes return 503; the rest of the app still works.
-      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
     depends_on:
       db:
         condition: service_healthy

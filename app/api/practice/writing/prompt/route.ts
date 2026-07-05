@@ -1,5 +1,5 @@
 import { currentUser } from "@/lib/api-auth";
-import { geminiConfigured, generateJson } from "@/lib/gemini";
+import { aiConfigured, generateJson } from "@/lib/ai";
 import {
   buildWritingPromptPrompt,
   DEFAULT_LEVEL,
@@ -17,7 +17,7 @@ import { pickWords, sectionTitle } from "@/lib/practice-words";
 export async function POST(req: Request) {
   const user = await currentUser();
   if (!user) return Response.json({ error: "Unauthorized" }, { status: 401 });
-  if (!geminiConfigured()) return Response.json({ error: "GEMINI_API_KEY not configured" }, { status: 503 });
+  if (!aiConfigured()) return Response.json({ error: "OPENAI_API_KEY not configured" }, { status: 503 });
 
   const body = (await req.json().catch(() => ({}))) as {
     level?: Level; tense?: Tense; topic?: string; unit?: number | null; section?: number | null;

@@ -10,13 +10,18 @@ import { createHash } from "node:crypto";
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import { getPool, USE_DB } from "./store";
-import { geminiConfigured, synthesizeSpeech } from "./gemini";
+import { aiConfigured, synthesizeSpeech, AUDIO_KEY_SALT } from "./ai";
 
 const AUDIO_DIR = path.join(process.cwd(), ".data", "audio");
 
-/** Content key for a clip: identical text → identical key → synthesized once, reused forever. */
+/**
+ * Content key for a clip: identical text → identical key → synthesized once,
+ * reused forever. Salted with the provider/voice (AUDIO_KEY_SALT) so switching
+ * TTS provider or voice yields fresh keys and never serves a stale clip in the
+ * old voice.
+ */
 export function keyFor(text: string): string {
-  return createHash("sha256").update(text).digest("hex");
+  return createHash("sha256").update(`${AUDIO_KEY_SALT}\n${text}`).digest("hex");
 }
 
 let ready: Promise<void> | null = null;
@@ -80,7 +85,7 @@ export async function getAudio(key: string): Promise<Buffer | null> {
  * Ensure a clip for `text` exists in the store, synthesizing it only on a miss.
  * Always checks the persistent store first (getAudio), so a clip is generated
  * exactly once and reused forever — nothing is ever regenerated. Best-effort:
- * a no-op when Gemini isn't configured, and swallows synthesis errors so
+ * a no-op when TTS isn't configured, and swallows synthesis errors so
  * pre-warming a batch never fails the caller. Returns true if audio is present
  * afterward (cache hit or freshly synthesized).
  */
@@ -89,7 +94,7 @@ export async function ensureAudio(text: string): Promise<boolean> {
   if (!clean) return false;
   const key = keyFor(clean);
   if (await getAudio(key)) return true; // already stored — never re-synthesize
-  if (!geminiConfigured()) return false;
+  if (!aiConfigured()) return false;
   try {
     const { audio } = await synthesizeSpeech(clean);
     await putAudio(key, audio);

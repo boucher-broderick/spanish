@@ -1,5 +1,5 @@
 import { currentUser } from "@/lib/api-auth";
-import { geminiConfigured, generateJson } from "@/lib/gemini";
+import { aiConfigured, generateJson } from "@/lib/ai";
 import {
   buildStoryPrompt,
   DEFAULT_LENGTH,
@@ -20,7 +20,7 @@ import { pickWords } from "@/lib/practice-words";
 export async function POST(req: Request) {
   const user = await currentUser();
   if (!user) return Response.json({ error: "Unauthorized" }, { status: 401 });
-  if (!geminiConfigured()) return Response.json({ error: "GEMINI_API_KEY not configured" }, { status: 503 });
+  if (!aiConfigured()) return Response.json({ error: "OPENAI_API_KEY not configured" }, { status: 503 });
 
   const body = (await req.json().catch(() => ({}))) as {
     level?: Level; tense?: Tense; topic?: string; length?: StoryLengthId; unit?: number | null; section?: number | null;

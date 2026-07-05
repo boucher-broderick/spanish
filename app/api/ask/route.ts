@@ -1,12 +1,12 @@
 import { currentUser } from "@/lib/api-auth";
-import { geminiConfigured, streamChat, type ChatTurn } from "@/lib/gemini";
+import { aiConfigured, streamChat, type ChatTurn } from "@/lib/ai";
 import { helpSystemPrompt } from "@/lib/composition";
 
 // Help panel ("ask an LLM if I'm confused"). Streams a tutor answer in English.
 export async function POST(req: Request) {
   const user = await currentUser();
   if (!user) return Response.json({ error: "Unauthorized" }, { status: 401 });
-  if (!geminiConfigured()) return Response.json({ error: "GEMINI_API_KEY not configured" }, { status: 503 });
+  if (!aiConfigured()) return Response.json({ error: "OPENAI_API_KEY not configured" }, { status: 503 });
 
   const body = (await req.json().catch(() => ({}))) as { messages?: ChatTurn[]; context?: string };
   const messages = (body.messages ?? []).filter((m) => m.content?.trim()).slice(-20);
